@@ -7,3 +7,8 @@ git reset HEAD^
 ``
 git reset HEAD
 ``
+
+## remove files inside a folder
+``
+git reset HEAD -- .
+``
