@@ -29,6 +29,16 @@ shift+ctrl+X. To upper case.
 ```
 ctrl+3
 ```
+## Eclipse plugin
+```
+https://marketplace.eclipse.org/content/sonarlint
+https://marketplace.eclipse.org/content/quick-bookmarks-plugin
+https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
+https://marketplace.eclipse.org/content/codota
+
+
+TODO https://blog.codota.com/14-free-plugins-for-eclipse-ide/
+```
 ##Ref.
 ```
 https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
