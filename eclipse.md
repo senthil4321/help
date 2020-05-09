@@ -30,7 +30,7 @@ shift+ctrl+X. To upper case.
 ctrl+3
 ```
 ## Eclipse plugin
-
+### Code Quality and Static Code Analysis
 * code style and formatting
 https://marketplace.eclipse.org/content/checkstyle-plug
 * fix quality issues as you write code
@@ -46,8 +46,28 @@ https://marketplace.eclipse.org/content/codota
 * Other TODO
 https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 
+### Productivity
+
+#### Eclipse Line Copy without select
+
+##### What is it?
+1. Press Ctrl-C to copy or Ctrl-X to cut the whole line in an editor if you select nothing. (It works as usual if you select some text.)
+2. Put the caret on any line on any position.
+3. Press Ctrl-V to paste the line above. (You will not lose the caret position.)
+
+##### Installation
+Download into your dropins folder and restart Eclipse.
+
+ https://github.com/fabioz/copycutcurrentline 
+ https://code.google.com/archive/p/copycutcurrentline/
+ https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
+#### Markdown 
+* Not good
+ ~~~https://marketplace.eclipse.org/content/markdown-text-editor~~~
+ ~~~https://marketplace.eclipse.org/content/liclipsetext~~~
+ ~~~FluentMarkEditor~~~
 ## Check Style and code formmater
-`
+
 http://google.github.io/styleguide/javaguide.html
 google_checks.xml
 https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
