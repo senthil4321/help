@@ -13,6 +13,18 @@ ctrl+shift+M
 ## How to generate test class and test method from eclipse wizard
 
 New" -> "JUnit Test Case" -> Select "Class under test" -> Select "Available methods"
+
+## edit shortcut
+```
+alt+ctrl+DOWN. Copy lines.
+shift+↵ Insert line below current line.
+alt+ctrl+UP. Duplicate lines.
+ctrl+DEL. Delete next word.
+shift+ctrl+DEL. Delete to end of line.
+shift+ctrl+↵ Insert line above current line.
+ctrl+BACKSPACE. Delete previous word.
+shift+ctrl+X. To upper case.
+```
 ##Ref.
 ```
 https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
