@@ -16,13 +16,13 @@ New" -> "JUnit Test Case" -> Select "Class under test" -> Select "Available meth
 
 ## edit shortcut
 ```
+alt+UP/DOWN move line
 alt+ctrl+DOWN. Copy lines.
 shift+↵ Insert line below current line.
 alt+ctrl+UP. Duplicate lines.
 ctrl+DEL. Delete next word.
 shift+ctrl+DEL. Delete to end of line.
 shift+ctrl+↵ Insert line above current line.
-ctrl+BACKSPACE. Delete previous word.
 shift+ctrl+X. To upper case.
 ```
 ##Ref.
