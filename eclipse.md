@@ -25,6 +25,10 @@ shift+ctrl+DEL. Delete to end of line.
 shift+ctrl+↵ Insert line above current line.
 shift+ctrl+X. To upper case.
 ```
+## quick access commands
+```
+ctrl+3
+```
 ##Ref.
 ```
 https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
