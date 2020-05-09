@@ -31,13 +31,29 @@ ctrl+3
 ```
 ## Eclipse plugin
 ```
+code style and formatting
+https://marketplace.eclipse.org/content/checkstyle-plug
+fix quality issues as you write code
 https://marketplace.eclipse.org/content/sonarlint
 https://marketplace.eclipse.org/content/quick-bookmarks-plugin
+static code analyser - detects possible bugs
 https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
+
 https://marketplace.eclipse.org/content/codota
 
 
 TODO https://blog.codota.com/14-free-plugins-for-eclipse-ide/
+```
+## Check Style and code formmater
+```
+http://google.github.io/styleguide/javaguide.html
+google_checks.xml
+https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
+
+Then enable the formatter for your workspace: Windows --> Preferences --> Java --> Code Style --> Formatter. Select formatter: "eclipse-cs [project name]".
+formatter
+https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
+https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
 ```
 ##Ref.
 ```
