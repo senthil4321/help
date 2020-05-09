@@ -10,6 +10,9 @@ ctrl+shift+M
 ```
 ##
 
+## How to generate test class and test method from eclipse wizard
+
+New" -> "JUnit Test Case" -> Select "Class under test" -> Select "Available methods"
 ##Ref.
 ```
 https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
