@@ -30,23 +30,24 @@ shift+ctrl+X. To upper case.
 ctrl+3
 ```
 ## Eclipse plugin
-```
-code style and formatting
+
+* code style and formatting
 https://marketplace.eclipse.org/content/checkstyle-plug
-fix quality issues as you write code
+* fix quality issues as you write code
 https://marketplace.eclipse.org/content/sonarlint
 https://marketplace.eclipse.org/content/quick-bookmarks-plugin
-static code analyser - detects possible bugs
+* static code analyser - detects possible bugs
 https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
-
+* Markdown plugin
+https://marketplace.eclipse.org/content/markdown-text-editor
+* TODO PMD plugin 
+* AI based code completion - does not work 
 https://marketplace.eclipse.org/content/codota
+* Other TODO
+https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 
-
-TODO https://blog.codota.com/14-free-plugins-for-eclipse-ide/
-#PMD plugin
-```
 ## Check Style and code formmater
-```
+`
 http://google.github.io/styleguide/javaguide.html
 google_checks.xml
 https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
@@ -55,7 +56,7 @@ Then enable the formatter for your workspace: Windows --> Preferences --> Java -
 formatter
 https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
 https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
-```
+
 ##Ref.
 ```
 https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
