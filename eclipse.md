@@ -4,7 +4,11 @@
 ctrl+M
 ```
 ## 
-
+## Static import eclipse java
+```
+ctrl+shift+M
+```
+##
 
 ##Ref.
 ```
