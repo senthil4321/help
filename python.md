@@ -1,5 +1,17 @@
-python modules are packaged in package
-Python anaconda is a distribution framework.
-setup.py
-requirement.txt installation
+# Python Help
+###
+1. python modules are packaged in package
 
+### Python anaconda
+is a distribution framework.
+
+### setup.py and requirement.txt
+#### requirement.txt
+helps you to set up your development environment
+```
+pip install -r requirements.txt
+```
+#### setup.py 
+allows you to create packages that you can redistribute
+
+https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
