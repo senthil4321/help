@@ -65,9 +65,9 @@ Download into your dropins folder and restart Eclipse.
  https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
 #### Markdown 
 * Not good
- ~~~https://marketplace.eclipse.org/content/markdown-text-editor~~~
- ~~~https://marketplace.eclipse.org/content/liclipsetext~~~
- ~~~FluentMarkEditor~~~
+ ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
+ ~~https://marketplace.eclipse.org/content/liclipsetext~~
+ ~~FluentMarkEditor~~
 ## Check Style and code formmater
 
 http://google.github.io/styleguide/javaguide.html
