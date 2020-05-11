@@ -79,10 +79,10 @@ formatter
 https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
 https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
 
-##Ref.
-```
-https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
-http://www.eclipseonetips.com/2010/02/15/the-fastest-ways-to-navigate-views-in-eclipse-using-the-keyboard/
-https://marketplace.eclipse.org/content/quick-bookmarks-plugin
-```
+## Ref.
+
+ 1. https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
+ 1. http://www.eclipseonetips.com/2010/02/15/the-fastest-ways-to-navigate-views-in-eclipse-using-the-keyboard/
+ 1. https://marketplace.eclipse.org/content/quick-bookmarks-plugin
+
 
