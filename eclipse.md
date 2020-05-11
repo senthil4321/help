@@ -45,6 +45,8 @@ https://marketplace.eclipse.org/content/markdown-text-editor
 https://marketplace.eclipse.org/content/codota
 * Other TODO
 https://blog.codota.com/14-free-plugins-for-eclipse-ide/
+* Python IDE support
+https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
 
 ### Productivity
 
