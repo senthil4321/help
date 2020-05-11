@@ -27,7 +27,7 @@ shift+ctrl+X. To upper case.
 ```
 ## quick access commands
 ```
-ctrl+3
+ctrl+ 3
 ```
 ## Eclipse plugin
 ### Code Quality and Static Code Analysis
@@ -63,7 +63,7 @@ Download into your dropins folder and restart Eclipse.
  https://github.com/fabioz/copycutcurrentline 
  https://code.google.com/archive/p/copycutcurrentline/
  https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
-#### Markdown 
+#### Markdown plugin
 * Not good
  ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
  ~~https://marketplace.eclipse.org/content/liclipsetext~~
