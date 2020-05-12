@@ -3,6 +3,7 @@
  - [ ] Stream map
  - [ ] Supplier Consumer
  - [ ] Collection
+ - [ ] Autoclosable
 
 ## Example
 ```
