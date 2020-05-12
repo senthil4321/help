@@ -5,7 +5,7 @@
  - [ ] Collection
 
 ## Example
-'''
+```
 Optional<T> max(Comparator<? super T> comparator)
 
 Employee maxId = employees.stream()
@@ -24,7 +24,7 @@ Employee maxName = employees.stream()
             return o1.toString().compareTo(o2.toString());
         }
     }).orElse(Employee.DEFAULT_EMPLOYEE);
-'''
+```
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
