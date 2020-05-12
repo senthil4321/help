@@ -3,6 +3,28 @@
  - [ ] Stream map
  - [ ] Supplier Consumer
  - [ ] Collection
+
+## Example
+'''
+Optional<T> max(Comparator<? super T> comparator)
+
+Employee maxId = employees.stream()
+    .max(new Comparator<Employee>() {
+        @Override
+        public int compare(Employee e1, Employee e2) {
+            return e1.getId() - e2.getId();
+        }
+    }).orElse(Employee.DEFAULT_EMPLOYEE);
+
+// Anonymous inner class implementation of Comparator<Object>
+Employee maxName = employees.stream()
+    .max(new Comparator<Object>() {
+        @Override
+        public int compare(Object o1, Object o2) {
+            return o1.toString().compareTo(o2.toString());
+        }
+    }).orElse(Employee.DEFAULT_EMPLOYEE);
+'''
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
