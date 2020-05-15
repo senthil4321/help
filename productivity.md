@@ -1,14 +1,14 @@
-#
+# Productivity Tips
+
 ## Chrome Shortcuts
 ```
-Chrome keyboard shortcut
-Ctrl +1
-Ctrl +9
-Ctrl +tab
-Ctrl+Shift+o --open bookmark
-alt+e - settings menu
-Ctrl+e address bar
-Ctrl+d for mute unmute microphone
+ctrl + 1
+ctrl + 9
+ctrl + tab
+ctrl + Shift+ o #open bookmark
+alt + e #settings menu
+ctrl + e #address bar
+ctrl + d #for mute unmute microphone
 ```
 ### Ref.
 1. https://www.wikihow.com/Switch-Tabs-in-Chrome  
