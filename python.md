@@ -18,3 +18,6 @@ https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
 ### Libraries
 #### console-menu
 1.https://pypi.org/project/console-menu/  
+
+### cheatsheet
+1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
