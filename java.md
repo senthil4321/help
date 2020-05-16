@@ -56,8 +56,14 @@ This is a functional interface and can therefore be used as the assignment targe
 [Function](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html)
 1. Supplier
 1. Consumer
-1. Bi Function
 1. Predicate
+1. Operator
+   * Code 
+ ```java
+    List<String> numList = Arrays.asList("one", "two", "three");
+    UnaryOperator<String> unaryOperator = data -> data.toUpperCase();
+    numList.replaceAll(unaryOperator);
+ ```
 ### Todo
 Lazy generalization
 
