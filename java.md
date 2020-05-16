@@ -37,6 +37,13 @@ TODO Add example
 ```
 ### Ref.
 https://stackoverflow.com/questions/2755445/how-can-i-write-an-anonymous-function-in-java
+## Method Reference
+It is possible to replace lambda with method reference if argument type and return type matches
+```
+TODO code
+```
+### Ref.
+https://www.baeldung.com/java-8-functional-interfaces
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
