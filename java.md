@@ -5,6 +5,7 @@
  - [ ] Collection
  - [ ] Autoclosable
  - [ ] Method Reference
+ - [ ] Anonymous Inner class
 
 ## Example
 ```
@@ -27,6 +28,14 @@ Employee maxName = employees.stream()
         }
     }).orElse(Employee.DEFAULT_EMPLOYEE);
 ```
+## Anonymous Inner class
+
+Anonymous inner classes are very handy when you need to implement an interface which may not be highly reusable (and therefore not worth refactoring to its own named class). An instructive example is using a custom java.util.Comparator<T> for sorting.
+```
+
+```
+### Ref.
+https://stackoverflow.com/questions/2755445/how-can-i-write-an-anonymous-function-in-java
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
