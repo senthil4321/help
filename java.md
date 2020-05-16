@@ -7,6 +7,7 @@
  - [ ] Method Reference
  - [ ] Anonymous Inner class
  - [ ] Anonymous Function
+ - [ ] Functional Interfaces
 
 ## Example
 ```
@@ -47,6 +48,14 @@ TODO code
 ### Ref.
 1. https://www.baeldung.com/java-8-functional-interfaces
 1. https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
+## Functional Interfaces
+1. Supplier
+1. Consumer
+1. Method Reference
+1. 
+### Todo
+Lazy generalization
+
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
