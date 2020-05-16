@@ -50,6 +50,9 @@ TODO code
 1. https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 ## Functional Interfaces
 1. Function
+ > Functional Interface:
+This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.
+[Function](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html)
 1. Supplier
 1. Consumer
 1. Bi Function
