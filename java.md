@@ -49,6 +49,7 @@ TODO code
 1. https://www.baeldung.com/java-8-functional-interfaces
 1. https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 ## Functional Interfaces
+ > Functional interfaces provide target types for lambda expressions and method references.[java.util.function](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)
 1. Function
  > Functional Interface:
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.
