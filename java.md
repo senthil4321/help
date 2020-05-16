@@ -49,10 +49,11 @@ TODO code
 1. https://www.baeldung.com/java-8-functional-interfaces
 1. https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 ## Functional Interfaces
+1. Function
 1. Supplier
 1. Consumer
-1. Method Reference
-1. 
+1. Bi Function
+1. Predicate
 ### Todo
 Lazy generalization
 
