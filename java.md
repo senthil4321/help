@@ -4,6 +4,7 @@
  - [ ] Supplier Consumer
  - [ ] Collection
  - [ ] Autoclosable
+ - [ ] Method Reference
 
 ## Example
 ```
