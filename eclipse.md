@@ -29,6 +29,9 @@ shift+ctrl+X. To upper case.
 ```
 ctrl+ 3
 ```
+## How to bind Ctrl + Tab in eclipse for navigating between editor windows?
+ Bind key and unbind old keys.
+1. https://stackoverflow.com/questions/2332330/eclipse-hotkey-how-to-switch-between-tabs
 ## Eclipse plugin
 ### Code Quality and Static Code Analysis
 * code style and formatting
