@@ -42,8 +42,11 @@ It is possible to replace lambda with method reference if argument type and retu
 ```
 TODO code
 ```
+### Kinds of Method References
+
 ### Ref.
-https://www.baeldung.com/java-8-functional-interfaces
+1. https://www.baeldung.com/java-8-functional-interfaces
+1. https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
