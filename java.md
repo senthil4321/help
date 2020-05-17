@@ -74,6 +74,13 @@ This is a functional interface and can therefore be used as the assignment targe
 ### Todo
 Lazy generalization
 
+## Bit Operation
+### bit mask generation
+```
+int mask |= 1 << 4;
+```
+### Ref.
+1. http://sys.cs.rice.edu/course/comp314/10/p2/javabits.html
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
