@@ -81,6 +81,8 @@ int mask |= 1 << 4;
 ```
 ### Ref.
 1. http://sys.cs.rice.edu/course/comp314/10/p2/javabits.html
+## jshell
+Jshell instraduced in java 9 provides Read Eval Process Loop
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
