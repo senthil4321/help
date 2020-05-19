@@ -11,8 +11,15 @@ ctrl+M
 ctrl+shift+M
 ```
 ## Eclipse goto Implentation
+### Custom shortcut
 ```
-Ctrl + T
+ALt + x - to open implementation
+Alt + y - Open method definition like F3
+
+```
+### Open Interface implementation view
+```
+Ctrl + T 
 ```
 
 ## How to generate test class and test method from eclipse wizard
