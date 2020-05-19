@@ -83,7 +83,8 @@ Then enable the formatter for your workspace: Windows --> Preferences --> Java -
 formatter
 https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
 https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
-
+#### How to uninstall or disable plugin in eclipse?
+1. https://wiki.eclipse.org/FAQ_How_do_I_remove_a_plug-in%3F
 ## Ref.
 
  1. https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
