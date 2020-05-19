@@ -10,7 +10,10 @@ ctrl+M
 ```
 ctrl+shift+M
 ```
-##
+## Eclipse goto Implentation
+```
+Ctrl + T
+```
 
 ## How to generate test class and test method from eclipse wizard
 
@@ -90,5 +93,6 @@ https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-
  1. https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
  1. http://www.eclipseonetips.com/2010/02/15/the-fastest-ways-to-navigate-views-in-eclipse-using-the-keyboard/
  1. https://marketplace.eclipse.org/content/quick-bookmarks-plugin
+ 1. https://stackoverflow.com/questions/5354068/shortcut-how-to-get-eclipse-to-go-to-the-only-implementation-of-an-interfaces
 
 
