@@ -1,6 +1,6 @@
 # Help file for log4j2 configuration
 
-## Put the log4j2.xml file in the below location.
+## Place the log4j2.xml file in the below location.
 ### Location
 ```
 src/main/resources
@@ -23,4 +23,4 @@ src/main/resources
 ```
 ## Ref.
 1. https://logging.apache.org/log4j/2.x/faq.html
-1. 
+1. https://logging.apache.org/log4j/2.x/manual/configuration.html
