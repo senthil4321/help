@@ -1,4 +1,6 @@
 # Help file for log4j2 configuration
+## Appenders
+> Appenders are responsible for delivering LogEvents to their destination. 
 ## Refer the reference link 2
 ## Place the log4j2.xml file in the below location.
 ### Location
