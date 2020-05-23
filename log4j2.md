@@ -7,6 +7,15 @@
 ```
 src/main/resources
 ```
+### Log level
+* OFF
+* FATAL
+* ERROR
+* WARN
+* INFO
+* DEBUG
+* TRACE
+* ALL
 ### Sample config
 ```
 <?xml version="1.0" encoding="UTF-8"?>
