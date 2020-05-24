@@ -33,7 +33,7 @@ network:
             addresses:
                 - 192.168.0.172/24
 ```
-### Applying the updated config.
+### Command to update the config.
 ```bash
 sudo netplan --debug try
 sudo netplan --debug generate 
