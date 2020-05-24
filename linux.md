@@ -13,10 +13,26 @@ export PROMPT_COMMAND='history -a'
 
 ## Raspberry Pi 
 ### Configure Network
-Test\ test
-#### Wifi
-#### Ethernet
-
+```
+network:
+    version: 2
+    ethernets:
+        eth0:
+            match:
+                macaddress: <MAC>
+            set-name: eth0
+            addresses:               
+                - 192.168.0.162/24
+            gateway4: 192.168.0.1
+    wifis:
+        wlan0:
+            optional: true
+            access-points:
+                "XXXXXXX":
+                   password: "XXXXX"
+            addresses:
+                - 192.168.0.172/24
+```
 ### Ref.
 1. https://raspberrypi.stackexchange.com/questions/98598/how-to-setup-the-raspberry-pi-3-onboard-wifi-for-ubuntu-server-18-04-with-netpla
 ## Ref.
