@@ -33,6 +33,12 @@ network:
             addresses:
                 - 192.168.0.172/24
 ```
+### Applying the updated config.
+```bash
+sudo netplan --debug try
+sudo netplan --debug generate 
+sudo netplan --debug apply
+```
 ### Ref.
 1. https://raspberrypi.stackexchange.com/questions/98598/how-to-setup-the-raspberry-pi-3-onboard-wifi-for-ubuntu-server-18-04-with-netpla
 ## Ref.
