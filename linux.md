@@ -10,7 +10,11 @@ Please the below line in the .bash_rc
 ```
 export PROMPT_COMMAND='history -a'
 ```
-
+### SCP
+#### copy from remote pc
+```bash
+scp username@192.168.0.172:/remote/file.txt ./
+```
 ## Raspberry Pi 
 ### Configure Network
 ```
