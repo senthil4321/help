@@ -32,6 +32,11 @@ src/main/resources
   </Loggers>
 </Configuration>
 ```
+## log in color windows
+> Log in color windows require jansi maven dependency
+> Enable ansi in windows with the following flag in the log4j2 - disableAnsi="false"
+```
+```
 ## Ref.
 1. https://logging.apache.org/log4j/2.x/faq.html
 1. https://logging.apache.org/log4j/2.x/manual/configuration.html
