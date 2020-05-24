@@ -15,6 +15,7 @@ export PROMPT_COMMAND='history -a'
 ```bash
 scp username@192.168.0.172:/remote/file.txt ./
 ```
+---
 ## Raspberry Pi 
 ### Configure Network
 ```yaml
