@@ -10,7 +10,7 @@
  - [ ] Functional Interfaces
 
 ## Example
-```
+```java
 Optional<T> max(Comparator<? super T> comparator)
 
 Employee maxId = employees.stream()
