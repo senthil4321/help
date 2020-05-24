@@ -13,7 +13,7 @@ export PROMPT_COMMAND='history -a'
 
 ## Raspberry Pi 
 ### Configure Network
-Test/ test
+Test\ test
 #### Wifi
 #### Ethernet
 
