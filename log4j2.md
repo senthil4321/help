@@ -36,7 +36,7 @@ src/main/resources
 > Log in color windows require jansi maven dependency
 > Enable ansi in windows with the following flag in the log4j2 - disableAnsi="false"
 
-1. (ANSI Windows)[https://stackoverflow.com/questions/28604171/how-to-print-logs-in-color-using-log4j2-highlight-pattern/42554705#42554705]
+1. [ANSI Windows](https://stackoverflow.com/questions/28604171/how-to-print-logs-in-color-using-log4j2-highlight-pattern/42554705#42554705)
 ## Ref.
 1. https://logging.apache.org/log4j/2.x/faq.html
 1. https://logging.apache.org/log4j/2.x/manual/configuration.html
