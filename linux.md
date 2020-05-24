@@ -17,7 +17,7 @@ scp username@192.168.0.172:/remote/file.txt ./
 ```
 ## Raspberry Pi 
 ### Configure Network
-```
+```yaml
 network:
     version: 2
     ethernets:
