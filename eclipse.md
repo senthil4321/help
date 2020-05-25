@@ -62,7 +62,7 @@ https://marketplace.eclipse.org/content/codota
 https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 * Python IDE support
 https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
-
+* Jansi plugin This plugin enables color in log output used with log4j2
 ### Productivity
 
 #### Eclipse Line Copy without select
