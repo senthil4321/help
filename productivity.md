@@ -1,5 +1,9 @@
 # Productivity Tips
-
+# Tab Navigation
+Works with windows and Linux
+```
+Ctrl + page up/ down
+```
 ## Chrome Shortcuts
 ```
 ctrl + 1
