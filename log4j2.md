@@ -39,6 +39,7 @@ src/main/resources
 
  > Use eclipse ANSI plugin in windows
 1. [ANSI Windows](https://stackoverflow.com/questions/28604171/how-to-print-logs-in-color-using-log4j2-highlight-pattern/42554705#42554705)
+1. [ANSI Windows2](https://stackoverflow.com/questions/48472049/how-to-colorize-log4j2-output-on-console-in-intellij)
 ## Ref.
 1. https://logging.apache.org/log4j/2.x/faq.html
 1. https://logging.apache.org/log4j/2.x/manual/configuration.html
