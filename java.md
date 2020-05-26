@@ -83,6 +83,9 @@ int mask |= 1 << 4;
 1. http://sys.cs.rice.edu/course/comp314/10/p2/javabits.html
 ## jshell
 Jshell instraduced in java 9 provides Read Eval Process Loop
+## toString
+TODO
+1. https://stackoverflow.com/questions/16527932/ok-to-use-json-output-as-default-for-tostring/39089678
 ## Ref.
 
  1. https://www.javatpoint.com/java-8-method-reference
