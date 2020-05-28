@@ -32,3 +32,4 @@ https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
 
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
+1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
