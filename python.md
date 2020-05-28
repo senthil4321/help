@@ -27,7 +27,7 @@ https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
 
 > Python Package is collection of python Modules
 #### Module
-1. If module has if __name__=="main", then the code is executed.
+1. If module has `if __name__=="main"`, then the code is executed.
    This happens when the file is directly executed.
 
 #### Ref.
