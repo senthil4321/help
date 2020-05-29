@@ -29,7 +29,21 @@ https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
 #### Module
 1. If module has `if __name__=="main"`, then the code is executed.
    This happens when the file is directly executed.
+### Code snippet
+```python
+out = subprocess.Popen('dir',shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT )
+    stdout,stderr = out.communicate()
 
+input("Press Enter to continue...") 
+
+import DEMO as DEMO
+
+convert bytes to string 
+.decode("utf-8") 
+
+if title_search:
+    title = title_search.group(0)
+```
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
 1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
