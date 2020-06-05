@@ -1,4 +1,9 @@
 # Linux
+## shell script
+### Redirection
+`<<<` is not supported by sh.
+### Ref.
+1. https://unix.stackexchange.com/questions/208911/while-read-loop
 ## History
 ### Enable unlimited command history
 ```
