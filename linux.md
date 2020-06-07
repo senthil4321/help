@@ -11,7 +11,7 @@
 1. https://stackoverflow.com/questions/8748831/when-do-we-need-curly-braces-around-shell-variables
 ### curl
 @ before file\
-@- to read from srdin
+@- to read from stdin
 ```
 
 ```
