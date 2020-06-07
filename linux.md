@@ -11,12 +11,13 @@
 1. https://stackoverflow.com/questions/8748831/when-do-we-need-curly-braces-around-shell-variables
 ### curl
 @ before file
+@- to read from srdin
 ```
 
 ```
 #### Ref.
 1. https://stackoverflow.com/questions/7172784/how-do-i-post-json-data-with-curl
-
+1. https://stackoverflow.com/questions/12583930/use-pipe-for-curl-data
 ## History
 ### Enable unlimited command history
 ```
