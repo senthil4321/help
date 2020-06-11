@@ -17,13 +17,16 @@ dlt-receive 127.0.0.1 -a -f ../srk-python-dlt/filter/helloxml
 ### dlt-control
 ```
 dlt-control -e ECU1 -a LOG -c TEST -s 4096 -x 111212 127.0.0.1
-dlt-control 127.0.0.1 -e ECU1 -a LOG -c TEST -s 4096 -m Hello World
+dlt-control -e ECU1 -a LOG -c TEST -s 4096 -m Hello World 127.0.0.1
 
 dlt-example-user -n 1000 -d 100000 test
 ```
 
 1. `-x` Send Injection with hex data
 1. ` -m` Send Injection with ASCII data 
+1. `-a` application id, `-c` context id, `-s` service id.
+1. host ip address should be passed at the end of the argument list.
+1. `dlt-example-user` must be running for the injection to work.
 #### Ref.
 1. [Info](https://lists.linuxfoundation.org/pipermail/genivi-diagnostic-log-and-trace/2015-December/000857.html)
 ***
