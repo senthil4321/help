@@ -78,3 +78,12 @@ source ~/.bashrc
 ## Ref.
 1. https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
 1. https://askubuntu.com/questions/391082/how-to-see-time-stamps-in-bash-history
+
+***
+### CAN Tools
+```
+sudo apt install can-utils
+
+```
+#### Ref.
+1. https://elinux.org/Bringing_CAN_interface_up
