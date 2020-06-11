@@ -64,10 +64,12 @@ if title_search:
 1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 1. https://cmdlinetips.com/2014/03/how-to-run-a-shell-command-from-python-and-get-the-output/
 1. https://stackoverflow.com/questions/11615455/python-start-new-command-prompt-on-windows-and-wait-for-it-finish-exit
+1. https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python
 ***
 ### modules
 #### can
 1. https://pypi.org/project/can-isotp/
+1. https://python-can.readthedocs.io/en/master/
 
 ***
 This is a guide on Markdown [Markdown][1].
