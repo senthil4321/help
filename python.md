@@ -21,12 +21,12 @@ sudo python setup.py install
 `
 #### Ref.
 1. https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github
-**
+***
 ### How to run unit test in python ?
 ```
 python3 -m unittest discover -p dlt_client_unit_tests.py 
 ```
-**
+___
 #### Ref.
 1.https://stackoverflow.com/questions/1732438/how-do-i-run-all-python-unit-tests-in-a-directory
 
