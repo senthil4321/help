@@ -15,6 +15,12 @@ pip install -r requirements.txt
 allows you to create packages that you can redistribute
 
 https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
+### How to install python from github
+`
+sudo python setup.py install
+`
+#### Ref.
+1. https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github
 ### Libraries
 #### console-menu
 1.https://pypi.org/project/console-menu/  
