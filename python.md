@@ -26,10 +26,10 @@ sudo python setup.py install
 ```
 python3 -m unittest discover -p dlt_client_unit_tests.py 
 ```
-___
+
 #### Ref.
 1.https://stackoverflow.com/questions/1732438/how-do-i-run-all-python-unit-tests-in-a-directory
-
+* * *
 ### Libraries
 #### console-menu
 1.https://pypi.org/project/console-menu/  
