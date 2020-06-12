@@ -30,4 +30,8 @@ dlt-example-user -n 1000 -d 100000 test
 #### Ref.
 1. [Info](https://lists.linuxfoundation.org/pipermail/genivi-diagnostic-log-and-trace/2015-December/000857.html)
 ***
-
+### dlt-adaptor-stdin
+Program to send dlt logs from stdin.
+```
+```
+***
