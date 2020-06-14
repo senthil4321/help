@@ -24,7 +24,7 @@ Ctrl + T
 
 ## How to generate test class and test method from eclipse wizard
 
-New&nbsp;>&nbsp;JUnit Test Case" -> Select "Class under test" -> Select "Available methods"
+New&nbsp;>&nbsp;JUnit Test Case&nbsp;>&nbsp;Class under test&nbsp; > &nbsp; Available methods"
 
 ## edit shortcut
 ```
