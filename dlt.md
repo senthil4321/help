@@ -35,3 +35,5 @@ Program to send dlt logs from stdin.
 ```
 ```
 ***
+### Log Analysis
+1. https://www.systemticks.de/2019/03/13/analyzing_huge_dlt_log_files_with_elastic_stack.html
