@@ -73,7 +73,9 @@ str is used for printing object
 ```
 #### _ underscore
 Underscore is used in variable and method names to denote private
-
+#### property object and decoraters
+``` python
+```
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
 1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
@@ -81,6 +83,7 @@ Underscore is used in variable and method names to denote private
 1. https://stackoverflow.com/questions/11615455/python-start-new-command-prompt-on-windows-and-wait-for-it-finish-exit
 1. https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python
 1. https://www.google.com/amp/s/www.geeksforgeeks.org/str-vs-repr-in-python/amp/
+1. https://www.programiz.com/python-programming/property
 ***
 ### modules
 #### can
