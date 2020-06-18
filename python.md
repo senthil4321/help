@@ -39,7 +39,7 @@ python3 -m unittest discover -p dlt_client_unit_tests.py
 
 ### Python Module and Package
 > Python Module is a file with python code
-
+Rr
 > Python Package is collection of python Modules
 #### Module
 1. If module has `if __name__=="main"`, then the code is executed.
@@ -60,10 +60,16 @@ if title_search:
     title = title_search.group(0)
 ```
 #### combining array python
-```
+```python
     a = bytearray((0x01, 0x22 , 0x55 ))
     b = bytearray((0x01, 0x02 , 0x03 ))
     print(a+b)
+```
+#### __repr__ and __str__
+repr is used for debugging object
+str is used for printing object
+```python
+
 ```
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
