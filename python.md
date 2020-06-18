@@ -71,6 +71,9 @@ str is used for printing object
 ```python
 
 ```
+#### _ underscore
+Underscore is used in variable and method names to denote private
+
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
 1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
