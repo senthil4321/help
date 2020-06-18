@@ -71,6 +71,7 @@ if title_search:
 1. https://cmdlinetips.com/2014/03/how-to-run-a-shell-command-from-python-and-get-the-output/
 1. https://stackoverflow.com/questions/11615455/python-start-new-command-prompt-on-windows-and-wait-for-it-finish-exit
 1. https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python
+1. https://www.google.com/amp/s/www.geeksforgeeks.org/str-vs-repr-in-python/amp/
 ***
 ### modules
 #### can
