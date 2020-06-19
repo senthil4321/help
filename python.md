@@ -15,28 +15,21 @@ pip install -r requirements.txt
 allows you to create packages that you can redistribute
 
 https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
+***
 ### How to install python from github
-`
+```bash
 sudo python setup.py install
-`
+```
 #### Ref.
 1. https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github
 ***
 ### How to run unit test in python ?
-```
+```bash
 python3 -m unittest discover -p dlt_client_unit_tests.py 
 ```
-
 #### Ref.
 1.https://stackoverflow.com/questions/1732438/how-do-i-run-all-python-unit-tests-in-a-directory
 * * *
-### Libraries
-#### console-menu
-1.https://pypi.org/project/console-menu/  
-
-### cheatsheet
-1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
-
 ### Python Module and Package
 > Python Module is a file with python code
 Rr
@@ -59,7 +52,7 @@ convert bytes to string
 if title_search:
     title = title_search.group(0)
 ```
-#### combining array python
+#### How to combining array ?
 ```python
     a = bytearray((0x01, 0x22 , 0x55 ))
     b = bytearray((0x01, 0x02 , 0x03 ))
@@ -75,6 +68,12 @@ print(bytes.fromhex(s))
 s= "HELLO"
 print(str.encode(s))
 ```
+#### How to print byte array in hex?
+```python
+a = bytearray((0x01, 0x02 , 0x03 ))
+import binascii
+print(binascii.hexlify(a))
+```
 #### __repr__ and __str__
 repr is used for debugging object
 str is used for printing object
@@ -88,6 +87,17 @@ Underscore is used in variable and method names to denote private
 #### property object and decoraters
 ``` python
 ```
+
+***
+### Modules
+#### console-menu
+* https://pypi.org/project/console-menu/  
+#### CAN
+* https://pypi.org/project/can-isotp/
+* https://python-can.readthedocs.io/en/master/
+***
+### Cheatsheet
+1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
 * * *
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
@@ -97,12 +107,6 @@ Underscore is used in variable and method names to denote private
 1. https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python
 1. https://www.google.com/amp/s/www.geeksforgeeks.org/str-vs-repr-in-python/amp/
 1. https://www.programiz.com/python-programming/property
-***
-### modules
-#### can
-1. https://pypi.org/project/can-isotp/
-1. https://python-can.readthedocs.io/en/master/
-
 ***
 This is a guide on Markdown [Markdown][1].
 
