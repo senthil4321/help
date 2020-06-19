@@ -107,6 +107,10 @@ Underscore is used in variable and method names to denote private
 1. https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python
 1. https://www.google.com/amp/s/www.geeksforgeeks.org/str-vs-repr-in-python/amp/
 1. https://www.programiz.com/python-programming/property
+##### Bytearray convertion
+* https://stackoverflow.com/questions/7585435/best-way-to-convert-string-to-bytes-in-python-3/7585619
+* https://www.w3resource.com/python/python-bytes.php#hex-string-byte
+* https://stackoverflow.com/questions/11624190/python-convert-string-to-byte-array
 ***
 This is a guide on Markdown [Markdown][1].
 
