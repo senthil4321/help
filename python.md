@@ -65,17 +65,30 @@ if title_search:
     b = bytearray((0x01, 0x02 , 0x03 ))
     print(a+b)
 ```
+#### How to get byte array from hex string?
+```python
+x = "42";
+print(bytes.fromhex(s))
+```
+#### How to convert String to byte array?
+```python
+s= "HELLO"
+print(str.encode(s))
+```
 #### __repr__ and __str__
 repr is used for debugging object
 str is used for printing object
 ```python
 
 ```
+***
 #### _ underscore
 Underscore is used in variable and method names to denote private
+***
 #### property object and decoraters
 ``` python
 ```
+* * *
 #### Ref.
 1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
 1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
