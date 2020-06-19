@@ -96,6 +96,15 @@ Underscore is used in variable and method names to denote private
 * https://pypi.org/project/can-isotp/
 * https://python-can.readthedocs.io/en/master/
 ***
+### Python Eclipse
+#### How to manage python modules libraries from within eclipse?
+>  It is possible to manage python libraries from the eclipse. \
+##### Steps
+1. Goto Preference > Pydev Interpreters > Python Interpreters
+#### How to solve unresolved module issue?
+> Add the source folder to the phydev \
+> Note: Changes to take affect the file must be closed and reopened
+in the editor.
 ### Cheatsheet
 1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
 * * *
@@ -111,6 +120,9 @@ Underscore is used in variable and method names to denote private
 * https://stackoverflow.com/questions/7585435/best-way-to-convert-string-to-bytes-in-python-3/7585619
 * https://www.w3resource.com/python/python-bytes.php#hex-string-byte
 * https://stackoverflow.com/questions/11624190/python-convert-string-to-byte-array
+##### How to access command line arguments?
+* https://stackoverflow.com/questions/4033723/how-do-i-access-command-line-arguments-in-python
+* https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 ***
 This is a guide on Markdown [Markdown][1].
 
