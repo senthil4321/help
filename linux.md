@@ -78,6 +78,8 @@ sudo netplan --debug apply
 echo 'HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc 
 source ~/.bashrc
 ```
+### logs
+1. https://serverfault.com/questions/341919/how-to-find-error-messages-from-linux-init-d-rc-d-scripts
 ## Ref.
 1. https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
 1. https://askubuntu.com/questions/391082/how-to-see-time-stamps-in-bash-history
