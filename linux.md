@@ -15,6 +15,9 @@
 ```
 
 ```
+### udev
+**udev** Linux subsystem to handle device event. It enables to trigger script when a device is plugged in.
+***
 #### Ref.
 1. https://stackoverflow.com/questions/7172784/how-do-i-post-json-data-with-curl
 1. https://stackoverflow.com/questions/12583930/use-pipe-for-curl-data
