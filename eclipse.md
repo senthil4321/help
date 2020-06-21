@@ -63,6 +63,12 @@ https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 * Python IDE support
 https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
 * Jansi plugin This plugin enables color in log output used with log4j2
+* JAutodoc	
+> Enables automatic java documentation generation
+Shortcut to auto generate documentation
+```
+ctrl + alt + j
+```
 ### Productivity
 
 #### Eclipse Line Copy without select
@@ -89,7 +95,7 @@ http://google.github.io/styleguide/javaguide.html
 google_checks.xml
 https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
 
-Then enable the formatter for your workspace: Windows --> Preferences --> Java --> Code Style --> Formatter. Select formatter: "eclipse-cs [project name]".
+Then enable the formatter for your workspace: Windows > Preferences > Java > Code Style > Formatter. Select formatter: "eclipse-cs [project name]".
 formatter
 https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
 https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
