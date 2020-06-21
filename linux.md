@@ -89,12 +89,14 @@ source ~/.bashrc
 
 ***
 ### logs
+> journald has replaced syslog
 ```bash
 exec 1> >(logger -s -t $(basename $0)) 2>&1
 ```
 1. https://www.urbanautomaton.com/blog/2014/09/09/redirecting-bash-script-output-to-syslog/
 1. https://serverfault.com/questions/341919/how-to-find-error-messages-from-linux-init-d-rc-d-scripts
 ***
+
 ### CAN Tools
 ```
 sudo apt install can-utils
