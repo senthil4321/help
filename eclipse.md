@@ -63,12 +63,23 @@ https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 * Python IDE support
 https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
 * Jansi plugin This plugin enables color in log output used with log4j2
+  > This plugin gives an option in the console window to enable/disable ansi\
+  > Use below option in log4j to enable ansi
+  ```xml
+  	<Console name="ConsoleMsgOnly" target="SYSTEM_OUT">
+			<PatternLayout disableAnsi="false">
+				<Pattern>%highlight{%msg%n}
+				</Pattern>
+			</PatternLayout>
+		</Console>
+  ```
+  
 * JAutodoc	
-> Enables automatic java documentation generation
-Shortcut to auto generate documentation
-```
-ctrl + alt + j
-```
+   > Enables automatic java documentation generation
+   Shortcut to auto generate documentation
+   ```
+   ctrl + alt + j
+   ```
 ### Productivity
 
 #### Eclipse Line Copy without select
