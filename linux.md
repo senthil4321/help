@@ -15,6 +15,11 @@
 ```
 
 ```
+***
+### dmesg
+prints the message buffer of the kernel
+Contains message from device driver
+***
 ### udev
 **udev** Linux subsystem to handle device event. It enables to trigger script when a device is plugged in.
 ***
