@@ -89,7 +89,8 @@ source ~/.bashrc
 
 ***
 ### logs
-> journald has replaced syslog
+> `journald` has replaced syslog
+#### redirecting startup script logs to syslogs
 ```bash
 exec 1> >(logger -s -t $(basename $0)) 2>&1
 ```
