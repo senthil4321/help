@@ -88,6 +88,14 @@ source ~/.bashrc
 1. https://askubuntu.com/questions/391082/how-to-see-time-stamps-in-bash-history
 
 ***
+### command to ignore the HUP (hangup) signal
+```bash
+nohup 
+```
+Ref.
+https://linux.101hacks.com/unix/nohup-command/
+
+***
 ### logs
 > `journald` has replaced syslog
 #### redirecting startup script logs to syslogs
