@@ -94,7 +94,8 @@ nohup
 ```
 Ref.
 https://linux.101hacks.com/unix/nohup-command/
-
+running linux command in background
+https://linuxize.com/post/how-to-run-linux-commands-in-background/
 ***
 ### logs
 > `journald` has replaced syslog
