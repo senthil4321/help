@@ -16,10 +16,14 @@
 
 ```
 ***
-### passing password to scp
+### passing password to scp ssh
 > Switch to key based authentication
 ```
 sshpass -p "password" scp -r user@example
+
+
+sudo apt-get install sshpass
+sshpass -p password ssh user@hostname
 ```
 ***
 ### dmesg
