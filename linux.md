@@ -16,6 +16,12 @@
 
 ```
 ***
+### passing password to scp
+> Switch to key based authentication
+```
+sshpass -p "password" scp -r user@example
+```
+***
 ### dmesg
 prints the message buffer of the kernel
 Contains message from device driver
