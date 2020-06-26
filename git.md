@@ -26,4 +26,4 @@ git config --list
 git config --list --show-origin
 ```
 ### Ref.
-* (Fix self-signed cert.)[https://mattferderer.com/fix-git-self-signed-certificate-in-certificate-chain-on-windows#:~:text=A%20popular%20workaround%20is%20to,that%20creates%20large%20security%20risks.&text=The%20solution%20is%20to%20add%20the%20certificates%20to%20Git's%20trusted%20certificates.]
+* [Fix self-signed cert.](https://mattferderer.com/fix-git-self-signed-certificate-in-certificate-chain-on-windows#:~:text=A%20popular%20workaround%20is%20to,that%20creates%20large%20security%20risks.&text=The%20solution%20is%20to%20add%20the%20certificates%20to%20Git's%20trusted%20certificates.)
