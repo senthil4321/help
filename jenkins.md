@@ -24,3 +24,32 @@ How to access the environment variable?
 %DATA%
 ```
 ***
+
+### when condition
+> There can be only one steps block inside stage. Condition can enable /
+disable all the steps in the block.
+```
+pipeline {
+    agent any
+    parameters {
+        choice(
+            choices: ['greeting' , 'silence'],
+            description: '',
+            name: 'REQUESTED_ACTION')
+    }
+    stages {
+        stage ('Speak') {
+            when {
+                // Only say hello if a "greeting" is requested
+                expression { params.REQUESTED_ACTION == 'greeting' }
+            }
+            steps {
+                echo "Hello, greeting!"
+            }
+        }
+    }
+}
+```
+Ref.
+1. https://www.jenkins.io/blog/2017/01/19/converting-conditional-to-pipeline/
+***
