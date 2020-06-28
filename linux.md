@@ -10,11 +10,19 @@
 #### Ref.
 1. https://stackoverflow.com/questions/8748831/when-do-we-need-curly-braces-around-shell-variables
 ### curl
-@ before file\
-@- to read from stdin
-```
+> curl is also available in windows
+
+`@ `before file\
+`@- `to read from stdin
+
+Use
+`-u `  option to pass username and password \
+`-C - ` option to skip already downloaded info
 
 ```
+```
+#### Ref.
+* https://stackoverflow.com/questions/11856351/how-to-skip-already-existing-files-when-downloading-with-curl
 ***
 ### passing password to scp ssh
 > Switch to key based authentication
