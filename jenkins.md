@@ -57,7 +57,7 @@ Ref.
 ### Adding Credential to store
 1. goto Manage Jenkins > Manage Credentials > System > Global credentials
 1. Click Add Credentials to add the credential
-###Using the Credential in the Job
+### Using the Credential in the Job
 1. In the job goto section Build Environment
 1. Check Use secret text(s) or file(s)
 1. Add Username and Password variables
