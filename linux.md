@@ -65,6 +65,8 @@ export PROMPT_COMMAND='history -a'
 ```bash
 scp username@192.168.0.172:/remote/file.txt ./
 ```
+#### Ref.
+* https://my.esecuredata.com/index.php?/knowledgebase/article/21/copying-multiple-files-at-the-same-time-using-scp
 ---
 ## Raspberry Pi 
 ### Configure Network
