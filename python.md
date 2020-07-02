@@ -1,6 +1,6 @@
 # Python Help
 ###
-1. python modules are packaged in package
+* python modules are packaged in package
 
 ### Python anaconda
 is a distribution framework.
