@@ -125,7 +125,6 @@ in the editor.
 * https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 ***
 This is a guide on Markdown [Markdown][1].
-
 [1]: http://en.wikipedia.org/wiki/Markdown
 *** 
 
