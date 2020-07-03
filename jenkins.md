@@ -70,3 +70,8 @@ Ref.
 1. https://support.cloudbees.com/hc/en-us/articles/203802500-Injecting-Secrets-into-Jenkins-Build-Jobs
 1. https://www.jenkins.io/doc/pipeline/steps/credentials-binding/
 
+### Dynamic list
+
+#### Ref.
+* https://stackoverflow.com/questions/44570163/jenkins-dynamic-declarative-pipeline-parameters
+* https://stackoverflow.com/questions/54676040/storing-list-of-values-in-the-environment-variable-in-declarative-jenkins-pipeli
