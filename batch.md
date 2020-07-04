@@ -36,4 +36,7 @@ https://ss64.com/nt/for_f.html
 1. https://stackoverflow.com/questions/28133052/saving-a-batch-variable-in-a-text-file  
 
 ## Exit code
+```
+exit /b %ERRORLEVEL%
+```
 * https://www.manageengine.com/products/desktop-central/batch-file-errorlevels.html
