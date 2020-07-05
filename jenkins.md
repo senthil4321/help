@@ -75,3 +75,5 @@ Ref.
 #### Ref.
 * https://stackoverflow.com/questions/44570163/jenkins-dynamic-declarative-pipeline-parameters
 * https://stackoverflow.com/questions/54676040/storing-list-of-values-in-the-environment-variable-in-declarative-jenkins-pipeli
+### Set build name
+* https://stackoverflow.com/questions/43639099/set-the-build-name-and-description-from-a-jenkins-declarative-pipeline
