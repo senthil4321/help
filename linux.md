@@ -137,3 +137,10 @@ sudo apt install can-utils
 ```
 #### Ref.
 1. https://elinux.org/Bringing_CAN_interface_up
+
+### install libc6
+```
+apt-get upgrade libc6
+```
+#### Ref.
+* https://github.com/processone/ejabberd/issues/2650
