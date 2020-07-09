@@ -96,3 +96,9 @@ TODO
  1. https://nofluffjuststuff.com/magazine/2016/09/time_to_really_learn_generics_a_java_8_perspective
  1. https://www.logicbig.com/tutorials/core-java-tutorial/java-util-stream/stream-cheat-sheet.html
  1. https://www.baeldung.com/java-bouncy-castle
+### socket
+Linux socket does not send new line character.
+Use `isavailable()` to check for message
+```
+Linux socke
+```
