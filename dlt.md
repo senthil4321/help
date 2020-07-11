@@ -15,8 +15,9 @@ dlt-receive 127.0.0.1 -a -f ../srk-python-dlt/filter/helloxml
 [DLT-RECEIVE-SRC]: https://raw.githubusercontent.com/GENIVI/dlt-daemon/master/src/console/dlt-receive.c "dlt-receive-src"
 ***
 ### dlt-control
+Control message can be sent both in hex and ASCII
 ```
-dlt-control -e ECU1 -a LOG -c TEST -s 4096 -x 111212 127.0.0.1
+dlt-control -e ECU1 -a LOG -c TEST -s 4096 -x '11 12 12' 127.0.0.1
 dlt-control -e ECU1 -a LOG -c TEST -s 4096 -m Hello World 127.0.0.1
 
 dlt-example-user -n 1000 -d 100000 test
