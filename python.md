@@ -106,6 +106,13 @@ Underscore is used in variable and method names to denote private
 > Add the source folder to the phydev \
 > Note: Changes to take affect the file must be closed and reopened
 in the editor.
+### make sound
+```python
+import winsound
+frequency = 2500  # Set Frequency To 2500 Hertz
+duration = 1000  # Set Duration To 1000 ms == 1 second
+winsound.Beep(frequency, duration)
+```
 ### Cheatsheet
 1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
 * * *
