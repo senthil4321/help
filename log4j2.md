@@ -43,3 +43,5 @@ src/main/resources
 ## Ref.
 1. https://logging.apache.org/log4j/2.x/faq.html
 1. https://logging.apache.org/log4j/2.x/manual/configuration.html
+## Eclipse run config
+Add class path folder in run config to select log4j xml.
