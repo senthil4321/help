@@ -83,3 +83,5 @@ Ref.
 ```
 #### Ref.
 * https://stackoverflow.com/questions/53987649/jenkins-pipeline-waituntil-bash-command-returns-certain-string
+### Jenkins scp
+* https://stackoverflow.com/questions/44377238/use-ssh-credentials-in-jenkins-pipeline-with-ssh-scp-or-sftp
