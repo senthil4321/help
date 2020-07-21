@@ -12,3 +12,5 @@ pscp -2 -scp -pw xxxx xxxx.txt root@192.168.0.5:/data
 ```sh
 plink root@192.168.0.5 -2 -ssh ls /data/ -pw xxxx
 ```
+#### Diff between scp and sftp
+> Jenkins scp plugin uses sftp. This might not be supported in all embedded targets.
