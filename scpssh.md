@@ -5,10 +5,10 @@
 
 ### pscp
 Use this tool to copy file from/to target
-'''sh
+```sh
 pscp -2 -scp -pw xxxx xxxx.txt root@192.168.0.5:/data
-'''
+```
 ### plink
-'''sh
+```sh
 plink root@192.168.0.5 -2 -ssh ls /data/ -pw xxxx
-'''
+```
