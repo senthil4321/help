@@ -46,3 +46,8 @@ demo.bat data1
 
 echo %1%
 ```
+## comments
+```
+REM Remarks comment
+:: Demo comment
+```
