@@ -40,3 +40,9 @@ https://ss64.com/nt/for_f.html
 exit /b %ERRORLEVEL%
 ```
 * https://www.manageengine.com/products/desktop-central/batch-file-errorlevels.html
+### pass parameters
+```
+demo.bat data1
+
+echo %1%
+```
