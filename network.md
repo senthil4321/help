@@ -14,3 +14,5 @@
 ### CAN in WireShark SoketCAN
 1. https://libbits.wordpress.com/2012/05/07/capturing-and-analyzing-can-frames-with-wireshark/ 
 
+### vlan trunk
+> Vlan trunk connects two switch and transports data of multiple vlans
