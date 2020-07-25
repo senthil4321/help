@@ -16,3 +16,6 @@
 
 ### vlan trunk
 > Vlan trunk connects two switch and transports data of multiple vlans
+### udp multicast
+Udp multicast address is different then the normail ip address
+Multicast enables to send data to multiple clients without more overhead on the server
