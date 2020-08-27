@@ -1,4 +1,14 @@
 # Help file for log4j2 configuration
+## Available Options
+
+> Log4j, Logback, and Log4j2
+## Selected 
+Log4j2
+#### Log4j2
+> Log4j2 provides support for SLF4J, automatically reloads logging configuration, and supports advanced filtering options. In addition to these features, it also allows lazy evaluation of log statements based on lambda expressions, offers asynchronous loggers for low-latency systems, and provides a garbage-free mode to avoid any latency caused by garbage collector operations.
+
+####
+* https://stackify.com/compare-java-logging-frameworks/
 ## Appenders
 > Appenders are responsible for delivering LogEvents to their destination. 
 ## Refer the reference link 2
