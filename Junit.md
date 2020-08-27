@@ -10,3 +10,9 @@
 
 ### Ref.
 * https://github.com/junit-team/junit5/pull/19
+
+###
+> you can use both, Hamcrest and AssertJ, in JUnit5. Both frameworks have a simple assertThat method, that you can import and use if wanted.
+Currently, we do not plan to support these frameworks within our own Assertions to avoid the dependencies. Still, one can use them very well.
+####
+* https://stackoverflow.com/questions/43280250/how-do-i-use-hamcrest-with-junit-5-when-junit-5-doesnt-have-an-assertthat-fun
