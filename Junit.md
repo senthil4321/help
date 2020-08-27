@@ -16,3 +16,8 @@
 Currently, we do not plan to support these frameworks within our own Assertions to avoid the dependencies. Still, one can use them very well.
 ####
 * https://stackoverflow.com/questions/43280250/how-do-i-use-hamcrest-with-junit-5-when-junit-5-doesnt-have-an-assertthat-fun
+### AssertJ - fluent assertions java library
+#### 
+```
+assertThat(frodo.age).isEqualTo(33);
+```
