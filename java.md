@@ -102,3 +102,9 @@ Use `isavailable()` to check for message
 ```
 Linux socke
 ```
+### Eventbus
+> Publisher / Subscriber model based on type
+* Sync
+* Async
+#### Ref.
+* https://guava.dev/releases/16.0/api/docs/com/google/common/eventbus/AsyncEventBus.html
