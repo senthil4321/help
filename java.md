@@ -113,3 +113,7 @@ Linux socke
 Grop
 #### Ref.
 * http://tutorials.jenkov.com/java-regex/matcher.html
+#### DI
+
+* https://gist.github.com/stantonk/8e37cd97da1c0c800d27
+
