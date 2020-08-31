@@ -85,3 +85,5 @@ Ref.
 * https://stackoverflow.com/questions/53987649/jenkins-pipeline-waituntil-bash-command-returns-certain-string
 ### Jenkins scp
 * https://stackoverflow.com/questions/44377238/use-ssh-credentials-in-jenkins-pipeline-with-ssh-scp-or-sftp
+### Nexus integration - choice parameters
+* https://support.cloudbees.com/hc/en-us/articles/217958928-How-to-populate-Choice-Parameter-with-artifact-information-using-Nexus-REST-API-?mobile_site=true
