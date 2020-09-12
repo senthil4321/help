@@ -21,3 +21,7 @@ Currently, we do not plan to support these frameworks within our own Assertions 
 ```
 assertThat(frodo.age).isEqualTo(33);
 ```
+### command line running
+```
+* https://mkyong.com/junit5/junit-5-tagging-and-filtering-tag-examples/
+```
