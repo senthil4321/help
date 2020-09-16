@@ -117,16 +117,14 @@ Grop
 
 * https://gist.github.com/stantonk/8e37cd97da1c0c800d27
 
-### Serial Port and usb
-```
-USB Com port
-
-https://github.com/todbot/usbSearch/
-
-Java
-https://javalibs.com/artifact/org.scream3r/jssc
-https://mvnrepository.com/artifact/org.rxtx/rxtx/2.1.7
-github project
-http://fazecast.github.io/jSerialComm/
-https://github.com/Fazecast/jSerialComm
-```
+### USB 
+* https://github.com/todbot/usbSearch/
+---
+### Serial Port
+#### github project - good option
+* http://fazecast.github.io/jSerialComm/
+* https://github.com/Fazecast/jSerialComm
+#### Other
+* https://javalibs.com/artifact/org.scream3r/jssc
+* https://mvnrepository.com/artifact/org.rxtx/rxtx/2.1.7
+---
