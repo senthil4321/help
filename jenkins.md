@@ -87,3 +87,6 @@ Ref.
 * https://stackoverflow.com/questions/44377238/use-ssh-credentials-in-jenkins-pipeline-with-ssh-scp-or-sftp
 ### Nexus integration - choice parameters
 * https://support.cloudbees.com/hc/en-us/articles/217958928-How-to-populate-Choice-Parameter-with-artifact-information-using-Nexus-REST-API-?mobile_site=true
+
+### parameter separator plugin
+* https://plugins.jenkins.io/parameter-separator/
