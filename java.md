@@ -128,3 +128,6 @@ Grop
 * https://javalibs.com/artifact/org.scream3r/jssc
 * https://mvnrepository.com/artifact/org.rxtx/rxtx/2.1.7
 ---
+### jdk download
+* https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot
+* https://jdk.java.net/15/
