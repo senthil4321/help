@@ -90,3 +90,17 @@ Ref.
 
 ### parameter separator plugin
 * https://plugins.jenkins.io/parameter-separator/
+
+### Import nexus certificate
+* https://magicmonster.com/kb/prg/java/ssl/pkix_path_building_failed/ 
+```
+keytool -import -alias nexus -keystore  cacerts -file C:\tmp\nexus.cer
+Path jre\lib\security
+```
+---
+### Useful plugin
+* URLTrigger Plug-in 
+* Active Choices Plug-in
+  * Enables dynamic choice
+* Maven Artifact ChoiceListProvider (Nexus)
+  * Artifact as options
