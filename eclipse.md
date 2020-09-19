@@ -80,6 +80,10 @@ https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
    ```
    ctrl + alt + j
    ```
+* Terminal plugin
+* Copypath
+* Jenkins file viewer
+* 
 ### Productivity
 
 #### Eclipse Line Copy without select
