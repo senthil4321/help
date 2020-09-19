@@ -90,7 +90,7 @@ Ref.
 
 ### parameter separator plugin
 * https://plugins.jenkins.io/parameter-separator/
-
+* https://stackoverflow.com/questions/44820799/grouping-and-decorating-groups-of-parameters-in-jenkins
 ### Import nexus certificate
 * https://magicmonster.com/kb/prg/java/ssl/pkix_path_building_failed/ 
 ```
