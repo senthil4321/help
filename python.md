@@ -113,6 +113,12 @@ frequency = 2500  # Set Frequency To 2500 Hertz
 duration = 1000  # Set Duration To 1000 ms == 1 second
 winsound.Beep(frequency, duration)
 ```
+### get python architecture
+```
+import platform
+platform.architecture()[0]
+
+```
 ### Cheatsheet
 1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
 * * *
