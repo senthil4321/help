@@ -12,7 +12,7 @@ for (i = 0; i < mx; ++i)
 ```
 
 https://kb.vector.com/upload_551/file/SN-IND-1-011_InteractionLayer(1).pdf
-file:///C:/Users/sramasam/Downloads/hb_capl_programming.pdf
+file:///hb_capl_programming.pdf
 
 Signal level manupulation
 on signal ( LightSwitch::OnOff | MotorSwitch::OnOff )
