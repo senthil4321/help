@@ -54,3 +54,5 @@ https://kb.vector.com/upload_551/file/SN-IND-1-021_GraphicalDefinitions_Expected
 * https://www.fatalerrors.org/a/rs232-capl-functions-serial-port-configuration.html
 ### IL
 * https://stackoverflow.com/questions/36447154/how-to-access-can-signals-dynamically-by-string-in-capl
+### isotp
+* https://stackoverflow.com/questions/35626632/transmitting-data-over-iso-tp-transport-protocol-in-canoe-using-capl
