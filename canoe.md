@@ -1,3 +1,6 @@
+# canoe
+## capl
+``` c
 message * m;
 int i, mx;
 mx=elcount(aNet::aNode.Tx);
@@ -6,6 +9,7 @@ for (i = 0; i < mx; ++i)
  m.id=aNet::aNode.TX[i];
  write(DBLookup(m).Name);
 }
+```
 
 https://kb.vector.com/upload_551/file/SN-IND-1-011_InteractionLayer(1).pdf
 file:///C:/Users/sramasam/Downloads/hb_capl_programming.pdf
@@ -46,3 +50,5 @@ NodeLayerModules
 
 
 https://kb.vector.com/upload_551/file/SN-IND-1-021_GraphicalDefinitions_ExpectedCurves(1).pdf
+### rs232
+* https://www.fatalerrors.org/a/rs232-capl-functions-serial-port-configuration.html
