@@ -51,3 +51,5 @@ echo %1%
 REM Remarks comment
 :: Demo comment
 ```
+### comport 
+* https://www.google.com/amp/s/batchloaf.wordpress.com/2013/02/12/simple-trick-for-sending-characters-to-a-serial-port-in-windows/amp/
