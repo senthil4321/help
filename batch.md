@@ -56,3 +56,5 @@ REM Remarks comment
 set /p x="1" <nul >\\.\COM2
 ```
 * https://www.google.com/amp/s/batchloaf.wordpress.com/2013/02/12/simple-trick-for-sending-characters-to-a-serial-port-in-windows/amp/
+### com0com
+* https://pete.akeo.ie/2011/07/com0com-signed-drivers.html
