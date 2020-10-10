@@ -9,3 +9,5 @@
 1. B
 1. C
 1. D
+### vesc
+* http://vedder.se/2012/12/debugging-the-stm32f4-using-openocd-gdb-and-eclipse/
