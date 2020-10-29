@@ -4,7 +4,7 @@
 `<<<` is not supported by sh.
 ### Ref.
 1. https://unix.stackexchange.com/questions/208911/while-read-loop
-1. http://www.compciv.org/topics/bash/variables-and-substitution/#:~:text=From%20the%20Bash%20documentation%3A,with%20any%20trailing%20newlines%20deleted.
+1. [Link2](http://www.compciv.org/topics/bash/variables-and-substitution/#:~:text=From%20the%20Bash%20documentation%3A,with%20any%20trailing%20newlines%20deleted.)
 ### awk
 ####
 #### Ref.
