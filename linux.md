@@ -8,6 +8,8 @@
 ### od 
 >> Print file in hex and other formats
 >> With no FILE, or when FILE is -, read standard input
+
+>> RADIX is d for decimal, o for octal, x for hexadecimal or n for none
 ```
 od -x 
 ```
