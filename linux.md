@@ -11,6 +11,8 @@
 ```
 od -x 
 ```
+#### Ref.
+[Manpage](https://man7.org/linux/man-pages/man1/od.1.html)
 ### awk
 ####
 #### Ref.
