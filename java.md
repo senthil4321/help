@@ -132,3 +132,6 @@ Grop
 * https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot
 * https://jdk.java.net/15/
 ---
+### compare version
+* https://stackoverflow.com/questions/198431/how-do-you-compare-two-version-strings-in-java/198442#198442
+---
