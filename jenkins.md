@@ -104,3 +104,5 @@ Path jre\lib\security
   * Enables dynamic choice
 * Maven Artifact ChoiceListProvider (Nexus)
   * Artifact as options
+### build status
+* https://stackoverflow.com/questions/44022775/jenkins-ignore-failure-in-pipeline-build-step
