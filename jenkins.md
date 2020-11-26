@@ -106,3 +106,15 @@ Path jre\lib\security
   * Artifact as options
 ### build status
 * https://stackoverflow.com/questions/44022775/jenkins-ignore-failure-in-pipeline-build-step
+### jenkins Commit file to git pipeline
+```groovy
+def readContent = readFile "${env.WORKSPACE}/test.txt"
+writeFile file: "${env.WORKSPACE}/test.txt", text: "${readContent} Test Content\n"
+bat label: 'git checkout', script: "git checkout master"
+bat label: 'git config user', script: "git config user.name \"DemoUSR\""
+bat label: 'git config email', script: "git config user.email \"DemoUSR@example.com\""
+bat label: 'git status', script: "git status"
+bat label: 'git add file', script: "git add ${env.WORKSPACE}/test.txt"
+bat label: 'git commit', script: "git commit -am \"Update date to git\""
+bat label: 'git push commit to remote', script: "git push https://${GIT_CREDS_USR}:${GIT_CREDS_PSW}@demogiturl.com master"    
+```
