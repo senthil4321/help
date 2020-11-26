@@ -119,3 +119,15 @@ bat label: 'git commit', script: "git commit -am \"Update date to git\""
 bat label: 'git push commit to remote', script: "git push https://${GIT_CREDS_USR}:${GIT_CREDS_PSW}@demogiturl.com master"    
 ```
 >> Makesure there is no @ in password
+---
+### Load groovy and execute (both Jenkinsfile and groovy in same SCM)
+``` groovy
+
+```
+#### Ref.
+* https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it
+---
+### Shared Groovy Todo
+* https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+* https://www.jenkins.io/blog/2017/02/15/declarative-notifications/
+* https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library/
