@@ -118,3 +118,4 @@ bat label: 'git add file', script: "git add ${env.WORKSPACE}/test.txt"
 bat label: 'git commit', script: "git commit -am \"Update date to git\""
 bat label: 'git push commit to remote', script: "git push https://${GIT_CREDS_USR}:${GIT_CREDS_PSW}@demogiturl.com master"    
 ```
+>> Makesure there is no @ in password
