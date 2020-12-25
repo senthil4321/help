@@ -21,3 +21,7 @@ log4j appenderstream processing
 
 ## Monitoring
 1. https://devconnected.com/monitoring-linux-processes-using-prometheus-and-grafana/
+## Other
+'''
+slew rates
+'''
