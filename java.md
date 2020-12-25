@@ -124,6 +124,8 @@ Grop
 #### github project - good option
 * http://fazecast.github.io/jSerialComm/
 * https://github.com/Fazecast/jSerialComm
+## code
+### try with resource 
 #### Other
 * https://javalibs.com/artifact/org.scream3r/jssc
 * https://mvnrepository.com/artifact/org.rxtx/rxtx/2.1.7
