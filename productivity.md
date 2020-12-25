@@ -27,6 +27,6 @@ ctrl + d #for mute unmute microphone
 #### Ref.
 * [Ubuntu Chrome darkmode] (https://askubuntu.com/questions/1159741/enable-dark-mode-on-chromes-internal-pages#:~:text=for%20those%20who%20don't,desktop%20file.&text=All%20you%20have%20to%20do,flag%20in%20front%20of%20them.&text=Once%20you%20have%20done%20these%20changes%2C%20simply%20try%20restarting%20chrome.)
 ## Window virtual desktop
-'''
+```
 Ctrl + window key + left/right arrow
-'''
+```
