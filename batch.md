@@ -54,6 +54,7 @@ REM Remarks comment
 ### comport 
 ```bash
 set /p x="1" <nul >\\.\COM2
+mode COM22 BAUD=9600 PARITY=n DATA=8
 ```
 * https://www.google.com/amp/s/batchloaf.wordpress.com/2013/02/12/simple-trick-for-sending-characters-to-a-serial-port-in-windows/amp/
 * https://batchloaf.wordpress.com/2013/02/12/simple-trick-for-sending-characters-to-a-serial-port-in-windows/
