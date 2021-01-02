@@ -7,3 +7,5 @@
 * https://jetbot.org/master/
 - - - 
 ## Coral ai
+## python
+* https://jupyter.org/
