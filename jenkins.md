@@ -131,3 +131,13 @@ bat label: 'git push commit to remote', script: "git push https://${GIT_CREDS_US
 * https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 * https://www.jenkins.io/blog/2017/02/15/declarative-notifications/
 * https://mtijhof.wordpress.com/2019/04/22/jenkins-running-a-declarative-pipeline-from-your-shared-library/
+https://stackoverflow.com/questions/44007034/conditional-environment-variables-in-jenkins-declarative-pipeline  
+## Specify node name
+https://serverfault.com/questions/359793/tell-jenkins-to-run-a-specific-project-on-a-particular-slave-node
+
+It is possible to use a specific node where the program can run.Even this works in master slave configuraiton
+```
+node ('My Node') {
+    ...
+}
+```
