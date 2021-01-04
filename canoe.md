@@ -60,3 +60,10 @@ https://kb.vector.com/upload_551/file/SN-IND-1-021_GraphicalDefinitions_Expected
 * https://kb.vector.com/entry/1443/
 ### diag request from canoe
 * https://kb.vector.com/entry/982/
+
+## canoe shortcut
+### capl editor
+F9 to compile capl code
+### canoe
+F9 to start the canoe 
+Esc to stop the canoe
