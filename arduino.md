@@ -2,4 +2,4 @@
 ### auto reset
 https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-using-ftdi-dtr-signal-stays-low-and-needs-to-go-high-aft
 ## Tonuino
-* https://github.com/AlexanderWillner/TonUINO/blob/DEV/TonUINO_Schaltplan.png
+* https://github.com/xfjx/TonUINO
