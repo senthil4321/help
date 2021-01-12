@@ -57,3 +57,28 @@ src/main/resources
 Add class path folder in run config to select log4j xml.
 ### Ref.
 * https://stackoverflow.com/questions/5081316/where-is-the-correct-location-to-put-log4j-properties-in-an-eclipse-project
+---
+1. Logger: It is used to log the messages
+1. Appender: It is used to publish the logging information to the destination like file, database, console etc
+1. Layout: It is used to format logging information in different styles
+
+* https://examples.javacodegeeks.com/enterprise-java/log4j/log4j-conversion-pattern-example/
+* https://www.tutorialspoint.com/log4j/log4j_patternlayout.htm
+
+## Logger config
+* https://logging.apache.org/log4j/2.x/manual/architecture.html
+* https://logging.apache.org/log4j/2.x/manual/configuration.html
+### Every configuration must have a root logger.
+Refer Configuring Loggers
+
+## Layouts
+An Appender uses a Layout to format a LogEvent into a form that meets the needs of whatever will be consuming the log event.
+
+### HTML Layout
+<HtmlLayout datePattern="ISO8601" timezone="GMT+0"/>
+
+### PatternLayout
+* https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/PatternLayout.html
+
+## Appender
+* https://logging.apache.org/log4j/2.x/manual/appenders.html#ConsoleAppender
