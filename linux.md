@@ -154,3 +154,6 @@ apt-get upgrade libc6
 ```
 #### Ref.
 * https://github.com/processone/ejabberd/issues/2650
+## dm verity
+* https://github.com/shakna-israel/cryptsetup/issues/204
+* https://source.android.com/security/verifiedboot/dm-verity#mapping-table
