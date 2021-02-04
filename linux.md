@@ -178,3 +178,5 @@ sudo veritysetup --debug verify /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec2
 * https://source.android.com/security/verifiedboot/dm-verity#mapping-table
 * https://man7.org/linux/man-pages/man8/veritysetup.8.html
 * https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device
+## Secure boot
+* https://elinux.org/images/e/e0/Josserand-schulz-secure-boot.pdf
