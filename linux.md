@@ -155,5 +155,26 @@ apt-get upgrade libc6
 #### Ref.
 * https://github.com/processone/ejabberd/issues/2650
 ## dm verity
+### Preparing block device
+```bash
+dd if=/dev/zero of=./diskimage bs=1M count=10
+dd if=/dev/zero of=./dm-hash bs=1M count=10
+
+sudo mount -o loop=/dev/loop17 ./diskimage /mnt/dm-srk-img/
+sudo touch /mnt/dm-srk-img/hello.txt
+sudo umount /mnt/dm-srk-img/
+sudo losetup /dev/loop17 ./dm-hash
+sudo losetup /dev/loop18 ./diskimage
+```
+### Mounting and checking verity
+```bash
+sudo --debug veritysetup format /dev/loop18 /dev/loop17
+sudo veritysetup --debug create dm-romfs /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec242b1d68357b58143802bcff430b3b4957bb28004
+sudo veritysetup --debug close dm-romfs
+sudo veritysetup --debug status dm-romfs
+sudo veritysetup --debug verify /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec242b1d68357b58143802bcff430b3b4957bb28004
+```
 * https://github.com/shakna-israel/cryptsetup/issues/204
 * https://source.android.com/security/verifiedboot/dm-verity#mapping-table
+* https://man7.org/linux/man-pages/man8/veritysetup.8.html
+* https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device
