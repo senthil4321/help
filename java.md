@@ -140,3 +140,6 @@ Grop
 ### version
 * https://github.com/vdurmont/semver4j
 ---
+## ui
+### jface data binding
+* https://git.eclipse.org/c/platform/eclipse.platform.ui.git/plain/examples/org.eclipse.jface.examples.databinding/src/org/eclipse/jface/examples/databinding/snippets/Snippet004DataBindingContextErrorLabel.java
