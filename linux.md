@@ -182,3 +182,5 @@ sudo veritysetup --debug verify /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec2
 * https://elinux.org/images/e/e0/Josserand-schulz-secure-boot.pdf
 ## coredump
 * https://stackoverflow.com/questions/5115613/core-dump-file-analysis
+## ipk
+* https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
