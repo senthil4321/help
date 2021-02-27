@@ -145,3 +145,5 @@ Grop
 * https://git.eclipse.org/c/platform/eclipse.platform.ui.git/plain/examples/org.eclipse.jface.examples.databinding/src/org/eclipse/jface/examples/databinding/snippets/Snippet004DataBindingContextErrorLabel.java
 ## config
 * http://wilddiary.com/reading-property-file-java-using-apache-commons-configuration/
+## other intresting
+* https://tomassetti.me/parsing-in-java/#
