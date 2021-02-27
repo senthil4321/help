@@ -21,6 +21,12 @@ Alt + y - Open method definition like F3
 ```
 Ctrl + T 
 ```
+### goto error
+```
+ctrl + . next error
+ctrl + , previous error
+ctrl + 1 solution suggesion
+```
 
 ## How to generate test class and test method from eclipse wizard
 
@@ -42,27 +48,37 @@ shift+ctrl+X. To upper case.
 ctrl+ 3
 ```
 ## How to bind Ctrl + Tab in eclipse for navigating between editor windows?
- Bind key and unbind old keys.
+> Bind key and unbind old keys.
 1. https://stackoverflow.com/questions/2332330/eclipse-hotkey-how-to-switch-between-tabs
+--- 
 ## Eclipse plugin
+
 ### Code Quality and Static Code Analysis
-* code style and formatting
-https://marketplace.eclipse.org/content/checkstyle-plug
-* fix quality issues as you write code
-https://marketplace.eclipse.org/content/sonarlint
-https://marketplace.eclipse.org/content/quick-bookmarks-plugin
-* static code analyser - detects possible bugs
-https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
-* Markdown plugin
-https://marketplace.eclipse.org/content/markdown-text-editor
-* TODO PMD plugin 
-* AI based code completion - does not work 
-https://marketplace.eclipse.org/content/codota
-* Other TODO
+#### code style and formatting
+* https://marketplace.eclipse.org/content/checkstyle-plug
+
+#### fix quality issues as you write code
+* https://marketplace.eclipse.org/content/sonarlint
+* https://marketplace.eclipse.org/content/quick-bookmarks-plugin
+
+#### static code analyser - detects possible bugs
+* https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
+
+#### Markdown plugin
+* https://marketplace.eclipse.org/content/markdown-text-editor
+
+#### TODO PMD plugin 
+
+#### ~~~AI based code completion - does not work ~~~
+* ~~~https://marketplace.eclipse.org/content/codota~~~
+
+#### Other TODO
 https://blog.codota.com/14-free-plugins-for-eclipse-ide/
-* Python IDE support
-https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
-* Jansi plugin This plugin enables color in log output used with log4j2
+
+#### Python IDE support
+* https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
+
+#### Jansi plugin This plugin enables color in log output used with log4j2
   > This plugin gives an option in the console window to enable/disable ansi\
   > Use below option in log4j to enable ansi
   ```xml
@@ -74,16 +90,16 @@ https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
 		</Console>
   ```
   
-* JAutodoc	
+#### JAutodoc	
    > Enables automatic java documentation generation
    Shortcut to auto generate documentation
    ```
    ctrl + alt + j
    ```
-* Terminal plugin
-* Copypath
-* Jenkins file viewer
-
+#### Terminal plugin
+#### Copypath
+#### Jenkins file viewer
+---
 ### Productivity
 
 #### Eclipse Line Copy without select
@@ -100,30 +116,37 @@ Download into your dropins folder and restart Eclipse.
  https://code.google.com/archive/p/copycutcurrentline/
  https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
 
-### content assistant and template
-> In eclipse it is possible to expand code with shortcut.eg. typing `syso` and pressing `ctrl+ space` expands to Sysout.out.println();
-> Similarly it is possible to create custom code expansion. It can be done with code Template section of eclipse preference. 
-#### info expansion for apache log4j
-```java
-logger.info(${word_selection}${});${cursor}
-```
-
-#### Markdown plugin
+#### ~~~Markdown plugin~~~
 * Not good
  ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
  ~~https://marketplace.eclipse.org/content/liclipsetext~~
  ~~FluentMarkEditor~~
+
 ## Check Style and code formmater
+### Check Style
+* http://google.github.io/styleguide/javaguide.html
+* google_checks.xml
+* https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
 
-http://google.github.io/styleguide/javaguide.html
-google_checks.xml
-https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
-
+```
 Then enable the formatter for your workspace: Windows > Preferences > Java > Code Style > Formatter. Select formatter: "eclipse-cs [project name]".
-formatter
-https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
-https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
-#### How to uninstall or disable plugin in eclipse?
+```
+### formatter
+* https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
+* https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
+---
+## content assistant and template
+> In eclipse it is possible to expand code with shortcut.eg. typing `syso` and pressing `ctrl+ space` expands to Sysout.out.println();
+> Similarly it is possible to create custom code expansion. It can be done with code Template section of eclipse preference. 
+Also refer Idea
+
+### info expansion for apache log4j
+```java
+logger.info(${word_selection}${});${cursor}
+```
+---
+
+## How to uninstall or disable plugin in eclipse?
 1. https://wiki.eclipse.org/FAQ_How_do_I_remove_a_plug-in%3F
 ## Ref.
 
@@ -155,7 +178,7 @@ Use the below option to download the source
 * https://stackoverflow.com/questions/310720/get-source-jar-files-attached-to-eclipse-for-maven-managed-dependencies
 ---
 
-## Eclipse download plugin source and attach
+### Eclipse download plugin source and attach
 
 So far there is no easy wasy to download and attach eclipse plugin source automatically.
 Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
