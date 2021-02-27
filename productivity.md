@@ -30,3 +30,7 @@ ctrl + d #for mute unmute microphone
 ```
 Ctrl + window key + left/right arrow
 ```
+## prompt change display prompt windows
+prompt #
+### To go back to normal working mode
+prompt $g
