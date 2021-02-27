@@ -169,8 +169,15 @@ Use the below option to download the source
         </plugins>
     </build>
 ```
-
 * https://stackoverflow.com/questions/2059431/get-source-jars-from-maven-repository
 * https://stackoverflow.com/questions/310720/get-source-jar-files-attached-to-eclipse-for-maven-managed-dependencies
+---
+
+## Eclipse download plugin source and attach
+
+So far there is no easy wasy to download and attach eclipse plugin source automatically.
+Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
+
+---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
