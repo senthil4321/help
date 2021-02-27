@@ -69,8 +69,7 @@ ctrl+ 3
 
 #### TODO PMD plugin 
 
-#### ~~~ AI based code completion - does not work ~~~
-* ~~~ https://marketplace.eclipse.org/content/codota ~~~
+
 
 #### Other TODO
 https://blog.codota.com/14-free-plugins-for-eclipse-ide/
@@ -116,11 +115,6 @@ Download into your dropins folder and restart Eclipse.
  https://code.google.com/archive/p/copycutcurrentline/
  https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
 
-#### ~~~Markdown plugin~~~
-* Not good
- ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
- ~~https://marketplace.eclipse.org/content/liclipsetext~~
- ~~FluentMarkEditor~~
 
 ## Check Style and code formmater
 ### Check Style
@@ -183,4 +177,11 @@ Use the below option to download the source
 So far there is no easy wasy to download and attach eclipse plugin source automatically.
 Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
 
-
+### Not Useful
+#### ~~~ AI based code completion - does not work ~~~
+* ~~~ https://marketplace.eclipse.org/content/codota ~~~
+#### ~~~Markdown plugin~~~
+* Not good
+ ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
+ ~~https://marketplace.eclipse.org/content/liclipsetext~~
+ ~~FluentMarkEditor~~
