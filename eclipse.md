@@ -83,7 +83,7 @@ https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
 * Terminal plugin
 * Copypath
 * Jenkins file viewer
-* 
+
 ### Productivity
 
 #### Eclipse Line Copy without select
@@ -99,6 +99,15 @@ Download into your dropins folder and restart Eclipse.
  https://github.com/fabioz/copycutcurrentline 
  https://code.google.com/archive/p/copycutcurrentline/
  https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
+
+### content assistant and template
+> In eclipse it is possible to expand code with shortcut.eg. typing `syso` and pressing `ctrl+ space` expands to Sysout.out.println();
+> Similarly it is possible to create custom code expansion. It can be done with code Template section of eclipse preference. 
+#### info expansion for apache log4j
+```java
+logger.info(${word_selection}${});${cursor}
+```
+
 #### Markdown plugin
 * Not good
  ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
