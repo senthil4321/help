@@ -151,32 +151,6 @@ Grop
 * https://commons.apache.org/proper/commons-configuration/apidocs/src-html/org/apache/commons/configuration2/SystemConfiguration.html#line.42
 * https://commons.apache.org/proper/commons-configuration/userguide/howto_compositeconfiguration.html#Composite_Configuration_Details
 
-## Eclipse maven source code download
-It is possivle to download maven artifact source code automatically using the maven option.
-Use the below option to download the source
-
-```xml
- <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-eclipse-plugin</artifactId>
-                <configuration>
-                    <downloadSources>true</downloadSources>
-                    <downloadJavadocs>true</downloadJavadocs>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-```
-* https://stackoverflow.com/questions/2059431/get-source-jars-from-maven-repository
-* https://stackoverflow.com/questions/310720/get-source-jar-files-attached-to-eclipse-for-maven-managed-dependencies
----
-
-## Eclipse download plugin source and attach
-
-So far there is no easy wasy to download and attach eclipse plugin source automatically.
-Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
 
 ---
 ## other intresting
