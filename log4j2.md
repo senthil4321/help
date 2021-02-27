@@ -96,4 +96,35 @@ highlight{pattern}{style}
 ## Appender
 * https://logging.apache.org/log4j/2.x/manual/appenders.html#ConsoleAppender
 
-
+## Sample
+### Config1
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout disableAnsi="true">
+				<Pattern>%highlight{	 - %msg%n}
+				</Pattern>
+			</PatternLayout>
+		</Console>
+		<Console name="ConsoleMsgOnly" target="SYSTEM_OUT">
+			<PatternLayout disableAnsi="false">
+				<Pattern>%highlight{%-5level %-36.36logger %msg%n}
+				</Pattern>
+			</PatternLayout>
+		</Console>
+		<File name="MyFile" fileName="logs/app.log">
+			<PatternLayout>
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="ConsoleMsgOnly" />
+			<AppenderRef ref="MyFile" />
+		</Root>
+	</Loggers>
+</Configuration>
+```
