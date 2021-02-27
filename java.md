@@ -79,6 +79,12 @@ Lazy generalization
 ```
 int mask |= 1 << 4;
 ```
+### bitset api java.util.BitSet
+
+```java
+
+```
+
 ### Ref.
 1. http://sys.cs.rice.edu/course/comp314/10/p2/javabits.html
 ## jshell
