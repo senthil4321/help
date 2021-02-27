@@ -157,7 +157,13 @@ Grop
 * https://commons.apache.org/proper/commons-configuration/apidocs/src-html/org/apache/commons/configuration2/SystemConfiguration.html#line.42
 * https://commons.apache.org/proper/commons-configuration/userguide/howto_compositeconfiguration.html#Composite_Configuration_Details
 
+## Java POJO
+### Property Change Support
+> With property change support added to the POJO, when the property of Java Object change all the listener of the object will be notified. 
+```java
 
+```
+* https://docs.oracle.com/javase/7/docs/api/java/beans/PropertyChangeSupport.html
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
