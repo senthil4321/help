@@ -180,3 +180,5 @@ sudo veritysetup --debug verify /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec2
 * https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device
 ## Secure boot
 * https://elinux.org/images/e/e0/Josserand-schulz-secure-boot.pdf
+## coredump
+* https://stackoverflow.com/questions/5115613/core-dump-file-analysis
