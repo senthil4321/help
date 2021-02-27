@@ -143,6 +143,8 @@ Grop
 ## ui
 ### jface data binding
 * https://git.eclipse.org/c/platform/eclipse.platform.ui.git/plain/examples/org.eclipse.jface.examples.databinding/src/org/eclipse/jface/examples/databinding/snippets/Snippet004DataBindingContextErrorLabel.java
+### sdk example
+* https://help.eclipse.org/2020-12/index.jsp?topic=/org.eclipse.platform.doc.isv/samples/samples.html
 ## config
 * http://wilddiary.com/reading-property-file-java-using-apache-commons-configuration/
 ### system property and composite config
