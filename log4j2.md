@@ -76,7 +76,9 @@ An Appender uses a Layout to format a LogEvent into a form that meets the needs 
 
 ### HTML Layout
 <HtmlLayout datePattern="ISO8601" timezone="GMT+0"/>
+
 ### Layout Patterns Reference
+
 ```
 Patterns
 The conversions that are provided with Log4j are:
@@ -85,6 +87,7 @@ logger{precision}
 
 highlight{pattern}{style}
 ```
+### Ref.
 * https://logging.apache.org/log4j/2.x/manual/layouts.html
 
 ### PatternLayout
