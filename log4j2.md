@@ -90,7 +90,7 @@ highlight{pattern}{style}
 ### Ref.--- Important info about ansi color and alternate naming :heart:
 * https://logging.apache.org/log4j/2.x/manual/layouts.html
 
-### PatternLayout --- Important info about spacing 
+### PatternLayout --- Important info about spacing :heart:
 * https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/PatternLayout.html
 
 ## Appender
