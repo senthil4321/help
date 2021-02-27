@@ -179,7 +179,7 @@ Easy working solution is to download the source manually and attaching it. (CTRL
 
 ### Not Useful
 #### ~~~ AI based code completion - does not work ~~~
-* ~~~ https://marketplace.eclipse.org/content/codota ~~~
+ ~~~ https://marketplace.eclipse.org/content/codota ~~~
 #### ~~~Markdown plugin~~~
 * Not good
  ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
