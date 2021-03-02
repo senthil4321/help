@@ -197,5 +197,7 @@ echo
 * https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
 ## search for text in files
 '''bash
-grep -nwr -e 'test' 
+grep -nwr 'path' -e 'test' 
 '''
+### Ref.
+* https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
