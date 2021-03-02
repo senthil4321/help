@@ -195,3 +195,7 @@ echo
 * https://stackoverflow.com/questions/5115613/core-dump-file-analysis
 ## ipk
 * https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
+## search for text in files
+'''bash
+grep -nwr -e 'test' 
+'''
