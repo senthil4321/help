@@ -32,6 +32,8 @@ git config --list --show-origin
 ***
 ## tag
 ```
+git tag -a v1.4 -m "my version 1.4"
+git tag v1.4-lw
 
 git push origin --tags
 git push origin v1.5
@@ -43,3 +45,5 @@ git push origin v1.5
 git tag -a v1.2 9fceb02
 git log --pretty=oneline
 ```
+### Ref.
+* https://git-scm.com/book/en/v2/Git-Basics-Tagging
