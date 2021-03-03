@@ -38,6 +38,10 @@ git tag v1.4-lw
 git push origin --tags
 git push origin v1.5
 
+git tag
+git tag -l "v1.8.5*"
+
+git checkout v2.0.0
 ```
 
 ### tag later
