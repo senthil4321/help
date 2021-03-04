@@ -27,3 +27,7 @@ assertThat(frodo.age).isEqualTo(33);
 ```
 ### wait
 * https://stackoverflow.com/questions/15938538/how-can-i-make-a-junit-test-wait
+## todo
+Grafana, influxdb and junit
+```
+```
