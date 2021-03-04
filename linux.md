@@ -59,6 +59,13 @@ Contains message from device driver
 sudo fdisk -l
 sudo mount -o remount,rw /dev/sdc1
 ```
+---
+## top
+> Program to get cpu and memory usage
+```
+top 
+```
+---
 ## History
 ### Enable unlimited command history
 ```
