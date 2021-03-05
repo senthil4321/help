@@ -164,6 +164,9 @@ Grop
 
 ```
 * https://docs.oracle.com/javase/7/docs/api/java/beans/PropertyChangeSupport.html
+## version handling
+
+* https://stackoverflow.com/questions/2469922/generate-a-version-java-file-in-maven
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
