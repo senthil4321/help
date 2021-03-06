@@ -10,3 +10,5 @@
 # pseudocodes
 ## flowchart
 DRAKON
+## concept of operations CONOPs
+* https://www.google.com/search?q=nasa+conops&source=lmns&bih=702&biw=393&client=ms-android-xiaomi-rev1&prmd=inv&hl=en&sa=X&ved=2ahUKEwiB-ZSXqZzvAhWRIMUKHV0wA3IQ_AUoAHoECAAQAw
