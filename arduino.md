@@ -5,4 +5,5 @@ https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-usi
 * https://github.com/xfjx/TonUINO
 
 ## raspberry pico
+
 * https://learnembeddedsystems.co.uk/basic-multicore-pico-example
