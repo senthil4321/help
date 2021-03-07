@@ -208,3 +208,7 @@ grep -nwr 'path' -e 'test'
 '''
 ### Ref.
 * https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
+## search
+```
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+```
