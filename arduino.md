@@ -31,6 +31,9 @@ MFRC522
 ### wiring diagram
 * https://github.com/senthil4321/TonUINO/blob/master/TonUINO_Schaltplan.pdf
 ---
+##op amp
+* https://forum.arduino.cc/index.php?topic=438366.0
+
 ## raspberry pico
 
 * https://learnembeddedsystems.co.uk/basic-multicore-pico-example
