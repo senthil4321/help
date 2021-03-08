@@ -5,7 +5,12 @@ https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-usi
 * https://github.com/xfjx/TonUINO
 
 ## DF Player
-https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299
+use the below name to search for DFMiniMp3 in arduion library search
+```
+DFPlayer Mini Mp3 by Makuna
+```
+* https://github.com/Makuna/DFMiniMp3
+* https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299
 
 ## raspberry pico
 
