@@ -144,3 +144,6 @@ This is a guide on Markdown [Markdown][1].
 
 ### python key press
 * https://stackoverflow.com/questions/11918999/key-listeners-in-python
+
+### python beep
+* https://stackoverflow.com/questions/6537481/python-making-a-beep-noise
