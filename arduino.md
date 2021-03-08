@@ -1,6 +1,10 @@
 # arduino
+
+Documentation for Arduino hardwae and software components.
+
 ### auto reset
-https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-using-ftdi-dtr-signal-stays-low-and-needs-to-go-high-aft
+* https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-using-ftdi-dtr-signal-stays-low-and-needs-to-go-high-aft
+
 ---
 ## Tonuino
 > This section has the documentaiton for tonuino development kit.
