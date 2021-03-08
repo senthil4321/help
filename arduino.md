@@ -1,7 +1,10 @@
 # arduino
 ### auto reset
 https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-using-ftdi-dtr-signal-stays-low-and-needs-to-go-high-aft
+---
 ## Tonuino
+> This section has the documentaiton for tonuino development kit.
+> 
 * https://github.com/xfjx/TonUINO
 
 ### DF Player
@@ -19,11 +22,11 @@ JC_Button
 * https://github.com/JChristensen/JC_Button
 ### MFRC522
 ```
-### wiring diagram
-* https://github.com/senthil4321/TonUINO/blob/master/TonUINO_Schaltplan.pdf
-
 MFRC522
 ```
+### wiring diagram
+* https://github.com/senthil4321/TonUINO/blob/master/TonUINO_Schaltplan.pdf
+---
 ## raspberry pico
 
 * https://learnembeddedsystems.co.uk/basic-multicore-pico-example
