@@ -1,7 +1,8 @@
 # Task
 ## TO DO
  - [x] openssl rsa -in [file1.key] -out [file2.key]
- - [x] start notepad++ todo.md
+ - [x] start notepad++ 
+
 ## To Analyse 
 1. How to make ll clear in Windows command prompt?
 1. How to open method implementation eclipse?
@@ -21,8 +22,8 @@ log4j appenderstream processing
 
 ## Monitoring
 1. https://devconnected.com/monitoring-linux-processes-using-prometheus-and-grafana/
-## Other
 
+## Other
 ```
 slew rates
 ```
