@@ -19,6 +19,9 @@ JC_Button
 * https://github.com/JChristensen/JC_Button
 ### MFRC522
 ```
+### wiring diagram
+* https://github.com/senthil4321/TonUINO/blob/master/TonUINO_Schaltplan.pdf
+
 MFRC522
 ```
 ## raspberry pico
