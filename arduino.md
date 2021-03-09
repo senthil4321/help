@@ -28,6 +28,11 @@ JC_Button
 ```
 MFRC522
 ```
+#### Data sheet
+Card
+* https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf
+Reader
+* https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
 ### wiring diagram
 * https://github.com/senthil4321/TonUINO/blob/master/TonUINO_Schaltplan.pdf
 ---
