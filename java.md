@@ -160,9 +160,7 @@ Grop
 ## Java POJO
 ### Property Change Support
 > With property change support added to the POJO, when the property of Java Object change all the listener of the object will be notified. 
-```java
 
-```
 * https://docs.oracle.com/javase/7/docs/api/java/beans/PropertyChangeSupport.html
 ## version handling
 
