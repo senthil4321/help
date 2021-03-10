@@ -19,6 +19,9 @@ DFPlayer Mini Mp3 by Makuna
 * https://github.com/Makuna/DFMiniMp3
 * https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299
 
+Sound issue
+* https://arduino.stackexchange.com/questions/49807/dfplayer-noise-researched-tried-and-bep-bep-bep-bep-bep/49842#49842
+
 ### JC Button
 ```
 JC_Button
