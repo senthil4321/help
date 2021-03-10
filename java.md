@@ -169,5 +169,12 @@ Grop
 * https://stackoverflow.com/questions/2469922/generate-a-version-java-file-in-maven
 * https://stackoverflow.com/questions/18456111/what-is-the-maven-way-for-automatic-project-versions-when-doing-continuous-deliv
 ---
+
+## byte printing
+```
+String.format("%02x ",b)
+Byte.toUnsignedInt(b) Java8
+```
+---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
