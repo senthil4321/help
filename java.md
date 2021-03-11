@@ -167,7 +167,8 @@ Grop
 * https://stackoverflow.com/questions/2469922/generate-a-version-java-file-in-maven
 * https://stackoverflow.com/questions/18456111/what-is-the-maven-way-for-automatic-project-versions-when-doing-continuous-deliv
 ---
-
+## Protocol buffer java
+* https://developers.google.com/protocol-buffers/docs/javatutorial
 ## byte printing
 ```
 String.format("%02x ",b)
