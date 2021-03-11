@@ -45,3 +45,5 @@ Reader
 ## raspberry pico
 
 * https://learnembeddedsystems.co.uk/basic-multicore-pico-example
+## byte array init
+* https://stackoverflow.com/questions/33454988/c-initialize-array-in-hexadecimal-values
