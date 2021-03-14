@@ -8,7 +8,8 @@ Documentation for Arduino hardwae and software components.
 ---
 ## Tonuino
 > This section has the documentaiton for tonuino development kit.
-> 
+> It is important to add the 1k ohm resistor to the Rx line to remove the noise in the speaker
+
 * https://github.com/xfjx/TonUINO
 
 ### DF Player
@@ -39,7 +40,7 @@ Reader
 ### wiring diagram
 * https://github.com/senthil4321/TonUINO/blob/master/TonUINO_Schaltplan.pdf
 ---
-##op amp
+## op amp
 * https://forum.arduino.cc/index.php?topic=438366.0
 
 ## raspberry pico
