@@ -12,3 +12,14 @@
 ## Coral ai
 ## python
 * https://jupyter.org/
+
+### Jetson Nano commands
+```
+git clone --recursive https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+docker/run.sh
+
+cd jetson-inference/tools
+./download-models.sh
+nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
+```
