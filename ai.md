@@ -4,7 +4,13 @@
 * https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#troubleshooting
 * https://github.com/NVIDIA/jetson-gpio
 * https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#:~:text=Setup%20Steps,on%20a%20non-conductive%20surface.&text=Connect%20your%20other%20computer%20to%20the%20developer%20kit's%20Micro-USB%20port.&text=Allow%201%20minute%20for%20the%20developer%20kit%20to%20boot.
-
+### jetpack version
+```
+sudo apt-cache show nvidia-jetpack
+```
+#### Ref.
+* https://forums.developer.nvidia.com/t/how-to-check-the-jetpack-version/69549/9
+* 
 ### course link
 * https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2/
 * https://ngc.nvidia.com/catalog/containers/nvidia:dli:dli-nano-ai
