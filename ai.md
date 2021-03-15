@@ -19,7 +19,7 @@ dlinano
 ```
 cd /usr/local/cuda/samples/1_Utilities/deviceQuery
 sudo make
-cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+./deviceQuery
 ```
 * https://forums.developer.nvidia.com/t/pytorch-found-no-nvidia-driver-on-your-system-jetson-nano/169477/12
 ### gpio
