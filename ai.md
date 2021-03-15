@@ -10,9 +10,10 @@
 ```
 sudo apt-cache show nvidia-jetpack
 ```
-#### Ref.
 * https://forums.developer.nvidia.com/t/how-to-check-the-jetpack-version/69549/9
-* 
+#### jetpack 5 download
+* https://developer.download.nvidia.com/embedded/L4T/r32_Release_v5.1/r32_Release_v5.1/Jeston_Nano_2GB/jetson-nano-2gb-jp451-sd-card-image.zip
+
 ### course link
 * https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2/
 * https://ngc.nvidia.com/catalog/containers/nvidia:dli:dli-nano-ai
