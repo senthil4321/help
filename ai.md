@@ -57,11 +57,10 @@ nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 ### cuda and java
 #### Good Read
 * https://stackoverflow.com/questions/22866901/using-java-with-nvidia-gpus-cuda
-
+---
 ## tensorrt
-> SDK for deep learning inference from Nvidia
-
-> It can run from embedded to data centers 
+> SDK for deep learning inference from Nvidia  
+> It can run from embedded to data centers  
 
 ### Ref.
 
@@ -70,13 +69,12 @@ nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 
 
 ### deep learning traninng and inference
-> Training - process of creating model
-
-> Inference - process of using tranined model to make a prediction
+> Training - process of creating model  
+> Inference - process of using tranined model to make a prediction  
 ## PyTorch
-> PyTorch is an open source machine learning library
-> PyTorch is needed only for transfer learning
-> PyTorch is needed for training the model
+> PyTorch is an open source machine learning library  
+> PyTorch is needed only for transfer learning  
+> PyTorch is needed for training the model  
 ---
 ## jetson nano getting started
 1. Docker container
