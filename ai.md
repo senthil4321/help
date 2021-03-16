@@ -42,9 +42,16 @@ sudo make
 
 ### Jetson Nano commands
 ```
+sudo apt-get update
+sudo apt-get install git cmake libpython3-dev python3-numpy
 git clone --recursive https://github.com/dusty-nv/jetson-inference
 cd jetson-inference
-docker/run.sh
+mkdir build
+cd build
+cmake ../
+make -j$(nproc)
+sudo make install
+sudo ldconfig
 
 cd jetson-inference/tools
 ./download-models.sh
@@ -53,7 +60,7 @@ nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 ---
 ## cuda
 ### cuda c
-*https://smist08.wordpress.com/2019/04/03/playing-with-cuda-on-my-nvidia-jetson-nano/
+* https://smist08.wordpress.com/2019/04/03/playing-with-cuda-on-my-nvidia-jetson-nano/
 ### cuda and java
 #### Good Read
 * https://stackoverflow.com/questions/22866901/using-java-with-nvidia-gpus-cuda
