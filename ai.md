@@ -124,6 +124,10 @@ $ sudo systemctl set-default graphical.target      # enable desktop on boot
 ---
 ## Jetbot
 ### Jetbot getting started
+```
+cd jetbot
+./scripts/configure_jetson.sh
+```
 * https://jetbot.org/v0.4.3/software_setup/docker.html
 ***
 #### cuda deviceQuery output
