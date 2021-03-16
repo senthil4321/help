@@ -17,7 +17,7 @@ sudo apt-cache show nvidia-jetpack
 ### course link
 * https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2/
 * https://ngc.nvidia.com/catalog/containers/nvidia:dli:dli-nano-ai
-* 192.168.55.1:8888
+* http://192.168.0.227:8888
 ```
 sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.5.0
 sudo docker run --runtime nvidia -it --rm --network host --volume ~/nvdli-data:/nvdli-nano/data --device /dev/video0 nvcr.io/nvidia/dli/dli-nano-ai:v2.0.1-r32.4.4
