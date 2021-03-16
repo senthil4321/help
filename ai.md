@@ -50,6 +50,7 @@ cd jetson-inference/tools
 ./download-models.sh
 nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 ```
+---
 ## cuda
 ### cuda c
 *https://smist08.wordpress.com/2019/04/03/playing-with-cuda-on-my-nvidia-jetson-nano/
@@ -57,6 +58,10 @@ nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 #### Good Read
 * https://stackoverflow.com/questions/22866901/using-java-with-nvidia-gpus-cuda
 
+### Terminolog
+1. TensorRT
+
+---
 #### cuda deviceQuery output
 ```
 
