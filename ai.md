@@ -122,6 +122,10 @@ $ sudo systemctl set-default graphical.target      # enable desktop on boot
 * https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#disabling-the-desktop-gui
 
 ---
+## Jetbot
+### Jetbot getting started
+* https://jetbot.org/v0.4.3/software_setup/docker.html
+***
 #### cuda deviceQuery output
 ```
 
