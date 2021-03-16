@@ -58,8 +58,58 @@ nvgstcapture-1.0 --camsrc=0 --cap-dev-node=0
 #### Good Read
 * https://stackoverflow.com/questions/22866901/using-java-with-nvidia-gpus-cuda
 
-### Terminolog
-1. TensorRT
+## tensorrt
+> SDK for deep learning inference from Nvidia
+
+> It can run from embedded to data centers 
+
+### Ref.
+
+* https://developer.nvidia.com/tensorrt
+* https://developer.nvidia.com/blog/speeding-up-deep-learning-inference-using-tensorrt/
+
+
+### deep learning traninng and inference
+> Training - process of creating model
+
+> Inference - process of using tranined model to make a prediction
+## PyTorch
+> PyTorch is an open source machine learning library
+> PyTorch is needed only for transfer learning
+> PyTorch is needed for training the model
+---
+## jetson nano getting started
+1. Docker container
+2. Compiling locally
+
+### 1. Docker setup(Usually slow)
+
+### 2. Compiling locally steps
+#### Model download
+```
+$ cd jetson-inference/tools
+$ ./download-models.sh
+```
+#### Ref.
+* https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md
+
+---
+## Disabling the Desktop GUI
+This will freeup 800MB of RAM. 
+> Stop the desktop
+```
+sudo init 3  
+```
+> Restart the desktop
+```
+sudo init 5
+```
+To persist the setting
+```
+$ sudo systemctl set-default multi-user.target     # disable desktop on boot
+$ sudo systemctl set-default graphical.target      # enable desktop on boot
+```
+* https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#disabling-the-desktop-gui
 
 ---
 #### cuda deviceQuery output
