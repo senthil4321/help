@@ -34,3 +34,5 @@ Ctrl + window key + left/right arrow
 prompt #
 ### To go back to normal working mode
 prompt $g
+## Linux Autokey
+> With Autokey it is possilble to assing macros to Keyboard keys
