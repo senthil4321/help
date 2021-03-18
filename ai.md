@@ -132,6 +132,9 @@ cd jetbot
 ```
 * https://jetbot.org/v0.4.3/software_setup/docker.html
 ***
+## Tensor flow lite
+* https://github.com/bsatrom/Particle_TensorFlowLite
+***
 #### cuda deviceQuery output
 ```
 
