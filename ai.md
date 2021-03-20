@@ -130,6 +130,12 @@ $ sudo systemctl set-default graphical.target      # enable desktop on boot
 * https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#disabling-the-desktop-gui
 
 ---
+### Switch On Off FAN
+Command|Description|
+---|---|
+echo 255 > /sys/devices/pwm-fan/target_pwm|ON Full Speed|
+echo 0 > /sys/devices/pwm-fan/target_pwm|OFF|
+echo 125 > /sys/devices/pwm-fan/target_pwm|Medium Speed|
 ## Jetbot
 ### Jetbot getting started
 ```
@@ -188,3 +194,4 @@ deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 10.2, CUDA Runtime Vers
 Result = PASS
 
 ```
+
