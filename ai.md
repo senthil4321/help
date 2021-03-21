@@ -1,7 +1,9 @@
 # ai
 ## Jetson 
 ### gpu statistics
+[Heading IDs](#cuda)
 ```
+
 tegrastats
 ```
 
@@ -147,7 +149,7 @@ cd jetbot
 ## Tensor flow lite
 * https://github.com/bsatrom/Particle_TensorFlowLite
 ***
-#### cuda deviceQuery output
+#### cuda deviceQuery output {#cuda}
 ```
 
  CUDA Device Query (Runtime API) version (CUDART static linking)
