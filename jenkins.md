@@ -142,7 +142,7 @@ node ('My Node') {
 }
 ```
 ## String concatenation
-'''
+```
 def str = "SRK"
 println "Full String ${str} " + str ;
-'''
+```
