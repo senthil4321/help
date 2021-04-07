@@ -146,3 +146,9 @@ node ('My Node') {
 def str = "SRK"
 println "Full String ${str} " + str ;
 ```
+## new workspace creation issue
+> ws automatically amend the prefix "@NUMBER" when the workspace to be used was already occupied by other build job.
+```
+dir just move current working directory to exactly where you designate
+```
+## 2 times scm checkout issue
