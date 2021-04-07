@@ -152,3 +152,9 @@ println "Full String ${str} " + str ;
 dir just move current working directory to exactly where you designate
 ```
 ## 2 times scm checkout issue
+
+### custom workspace
+#### Ref.
+* https://stackoverflow.com/questions/44259039/how-to-re-use-previously-created-workspace-across-stages
+* https://stackoverflow.com/questions/36934028/get-absolute-path-to-workspace-directory-in-jenkins-pipeline-plugin
+* https://stackoverflow.com/questions/54698645/how-to-prevent-jenkins-parallel-stages-in-pipeline-to-create-a-new-workspace
