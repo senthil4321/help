@@ -96,6 +96,9 @@ highlight{pattern}{style}
 ## Appender
 * https://logging.apache.org/log4j/2.x/manual/appenders.html#ConsoleAppender
 
+## Additivity - TODO Good
+* https://logging.apache.org/log4j/2.x/manual/configuration.html
+
 ## Sample
 ### Config1
 ```xml
