@@ -179,7 +179,7 @@ Byte.toUnsignedInt(b) Java8
 ```
 ### wait for condition
 * https://github.com/jhalterman/failsafe
-
+* https://stackoverflow.com/questions/25325442/wait-x-seconds-or-until-a-condition-becomes-true
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
