@@ -128,3 +128,5 @@ highlight{pattern}{style}
 	</Loggers>
 </Configuration>
 ```
+### LAP
+> Logger, Appender and Pattern Layout
