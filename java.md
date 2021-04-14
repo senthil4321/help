@@ -177,6 +177,9 @@ Grop
 String.format("%02x ",b)
 Byte.toUnsignedInt(b) Java8
 ```
+### wait for condition
+* https://github.com/jhalterman/failsafe
+
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
