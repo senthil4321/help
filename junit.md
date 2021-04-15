@@ -31,3 +31,5 @@ assertThat(frodo.age).isEqualTo(33);
 Grafana, influxdb and junit
 ```
 ```
+### repeat failed test
+* https://github.com/artsok/rerunner-jupiter
