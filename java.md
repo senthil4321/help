@@ -180,6 +180,11 @@ Byte.toUnsignedInt(b) Java8
 ### wait for condition
 * https://github.com/jhalterman/failsafe
 * https://stackoverflow.com/questions/25325442/wait-x-seconds-or-until-a-condition-becomes-true
+* https://www.javadoc.io/doc/org.awaitility/awaitility/latest/org/awaitility/Durations.html
+* https://github.com/awaitility/awaitility/wiki/Usage#simple
+```java
+
+```
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
