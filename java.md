@@ -186,5 +186,15 @@ Byte.toUnsignedInt(b) Java8
 
 ```
 ---
+### String format
+```java
+MessageFormat.format("Some {0}, {1}, {2}", var1, var2, var3);
+```
+---
+### String regex escape
+```
+Regex escape \Q and \E Usage in string "\\Q \\E
+```
+---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
