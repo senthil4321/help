@@ -26,6 +26,7 @@ Ctrl + T
 ctrl + . next error
 ctrl + , previous error
 ctrl + 1 solution suggesion
+ctrl + f7
 ```
 
 ## How to generate test class and test method from eclipse wizard
