@@ -195,6 +195,11 @@ MessageFormat.format("Some {0}, {1}, {2}", var1, var2, var3);
 ```
 Regex escape \Q and \E Usage in string "\\Q \\E
 ```
+### Exception Handling
+> Question to ask?
+1. Handle exception if the program can continue with error. 
+#### Ref.
+* https://www.baeldung.com/java-exceptions
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
