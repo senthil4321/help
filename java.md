@@ -200,6 +200,7 @@ Regex escape \Q and \E Usage in string "\\Q \\E
 1. Handle exception if the program can continue with error. 
 #### Ref.
 * https://www.baeldung.com/java-exceptions
+* https://dzone.com/articles/9-best-practices-to-handle-exceptions-in-java
 ---
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
