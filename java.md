@@ -198,6 +198,8 @@ Regex escape \Q and \E Usage in string "\\Q \\E
 ### Exception Handling
 > Question to ask?
 1. Handle exception if the program can continue with error. 
+1.1 Program failing because of missing log config is nok.
+1.2 File Parser Program failing because of missing input is ok.
 #### Ref.
 * https://www.baeldung.com/java-exceptions
 * https://dzone.com/articles/9-best-practices-to-handle-exceptions-in-java
