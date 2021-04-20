@@ -204,5 +204,7 @@ Regex escape \Q and \E Usage in string "\\Q \\E
 * https://www.baeldung.com/java-exceptions
 * https://dzone.com/articles/9-best-practices-to-handle-exceptions-in-java
 ---
+## code quality
+* https://rhamedy.medium.com/a-short-summary-of-java-coding-best-practices-31283d0167d3
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
