@@ -168,3 +168,10 @@ param.data1=2
 ```jenkins
 Todo
 ```
+### plugin
+```
+addShortText(text, color, background, border, borderColor) - puts a badge with a short text, using the specified format.  For Colors supported, Google "html color names".
+
+```
+* https://www.w3schools.com/colors/color_tryit.asp?color=CornflowerBlue
+* https://plugins.jenkins.io/groovy-postbuild/
