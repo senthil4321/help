@@ -162,6 +162,7 @@ dir just move current working directory to exactly where you designate
 ```groovy
 env.data2= 3
 param.data1=2
+Hsm
 
 ```
 ### scm checkout
@@ -175,3 +176,4 @@ addShortText(text, color, background, border, borderColor) - puts a badge with a
 ```
 * https://www.w3schools.com/colors/color_tryit.asp?color=CornflowerBlue
 * https://plugins.jenkins.io/groovy-postbuild/
+
