@@ -73,3 +73,4 @@ Esc to stop the canoe
 ## uds
 ### Ref.
 * https://automotive.wiki/index.php/ISO_14229
+* https://automotive.softing.com/fileadmin/sof-files/pdf/de/ae/poster/UDS_Faltposter_softing2016.pdf
