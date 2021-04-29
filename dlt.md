@@ -39,6 +39,8 @@ Program to send dlt logs from stdin.
 ### non verbose
 * https://github.com/GENIVI/dlt-viewer/blob/master/plugin/nonverboseplugin/nonverboseplugin.cpp
 ***
+### dlt injection help
+> Some system provides help with all available injection with id 6000
 ### trace
 > Trace is used for instrumentation ie. code coverage etc
 ### Log Analysis
