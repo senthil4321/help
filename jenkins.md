@@ -177,3 +177,9 @@ addShortText(text, color, background, border, borderColor) - puts a badge with a
 * https://www.w3schools.com/colors/color_tryit.asp?color=CornflowerBlue
 * https://plugins.jenkins.io/groovy-postbuild/
 
+### exception handling
+```groovy
+catch (NoSuchMethodError | java.nio.file.NoSuchFileException e) {
+    println("Exception occurred: " + e.toString())  
+  }
+```
