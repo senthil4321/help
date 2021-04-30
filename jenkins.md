@@ -183,3 +183,4 @@ catch (NoSuchMethodError | java.nio.file.NoSuchFileException e) {
     println("Exception occurred: " + e.toString())  
   }
 ```
+* https://stackoverflow.com/questions/58445522/jenkinsfile-why-java-lang-nosuchmethoderror-no-such-dsl-method-is-not-caught
