@@ -184,3 +184,6 @@ catch (NoSuchMethodError | java.nio.file.NoSuchFileException e) {
   }
 ```
 * https://stackoverflow.com/questions/58445522/jenkinsfile-why-java-lang-nosuchmethoderror-no-such-dsl-method-is-not-caught
+### loading script file
+
+* https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it
