@@ -33,3 +33,6 @@ Grafana, influxdb and junit
 ```
 ### repeat failed test
 * https://github.com/artsok/rerunner-jupiter
+
+### Method Order
+* https://stackoverflow.com/questions/54947645/junits-testmethodorder-annotation-not-working
