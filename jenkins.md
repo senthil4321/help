@@ -224,7 +224,11 @@ catch (NoSuchMethodError | java.nio.file.NoSuchFileException e) {
 
 * https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it
 
+
+### Sample pipeline script
+* https://gist.github.com/merikan/228cdb1893fca91f0663bab7b095757c
 ### Lessons learned
 1. It requires two checkouts for loading data from file using groovy script. Example loading data for parameter list. This is because load parameter script gets executed before scm checkout.First checkout downloads the new files and second check out loads data from file for next run.
 1. when block - All condition should be true for the stage to get executed
 1. Take care of new workspace when using node block in calling functions. One node declaration per call seems to work good. 
+1. 'when' string hadling read documentation. 'false' and '0' are considered as true
