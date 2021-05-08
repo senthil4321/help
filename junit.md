@@ -34,5 +34,10 @@ Grafana, influxdb and junit
 ### repeat failed test
 * https://github.com/artsok/rerunner-jupiter
 
+### Why not to use test inheritance and use extension
+* https://medium.com/decisionbrain/factor-test-code-the-junit-5-way-that-is-without-inheritance-9ba2784d34
+
 ### Method Order
 * https://stackoverflow.com/questions/54947645/junits-testmethodorder-annotation-not-working
+### lessons learned
+1. Method Order works after adding class level order annotation
