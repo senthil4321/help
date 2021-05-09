@@ -225,9 +225,9 @@ catch (NoSuchMethodError | java.nio.file.NoSuchFileException e) {
 * https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it
 ### bat 
 Using '@' before bat command prevents command echo. 
-'''
+```
 @dir
-'''
+```
 
 ### Sample pipeline script
 * https://gist.github.com/merikan/228cdb1893fca91f0663bab7b095757c
