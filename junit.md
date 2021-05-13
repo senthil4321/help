@@ -42,3 +42,13 @@ Grafana, influxdb and junit
 * https://stackoverflow.com/questions/54947645/junits-testmethodorder-annotation-not-working
 ### lessons learned
 1. Method Order works after adding class level order annotation
+
+### Parallel run
+Parallel test run is enabled by an entry in test configuration file.
+```
+```
+* 
+### dynamic test
+```
+```
+* 
