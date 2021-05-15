@@ -215,3 +215,7 @@ grep -rnw '/path/to/somewhere/' -e 'pattern'
 ### overlay fs
 ```
 ```
+### xxd
+Display binary in hex Format
+```
+```
