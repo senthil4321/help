@@ -55,3 +55,5 @@ Parallel test run is enabled by an entry in test configuration file.
 ### Parameterised test
 ```
 ```
+### Extension
+It is possible to use extension in another extension
