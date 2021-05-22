@@ -14,8 +14,10 @@ plink root@192.168.0.5 -2 -ssh ls /data/ -pw xxxx
 ```
 #### Diff between scp and sftp
 > Jenkins scp plugin uses sftp. This might not be supported in all embedded targets.
-### diable prompt
-* https://stackoverflow.com/questions/7638741/automatically-accept-rsa-fingerprint-using-pscp
+
+### diable prompt ( works with windows)
 ```bat
 echo y | pscp ""
 ```
+* https://stackoverflow.com/questions/7638741/automatically-accept-rsa-fingerprint-using-pscp
+
