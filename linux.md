@@ -224,3 +224,6 @@ Display binary in hex Format
 mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,workdir=/mnt/mmc/wordir /usr/bin
 ```
 * https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
+### running cmd one after another
+* https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
+* https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
