@@ -219,3 +219,8 @@ grep -rnw '/path/to/somewhere/' -e 'pattern'
 Display binary in hex Format
 ```
 ```
+### overlay fs
+```bash
+mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,workdir=/mnt/mmc/wordir /usr/bin
+```
+* https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
