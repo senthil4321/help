@@ -234,3 +234,7 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 ### string handling
 
 * https://www.delftstack.com/howto/linux/how-to-concatenate-strings-using-bash/#:~:text=String%20concatenation%20is%20one%20of,them%20using%20the%20%2B%3D%20operator.
+
+### [@]
+
+* https://stackoverflow.com/questions/64672694/what-does-mean-in-bash
