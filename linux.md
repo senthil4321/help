@@ -227,5 +227,10 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 ### running cmd one after another
 * https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
 * https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
+
 ### guidelines
 * https://google.github.io/styleguide/shellguide.html
+
+### string handling
+
+* https://www.delftstack.com/howto/linux/how-to-concatenate-strings-using-bash/#:~:text=String%20concatenation%20is%20one%20of,them%20using%20the%20%2B%3D%20operator.
