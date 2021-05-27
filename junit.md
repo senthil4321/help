@@ -57,3 +57,9 @@ Parallel test run is enabled by an entry in test configuration file.
 ```
 ### Extension
 It is possible to use extension in another extension
+
+### conditionally skip test
+Best option to use extension
+
+* https://javabydeveloper.com/junit-5-conditional-test-execution-with-examples/
+* https://stackoverflow.com/questions/60689337/conditionally-skip-a-junit-5-test
