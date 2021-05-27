@@ -225,7 +225,7 @@ catch (NoSuchMethodError | java.nio.file.NoSuchFileException e) {
 * https://stackoverflow.com/questions/37800195/how-do-you-load-a-groovy-file-and-execute-it
 ### bat 
 Using '@' before bat command prevents command echo. 
-```
+```* https://stackoverflow.com/questions/35043665/change-windows-shell-in-jenkins-from-cygwin-to-git-bash-msys
 @dir
 ```
 
@@ -236,3 +236,6 @@ Using '@' before bat command prevents command echo.
 1. when block - All condition should be true for the stage to get executed
 1. Take care of new workspace when using node block in calling functions. One node declaration per call seems to work good. 
 1. 'when' string hadling read documentation. 'false' and '0' are considered as true
+
+### git bash Jenkins
+* https://stackoverflow.com/questions/35043665/change-windows-shell-in-jenkins-from-cygwin-to-git-bash-msys
