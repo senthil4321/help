@@ -15,10 +15,17 @@ od -x
 ```
 #### Ref.
 [Manpage](https://man7.org/linux/man-pages/man1/od.1.html)
+
+---
 ### awk
-####
+### Variable and string
+#### when we-need-curly-braces-around-shell-variables
 #### Ref.
 1. https://stackoverflow.com/questions/8748831/when-do-we-need-curly-braces-around-shell-variables
+#### Parameter Expansion
+* https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+
+---
 ### curl
 > curl is also available in windows
 
