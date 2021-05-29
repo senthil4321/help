@@ -240,3 +240,6 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 * https://linuxconfig.org/bash-scripting-tutorial
 * https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash
 
+### bash glob
+Similar to regex but not regex
+* https://mywiki.wooledge.org/glob
