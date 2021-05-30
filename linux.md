@@ -24,6 +24,7 @@ od -x
 1. https://stackoverflow.com/questions/8748831/when-do-we-need-curly-braces-around-shell-variables
 #### Parameter Expansion
 * https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+* https://wiki.bash-hackers.org/syntax/pe
 ### variable parameter
 A parameter is an entity that stores values
 
