@@ -27,7 +27,8 @@ od -x
 * https://wiki.bash-hackers.org/syntax/pe
 ### variable parameter
 A parameter is an entity that stores values
-
+### globbing file expansion
+* https://tldp.org/LDP/abs/html/globbingref.html
 ---
 ### curl
 > curl is also available in windows
