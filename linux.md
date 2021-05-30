@@ -31,6 +31,9 @@ A parameter is an entity that stores values
 Bash does carry out filename expansion [1] -- a process known as globbing -- but this does not use the standard RE set. Instead, globbing recognizes and expands wild cards. Globbing interprets the standard wild card characters [2] -- * and ?, character lists in square brackets, and certain other special characters (such as ^ for negating the sense of a match).
 * https://tldp.org/LDP/abs/html/globbingref.html
 ---
+### shell redirection
+* https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators
+---
 ### curl
 > curl is also available in windows
 
