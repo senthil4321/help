@@ -267,6 +267,8 @@ Similar to regex but not regex
 ### tutorial
 * https://devhints.io/bash
 ### Regex operation =~
-```
+```bash
 =~
 ```
+### string compare regex
+* https://stackoverflow.com/questions/229551/how-to-check-if-a-string-contains-a-substring-in-bash
