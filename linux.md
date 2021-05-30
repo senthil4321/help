@@ -272,3 +272,8 @@ Similar to regex but not regex
 ```
 ### string compare regex
 * https://stackoverflow.com/questions/229551/how-to-check-if-a-string-contains-a-substring-in-bash
+## switch case
+### double semicolon
+Its part of case syntax
+
+* https://www.linuxquestions.org/questions/linux-newbie-8/bash-scripting-options-double-semicolon-4175600617/
