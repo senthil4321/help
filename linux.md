@@ -260,3 +260,6 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 ### bash glob
 Similar to regex but not regex
 * https://mywiki.wooledge.org/glob
+
+### tutorial
+* https://devhints.io/bash
