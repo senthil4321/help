@@ -277,3 +277,5 @@ Similar to regex but not regex
 Its part of case syntax
 
 * https://www.linuxquestions.org/questions/linux-newbie-8/bash-scripting-options-double-semicolon-4175600617/
+### option and parameter
+* https://www.google.com/amp/s/likegeeks.com/linux-bash-scripting-awesome-guide-part3/amp/
