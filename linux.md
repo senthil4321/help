@@ -266,3 +266,7 @@ Similar to regex but not regex
 * https://unix.stackexchange.com/questions/306111/what-is-the-difference-between-the-bash-operators-vs-vs-vs#:~:text=double%20brackets%20are%20an%20alternate,f%20%22%24file%22%20%5D%20.
 ### tutorial
 * https://devhints.io/bash
+### Regex operation =~
+```
+=~
+```
