@@ -285,3 +285,7 @@ Stream Editor
 ```bash
 echo test| sed 's\test\one\g'
 ```
+```bash
+x=$(xxd -l 16 -p /dev/random)
+echo 990001${x}
+```
