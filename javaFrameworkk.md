@@ -1,3 +1,3 @@
 #
 ## Web Jetty Jersey
-* https//zetcode.com/articles/jerseyembeddedjetty/
+* https://zetcode.com/articles/jerseyembeddedjetty/
