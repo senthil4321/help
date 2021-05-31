@@ -279,7 +279,19 @@ Its part of case syntax
 * https://www.linuxquestions.org/questions/linux-newbie-8/bash-scripting-options-double-semicolon-4175600617/
 ### option and parameter
 * https://www.google.com/amp/s/likegeeks.com/linux-bash-scripting-awesome-guide-part3/amp/
+---
+### substring remove
+```bash
+srk="This is an example text. This is an example text."
+#From begining
+echo "${srk#This}"
+echo "${srk##This}"
+#From end
 
+```
+#### Ref.
+* https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion
+---
 ### sed
 Stream Editor
 ```bash
