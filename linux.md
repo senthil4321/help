@@ -286,7 +286,14 @@ srk="This is an example text. This is an example text."
 #From begining
 echo "${srk#This}"
 echo "${srk##This}"
+
+x=demo.txt
+echo ${x#*.}
+txt
 #From end
+x=demo.txt
+echo ${x%.*}
+demo
 
 ```
 #### Ref.
