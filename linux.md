@@ -10,7 +10,7 @@
 >> With no FILE, or when FILE is -, read standard input
 
 >> RADIX is d for decimal, o for octal, x for hexadecimal or n for none
-```
+```bash
 od -x 
 ```
 #### Ref.
@@ -51,10 +51,8 @@ Use
 ***
 ### passing password to scp ssh
 > Switch to key based authentication
-```
+```bash
 sshpass -p "password" scp -r user@example
-
-
 sudo apt-get install sshpass
 sshpass -p password ssh user@hostname
 ```
@@ -163,7 +161,7 @@ exec 1> >(logger -s -t $(basename $0)) 2>&1
 1. https://serverfault.com/questions/341919/how-to-find-error-messages-from-linux-init-d-rc-d-scripts
 ***
 ### ifconfig
-'''
+'''bash
 ifconfig eth0
 '''
 ### CAN Tools
@@ -175,7 +173,7 @@ sudo apt install can-utils
 1. https://elinux.org/Bringing_CAN_interface_up
 
 ### install libc6
-```
+```bash
 apt-get upgrade libc6
 ```
 #### Ref.
@@ -224,12 +222,12 @@ grep -nwr 'path' -e 'test'
 ### Ref.
 * https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
 ## search
-```
+```bash
 grep -rnw '/path/to/somewhere/' -e 'pattern'
 ```
 ### xxd
 Display binary in hex Format
-```
+```bash
 xxd -i 
 ```
 ### overlay fs
@@ -237,6 +235,7 @@ xxd -i
 mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,workdir=/mnt/mmc/wordir /usr/bin
 ```
 * https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
+
 ### running cmd one after another
 * https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
 * https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
@@ -245,7 +244,6 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 * https://google.github.io/styleguide/shellguide.html
 
 ### string handling
-
 * https://www.delftstack.com/howto/linux/how-to-concatenate-strings-using-bash/#:~:text=String%20concatenation%20is%20one%20of,them%20using%20the%20%2B%3D%20operator.
 
 ### array [@]
@@ -254,7 +252,7 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 ### bash script
 * https://linuxconfig.org/bash-scripting-tutorial
 
-#### todo
+#### Difference between double and single quotes
 * https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash
 * https://stackoverflow.com/questions/10067266/when-to-wrap-quotes-around-a-shell-variable/42104627#42104627
 ### bash glob
