@@ -165,7 +165,7 @@ exec 1> >(logger -s -t $(basename $0)) 2>&1
 ifconfig eth0
 '''
 ### CAN Tools
-```
+```bash
 sudo apt install can-utils
 
 ```
@@ -178,6 +178,7 @@ apt-get upgrade libc6
 ```
 #### Ref.
 * https://github.com/processone/ejabberd/issues/2650
+***
 ## dm verity
 ### Preparing block device
 ```bash
@@ -202,6 +203,7 @@ sudo veritysetup --debug verify /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec2
 * https://source.android.com/security/verifiedboot/dm-verity#mapping-table
 * https://man7.org/linux/man-pages/man8/veritysetup.8.html
 * https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device
+---
 ## bash script- give input to program linux 
 ```bash
 (
@@ -230,12 +232,13 @@ Display binary in hex Format
 ```bash
 xxd -i 
 ```
+---
 ### overlay fs
 ```bash
 mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,workdir=/mnt/mmc/wordir /usr/bin
 ```
 * https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
-
+---
 ### running cmd one after another
 * https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
 * https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
