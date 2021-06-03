@@ -167,7 +167,6 @@ ifconfig eth0
 ### CAN Tools
 ```bash
 sudo apt install can-utils
-
 ```
 #### Ref.
 1. https://elinux.org/Bringing_CAN_interface_up
@@ -211,6 +210,7 @@ echo
 echo
 ) | ls
 ```
+---
 ## Secure boot
 * https://elinux.org/images/e/e0/Josserand-schulz-secure-boot.pdf
 ## coredump
@@ -262,7 +262,7 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 Similar to regex but not regex
 * https://mywiki.wooledge.org/glob
 
-
+---
 ### Bracket if condition
 * https://unix.stackexchange.com/questions/306111/what-is-the-difference-between-the-bash-operators-vs-vs-vs#:~:text=double%20brackets%20are%20an%20alternate,f%20%22%24file%22%20%5D%20.
 ### tutorial
@@ -295,7 +295,6 @@ txt
 x=demo.txt
 echo ${x%.*}
 demo
-
 ```
 #### Ref.
 * https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion
