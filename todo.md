@@ -19,7 +19,6 @@ log4j appenderstream processing
 1. [Code highlight Supported Language](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/)
 1. https://daringfireball.net/projects/markdown/syntax#link
 
-
 ## Monitoring
 1. https://devconnected.com/monitoring-linux-processes-using-prometheus-and-grafana/
 
