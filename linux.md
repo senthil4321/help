@@ -218,9 +218,9 @@ echo
 ## ipk
 * https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
 ## search for text in files
-'''bash
-grep -nwr 'path' -e 'test' 
-'''
+```bash
+grep -nwr 'path to folder' -e 'text to search' 
+```
 ### Ref.
 * https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
 ## search
