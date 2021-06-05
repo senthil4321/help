@@ -24,3 +24,8 @@ public class HelloWorldResource {
 ```
 * https://stackoverflow.com/questions/36186102/initialize-singleton-in-java-jersey-2-jax-rs/36186475
 * https://www.logicbig.com/tutorials/java-ee-tutorial/jax-rs/resource-lifecycle.html
+* 
+## Jersey
+## Jersey client and server
+### Jersey + http esrver
+* https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/deployment.html#deployment.javase
