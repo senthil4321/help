@@ -31,3 +31,4 @@ public class HelloWorldResource {
 * https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/deployment.html#deployment.javase
 ## Eclipse plugin
 * https://riptutorial.com/eclipse-plugin/example/25547/hello-world
+* https://stackoverflow.com/questions/1619623/eclipse-plugin-how-to-get-current-text-editor-cursor-position
