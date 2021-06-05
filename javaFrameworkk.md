@@ -29,3 +29,5 @@ public class HelloWorldResource {
 ## Jersey client and server
 ### Jersey + http esrver
 * https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/deployment.html#deployment.javase
+## Eclipse plugin
+* https://riptutorial.com/eclipse-plugin/example/25547/hello-world
