@@ -32,3 +32,4 @@ public class HelloWorldResource {
 ## Eclipse plugin
 * https://riptutorial.com/eclipse-plugin/example/25547/hello-world
 * https://stackoverflow.com/questions/1619623/eclipse-plugin-how-to-get-current-text-editor-cursor-position
+* https://wiki.eclipse.org/FAQ_How_do_I_insert_text_in_the_active_text_editor%3F
