@@ -51,3 +51,9 @@ git log --pretty=oneline
 ```
 ### Ref.
 * https://git-scm.com/book/en/v2/Git-Basics-Tagging
+## git ignore
+To exclude all the files with .settings in the project
+```git
+*.settings
+*.project
+```
