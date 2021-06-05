@@ -68,14 +68,14 @@ Contains message from device driver
 1. https://stackoverflow.com/questions/7172784/how-do-i-post-json-data-with-curl
 1. https://stackoverflow.com/questions/12583930/use-pipe-for-curl-data
 ## remount read write
-```
+```bash
 sudo fdisk -l
 sudo mount -o remount,rw /dev/sdc1
 ```
 ---
 ## top
 > Program to get cpu and memory usage
-```
+```bash
 top 
 ```
 ---
