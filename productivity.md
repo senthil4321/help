@@ -39,6 +39,6 @@ prompt $g
 ---
 ## Android
 Android keyboard for editing md file
-* 
+
 ---
 
