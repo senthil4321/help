@@ -99,6 +99,8 @@ https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 #### Terminal plugin
 #### Copypath
 #### Jenkins file viewer
+#### anyedit
+* https://marketplace.eclipse.org/content/anyedit-tools
 ---
 ### Productivity
 
