@@ -298,6 +298,20 @@ demo
 ```
 #### Ref.
 * https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion
+### Paramter search and replace
+```bash
+srk="This is an example text. The time is 10am."
+echo ${srk//[0-9]/1}
+#This is an example text. The time is 11am.
+
+srk="This is an example text. {()The time is 10am.}"
+echo ${srk//[[:punct:]]/1}
+#This is an example text1 111The time is 10am11
+
+```
+#### Ref.
+* https://wiki.bash-hackers.org/syntax/pattern
+* https://www.regular-expressions.info/posixbrackets.html
 ---
 ### sed
 Stream Editor
