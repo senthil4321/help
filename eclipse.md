@@ -19,7 +19,7 @@ Alt + y - Open method definition like F3
 ```
 ### Open Interface implementation view
 ```
-Ctrl + T 
+ctrl + t
 ```
 ### goto error
 ```
