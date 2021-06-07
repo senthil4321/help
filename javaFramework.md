@@ -27,10 +27,16 @@ public class HelloWorldResource {
 * 
 ## Jersey
 ## Jersey client and server
-### Jersey + http esrver
+### Jersey + http server
 * https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest3x/deployment.html#deployment.javase
+---
 ## Eclipse plugin
+1. Plugin - Single feature
+2. Feature - Group of plugins
+3. site Place to host the feature or plugin
+
 * https://riptutorial.com/eclipse-plugin/example/25547/hello-world
 * https://stackoverflow.com/questions/1619623/eclipse-plugin-how-to-get-current-text-editor-cursor-position
 * https://wiki.eclipse.org/FAQ_How_do_I_insert_text_in_the_active_text_editor%3F
 * https://www.eclipse.org/articles/viewArticle/ViewArticle2.html
+---
