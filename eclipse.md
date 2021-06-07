@@ -1,21 +1,21 @@
 # Usefule Eclipse shortcut
 ## TODO
-1. How to run one testcase in eclipse junut?
-## Maximise eclipse view
+1. How to run one testcase in eclipse junit?
+---
+## Eclipse shortcut
+### Maximise eclipse view
 ```
 ctrl+M
 ```
-## 
-## Static import eclipse java
+### Static import eclipse java
 ```
 ctrl+shift+M
 ```
-## Eclipse goto Implentation
-### Custom shortcut
+### Eclipse goto Implentation
+#### Custom shortcut
 ```
 ALt + x - to open implementation
 Alt + y - Open method definition like F3
-
 ```
 ### Open Interface implementation view
 ```
@@ -28,7 +28,7 @@ ctrl + , previous error
 ctrl + 1 solution suggesion
 ctrl + f7
 ```
-
+---
 ## How to generate test class and test method from eclipse wizard
 
 New&nbsp;>&nbsp;JUnit Test Case&nbsp;>&nbsp;Class under test&nbsp; > &nbsp; Available methods
@@ -176,6 +176,7 @@ Use the below option to download the source
 So far there is no easy wasy to download and attach eclipse plugin source automatically.
 Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
 
+---
 ### Not Useful
 #### ~~~ AI based code completion - does not work ~~~
  ~~~ https://marketplace.eclipse.org/content/codota ~~~
