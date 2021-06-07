@@ -9,7 +9,7 @@ ctrl+M
 ```
 ### Static import eclipse java
 ```
-ctrl+shift+M
+control shift m
 ```
 ### Eclipse goto Implentation
 #### Custom shortcut
