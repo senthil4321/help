@@ -102,23 +102,19 @@ https://blog.codota.com/14-free-plugins-for-eclipse-ide/
 #### anyedit
 * https://marketplace.eclipse.org/content/anyedit-tools
 ---
-### Productivity
-
-#### Eclipse Line Copy without select
-
-##### What is it?
+## Productivity
+### Eclipse Line Copy without select
+#### What is it?
 1. Press Ctrl-C to copy or Ctrl-X to cut the whole line in an editor if you select nothing. (It works as usual if you select some text.)
 2. Put the caret on any line on any position.
 3. Press Ctrl-V to paste the line above. (You will not lose the caret position.)
-
-##### Installation
+#### Installation
 Download into your dropins folder and restart Eclipse.
-
- https://github.com/fabioz/copycutcurrentline 
- https://code.google.com/archive/p/copycutcurrentline/
- https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
-
-
+#### Ref
+ * https://github.com/fabioz/copycutcurrentline 
+ * https://code.google.com/archive/p/copycutcurrentline/
+ * https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
+---
 ## Check Style and code formmater
 ### Check Style
 * http://google.github.io/styleguide/javaguide.html
