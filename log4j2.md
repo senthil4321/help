@@ -131,5 +131,13 @@ highlight{pattern}{style}
 	</Loggers>
 </Configuration>
 ```
+## Import and auto import
+
+Organise import and Type filter update to make auto import work for logger
+```java
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+ 
+```
 ### LAP
 > Logger, Appender and Pattern Layout
