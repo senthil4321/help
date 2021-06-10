@@ -1,7 +1,13 @@
 # arduino
 
 Documentation for Arduino hardwae and software components.
-
+## Insert Date time during startup
+```c
+const char compile_date[] = __DATE__ " " __TIME__;
+const char compile_date[] = "Sep 22 2013 01:19:49";
+```
+### Ref.
+* https://forum.arduino.cc/t/arduino-ide-get-current-date-at-compile-time-and-insert-into-sketch/184602/3
 ### auto reset
 * https://electronics.stackexchange.com/questions/351120/auto-reset-an-arduino-using-ftdi-dtr-signal-stays-low-and-needs-to-go-high-aft
 
