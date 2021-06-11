@@ -228,7 +228,16 @@ Using '@' before bat command prevents command echo.
 ```* https://stackoverflow.com/questions/35043665/change-windows-shell-in-jenkins-from-cygwin-to-git-bash-msys
 @dir
 ```
+## passing parameter to downstram job
 
+```groovy
+booleanParam(name: 'SCM_CHECKOUT', value: true)
+//For choice parameter use String
+string(name: 'SRK_CHOICE', value: "Master")
+```
+#### Ref.
+* https://www.jenkins.io/doc/pipeline/steps/pipeline-build-step/#-build-%20build%20a%20job
+* https://stackoverflow.com/questions/37025175/how-to-pass-boolean-parameter-value-in-pipeline-to-downstream-jobs
 ### Sample pipeline script
 * https://gist.github.com/merikan/228cdb1893fca91f0663bab7b095757c
 ### Lessons learned
@@ -236,6 +245,6 @@ Using '@' before bat command prevents command echo.
 1. when block - All condition should be true for the stage to get executed
 1. Take care of new workspace when using node block in calling functions. One node declaration per call seems to work good. 
 1. 'when' string hadling read documentation. 'false' and '0' are considered as true
-
+1. While passing string parameter to downstream job, string parameter value should be one of the item in choice list of downstram job. Passing non choice item results in error.
 ### git bash Jenkins
 * https://stackoverflow.com/questions/35043665/change-windows-shell-in-jenkins-from-cygwin-to-git-bash-msys
