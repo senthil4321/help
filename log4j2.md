@@ -54,7 +54,9 @@ src/main/resources
 1. https://logging.apache.org/log4j/2.x/faq.html
 1. https://logging.apache.org/log4j/2.x/manual/configuration.html
 ## Eclipse run config
-Add class path folder in run config to select log4j xml.
+The name of property file should be `log4j2.property`
+Add class path folder in run config to select `log4j2.xml`.
+
 ### Ref.
 * https://stackoverflow.com/questions/5081316/where-is-the-correct-location-to-put-log4j-properties-in-an-eclipse-project
 ---
