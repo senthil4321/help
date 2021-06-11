@@ -1,7 +1,6 @@
 # Help file for log4j2 configuration
 ## Available Options
-
-> Log4j, Logback, and Log4j2
+~ Log4j, Logback, and ~ Log4j2
 ## Selected 
 Log4j2
 #### Log4j2
