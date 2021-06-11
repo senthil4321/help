@@ -1,6 +1,6 @@
 # Help file for log4j2 configuration
 ## Available Options
-~ Log4j, Logback, and ~ Log4j2
+> Log4j, Logback, and  Log4j2 ❤️
 ## Selected 
 Log4j2
 #### Log4j2
@@ -142,3 +142,6 @@ import org.apache.logging.log4j.LogManager;
 ```
 ### LAP
 > Logger, Appender and Pattern Layout
+---
+## lessons learned
+* Define logger in base class and derrived class separately. This prevent confusion  in log location.
