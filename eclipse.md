@@ -5,7 +5,7 @@
 ## Eclipse shortcut
 ### Maximise eclipse view
 ```
-ctrl+M
+ctrl + m
 ```
 ### Static import eclipse java
 ```
@@ -14,8 +14,8 @@ control shift m
 ### Eclipse goto Implentation
 #### Custom shortcut
 ```
-ALt + x - to open implementation
-Alt + y - Open method definition like F3
+alt + x - to open implementation
+alt + y - Open method definition like F3
 ```
 ### Open Interface implementation view
 ```
@@ -35,29 +35,27 @@ New&nbsp;>&nbsp;JUnit Test Case&nbsp;>&nbsp;Class under test&nbsp; > &nbsp; Avai
 
 ## edit shortcut
 ```
-alt+UP/DOWN move line
-alt+ctrl+DOWN. Copy lines.
-shift+↵ Insert line below current line.
-alt+ctrl+UP. Duplicate lines.
-ctrl+DEL. Delete next word.
-shift+ctrl+DEL. Delete to end of line.
-shift+ctrl+↵ Insert line above current line.
-shift+ctrl+X. To upper case.
+alt + UP/DOWN move line
+alt + ctrl + DOWN Copy lines
+shift + Insert Insert line below current line
+alt + ctrl + UP Duplicate lines
+ctrl + DEL Delete next word
+shift + ctrl + DEL Delete to end of line
+shift+ ctrl + Insert line above current line
+shift + ctrl+ X. To upper case.
 ```
 ## quick access commands
 ```
-ctrl+ 3
+ctrl + 3
 ```
-## How to bind Ctrl + Tab in eclipse for navigating between editor windows?
+## How to bind `ctrl + TAB` in eclipse for navigating between editor windows?
 > Bind key and unbind old keys.
 1. https://stackoverflow.com/questions/2332330/eclipse-hotkey-how-to-switch-between-tabs
 --- 
 ## Eclipse plugin
-
 ### Code Quality and Static Code Analysis
 #### code style and formatting
 * https://marketplace.eclipse.org/content/checkstyle-plug
-
 #### fix quality issues as you write code
 * https://marketplace.eclipse.org/content/sonarlint
 * https://marketplace.eclipse.org/content/quick-bookmarks-plugin
@@ -69,8 +67,6 @@ ctrl+ 3
 * https://marketplace.eclipse.org/content/markdown-text-editor
 
 #### TODO PMD plugin 
-
-
 
 #### Other TODO
 https://blog.codota.com/14-free-plugins-for-eclipse-ide/
