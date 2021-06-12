@@ -131,6 +131,8 @@ highlight{pattern}{style}
 		</Root>
 	</Loggers>
 </Configuration>
+### sample config
+* https://howtodoinjava.com/log4j2/log4j2-properties-example/
 ```
 ## Import and auto import
 
