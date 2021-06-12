@@ -115,7 +115,7 @@ Download into your dropins folder and restart Eclipse.
  * https://code.google.com/archive/p/copycutcurrentline/
  * https://github.com/fabioz/copycutcurrentline/blob/master/updatesite/plugins/copycutcurrentline_1.0.1.201505020939.jar
 ---
-## Check Style and code formmater
+## Check Style, Code formatter, Content assistant, Template, Type filter
 ### Check Style
 * http://google.github.io/styleguide/javaguide.html
 * google_checks.xml
@@ -124,17 +124,17 @@ Download into your dropins folder and restart Eclipse.
 ```
 Then enable the formatter for your workspace: Windows > Preferences > Java > Code Style > Formatter. Select formatter: "eclipse-cs [project name]".
 ```
-### formatter
+### Code Formatter
 * https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml
 * https://stackoverflow.com/questions/984778/how-to-generate-an-eclipse-formatter-configuration-from-a-checkstyle-configurati
----
-## content assistant and template
-> In eclipse it is possible to expand code with shortcut.eg. typing `syso` and pressing `ctrl+ space` expands to Sysout.out.println();
-> Similarly it is possible to create custom code expansion. It can be done with code Template section of eclipse preference. 
+
+### Content assistant and Template
+> In eclipse it is possible to expand code with shortcut.eg. typing `syso` and pressing `ctrl + space` expands to `Sysout.out.println();`
+> Similarly it is possible to create custom code expansion. It can be done with code `Template` section of eclipse preference. 
 Also refer Idea
 
-### info expansion for apache log4j
-```java
+#### `info` expansion for apache log4j2
+```java 
 logger.info(${word_selection}${});${cursor}
 ```
 ---
