@@ -137,46 +137,10 @@ sudo netplan --debug apply
 echo 'HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc 
 source ~/.bashrc
 ```
-## Ref.
+#### Ref.
 1. https://unix.stackexchange.com/questions/145250/where-is-bashs-history-stored
 1. https://askubuntu.com/questions/391082/how-to-see-time-stamps-in-bash-history
 
-***
-### command to ignore the HUP (hangup) signal
-```bash
-nohup 
-```
-Ref.
-https://linux.101hacks.com/unix/nohup-command/
-running linux command in background
-https://linuxize.com/post/how-to-run-linux-commands-in-background/
-***
-### logs
-> `journald` has replaced syslog
-#### redirecting startup script logs to syslogs
-```bash
-exec 1> >(logger -s -t $(basename $0)) 2>&1
-```
-1. https://www.urbanautomaton.com/blog/2014/09/09/redirecting-bash-script-output-to-syslog/
-1. https://serverfault.com/questions/341919/how-to-find-error-messages-from-linux-init-d-rc-d-scripts
-***
-### ifconfig
-'''bash
-ifconfig eth0
-'''
-### CAN Tools
-```bash
-sudo apt install can-utils
-```
-#### Ref.
-1. https://elinux.org/Bringing_CAN_interface_up
-
-### install libc6
-```bash
-apt-get upgrade libc6
-```
-#### Ref.
-* https://github.com/processone/ejabberd/issues/2650
 ***
 ## dm verity
 ### Preparing block device
@@ -202,28 +166,37 @@ sudo veritysetup --debug verify /dev/loop18 /dev/loop17 9158af2ae47a9e0029765ec2
 * https://source.android.com/security/verifiedboot/dm-verity#mapping-table
 * https://man7.org/linux/man-pages/man8/veritysetup.8.html
 * https://www.jamescoyle.net/how-to/2096-use-a-file-as-a-linux-block-device
+
+## Secure boot
+* https://elinux.org/images/e/e0/Josserand-schulz-secure-boot.pdf
+## overlay fs
+```bash
+mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,workdir=/mnt/mmc/wordir /usr/bin
+```
+* https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
 ---
-## bash script- give input to program linux 
+
+---
+### coredump
+* https://stackoverflow.com/questions/5115613/core-dump-file-analysis
+### ipk
+* https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
+---
+## Bash Script
+### bash script- give input to program linux 
 ```bash
 (
 echo
 echo
 ) | ls
 ```
----
-## Secure boot
-* https://elinux.org/images/e/e0/Josserand-schulz-secure-boot.pdf
-## coredump
-* https://stackoverflow.com/questions/5115613/core-dump-file-analysis
-## ipk
-* https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
-## search for text in files
+### search for text in files
 ```bash
 grep -nwr 'path to folder' -e 'text to search' 
 ```
-### Ref.
+#### Ref.
 * https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
-## search
+### search
 ```bash
 grep -rnw '/path/to/somewhere/' -e 'pattern'
 ```
@@ -233,15 +206,6 @@ Display binary in hex Format
 xxd -i 
 ```
 ---
-### overlay fs
-```bash
-mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,workdir=/mnt/mmc/wordir /usr/bin
-```
-* https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
----
-### running cmd one after another
-* https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
-* https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
 
 ### guidelines
 * https://google.github.io/styleguide/shellguide.html
@@ -322,3 +286,42 @@ echo test| sed 's\test\one\g'
 x=$(xxd -l 16 -p /dev/random)
 echo 990001${x}
 ```
+### command to ignore the HUP (hangup) signal
+```bash
+nohup 
+```
+#### Ref.
+* https://linux.101hacks.com/unix/nohup-command/
+running linux command in background
+* https://linuxize.com/post/how-to-run-linux-commands-in-background/
+
+### logs
+> `journald` has replaced syslog
+#### redirecting startup script logs to syslogs
+```bash
+exec 1> >(logger -s -t $(basename $0)) 2>&1
+```
+#### Ref.
+1. https://www.urbanautomaton.com/blog/2014/09/09/redirecting-bash-script-output-to-syslog/
+1. https://serverfault.com/questions/341919/how-to-find-error-messages-from-linux-init-d-rc-d-scripts
+
+### ifconfig
+```bash
+ifconfig eth0
+```
+### CAN Tools
+```bash
+sudo apt install can-utils
+```
+#### Ref.
+1. https://elinux.org/Bringing_CAN_interface_up
+
+### install libc6
+```bash
+apt-get upgrade libc6
+```
+#### Ref.
+* https://github.com/processone/ejabberd/issues/2650
+### running cmd one after another
+* https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
+* https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
