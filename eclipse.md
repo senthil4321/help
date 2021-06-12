@@ -171,7 +171,7 @@ Use the below option to download the source
 
 So far there is no easy wasy to download and attach eclipse plugin source automatically.
 Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
-## Manage import ❤️
+## Tips and Tutorial ❤️❤️
 * http://www.eclipseonetips.com/2014/01/14/essential-tools-to-manage-import-statements-in-eclipse/
 ---
 ### Not Useful
