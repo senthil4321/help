@@ -26,7 +26,8 @@ src/main/resources
 * TRACE
 * ALL
 ### Sample config
-```
+log4j2.xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
   <Appenders>
@@ -173,3 +174,18 @@ logger.printf(Level.INFO, "Logging in user %1$s with birthday %2$tm %2$te,%2$tY"
 ---
 ## log4j2 schema mapping
 * https://stackoverflow.com/questions/13904481/in-log4j2-how-do-i-associate-an-xml-schema-with-log4j2-xml
+
+## MVN
+```xml
+		<log4j2.version>2.14.1</log4j2.version>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j2.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j2.version}</version>
+		</dependency>
+```
