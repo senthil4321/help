@@ -164,5 +164,9 @@ public class MyTest {
 logger.debug("Logging in user {} with birthday {}", user.getName(), user.getBirthdayCalendar());
 
 ```
+* formatted logger
+```java
+logger.printf(Level.INFO, "Logging in user %1$s with birthday %2$tm %2$te,%2$tY", user.getName(), user.getBirthdayCalendar());
+```
 ### Tutorial
 * https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
