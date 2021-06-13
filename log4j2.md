@@ -159,8 +159,9 @@ public class MyTest {
 ## lessons learned and best practice
 * Define logger in base class and derrived class separately. This prevent confusion  in log location.
 * https://owasp.org/www-community/vulnerabilities/Poor_Logging_Practice#:~:text=Loggers%20should%20be%20declared%20to,declares%20a%20non-static%20logger.
+* Doing `isDebugEnabled` repeatedly has the effect of making the code feel like it is more about logging than the actual task at hand. In addition, it results in the logging level being checked twice; once on the call to isDebugEnabled and once on the debug method. A better alternative would be:
 ```java
-
+logger.debug("Logging in user {} with birthday {}", user.getName(), user.getBirthdayCalendar());
 
 ```
 ### Tutorial
