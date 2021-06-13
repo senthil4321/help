@@ -152,3 +152,5 @@ import org.apache.logging.log4j.LogManager;
 
 
 ```
+### Tutorial
+* https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
