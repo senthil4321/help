@@ -144,6 +144,13 @@ import org.apache.logging.log4j.LogManager;
 ```
 ### Logger name
 In most cases, applications name their loggers by passing the current class's name to LogManager.getLogger(...). Because this usage is so common, Log4j 2 provides that as the default when the logger name parameter is either omitted or is null. For example, in all examples below the Logger will have a name of "org.apache.test.MyTest".
+```java
+package org.apache.test;
+ 
+public class MyTest {
+    private static final Logger logger = LogManager.getLogger();
+}
+```
 #### Ref.
 * http://logging.apache.org/log4j/2.x/manual/api.html
 ### LAP
