@@ -170,3 +170,6 @@ logger.printf(Level.INFO, "Logging in user %1$s with birthday %2$tm %2$te,%2$tY"
 ```
 ### Tutorial
 * https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
+---
+## log4j2 schema mapping
+* https://stackoverflow.com/questions/13904481/in-log4j2-how-do-i-associate-an-xml-schema-with-log4j2-xml
