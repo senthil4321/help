@@ -173,6 +173,27 @@ logger.printf(Level.INFO, "Logging in user %1$s with birthday %2$tm %2$te,%2$tY"
 * https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
 ---
 ## log4j2 schema mapping
+log4j2.xml
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration strict="true"
+	xmlns="http://logging.apache.org/log4j/2.0/config"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://logging.apache.org/log4j/2.0/config 
+           https://raw.githubusercontent.com/apache/logging-log4j2/master/log4j-core/src/main/resources/Log4j-config.xsd">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="Debug">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>```
+### Ref.
 * https://stackoverflow.com/questions/13904481/in-log4j2-how-do-i-associate-an-xml-schema-with-log4j2-xml
 
 ## MVN
