@@ -248,3 +248,7 @@ string(name: 'SRK_CHOICE', value: "Master")
 1. While passing string parameter to downstream job, string parameter value should be one of the item in choice list of downstram job. Passing non choice item results in error.
 ### git bash Jenkins
 * https://stackoverflow.com/questions/35043665/change-windows-shell-in-jenkins-from-cygwin-to-git-bash-msys
+### Jenkins build every 2 hours
+```
+H H/2 * * *
+```
