@@ -172,6 +172,7 @@ logger.printf(Level.INFO, "Logging in user %1$s with birthday %2$tm %2$te,%2$tY"
 loggging method name
 Log4j2 no need to log the method name. If needed it can  be enabled with the Pattenlayout config.
 
+Avoid using Exception string in methodname
 ### Tutorial
 * https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
 ---
