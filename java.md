@@ -225,6 +225,9 @@ Change Small
 Compile
 Checkin
 Test 
+* Singleton
+Java a singleton with parameters is not a singleton.
+https://stackoverflow.com/questions/1050991/singleton-with-arguments-in-java
 
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
