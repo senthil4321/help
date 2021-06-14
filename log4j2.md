@@ -169,6 +169,9 @@ logger.debug("Logging in user {} with birthday {}", user.getName(), user.getBirt
 ```java
 logger.printf(Level.INFO, "Logging in user %1$s with birthday %2$tm %2$te,%2$tY", user.getName(), user.getBirthdayCalendar());
 ```
+loggging method name
+Log4j2 no need to log the method name. If needed it can  be enabled with the Pattenlayout config.
+
 ### Tutorial
 * https://www.scalyr.com/blog/log4j2-configuration-detailed-guide/
 ---
