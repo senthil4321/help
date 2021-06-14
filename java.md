@@ -206,5 +206,25 @@ Regex escape \Q and \E Usage in string "\\Q \\E
 ---
 ## code quality
 * https://rhamedy.medium.com/a-short-summary-of-java-coding-best-practices-31283d0167d3
+## lessons learned and best practice
+
+```java
+Shell shell ;
+public Commands(Shell shell)
+this.shell  = shell ;// This is a run time bug.
+```
+Fix1. 
+```java
+public Commands(final Shell shell)
+this.shell  = shell ;//IDE Throws error
+```
+Above error is caught early because of
+Benefit of following coding best practice
+
+Change Small 
+Compile
+Checkin
+Test 
+
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
