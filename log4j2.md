@@ -50,9 +50,15 @@ log4j2.xml
  > Use eclipse ANSI plugin in windows
 1. [ANSI Windows](https://stackoverflow.com/questions/28604171/how-to-print-logs-in-color-using-log4j2-highlight-pattern/42554705#42554705)
 1. [ANSI Windows2](https://stackoverflow.com/questions/48472049/how-to-colorize-log4j2-output-on-console-in-intellij)
-## Ref.
+### Ref.
 1. https://logging.apache.org/log4j/2.x/faq.html
 1. https://logging.apache.org/log4j/2.x/manual/configuration.html
+### ansi
+```xml
+<PatternLayout
+pattern="%highlight{%d{dd-MM-yy HH:mm:ss} %-5p %-40.40c{6}: %-15.15M: %m%n }{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=green bold, DEBUG=green bold, TRACE=blue}"
+disableAnsi="false" />
+```
 ## Eclipse run config
 The name of property file should be `log4j2.property`
 Add class path folder in run config to select `log4j2.xml`.
