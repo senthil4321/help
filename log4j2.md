@@ -220,3 +220,5 @@ log4j2.xml
 			<version>${log4j2.version}</version>
 		</dependency>
 ```
+### Property Substitution
+* 
