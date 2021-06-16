@@ -252,3 +252,8 @@ string(name: 'SRK_CHOICE', value: "Master")
 ```
 H H/2 * * *
 ```
+### post always
+Post always section can be added to stage or after all stages
+```groovy
+Todo
+```
