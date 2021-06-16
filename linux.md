@@ -286,6 +286,20 @@ echo test| sed 's\test\one\g'
 x=$(xxd -l 16 -p /dev/random)
 echo 990001${x}
 ```
+```bash
+sed "s/xxxx/yyyy" -i input.txt
+```
+```bash
+sed "s/xxxx/${data}" -i input.txt
+```
+```bash
+sed "s/xxxx/$data" -i input.txt
+```
+Save to output.txt
+```bash
+sed "s/xxxx/yyyy" input.txt > output.txt
+```
+---
 ### command to ignore the HUP (hangup) signal
 ```bash
 nohup 
