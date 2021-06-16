@@ -61,3 +61,5 @@ To exclude all the files with .settings in the project
 ```
 git config --global pull.rebase true
 ```
+### Ref 
+* https://sdqweb.ipd.kit.edu/wiki/Git_pull_--rebase_vs._--merge
