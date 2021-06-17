@@ -262,3 +262,5 @@ Sonar analyser mvn plugin will push the analysis to sonar server.
 ```bash
 mvn sonar:sonar -Dsonar.login=<myAuthenticationToken> -Dsonar.site=<URL>
 ```
+1. Create sonar property file in java project
+1. Run the `mvn sonar:sonar` command to push the analysis
