@@ -257,3 +257,8 @@ Post always section can be added to stage or after all stages
 ```groovy
 Todo
 ```
+### sonar analyser
+Sonar analyser mvn plugin will push the analysis to sonar server. 
+```bash
+mvn sonar:sonar -Dsonar.login=<myAuthenticationToken> -Dsonar.site=<URL>
+```
