@@ -246,6 +246,7 @@ string(name: 'SRK_CHOICE', value: "Master")
 1. Take care of new workspace when using node block in calling functions. One node declaration per call seems to work good. 
 1. 'when' string hadling read documentation. 'false' and '0' are considered as true
 1. While passing string parameter to downstream job, string parameter value should be one of the item in choice list of downstram job. Passing non choice item results in error.
+1. It does not worth learning poorly designed interface. The best thing to do is to circumvent the limitation. Eg. Pasing quoted string to sed from `adb shell` executed from jenkins.
 ### git bash Jenkins
 * https://stackoverflow.com/questions/35043665/change-windows-shell-in-jenkins-from-cygwin-to-git-bash-msys
 ### Jenkins build every 2 hours
