@@ -253,6 +253,7 @@ string(name: 'SRK_CHOICE', value: "Master")
 ```
 H H/2 * * *
 ```
+`H` option produces even load. 
 ```
 H/15 * * * * - every fifteen minutes (perhaps at :07, :22, :37, :52):
 H(0-29)/10 * * * * - every ten minutes in the first half of every hour (three times, perhaps at :04, :14, :24)
