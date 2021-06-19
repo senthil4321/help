@@ -339,3 +339,15 @@ apt-get upgrade libc6
 ### running cmd one after another
 * https://superuser.com/questions/1079403/how-to-run-multiple-commands-one-after-another-in-cmd/1079420
 * https://stackoverflow.com/questions/5130847/running-multiple-commands-in-one-line-in-shell
+### corn job
+* Minute
+* Hour
+* Day of month
+* Month
+* Week days
+
+2/15 i.e repeat every 15 minute, start at 2 min
+
+```bash
+* * * * *
+```
