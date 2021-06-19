@@ -253,6 +253,14 @@ string(name: 'SRK_CHOICE', value: "Master")
 ```
 H H/2 * * *
 ```
+```
+H/15 * * * * - every fifteen minutes (perhaps at :07, :22, :37, :52):
+H(0-29)/10 * * * * - every ten minutes in the first half of every hour (three times, perhaps at :04, :14, :24)
+H 9-16/2 * * 1-5 - once every two hours every weekday (perhaps at 10:38 AM, 12:38 PM, 2:38 PM, 4:38 PM)
+H H 1,15 1-11 * - once a day on the 1st and 15th of every month except December
+```
+#### Ref. 
+* https://stackoverflow.com/questions/19443732/configure-cron-job-to-run-every-15-minutes-on-jenkins/21939671#21939671
 ### post always
 Post always section can be added to stage or after all stages
 ```groovy
