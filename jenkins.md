@@ -244,7 +244,7 @@ string(name: 'SRK_CHOICE', value: "Master")
 1. It requires two checkouts for loading data from file using groovy script. Example loading data for parameter list. This is because load parameter script gets executed before scm checkout.First checkout downloads the new files and second check out loads data from file for next run.
 1. when block - All condition should be true for the stage to get executed
 1. Take care of new workspace when using node block in calling functions. One node declaration per call seems to work good. 
-1. 'when' string hadling read documentation. 'false' and '0' are considered as true
+1. `when` string hadling read documentation. 'false' and '0' are considered as true
 1. While passing string parameter to downstream job, string parameter value should be one of the item in choice list of downstram job. Passing non choice item results in error.
 1. It does not worth learning poorly designed interface. The best thing to do is to circumvent the limitation. Eg. Pasing quoted string to sed from `adb shell` executed from jenkins.
 ### git bash Jenkins
