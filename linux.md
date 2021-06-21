@@ -355,4 +355,14 @@ apt-get upgrade libc6
 ```bash
 sort -k 2 -numeric input.txt
 ```
+```bash
+cat input.txt | grep <filter> | sort - r
+```
 * https://stackoverflow.com/questions/6438896/sorting-data-based-on-second-column-of-a-file
+### get first line
+#### head
+-n no of line to print
+-q do not output file header
+``` bash
+head -n 1 -q input.txt
+```
