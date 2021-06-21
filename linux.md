@@ -351,3 +351,8 @@ apt-get upgrade libc6
 ```bash
 * * * * *
 ```
+### sort
+```bash
+sort -k 2 -numeric input.txt
+```
+* https://stackoverflow.com/questions/6438896/sorting-data-based-on-second-column-of-a-file
