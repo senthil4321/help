@@ -66,3 +66,8 @@ mode COM22 BAUD=9600 PARITY=n DATA=8
 * https://stackoverflow.com/questions/7105433/windows-batch-echo-without-new-line
 ### git bash
 git bash in windows is slow but very good. Used it to check folder using more space. 
+### if exist
+This command is used to check if file or directory exist and executes command.
+```cmd
+
+```
