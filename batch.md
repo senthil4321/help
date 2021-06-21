@@ -69,6 +69,6 @@ git bash in windows is slow but very good. Used it to check folder using more sp
 ### if exist
 This command is used to check if file or directory exist and executes command.
 ```cmd
-
+if exist c:\logs 7z.exe c:\logs
 ```
 * https://stackoverflow.com/questions/4340350/how-to-check-if-a-file-exists-from-inside-a-batch-file
