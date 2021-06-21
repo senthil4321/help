@@ -71,3 +71,4 @@ This command is used to check if file or directory exist and executes command.
 ```cmd
 
 ```
+* https://stackoverflow.com/questions/4340350/how-to-check-if-a-file-exists-from-inside-a-batch-file
