@@ -72,3 +72,7 @@ This command is used to check if file or directory exist and executes command.
 if exist c:\logs 7z.exe c:\logs
 ```
 * https://stackoverflow.com/questions/4340350/how-to-check-if-a-file-exists-from-inside-a-batch-file
+### auto close bat after time out
+```bat
+@timeout /T 10 /nobreak
+```
