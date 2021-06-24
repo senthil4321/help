@@ -19,13 +19,13 @@ myMeasurement,tag1=value1,tag2=value2 fieldKey="fieldValue" 1556813561098000000
 * https://docs.influxdata.com/influxdb/v1.8/introduction/get-started/
 
 
-|Protocol|
-|---|
-|Measurement|
-|Tag key|
-|Tag value|
-|Field key|
-|Field value|
+| Protocol |
+| - |
+| Measurement |
+| Tag key |
+| Tag value |
+| Field key |
+| Field value |
 
 ### influx db ui
 Influx db has its own ui
