@@ -17,5 +17,6 @@ myMeasurement,tag1=value1,tag2=value2 fieldKey="fieldValue" 1556813561098000000
 * https://docs.influxdata.com/influxdb/v2.0/reference/api/
 ### Ref.
 * https://docs.influxdata.com/influxdb/v1.8/introduction/get-started/
-
+### influx db ui
+Influx db has its own ui
 ## grafana
