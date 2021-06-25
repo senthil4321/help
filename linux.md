@@ -366,3 +366,8 @@ cat input.txt | grep <filter> | sort - r
 ``` bash
 head -n 1 -q input.txt
 ```
+### du
+To get directory size
+```bash
+du -h -d1 /
+```
