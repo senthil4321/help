@@ -30,3 +30,11 @@ myMeasurement,tag1=value1,tag2=value2 fieldKey="fieldValue" 1556813561098000000
 ### influx db ui
 Influx db has its own ui
 ## grafana
+### cognitive load
+Dashboards should reduce cognitive load, not add to it
+Cognitive load is basically how hard you need to think about something in order to figure it out. Make your dashboard easy to interpret. Other users and future you (when you’re trying to figure out what broke at 2AM) will appreciate it.
+
+Ask yourself:
+
+Can I tell what exactly each graph represents? Is it obvious, or do I have to think about it?
+If I show this to someone else, how long will it take them to figure it out? Will they get lost?
