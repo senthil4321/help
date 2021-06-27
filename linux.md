@@ -175,11 +175,9 @@ mount -t overlay overlay -o lowerdir=/usr/bin,upperdir=/mnt/mmc/usr/bin_upper,wo
 ```
 * https://www.datalight.com/blog/2016/01/27/explaining-overlayfs-%E2%80%93-what-it-does-and-how-it-works/
 ---
-
----
-### coredump
+## coredump
 * https://stackoverflow.com/questions/5115613/core-dump-file-analysis
-### ipk
+## ipk
 * https://raymii.org/s/tutorials/Building_IPK_packages_by_hand.html
 ---
 ## Bash Script
@@ -196,11 +194,11 @@ grep -nwr 'path to folder' -e 'text to search'
 ```
 #### Ref.
 * https://stackoverflow.com/questions/16956810/how-do-i-find-all-files-containing-specific-text-on-linux
-### search
+## search
 ```bash
 grep -rnw '/path/to/somewhere/' -e 'pattern'
 ```
-### xxd
+## xxd
 Display binary in hex Format
 ```bash
 xxd -i 
