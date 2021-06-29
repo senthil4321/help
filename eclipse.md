@@ -174,6 +174,8 @@ Easy working solution is to download the source manually and attaching it. (CTRL
 ## Tips and Tutorial ❤️❤️
 * http://www.eclipseonetips.com/2014/01/14/essential-tools-to-manage-import-statements-in-eclipse/
 ---
+### template
+### 
 ### Not Useful
 #### ~~~ AI based code completion - does not work ~~~
  ~~~ https://marketplace.eclipse.org/content/codota ~~~
