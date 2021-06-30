@@ -274,3 +274,18 @@ mvn sonar:sonar -Dsonar.login=<myAuthenticationToken> -Dsonar.site=<URL>
 ```
 1. Create sonar property file in java project
 1. Run the `mvn sonar:sonar` command to push the analysis
+## Jenkins configure dynamically Node name
+```groovy
+pipeline {
+    agent {
+        node {
+            label "${NODE_LABEL}"
+        }
+    }
+
+    parameters {
+        choice(name: 'NODE_LABEL', choices: ['DEMO||DEMO_LOCAL'], description: 'Set the node to run')
+```
+
+### Ref.
+* https://stackoverflow.com/questions/53822658/execute-a-job-when-node-connect-itself-to-jenkins
