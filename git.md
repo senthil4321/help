@@ -57,7 +57,7 @@ To exclude all the files with .settings in the project
 *.settings
 *.project
 ```
-## always rebase while pull
+## always rebase while pull ❤️
 ```
 git config --global pull.rebase true
 ```
