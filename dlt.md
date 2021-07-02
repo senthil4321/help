@@ -49,6 +49,8 @@ Program to send dlt logs from stdin.
 > Trace messages can be something like a trace of starting and returning a function or 
 tracing variables at some points and so on. In a SW-C the code can be instrumented 
 automatically by some tools for providing a trace in significant manner. These tools 
-are used for generating e.g. code coverage or function coverage and so on.### Log Analysis
+are used for generating e.g. code coverage or function coverage and so on.
+
+### Log Analysis
 
 1. https://www.systemticks.de/2019/03/13/analyzing_huge_dlt_log_files_with_elastic_stack.html
