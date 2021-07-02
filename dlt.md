@@ -30,6 +30,8 @@ dlt-example-user -n 1000 -d 100000 test
 1. `dlt-example-user` must be running for the injection to work.
 #### Ref.
 1. [Info](https://lists.linuxfoundation.org/pipermail/genivi-diagnostic-log-and-trace/2015-December/000857.html)
+#### limitation
+Windows dlt control does not have the option to change dlt port.
 ***
 ### dlt-adaptor-stdin
 Program to send dlt logs from stdin.
