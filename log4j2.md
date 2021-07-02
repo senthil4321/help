@@ -222,3 +222,5 @@ log4j2.xml
 ```
 ### Property Substitution
 * 
+## log4j2 config src
+* https://github.com/apache/logging-log4j2/tree/master/log4j-core/src/main/java/org/apache/logging/log4j/core/config
