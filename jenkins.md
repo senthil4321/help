@@ -289,3 +289,7 @@ pipeline {
 
 ### Ref.
 * https://stackoverflow.com/questions/53822658/execute-a-job-when-node-connect-itself-to-jenkins
+## reply
+> Replay runs the pipeline script with modification. The replay script allows for quick modification and execution of existing script without changing the pipeline configuration or creating a new commit. 
+### Ref .
+* https://www.jenkins.io/doc/book/pipeline/development/
