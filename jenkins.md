@@ -373,6 +373,15 @@ options {
 * https://www.jenkins.io/blog/2018/07/02/whats-new-declarative-piepline-13x-sequential-stages/
 ### groovy return multiple items
 ```groovy
+node {
+    obj = parsePath(path)
+    path1 = obj.path1
+    path2 = obj.path2
+}
 
+def parsePath(String path)
+{
+    return [path1:path.toLower(), path2:path.toUpper()]
+}
 ```
 * https://stackoverflow.com/questions/6757539/how-to-accept-multiple-parameters-from-returning-function-in-groovy
