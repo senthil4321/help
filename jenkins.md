@@ -371,3 +371,8 @@ options {
 
 ## Runing Parallel stages and stages within stage
 * https://www.jenkins.io/blog/2018/07/02/whats-new-declarative-piepline-13x-sequential-stages/
+### groovy return multiple items
+```groovy
+
+```
+* https://stackoverflow.com/questions/6757539/how-to-accept-multiple-parameters-from-returning-function-in-groovy
