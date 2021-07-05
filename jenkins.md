@@ -293,3 +293,81 @@ pipeline {
 > Replay runs the pipeline script with modification. The replay script allows for quick modification and execution of existing script without changing the pipeline configuration or creating a new commit. 
 ### Ref .
 * https://www.jenkins.io/doc/book/pipeline/development/
+## agent node config
+Multiple ways of specifying the agent, label
+```groovy
+Agent available tags
+any, docker, dockerfile, kubernetes, label, none
+```
+
+label
+Execute the Pipeline, or stage, on an agent available in the Jenkins environment with the provided label. For example: agent { label 'my-defined-label' }
+Label conditions can also be used. For example: agent { label 'my-label1 && my-label2' } or agent { label 'my-label1 || my-label2' }
+
+node
+agent { node { label 'labelName' } } behaves the same as agent { label 'labelName' }, but node allows for additional options (such as customWorkspace).
+
+### Refer the documentation
+* https://www.jenkins.io/doc/book/pipeline/syntax/
+
+## Stage Level - Agent config
+```groovy
+pipeline {
+agent { node { label 'Linux1' } }
+options {
+        timeout(time: 45, unit: 'MINUTES')
+    }
+    stages {
+        stage ("Stage1 Linux") {
+         agent {
+            label 'Linux1'
+        }
+          steps {
+              sh 'uptime'
+          }
+       
+        }
+        stage ("Stage 2 Windows") {
+         agent {
+            label 'Windows1'
+        }
+          steps {
+              bat 'dir'
+          }
+       
+        }        
+    }
+}
+```
+## Running a step in diffent Agent Node
+```groovy
+pipeline {
+agent {
+node {
+label 'Linux1'
+}
+}
+options {
+        timeout(time: 45, unit: 'MINUTES')
+    }
+    stages {
+        stage ("Running Step in Linux1 and Windows1") {
+            steps {
+                sh 'hostname'
+                node('Linux1') {
+                    sh 'uptime'
+                }                
+                node('Windows1') {
+                    bat "dir"
+                }
+            }
+        }
+    }
+}
+```
+### Ref.
+* https://stackoverflow.com/questions/48284128/run-jenkins-stage-on-different-nodes
+* https://stackoverflow.com/questions/44870978/how-to-run-multiple-stages-on-the-same-node-with-declarative-jenkins-pipeline
+
+## Runing Parallel stages and stages within stage
+* https://www.jenkins.io/blog/2018/07/02/whats-new-declarative-piepline-13x-sequential-stages/
