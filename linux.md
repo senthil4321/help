@@ -369,3 +369,4 @@ To get directory size
 ```bash
 du -h -d1 /
 ```
+## chown and chmod
