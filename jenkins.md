@@ -386,3 +386,10 @@ def parsePath(String path)
 }
 ```
 * https://stackoverflow.com/questions/6757539/how-to-accept-multiple-parameters-from-returning-function-in-groovy
+## groovy generic param to function
+```groovy
+def demo(def data)
+{
+println(data)
+}
+```
