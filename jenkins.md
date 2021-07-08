@@ -393,3 +393,17 @@ def demo(def data)
 println(data)
 }
 ```
+## loading groovy script from file
+```groovy
+        stage('Set Env') {
+            steps {
+                script{
+                    env.ID = params.ID
+                    // Load script from file
+                    def util = load "${env.WORKSPACE}/GetData.groovy"
+                    util.printTest()
+                    println("Groovy script loading success ")
+                }
+            }
+        }
+```
