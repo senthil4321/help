@@ -228,6 +228,7 @@ Test
 * Singleton
 Java a singleton with parameters is not a singleton.
 https://stackoverflow.com/questions/1050991/singleton-with-arguments-in-java
-
+## design
+It is possible to send function defined as functional interface to a class constructor.
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
