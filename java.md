@@ -232,3 +232,5 @@ https://stackoverflow.com/questions/1050991/singleton-with-arguments-in-java
 It is possible to send function defined as functional interface to a class constructor.
 ## other intresting
 * https://tomassetti.me/parsing-in-java/#
+## http client
+* https://www.vogella.com/tutorials/REST/article.html
