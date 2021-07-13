@@ -234,3 +234,5 @@ It is possible to send function defined as functional interface to a class const
 * https://tomassetti.me/parsing-in-java/#
 ## http client
 * https://www.vogella.com/tutorials/REST/article.html
+## debug
+It is possible to execute custom function calls during debug break point
