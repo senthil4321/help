@@ -236,3 +236,5 @@ It is possible to send function defined as functional interface to a class const
 * https://www.vogella.com/tutorials/REST/article.html
 ## debug
 It is possible to execute custom function calls during debug break point
+## Timer and TimerTask
+Timer task can also be run with Executor Service
