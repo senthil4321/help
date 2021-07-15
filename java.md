@@ -238,3 +238,5 @@ It is possible to send function defined as functional interface to a class const
 It is possible to execute custom function calls during debug break point
 ## Timer and TimerTask
 Timer task can also be run with Executor Service
+## path param and query param
+* https://stackoverflow.com/questions/11552248/when-to-use-queryparam-vs-pathparam
