@@ -240,5 +240,7 @@ It is possible to execute custom function calls during debug break point
 Timer task can also be run with Executor Service
 ## path param and query param
 * https://stackoverflow.com/questions/11552248/when-to-use-queryparam-vs-pathparam
-## type conversation
+## type conversation - upcasting and down casting
+### Downcasting
 It is possible to covert from base type to extended type, if you sure that the type is of extended.
+* https://www.baeldung.com/java-type-casting
