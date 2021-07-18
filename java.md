@@ -242,5 +242,6 @@ Timer task can also be run with Executor Service
 * https://stackoverflow.com/questions/11552248/when-to-use-queryparam-vs-pathparam
 ## type conversation - upcasting and down casting
 ### Downcasting
+Upcasting and Downcasting
 It is possible to covert from base type to extended type, if you are sure that the type is of extended.
 * https://www.baeldung.com/java-type-casting
