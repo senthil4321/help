@@ -245,4 +245,4 @@ Timer task can also be run with Executor Service
 Upcasting and Downcasting
 It is possible to covert from base type to extended type, if you are sure that the type is of extended.
 * https://www.baeldung.com/java-type-casting
-Bi predicate
+## Bi predicate
