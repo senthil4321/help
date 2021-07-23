@@ -7,7 +7,7 @@
  - [ ] Method Reference
  - [ ] Anonymous Inner class
  - [ ] Anonymous Function
- - [ ] Functional Interfaces
+ - [x] Functional Interfaces
 
 ## Example
 ```java
