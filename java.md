@@ -4,7 +4,7 @@
  - [ ] Supplier Consumer
  - [ ] Collection
  - [ ] Autoclosable
- - [ ] Method Reference
+ - [x] Method Reference
  - [ ] Anonymous Inner class
  - [ ] Anonymous Function
  - [x] Functional Interfaces
