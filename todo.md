@@ -30,3 +30,5 @@ slew rates
 ## cyber security
 > Attack vectors enable hackers to exploit system vulnerabilities, including the human element.
 ## cyber security and lock picking
+## Keyboard
+This is the first edit from the bluetooth keyboard. Editing with bluethooth keyvboard connected to the mobile phone is really very good and fast. 
