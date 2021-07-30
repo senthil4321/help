@@ -6,7 +6,7 @@
  - [ ] Autoclosable
  - [x] Method Reference
  - [ ] Anonymous Inner class
- - [ ] Anonymous Function
+ - [x] Anonymous Function
  - [x] Functional Interfaces
 
 ## Example
