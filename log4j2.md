@@ -224,3 +224,9 @@ log4j2.xml
 * 
 ## log4j2 config src
 * https://github.com/apache/logging-log4j2/tree/master/log4j-core/src/main/java/org/apache/logging/log4j/core/config
+## disable root logger
+```xml
+Value = OFF instead of info
+```
+### Ref.
+* https://stackoverflow.com/questions/25156812/turn-off-debug-or-log-messages-in-log4j-xml
