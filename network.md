@@ -19,3 +19,7 @@
 ### udp multicast
 Udp multicast address is different then the normail ip address
 Multicast enables to send data to multiple clients without more overhead on the server
+
+
+## router subnet ip mask ❤️
+* https://routersecurity.org/ipaddresses.php#:~:text=Pretty%20much%20every%20home%20router,0.
