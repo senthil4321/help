@@ -63,3 +63,6 @@ git config --global pull.rebase true
 ```
 ### Ref 
 * https://sdqweb.ipd.kit.edu/wiki/Git_pull_--rebase_vs._--merge
+
+# git staging
+* https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-staging-area
