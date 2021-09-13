@@ -76,3 +76,27 @@ if exist c:\logs 7z.exe c:\logs
 ```bat
 @timeout /T 10 /nobreak
 ```
+### Example 1 return error code
+```bat
+date /t
+set /A EC1=%ErrorLevel%
+if %ErrorLevel% == 0 (
+date /t
+)
+set /A EC2=%ErrorLevel%  
+date1 /t
+set /A EC="%EC1%|%EC2%|%ErrorLevel%"
+
+ECHO Result Code: %ErrorLevel%
+ECHO Result Code: %EC%
+EXIT /B %EC% 
+```
+### Example 2 return error code
+```bat
+date /t
+if %ErrorLevel% == 0 (
+echo "No Error"    
+)
+ECHO Result Code: %ErrorLevel%
+exit /b %errorlevel%
+```
