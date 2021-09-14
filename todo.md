@@ -35,4 +35,6 @@ This is the first edit from the bluetooth keyboard. Editing with bluethooth keyv
 
 ## Second Edit from the keyboard
 The connection was very fast. It took less than 1 second to connect.
-##one physical test is worth a thousand expert opinion
+
+## physical test
+one physical test is worth a thousand expert opinion
