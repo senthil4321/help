@@ -32,6 +32,7 @@ slew rates
 ## cyber security and lock picking
 ## Keyboard
 This is the first edit from the bluetooth keyboard. Editing with bluethooth keyvboard connected to the mobile phone is really very good and fast. 
+
 ## Second Edit from the keyboard
 The connection was very fast. It took less than 1 second to connect.
 ##one physical test is worth a thousand expert opinion
