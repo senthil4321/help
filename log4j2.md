@@ -230,3 +230,6 @@ Value = OFF instead of info
 ```
 ### Ref.
 * https://stackoverflow.com/questions/25156812/turn-off-debug-or-log-messages-in-log4j-xml
+### auto reload config on the fly
+It is possible to auto reload xml config
+* https://stackoverflow.com/questions/4598702/dynamically-changing-log4j-log-level
