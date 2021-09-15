@@ -233,3 +233,10 @@ Value = OFF instead of info
 ### auto reload config on the fly
 It is possible to auto reload xml config
 * https://stackoverflow.com/questions/4598702/dynamically-changing-log4j-log-level
+```
+
+Log4j2 can be configured to refresh its configuration by scanning the log4j2.xml file (or equivalent) at given intervals. Just add the "monitorInterval" parameter to your configuration tag. See line 2 of the sample log4j2.xml file, which tells log4j to to re-scan its configuration if more than 5 seconds have passed since the last log event.
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="warn" monitorInterval="5"
+```
