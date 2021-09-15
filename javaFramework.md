@@ -60,3 +60,4 @@ public class HelloWorldResource {
 * https://wiki.eclipse.org/FAQ_How_do_I_insert_text_in_the_active_text_editor%3F
 * https://www.eclipse.org/articles/viewArticle/ViewArticle2.html
 ---
+### eventbus
