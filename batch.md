@@ -100,3 +100,6 @@ echo "No Error"
 ECHO Result Code: %ErrorLevel%
 exit /b %errorlevel%
 ```
+### bat file to launch program in loop
+```batch
+```
