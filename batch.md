@@ -103,3 +103,5 @@ exit /b %errorlevel%
 ### bat file to launch program in loop
 ```batch
 ```
+#### 
+* https://stackoverflow.com/questions/9344235/how-to-restart-program-automatically-if-it-crashes-in-windows
