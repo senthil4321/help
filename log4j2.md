@@ -241,4 +241,7 @@ Log4j2 can be configured to refresh its configuration by scanning the log4j2.xml
 <Configuration status="warn" monitorInterval="5"
 ```
 ### passing external log4j2
+```bash
+java -jar -Dlog4j.configuration="file:log4j2.xml" main.jar
+```
 * https://stackoverflow.com/questions/2594689/external-log4j-xml-file
