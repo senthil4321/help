@@ -1,7 +1,8 @@
 # Python Help
 ###
-1. python modules are packaged in package
-
+* python modules are packaged in package
+### Python online compiler
+* https://www.programiz.com/python-programming/online-compiler/
 ### Python anaconda
 is a distribution framework.
 
@@ -15,3 +16,134 @@ pip install -r requirements.txt
 allows you to create packages that you can redistribute
 
 https://stackoverflow.com/questions/43658870/requirements-txt-vs-setup-py
+***
+### How to install python from github
+```bash
+sudo python setup.py install
+```
+#### Ref.
+1. https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github
+***
+### How to run unit test in python ?
+```bash
+python3 -m unittest discover -p dlt_client_unit_tests.py 
+```
+#### Ref.
+1.https://stackoverflow.com/questions/1732438/how-do-i-run-all-python-unit-tests-in-a-directory
+* * *
+### Python Module and Package
+> Python Module is a file with python code
+Rr
+> Python Package is collection of python Modules
+#### Module
+1. If module has `if __name__=="main"`, then the code is executed.
+   This happens when the file is directly executed.
+### Code snippet
+```python
+out = subprocess.Popen('dir',shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT )
+    stdout,stderr = out.communicate()
+
+input("Press Enter to continue...") 
+
+import DEMO as DEMO
+
+convert bytes to string 
+.decode("utf-8") 
+
+if title_search:
+    title = title_search.group(0)
+```
+#### How to combining array ?
+```python
+    a = bytearray((0x01, 0x22 , 0x55 ))
+    b = bytearray((0x01, 0x02 , 0x03 ))
+    print(a+b)
+```
+#### How to get byte array from hex string?
+```python
+x = "42";
+print(bytes.fromhex(s))
+```
+#### How to convert String to byte array?
+```python
+s= "HELLO"
+print(str.encode(s))
+```
+#### How to print byte array in hex?
+```python
+a = bytearray((0x01, 0x02 , 0x03 ))
+import binascii
+print(binascii.hexlify(a))
+```
+#### __repr__ and __str__
+repr is used for debugging object
+str is used for printing object
+```python
+
+```
+***
+#### _ underscore
+Underscore is used in variable and method names to denote private
+***
+#### property object and decoraters
+``` python
+```
+
+***
+### Modules
+#### console-menu
+* https://pypi.org/project/console-menu/  
+#### CAN
+* https://pypi.org/project/can-isotp/
+* https://python-can.readthedocs.io/en/master/
+***
+### Python Eclipse
+#### How to manage python modules libraries from within eclipse?
+>  It is possible to manage python libraries from the eclipse. \
+##### Steps
+1. Goto Preference > Pydev Interpreters > Python Interpreters
+#### How to solve unresolved module issue?
+> Add the source folder to the phydev \
+> Note: Changes to take affect the file must be closed and reopened
+in the editor.
+### make sound
+```python
+import winsound
+frequency = 2500  # Set Frequency To 2500 Hertz
+duration = 1000  # Set Duration To 1000 ms == 1 second
+winsound.Beep(frequency, duration)
+```
+### get python architecture
+```
+import platform
+platform.architecture()[0]
+
+```
+### Cheatsheet
+1. https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf
+* * *
+#### Ref.
+1. https://medium.com/@butteredwaffles/python-packages-and-modules-explained-part-1-ff304c4f19dd
+1. https://stackoverflow.com/questions/419163/what-does-if-name-main-do
+1. https://cmdlinetips.com/2014/03/how-to-run-a-shell-command-from-python-and-get-the-output/
+1. https://stackoverflow.com/questions/11615455/python-start-new-command-prompt-on-windows-and-wait-for-it-finish-exit
+1. https://www.endpoint.com/blog/2015/01/28/getting-realtime-output-using-python
+1. https://www.google.com/amp/s/www.geeksforgeeks.org/str-vs-repr-in-python/amp/
+1. https://www.programiz.com/python-programming/property
+##### Bytearray convertion
+* https://stackoverflow.com/questions/7585435/best-way-to-convert-string-to-bytes-in-python-3/7585619
+* https://www.w3resource.com/python/python-bytes.php#hex-string-byte
+* https://stackoverflow.com/questions/11624190/python-convert-string-to-byte-array
+##### How to access command line arguments?
+* https://stackoverflow.com/questions/4033723/how-do-i-access-command-line-arguments-in-python
+* https://www.tutorialspoint.com/python/python_command_line_arguments.htm
+***
+This is a guide on Markdown [Markdown][1].
+[1]: http://en.wikipedia.org/wiki/Markdown
+*** 
+
+### python key press
+* https://stackoverflow.com/questions/11918999/key-listeners-in-python
+
+### python beep
+* https://stackoverflow.com/questions/6537481/python-making-a-beep-noise
