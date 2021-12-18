@@ -56,5 +56,8 @@ Reader
 * https://stackoverflow.com/questions/33454988/c-initialize-array-in-hexadecimal-values
 ## dlt
 * https://www.embeddedtutor.com/2021/04/watchdog-manager-in-autosar.html?m=1
-### Minimal Atmelmeaga8
+### Minimal Atmelmeaga8 Worked
 * http://www.gammon.com.au/breadboard
+* https://github.com/nickgammon/arduino_sketches
+#### other
+* https://todbot.com/blog/2009/05/26/minimal-arduino-with-atmega8/comment-page-5/
