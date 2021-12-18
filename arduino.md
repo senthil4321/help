@@ -55,6 +55,6 @@ Reader
 ## byte array init
 * https://stackoverflow.com/questions/33454988/c-initialize-array-in-hexadecimal-values
 ## dlt
-
-
 * https://www.embeddedtutor.com/2021/04/watchdog-manager-in-autosar.html?m=1
+### Minimal Atmelmeaga8
+* http://www.gammon.com.au/breadboard
