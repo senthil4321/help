@@ -61,5 +61,6 @@ Reader
 * https://github.com/nickgammon/arduino_sketches
 #### other
 * https://todbot.com/blog/2009/05/26/minimal-arduino-with-atmega8/comment-page-5/
+ * https://anwarstech.wordpress.com/2018/01/15/how-to-setup-a-low-power-atmega8-microcontroller/
 ### Arduino Low power Atmel mega8
-* https://anwarstech.wordpress.com/2018/01/15/how-to-setup-a-low-power-atmega8-microcontroller/
+* https://learn.sparkfun.com/tutorials/reducing-arduino-power-consumption
