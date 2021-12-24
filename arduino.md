@@ -64,3 +64,6 @@ Reader
  * https://anwarstech.wordpress.com/2018/01/15/how-to-setup-a-low-power-atmega8-microcontroller/
 ### Arduino Low power Atmel mega8
 * https://learn.sparkfun.com/tutorials/reducing-arduino-power-consumption
+
+### camera
+* http://embeddedprogrammer.blogspot.com/2012/07/hacking-ov7670-camera-module-sccb-cheat.html
