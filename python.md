@@ -147,3 +147,6 @@ This is a guide on Markdown [Markdown][1].
 
 ### python beep
 * https://stackoverflow.com/questions/6537481/python-making-a-beep-noise
+
+### python virenv
+* https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b
