@@ -49,6 +49,11 @@ Use
 #### Ref.
 * https://stackoverflow.com/questions/11856351/how-to-skip-already-existing-files-when-downloading-with-curl
 ***
+### Change hostname of linux system
+Edit the below file to update the hostname of linux system
+```bash
+/etc/hostname
+```
 ### passing password to scp ssh
 > Switch to key based authentication
 ```bash
