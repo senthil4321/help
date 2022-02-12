@@ -370,3 +370,6 @@ To get directory size
 du -h -d1 /
 ```
 ## chown and chmod
+
+### Raspi wifi usb dongle setup
+* https://www.muchen.ca/blog/2020/ubuntu-realtek-wifi-setup/
