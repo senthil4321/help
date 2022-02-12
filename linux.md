@@ -378,3 +378,10 @@ du -h -d1 /
 
 ### Raspi wifi usb dongle setup
 * https://www.muchen.ca/blog/2020/ubuntu-realtek-wifi-setup/
+```
+git clone https://github.com/brektrou/rtl8821CU.git
+cd rtl8821CU/
+chmod +x dkms-install.sh
+sudo ./dkms-install.sh
+sudo modprobe 8821cu
+```
