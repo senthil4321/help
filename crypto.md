@@ -19,11 +19,23 @@
 https://ftp.denx.de/pub/u-boot/
 
 ### Steps to compile Uboot
+### Link to Uboot Source
+https://ftp.denx.de/pub/u-boot/
+
+### Steps to compile Uboot
+#### Tools needed
+```bash
+sudo apt-get install flex bison
+```
 ```bash
 wget https://ftp.denx.de/pub/u-boot/u-boot-2022.01.tar.bz2
 tar -xjf u-boot-2022.01.tar.bz2
 cd u-boot-2022.01
+make distclean
+make rpi_2_defconfig
+
 ```
+
 
 #### Raspberry Pi Boot Process with picture
 * https://argus-sec.com/raspberry-pi-remote-flashing/
