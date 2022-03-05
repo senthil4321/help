@@ -5,3 +5,4 @@
 ## HMAC
 ### Yocto TPM
 * https://ubs_csse.gitlab.io/secu_os/tutorials/tpm_rpi.html
+* https://bootlin.com/blog/measured-boot-with-a-tpm-2-0-in-u-boot/
