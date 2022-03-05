@@ -11,3 +11,6 @@
 ## NON TPM Implementation
 ## Raspberry Pi Secure Boot --- Keystored in SD Card
 * https://blog.nviso.eu/2019/04/01/enabling-verified-boot-on-raspberry-pi-3/
+
+## Compiline U Boot
+* https://www.beyondlogic.org/compiling-u-boot-with-device-tree-support-for-the-raspberry-pi/
