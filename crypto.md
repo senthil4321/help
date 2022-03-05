@@ -51,3 +51,58 @@ umount /mnt/srkfs
 or 
 umount /dev/sda1 /mnt/srkfs
 ```
+
+```
+${kernel_addr_r} 
+
+setenv bootcmd 'fatload mmc 0 ${kernel_addr_r} Image ; fatload mmc 0 ${fdt_addr_r} bcm2709-rpi-2-b.dtb ; booti ${kernel_addr_r} - ${fdt_addr_r}'
+
+
+
+bcm2708-rpi-0-w.dtb:      Pi Zero W
+bcm2708-rpi-b.dtb:        Pi Model B and Model A
+bcm2708-rpi-b-plus.dtb:   Pi B+, A+ and Zero
+bcm2708-rpi-cm.dtb:       Compute Module (a minimal dtb, intended to be a starting point)
+bcm2709-rpi-2-b.dtb:      Pi 2B
+bcm2710-rpi-3-b.dtb:      Pi 3B
+bcm2710-rpi-3-b-plus.dtb: Pi 3B+ and 3A+
+bcm2710-rpi-cm3.dtb:      Compute Module 3
+
+
+
+setenv bootcmd 'fatload mmc 0 ${kernel_addr_r} Image ; fatload mmc 0 ${fdt_addr_r} bcm2837-rpi-3-b-plus.dtb ; booti ${kernel_addr_r} - ${fdt_addr_r}'
+
+
+fatload usb 0:1 0x80200000 uImage 
+fatload usb 0:1 0x80e00000 am335x-evm.dtb
+bootm 0x80200000 - 0x80e00000 
+
+fatload mmc 0:1 ${kernel_addr_r} kernel7.img
+bootm ${kernel_addr_r} - ${fdt_addr_r}
+mmc dev 0
+
+fatload mmc 0:1 ${kernel_addr_r} kernel7.img
+fatload mmc 0:1 ${fdt_addr_r} bcm2709-rpi-2-b.dtb 
+setenv bootargs earlyprintk console=ttyAMA0 console=tty1 root=/dev/mmcblk0p2 rootwait
+bootz ${kernel_addr_r} - ${fdt_addr_r}
+
+Raspberry pi kenerel Image namiing
+kernel.img piv1
+kernel7.img piv2
+https://forums.raspberrypi.com/viewtopic.php?t=187136
+
+
+Hardware        : BCM2835
+Revision        : a01041
+Serial          : 000000008e8c5bd6
+Model           : Raspberry Pi 2 Model B Rev 1.1
+
+ 
+bcm2836-rpi-2-b.dtb
+
+ 
+ ls mmc 0:1
+ ```
+ ### Ref.
+ * https://www.thegoodpenguin.co.uk/blog/build-boot-linux-on-raspberry-pi-3-model-b/
+
