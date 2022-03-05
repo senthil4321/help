@@ -14,3 +14,13 @@
 
 ## Compiline U Boot
 * https://www.beyondlogic.org/compiling-u-boot-with-device-tree-support-for-the-raspberry-pi/
+
+### Link to Uboot Source
+https://ftp.denx.de/pub/u-boot/
+
+### Steps to compile Uboot
+```bash
+wget https://ftp.denx.de/pub/u-boot/u-boot-2022.01.tar.bz2
+tar -xjf u-boot-2022.01.tar.bz2
+cd u-boot-2022.01
+```
