@@ -6,7 +6,11 @@
 ### Yocto TPM
 * https://ubs_csse.gitlab.io/secu_os/tutorials/tpm_rpi.html
 * https://bootlin.com/blog/measured-boot-with-a-tpm-2-0-in-u-boot/
-
+### Enable TPM support in uboot
+```
+make menuconfig
+```
+* https://github.com/joholl/rpi4-uboot-tpm
 ---
 ## NON TPM Implementation
 ## Raspberry Pi Secure Boot --- Keystored in SD Card
