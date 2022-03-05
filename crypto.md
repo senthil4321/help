@@ -24,3 +24,6 @@ wget https://ftp.denx.de/pub/u-boot/u-boot-2022.01.tar.bz2
 tar -xjf u-boot-2022.01.tar.bz2
 cd u-boot-2022.01
 ```
+
+#### Raspberry Pi Boot Process with picture
+* https://argus-sec.com/raspberry-pi-remote-flashing/
