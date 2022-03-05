@@ -6,3 +6,8 @@
 ### Yocto TPM
 * https://ubs_csse.gitlab.io/secu_os/tutorials/tpm_rpi.html
 * https://bootlin.com/blog/measured-boot-with-a-tpm-2-0-in-u-boot/
+
+---
+## NON TPM Implementation
+## Raspberry Pi Secure Boot --- Keystored in SD Card
+* https://blog.nviso.eu/2019/04/01/enabling-verified-boot-on-raspberry-pi-3/
