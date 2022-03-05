@@ -39,3 +39,15 @@ make rpi_2_defconfig
 
 #### Raspberry Pi Boot Process with picture
 * https://argus-sec.com/raspberry-pi-remote-flashing/
+
+## Linux commands
+```
+lsblk -a -f
+
+```
+### umount
+```
+umount /mnt/srkfs
+or 
+umount /dev/sda1 /mnt/srkfs
+```
