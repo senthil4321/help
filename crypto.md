@@ -6,10 +6,29 @@
 ### Yocto TPM
 * https://ubs_csse.gitlab.io/secu_os/tutorials/tpm_rpi.html
 * https://bootlin.com/blog/measured-boot-with-a-tpm-2-0-in-u-boot/
+## Compiling UBoot with TPM
 ### Enable TPM support in uboot
 ```
 make menuconfig
 ```
+#### Menu config options
+
+
+1. Device Drivers
+    * (y) SPI Support
+    * (y) Enable Driver Model for SPI drivers (DM_SPI)
+    * (y) Soft SPI driver (SPI_SOFT)
+1. Library routines
+    * Security Support
+        * (y) Trusted Platform Module (TPM) support (TPM)
+1. Device Drivers
+    * TPM support
+        * (y) TPMv2.x support (TPM_V2)
+        * (y) Enable support for TPMv2.x SPI chips (TPM2_TIS_SPI)
+1. Command line interface
+    * Security commands
+        * (y) Enable the 'tpm' command (CMD_TPM)
+        
 * https://github.com/joholl/rpi4-uboot-tpm
 ---
 ## NON TPM Implementation
