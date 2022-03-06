@@ -109,4 +109,8 @@ bcm2836-rpi-2-b.dtb
  ```
  ### Ref.
  * https://www.thegoodpenguin.co.uk/blog/build-boot-linux-on-raspberry-pi-3-model-b/
+### Why Raspberri pi cpuinfo hardware is wrong ?
+It is because of the Linux Kernel to keep things simple. Use `Revision        : a01041` to determine version.
+### Device tree version and Revision from cpuinfo is different.
+>>> For Model `Raspberry Pi 2 Model B Rev 1.1` device tree version is bcm2709-rpi-2-b.dtb
 
