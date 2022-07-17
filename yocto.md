@@ -54,3 +54,5 @@ SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=mac
 ```
 
 ```
+### Yocto Installation
+* https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host
