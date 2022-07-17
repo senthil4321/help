@@ -41,3 +41,11 @@ Below reipes provide the logic to download the kernel based on architecture and 
 ```
 ~/project/help/poky/build/tmp/work/beaglebone_yocto-poky-linux-gnueabi/linux-yocto/5.15.36+gitAUTOINC+947149960e_4c875cf137-r0
 ```
+* https://git.yoctoproject.org/linux-yocto/refs/
+* https://git.yoctoproject.org/linux-yocto/log/?h=v5.15/standard/beaglebone
+
+git source url and the git path in the server mathes
+```
+SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=machine \
+           git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=yocto-5.15;destsuffix=${KMETA}"
+```
