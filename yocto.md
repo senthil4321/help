@@ -49,3 +49,8 @@ git source url and the git path in the server mathes
 SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=machine \
            git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=yocto-5.15;destsuffix=${KMETA}"
 ```
+### bitbake gui
+* https://wiki.yoctoproject.org/wiki/BitBake/GUI
+```
+
+```
