@@ -395,3 +395,9 @@ nohup /usr/local/bin/mjpg_streamer -i "/usr/local/lib/mjpg-streamer/input_uvc.so
 ```
 #### Autostart octoprint in ubuntu server 
 https://homeassistant.jongriffith.com/Tutorials/Octoprint/How-to-install-Octoprint-on-Ubuntu-Server/
+
+### How to find the program location ?
+```
+whereis <program name>
+whereis ls
+```
