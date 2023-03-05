@@ -202,7 +202,9 @@ log4j2.xml
 			<AppenderRef ref="Console" />
 		</Root>
 	</Loggers>
-</Configuration>```
+</Configuration>
+
+```
 ### Ref.
 * https://stackoverflow.com/questions/13904481/in-log4j2-how-do-i-associate-an-xml-schema-with-log4j2-xml
 
