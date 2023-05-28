@@ -35,3 +35,10 @@ ref.
 1. https://www.allaboutcircuits.com/technical-articles/elliptic-curve-cryptography-in-embedded-systems/
 1.    https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
 1.https://medium.com/asecuritysite-when-bob-met-alice/so-what-have-prime-numbers-and-galois-fields-to-do-with-your-privacy-2dff9881361e
+
+
+### ec
+https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/
+https://graui.de/code/elliptic2/
+https://asecuritysite.com/curve25519/eddsa
+https://asecuritysite.com/curve25519
