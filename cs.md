@@ -62,3 +62,7 @@ Computing the multiplicative inverse can be “easily” done with the extended 
 
 ### tool
 1. https://www.dcode.fr/modular-inverse
+---
+## rsa
+
+> For a positive integer n, define φ(n) to be the number of integers less than n that are relatively prime with n. For example, φ(12) = 4, since only 11, 7, 5 and 1 are less than 12 and relatively prime to 12, while φ(7) = 6. In fact, for any prime number p we have φ(p) = p - 1
