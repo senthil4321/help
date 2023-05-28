@@ -28,3 +28,4 @@ ref.
 ---
 ## ec
 1. https://cryptobook.nakov.com/digital-signatures/eddsa-and-ed25519
+1. https://en.m.wikipedia.org/wiki/Barrett_reduction
