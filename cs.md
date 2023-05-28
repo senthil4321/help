@@ -31,3 +31,4 @@ ref.
 1. https://en.m.wikipedia.org/wiki/Barrett_reduction
 1. https://github.com/rweather/arduinolibs/blob/master/libraries/Crypto/Ed25519.cpp#L304
 1. https://en.m.wikipedia.org/wiki/Extended_Euclidean_algorithm
+1. algebraic curves over finite fields
