@@ -70,6 +70,7 @@ Computing the multiplicative inverse can be “easily” done with the extended 
 1. https://www.cantorsparadise.com/rsa-algorithm-in-depth-mathematical-walk-through-3bf33759022a
 1. https://www.di-mgt.com.au/rsa_alg.html#simpleexample
 1. https://doctrina.org/How-RSA-Works-With-Examples.html
+1. https://cryptobook.nakov.com/asymmetric-key-ciphers/the-rsa-cryptosystem-concepts
 
 ### multiplicative inverse 
 > A multiplicative inverse for x
