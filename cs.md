@@ -12,21 +12,6 @@ https://prateekvjoshi.com/2015/02/07/why-are-they-called-elliptic-curves/
 ### prime and co-prime
 > A prime number is a number that has exactly two factors, 1 and the number itself. For example, 2, 3, 7, 11 and so on are prime numbers. Co-prime numbers are pairs of numbers whose HCF (Highest Common Factor) is 1. For example, (4,9) are co-primes because their only common factor is 1.
 
-
-### multiplicative inverse 
-> A multiplicative inverse for x
- is a number that when multiplied by x
-, will equal 1
-. The multiplicative inverse of x
- is written as x−1
- and is defined as so:
-
-x⋅x−1=1
-The greatest common divisor (gcd) between two numbers is the largest integer that will divide both numbers. For example, gcd(4,10)=2
-.
-
-The interesting thing is that if two numbers have a gcd of 1, then the smaller of the two numbers has a multiplicative inverse in the modulo of the larger number. It is expressed in the following equation
-
 1. http://www.cs.sjsu.edu/~stamp/CS265/SecurityEngineering/chapter5_SE/RSAmath.html
 
 --- 
@@ -85,3 +70,17 @@ Computing the multiplicative inverse can be “easily” done with the extended 
 1. https://www.cantorsparadise.com/rsa-algorithm-in-depth-mathematical-walk-through-3bf33759022a
 1. https://www.di-mgt.com.au/rsa_alg.html#simpleexample
 1. https://doctrina.org/How-RSA-Works-With-Examples.html
+
+### multiplicative inverse 
+> A multiplicative inverse for x
+ is a number that when multiplied by x
+, will equal 1
+. The multiplicative inverse of x
+ is written as x−1
+ and is defined as so:
+
+x⋅x−1=1
+The greatest common divisor (gcd) between two numbers is the largest integer that will divide both numbers. For example, gcd(4,10)=2
+.
+
+The interesting thing is that if two numbers have a gcd of 1, then the smaller of the two numbers has a multiplicative inverse in the modulo of the larger number. It is expressed in the following equation
