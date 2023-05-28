@@ -17,6 +17,10 @@ https://prateekvjoshi.com/2015/02/07/why-are-they-called-elliptic-curves/
 > In number theory, two integers a and b are coprime, relatively prime or mutually prime if the only positive integer that is a divisor of both of them is 1.[1] Consequently, any prime number that divides a does not divide b, and vice versa. This is equivalent to their greatest common divisor (GCD) being 1.[2] One says also a is prime to b or a is coprime with b.
 
 > The numbers 8 and 9 are coprime, despite the fact that neither considered individually is a prime number, since 1 is their only common divisor. On the other hand, 6 and 9 are not coprime, because they are both divisible by 3.
+
+### are prime numbers coprime
+> For example: (11, 13) Here, 11 and 13 are coprime numbers, and their LCM is 11 × 13 = 143 . Because prime numbers only share one common factor, 1, any two prime numbers are always coprime.
+
 #### 
 ref.
 * https://en.m.wikipedia.org/wiki/Coprime_integers
