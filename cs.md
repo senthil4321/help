@@ -50,3 +50,8 @@ ref.
 1. https://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/
 
 1. https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
+
+####
+> A finite field is, first of all, a set with a finite number of elements. An example of finite field is the set of integers modulo p
+, where 
+p is a prime number
