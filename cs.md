@@ -47,4 +47,6 @@ ref.
 1. https://andrea.corbellini.name/ecc/interactive/modk-add.html
 
 ### start here
-1.https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
+1. https://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/
+
+1. https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
