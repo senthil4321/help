@@ -38,10 +38,10 @@ ref.
 
 
 ### ec
-https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/
-https://graui.de/code/elliptic2/
-https://asecuritysite.com/curve25519/eddsa
-https://asecuritysite.com/curve25519
+1. https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/
+1. https://graui.de/code/elliptic2/
+1. https://asecuritysite.com/curve25519/eddsa
+1. https://asecuritysite.com/curve25519
 
 #### Elliptic curve Point Addition online
-https://andrea.corbellini.name/ecc/interactive/modk-add.html
+1. https://andrea.corbellini.name/ecc/interactive/modk-add.html
