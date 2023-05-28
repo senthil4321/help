@@ -24,3 +24,7 @@ https://prateekvjoshi.com/2015/02/07/why-are-they-called-elliptic-curves/
 #### 
 ref.
 * https://en.m.wikipedia.org/wiki/Coprime_integers
+
+---
+## ec
+1. https://cryptobook.nakov.com/digital-signatures/eddsa-and-ed25519
