@@ -32,3 +32,4 @@ ref.
 1. https://github.com/rweather/arduinolibs/blob/master/libraries/Crypto/Ed25519.cpp#L304
 1. https://en.m.wikipedia.org/wiki/Extended_Euclidean_algorithm
 1. algebraic curves over finite fields
+1. https://www.allaboutcircuits.com/technical-articles/elliptic-curve-cryptography-in-embedded-systems/
