@@ -45,3 +45,6 @@ ref.
 
 #### Elliptic curve Point Addition online
 1. https://andrea.corbellini.name/ecc/interactive/modk-add.html
+
+### start here
+1.https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
