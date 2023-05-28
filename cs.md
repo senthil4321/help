@@ -59,3 +59,6 @@ p is a prime number
 > find the multiplicative inverse of a number and then perform a single multiplication.
 
 Computing the multiplicative inverse can be “easily” done with the extended Euclidean algorithm
+
+### tool
+1. https://www.dcode.fr/modular-inverse
