@@ -55,3 +55,7 @@ ref.
 > A finite field is, first of all, a set with a finite number of elements. An example of finite field is the set of integers modulo p
 , where 
 p is a prime number
+
+> find the multiplicative inverse of a number and then perform a single multiplication.
+
+Computing the multiplicative inverse can be “easily” done with the extended Euclidean algorithm
