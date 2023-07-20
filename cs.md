@@ -86,3 +86,6 @@ The greatest common divisor (gcd) between two numbers is the largest integer tha
 .
 
 The interesting thing is that if two numbers have a gcd of 1, then the smaller of the two numbers has a multiplicative inverse in the modulo of the larger number. It is expressed in the following equation
+
+## online tool
+* https://cyberchef.io/
