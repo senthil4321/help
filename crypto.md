@@ -10,6 +10,7 @@
 ### Enable TPM support in uboot
 ```
 make menuconfig
+
 ```
 #### Menu config options
 
