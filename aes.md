@@ -33,6 +33,8 @@ w0 to w43 = 4 * 44 = 176 bytes
 ### Ref
 Binary Multiplication
 Parity Addition - XOR
+  there is never a carry
+  
 
 ```
 ```
