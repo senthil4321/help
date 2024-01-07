@@ -29,3 +29,11 @@ w0 to w43 = 4 * 44 = 176 bytes
 3. rConWord
    
        subWord xor rConConstant
+
+### Ref
+Binary Multiplication
+
+```
+```
+* https://crypto.stackexchange.com/questions/2402/how-to-solve-mixcolumns
+* 
