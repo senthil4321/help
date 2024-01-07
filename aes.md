@@ -36,6 +36,11 @@ w0 to w43 = 4 * 44 = 176 bytes
 
 * Parity Addition - XOR
     * there is never a carry
+``` c
+        if (hi_bit_set) {
+            a ^= 0x1B; /* x^8 + x^4 + x^3 + x + 1 */
+        }
+```
 
 ### Ref
 * https://crypto.stackexchange.com/questions/2402/how-to-solve-mixcolumns
