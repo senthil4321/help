@@ -30,13 +30,13 @@ w0 to w43 = 4 * 44 = 176 bytes
    
        subWord xor rConConstant
 
-### Ref
-Binary Multiplication
-Parity Addition - XOR
-  there is never a carry
-  
+## Binary Addition and Multiplication
 
-```
-```
+* Binary Multiplication
+
+* Parity Addition - XOR
+    * there is never a carry
+
+### Ref
 * https://crypto.stackexchange.com/questions/2402/how-to-solve-mixcolumns
 * https://web.math.princeton.edu/math_alive/Crypto/Lab1/ParAdd.html
