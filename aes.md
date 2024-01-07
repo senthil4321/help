@@ -11,6 +11,10 @@
 Key Schedule
 Number of rounds  = 1 + 10 = 11
 
+K Key size is 16 bytes
+
+w0 = K[0] + K[1] + K[2] + K[3]
+ 
 w0 = 32 bits per word (word size of 32 bits)
 
 w0 w1 w2 w3 = 4 bytes * 4 = 16 bytes (128 bits)
