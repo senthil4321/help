@@ -23,3 +23,8 @@ w0 to w43 = 4 * 44 = 176 bytes
 16 bytes * 11 rounds= 176 bytes
 
 ```
+
+1. rotWord
+2. subWord
+3. rConWord
+       subWord xor rConConstant
