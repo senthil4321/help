@@ -40,3 +40,4 @@ w0 to w43 = 4 * 44 = 176 bytes
 ### Ref
 * https://crypto.stackexchange.com/questions/2402/how-to-solve-mixcolumns
 * https://web.math.princeton.edu/math_alive/Crypto/Lab1/ParAdd.html
+* https://en.wikipedia.org/wiki/Rijndael_MixColumns
