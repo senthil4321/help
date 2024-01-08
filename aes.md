@@ -52,12 +52,19 @@ w0 to w43 = 4 * 44 = 176 bytes
 * https://www.youtube.com/watch?v=w4aWIVhcUyo&t=22s
 * https://braincoke.fr/blog/2020/08/the-aes-key-schedule-explained/#aes-in-summary
 
-## AES CBC
-## AES ECB
-## AES OFB
-## AES CTR
-## AES GCM
-## AES CCM
+## AES Modes
+
+* ECB
+* CBC
+* OFB
+* CFB
+* CTR
+* CCM
+  * CBC - IV = 0
+  * CTR
+* GCM
+  
+### CCM
 Combination of AES CTR and CBC
 * CTR for Encryption
 * CBC without IV for MAC
