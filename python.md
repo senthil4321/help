@@ -150,3 +150,6 @@ This is a guide on Markdown [Markdown][1].
 
 ### python virenv
 * https://gist.github.com/Geoyi/d9fab4f609e9f75941946be45000632b
+
+  ## jupyter
+  https://stackoverflow.com/questions/52330492/how-to-change-jupyter-notebook-windows-shell-to-bash
