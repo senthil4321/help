@@ -54,6 +54,8 @@ w0 to w43 = 4 * 44 = 176 bytes
 
 ## AES CBC
 ## AES ECB
+## AES OFB
+## AES CTR
 ## AES GCM
 ## AES CCM
 Combination of AES CTR and CBC
