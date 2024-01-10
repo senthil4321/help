@@ -401,3 +401,9 @@ https://homeassistant.jongriffith.com/Tutorials/Octoprint/How-to-install-Octopri
 whereis <program name>
 whereis ls
 ```
+### Convert Windows path to linux
+```
+pth="C:/"
+echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
+```
+* https://stackoverflow.com/questions/13701218/windows-path-to-posix-path-conversion-in-bash
