@@ -156,3 +156,6 @@ This is a guide on Markdown [Markdown][1].
 
 ### Run Visual Studio in interactive Mode
 * https://stackoverflow.com/questions/49992300/python-how-to-show-graph-in-visual-studio-code-itself
+
+### Signal Processing with Python
+* https://courses.ideate.cmu.edu/16-223/f2021/text/code/pico-signals.html
