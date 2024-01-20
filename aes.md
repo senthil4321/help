@@ -29,7 +29,24 @@ w0 to w43 = 4 * 44 = 176 bytes
 3. rConWord
    
        subWord xor rConConstant
-
+   
+Test Vector 
+```
+//		W4 Special Operation 1
+//	    W4 0. input w3
+//	    W4 0C0D0E0F
+//	    W4 1. rotWord
+//	    W4 0D0E0F0C
+//	    W4 2. subWord
+//	    W4 D7AB76FE
+//	        W4 3. rConWord
+//	        W4 01000000
+//	    W4 3. subWord xor rConWord
+//	    W4 D6AB76FE
+//	    W4 XOR
+//	    W4 = W0 xor g(W3)
+//	w4 D6AA74FD
+```
 ## Binary Addition and Multiplication
 
 * Binary Multiplication
