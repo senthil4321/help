@@ -18,7 +18,9 @@ od -x
 
 ---
 ### awk
+---
 ### Variable and string
+---
 #### when we-need-curly-braces-around-shell-variables
 #### Ref.
 1. https://stackoverflow.com/questions/8748831/when-do-we-need-curly-braces-around-shell-variables
