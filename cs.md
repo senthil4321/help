@@ -95,6 +95,12 @@ The interesting thing is that if two numbers have a gcd of 1, then the smaller o
 
 ---
 ## IPSec
+```
+sudo ipsec statusall
+sudo swanctl --log --raw
+sudo swanctl --log --pretty
+
+```
 * https://mihai.fm/strongswan-vpn-setup/
 * https://forums.raspberrypi.com/viewtopic.php?p=704519
 
