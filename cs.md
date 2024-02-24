@@ -93,4 +93,10 @@ The interesting thing is that if two numbers have a gcd of 1, then the smaller o
 ## AES Implementation
 * AES 128 Implementaiton
 
+---
+## IPSec
+* https://mihai.fm/strongswan-vpn-setup/
+* https://forums.raspberrypi.com/viewtopic.php?p=704519
+
+
   
