@@ -99,10 +99,12 @@ The interesting thing is that if two numbers have a gcd of 1, then the smaller o
 sudo ipsec statusall
 sudo swanctl --log --raw
 sudo swanctl --log --pretty
+https://serverfault.com/questions/1066598/iphone-users-does-not-connect-to-strongswan-vpn-while-android-and-windows-10-us
 
 ```
 * https://mihai.fm/strongswan-vpn-setup/
 * https://forums.raspberrypi.com/viewtopic.php?p=704519
+* https://www.vanwerkhoven.org/blog/2018/strongswan-ikev2-vpn-on-raspberry-pi/#etcipsecconf
 
 
   
