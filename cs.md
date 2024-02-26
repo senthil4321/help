@@ -127,4 +127,11 @@ sudo iptables -A INPUT -p udp --dport 4500 -j ACCEPT
 * https://github.com/Infineon/optiga-tpm-cheatsheet
 * https://github.com/Infineon/optiga-tpm-explorer/blob/python3_dev/User%20Guide.md
 
+```
+tpm2_createek -c 0x81010001 -G rsa -u ek.pub
+tpm2_createak -C 0x81010001 -c ak.ctx -u ak.pub -n ak.name
+tpm2_evictcontrol -C o -c ak.ctx 0x81010002
+tpm2_getcap handles-persistent
+```
+
   
