@@ -126,6 +126,7 @@ sudo iptables -A INPUT -p udp --dport 4500 -j ACCEPT
 ### TPM
 * https://github.com/Infineon/optiga-tpm-cheatsheet
 * https://github.com/Infineon/optiga-tpm-explorer/blob/python3_dev/User%20Guide.md
+* https://wiki.strongswan.org/projects/strongswan/wiki/TpmPlugin/158
 
 ```
 tpm2_createek -c 0x81010001 -G rsa -u ek.pub
