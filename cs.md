@@ -104,10 +104,13 @@ sudo apt-get install charon-systemd
 sudo ipsec statusall
 sudo swanctl --log --raw
 sudo swanctl --log --pretty
+sudo swanctl --reload-settings 
 
-sudo systemctl status strongswan-starter
 sudo systemctl enable strongswan
+
+sudo systemctl stop strongswan
 sudo systemctl start strongswan
+sudo systemctl status strongswan-starter
 ```
 ### Firewall rule
 ```
