@@ -123,6 +123,7 @@ sudo iptables -A INPUT -p udp --dport 4500 -j ACCEPT
 * https://www.vanwerkhoven.org/blog/2018/strongswan-ikev2-vpn-on-raspberry-pi/#etcipsecconf
 * https://serverfault.com/questions/1066598/iphone-users-does-not-connect-to-strongswan-vpn-while-android-and-windows-10-us
 
-
+### TPM
+* https://github.com/Infineon/optiga-tpm-cheatsheet
 
   
