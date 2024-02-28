@@ -96,7 +96,7 @@ The interesting thing is that if two numbers have a gcd of 1, then the smaller o
 ---
 ## IPSec
 ```
-udo apt install strongswan strongswan-pki libcharon-extra-plugins libstrongswan-extra-plugins
+sudo apt install strongswan strongswan-pki libcharon-extra-plugins libstrongswan-extra-plugins
 sudo apt-get install charon-systemd
 
 ```
