@@ -140,6 +140,6 @@ tpm2_getcap handles-persistent
 * Seperation of Duties
 * Security by Design
 * Keep it Simple (Harder than needed - not easy for bad guy)
- * Harder to right thing than to do the wrong thing
+   * Harder to right thing than to do the wrong thing
 * Security By Obscurity - Very Bad
   
