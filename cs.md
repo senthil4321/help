@@ -134,5 +134,12 @@ tpm2_createak -C 0x81010001 -c ak.ctx -u ak.pub -n ak.name
 tpm2_evictcontrol -C o -c ak.ctx 0x81010002
 tpm2_getcap handles-persistent
 ```
-
+## Design
+* Defence in Depth
+* Least Privilege
+* Seperation of Duties
+* Security by Design
+* Keep it Simple (Harder than needed - not easy for bad guy)
+ * Harder to right thing than to do the wrong thing
+* Security By Obscurity - Very Bad
   
