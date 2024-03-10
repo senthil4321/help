@@ -87,6 +87,21 @@ The greatest common divisor (gcd) between two numbers is the largest integer tha
 
 The interesting thing is that if two numbers have a gcd of 1, then the smaller of the two numbers has a multiplicative inverse in the modulo of the larger number. It is expressed in the following equation
 
+### chacha20
+chacha20 is a stream cipher
+
+### md2 md4 md5 md6
+> Message digest algirithm
+
+### SM2
+SM2 is actually an elliptic curve based algorithm
+
+### SM3
+ShangMi 3 (SM3) is a cryptographic hash function.
+
+### SM4
+SM3 block cipher
+
 ## online tool
 * https://cyberchef.io/
 
