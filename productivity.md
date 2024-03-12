@@ -41,5 +41,5 @@ prompt $g
 Android keyboard for editing md file
 
 ---
-### How to get help when stick at coding ?
+### How to get help when stuck at coding ?
 * https://forum.freecodecamp.org/t/how-to-get-help-when-you-are-stuck-coding/19514
