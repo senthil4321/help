@@ -164,3 +164,4 @@ tpm2_getcap handles-persistent
 ## CSR Generation
 * CSR is signed witht the public key
 * Before creating certificate CSR signature is verfied with the Public key contained in the CSR
+
