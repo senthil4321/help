@@ -160,3 +160,7 @@ tpm2_getcap handles-persistent
 ## Singnature Generation
 > Signature generation is done with the Private Key
 > Signature Verification is done with the Public Key
+
+## CSR Generation
+* CSR is signed witht the public key
+* Before creating certificate CSR signature is verfied with the Public key contained in the CSR
