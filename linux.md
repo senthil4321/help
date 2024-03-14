@@ -409,3 +409,9 @@ pth="C:/"
 echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 ```
 * https://stackoverflow.com/questions/13701218/windows-path-to-posix-path-conversion-in-bash
+
+--- --- ---
+
+### Linux File System
+> MTD ->  UBI Volume -> UBIFS
+--- --- ---
