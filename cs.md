@@ -102,6 +102,9 @@ ShangMi 3 (SM3) is a cryptographic hash function.
 ### SM4
 SM3 block cipher
 
+### sha256
+Hash algorithm
+
 ## online tool
 * https://cyberchef.io/
 
