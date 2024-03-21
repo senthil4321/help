@@ -179,3 +179,5 @@ tpm2_getcap handles-persistent
 openssl provides 2 way to generate certificates 
 1. x509
 2. ca
+
+It is possible to change subject field in certificate 
