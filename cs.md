@@ -175,3 +175,7 @@ tpm2_getcap handles-persistent
 * Mathmatical Property 
 * *7
 * (a+b)*7 = 7*a + 7*b
+## openssl
+openssl provides 2 way to generate certificates 
+1. x509
+2. ca
