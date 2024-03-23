@@ -181,3 +181,10 @@ openssl provides 2 way to generate certificates
 2. ca
 
 It is possible to change subject field in certificate 
+
+### Openssl commands
+```
+openssl req -new -key your_private_key.key -out your_csr.csr -subj "/C=US/ST=State/L=City/O=Organization/OU=Organizational Unit/CN=Common Name"
+openssl x509 -req -in your_csr.csr -CA your_ca_cert.crt -CAkey your_ca_private_key.key -CAcreateserial -out your_certificate.crt -days 365
+
+```
