@@ -415,3 +415,5 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 ### Linux File System
 > MTD ->  UBI Volume -> UBIFS
 --- --- ---
+### useful 
+* https://tldr.inbrowser.app/pages/common/delta
