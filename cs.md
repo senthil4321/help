@@ -169,7 +169,7 @@ tpm2_getcap handles-persistent
 * Before creating certificate CSR signature is verfied with the Public key contained in the CSR
 * Smart card csr has subject identifier which is used for whitelisting
 * csr subject has country C. 
-
+* It is possible to change subject while singing CSR
 ## Homomorphic Encryption 
 
 * Mathmatical Property 
