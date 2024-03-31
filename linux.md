@@ -422,3 +422,5 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 --- --- ---
 ### useful 
 * https://tldr.inbrowser.app/pages/common/delta
+### Useful programs 
+* tldr
