@@ -424,3 +424,15 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 * https://tldr.inbrowser.app/pages/common/delta
 ### Useful programs 
 * tldr
+* zoxide
+* exa
+* tmux
+* bat
+* Delta
+* lf
+* fzf
+* htop
+* btop
+* neovim
+* neofetch
+* cmatrix
