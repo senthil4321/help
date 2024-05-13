@@ -1,5 +1,6 @@
 # Project Management
-## GANTT Chart
+### GANTT Chart
+* https://github.com/giocomai/ganttrify?tab=readme-ov-file
 ### MOM Template
 
 * Points Discussed
@@ -23,3 +24,5 @@
 * Blockers Challenges
 * Progess update on Tasks
 * Review of Previous Meeting Items
+* Participants
+* 
