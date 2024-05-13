@@ -1,6 +1,10 @@
 # Project Management
 ### GANTT Chart
 * https://github.com/giocomai/ganttrify?tab=readme-ov-file
+
+### CPM PERT Chart
+* Critical Path
+
 ### MOM Template
 
 * Points Discussed
