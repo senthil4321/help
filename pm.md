@@ -2,7 +2,14 @@
 ### GANTT Chart
 * https://github.com/giocomai/ganttrify?tab=readme-ov-file
 
-### CPM PERT Chart
+###  PERT Chart
+* Shortest
+* Realistic
+* Worstcase
+#### Ref.
+* https://redbooth.com/blog/quick-guide-pert-critical-path-project-management
+
+### CPM
 * Critical Path
 
 ### MOM Template
