@@ -14,4 +14,12 @@
 * Current Meeting Action Items
 * Key Takeaways
 * Other Notes
-
+* Decisions
+* Meeting Objectives
+* Outcomes
+* Attendees
+* Next Steps and Action items
+* Next Meetings
+* Blockers Challenges
+* Progess update on Tasks
+* Review of Previous Meeting Items
