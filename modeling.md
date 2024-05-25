@@ -11,6 +11,9 @@ M to move the object
 ### split
 to split the object
 
+### split
+Loft 
+
 ### Ref
 
 Split
@@ -18,3 +21,6 @@ Split
 
 Assembly 
 * https://www.youtube.com/watch?v=gTz7Sof9JAk
+
+Loft  circle to square
+https://www.youtube.com/watch?v=KzdfOQQwBMA
