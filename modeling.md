@@ -8,11 +8,11 @@ command to break line or curve
 ### Move
 M to move the object
 
-### split
+### Split
 to split the object
 
-### split
-Loft 
+### Loft
+Connecting Circle and Square sketch as an example
 
 ### offset
 offset body feature 
@@ -26,4 +26,4 @@ Assembly
 * https://www.youtube.com/watch?v=gTz7Sof9JAk
 
 Loft  circle to square + offset
-https://www.youtube.com/watch?v=KzdfOQQwBMA
+*https://www.youtube.com/watch?v=KzdfOQQwBMA
