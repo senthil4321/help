@@ -14,6 +14,9 @@ to split the object
 ### split
 Loft 
 
+### offset
+offset body feature 
+
 ### Ref
 
 Split
@@ -22,5 +25,5 @@ Split
 Assembly 
 * https://www.youtube.com/watch?v=gTz7Sof9JAk
 
-Loft  circle to square
+Loft  circle to square + offset
 https://www.youtube.com/watch?v=KzdfOQQwBMA
