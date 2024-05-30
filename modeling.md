@@ -36,3 +36,15 @@ Loft  circle to square + offset
 
 Sun Planet Gear
 * https://www.youtube.com/watch?v=W-tIlhVpZpw&t=427s
+--- --- ---
+Plant Gear Calculations
+```
+360.0 deg + ( 360 / ( 80 / 16 ) ) * 1 deg
+
+Sun_Carrier
+Carrier
+360/6
+
+Sun
+360 deg + ( 360 / ( 80 / 6 ) ) * 1 deg
+```
