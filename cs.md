@@ -185,5 +185,9 @@ It is possible to change subject field in certificate
 ```
 openssl req -new -key your_private_key.key -out your_csr.csr -subj "/C=US/ST=State/L=City/O=Organization/OU=Organizational Unit/CN=Common Name"
 openssl x509 -req -in your_csr.csr -CA your_ca_cert.crt -CAkey your_ca_private_key.key -CAcreateserial -out your_certificate.crt -days 365
-
 ```
+### Openssl HSM Interaction
+> It is possible to perform Public Key encryption with the PKCS11 Engine interface with the key stored in HSM
+> It is possible to perform Signature Operation with the PKCS11 Engine interface with the key stored in HSM
+> It is possible to perfrom Signature Verification with the PKCS11 Engine interface with the key stored in HSM
+
