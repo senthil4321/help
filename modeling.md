@@ -17,7 +17,11 @@ Connecting Circle and Square sketch as an example
 ### offset
 offset body feature 
 
+### Project Feature
+Project the component feature to Sketch
+
 ### join and motion link
+
 
 ### Ref
 
@@ -29,3 +33,6 @@ Assembly
 
 Loft  circle to square + offset
 * https://www.youtube.com/watch?v=KzdfOQQwBMA
+
+Sun Planet Gear
+* https://www.youtube.com/watch?v=W-tIlhVpZpw&t=427s
