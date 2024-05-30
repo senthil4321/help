@@ -72,6 +72,17 @@ Computing the multiplicative inverse can be “easily” done with the extended 
 1. https://cryptobook.nakov.com/asymmetric-key-ciphers/the-rsa-cryptosystem-concepts
 1. https://doctrina.org/How-RSA-Works-With-Examples.html#
 
+### RSA Arithmetic
+
+```
+The encryption of m = 2 is c = 2^7 mod 33 = 29
+The decryption of c = 29 is m = 29^3 mod 33 = 2
+```
+#### Ref.
+* https://www.cs.utexas.edu/users/mitra/honors/soln.html
+* 
+--- --- ---
+
 ### multiplicative inverse 
 > A multiplicative inverse for x
  is a number that when multiplied by x
