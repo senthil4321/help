@@ -436,3 +436,6 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 * neovim
 * neofetch
 * cmatrix
+
+### Ethernet interface naming
+* https://stackoverflow.com/questions/54194789/etc-network-interfaces-whats-ethnum-mean
