@@ -22,6 +22,9 @@ Project the component feature to Sketch
 
 ### join and motion link
 
+### Heat-Set Inserts for Plastic
+* Insert McMaster and search for Heat Set Inserts
+* eg. 2*2.5*3.2
 
 ### Ref
 
