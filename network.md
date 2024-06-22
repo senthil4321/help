@@ -68,6 +68,9 @@ https://opensource.com/article/18/9/linux-iptables-firewalld
 Set the default VLAN ID of the port. Valid values are from 1 to 4094. It is used mainly in the following two ways:
 When the port receives an untagged packet, the switch inserts a VLAN tag to the packet based on the PVID.
 ```
+```
+Note on PVID: For some switches it is necessary to set the PVID (Port VLAN ID) on untagged ports in addition to the VLAN ID of the port. This specifies which VLAN any untagged frames should be assigned to when they are received on this untagged port. The PVID should therefore match the configured VLAN ID of the untagged port
+```
 ### tagged and untagged
 ```
 VLAN-enabled ports are generally categorized in one of two ways: tagged or untagged. These may also be referred to as "trunk" or "access" respectively. The purpose of a tagged or "trunked" port is to pass traffic for multiple VLANs, whereas an untagged or "access" port accepts traffic for only a single VLAN. Generally speaking, trunk ports will link switches, and access ports will link to end devices.
