@@ -62,3 +62,9 @@ http://linux-ip.net/html/tools-ip-route.html
 
 ### IPtables firewall rule
 https://opensource.com/article/18/9/linux-iptables-firewalld
+
+### VLAN TPLink Configuration  PVID
+```
+Set the default VLAN ID of the port. Valid values are from 1 to 4094. It is used mainly in the following two ways:
+When the port receives an untagged packet, the switch inserts a VLAN tag to the packet based on the PVID.
+```
