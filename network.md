@@ -75,3 +75,14 @@ Note on PVID: For some switches it is necessary to set the PVID (Port VLAN ID) o
 ```
 VLAN-enabled ports are generally categorized in one of two ways: tagged or untagged. These may also be referred to as "trunk" or "access" respectively. The purpose of a tagged or "trunked" port is to pass traffic for multiple VLANs, whereas an untagged or "access" port accepts traffic for only a single VLAN. Generally speaking, trunk ports will link switches, and access ports will link to end devices.
 ```
+---
+### ip 
+temporary net configuration 
+set link up 
+set link down 
+set default configuration 
+show route
+to purge all configuration 
+ip addr flush eth0
+Ref. https://ubuntu.com/server/docs/configuring-networks#:~:text=To%20configure%20a%20default%20gateway,to%20match%20your%20network%20requirements.&text=If%20you%20require%20DNS%20for,%2Fetc%2Fresolv.conf%20.
+
