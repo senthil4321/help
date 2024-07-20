@@ -70,6 +70,12 @@ s= "HELLO"
 print(str.encode(s))
 ```
 #### How to print byte array in hex?
+> Option1 Best
+```python
+a = bytearray((0x01, 0x02 , 0x03 ))
+print(a.hex())
+```
+> Option2
 ```python
 a = bytearray((0x01, 0x02 , 0x03 ))
 import binascii
