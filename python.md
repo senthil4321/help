@@ -70,7 +70,7 @@ s= "HELLO"
 print(str.encode(s))
 ```
 #### How to print byte array in hex?
-> Option1 Best :heart:
+> Option1 Best :red_heart:
 ```python
 a = bytearray((0x01, 0x02 , 0x03 ))
 print(a.hex())
