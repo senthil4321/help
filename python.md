@@ -159,3 +159,30 @@ This is a guide on Markdown [Markdown][1].
 
 ### Signal Processing with Python
 * https://courses.ideate.cmu.edu/16-223/f2021/text/code/pico-signals.html
+---
+### Copy Buffer to Another Bugger
+``` Python
+data1[pos:pos+len(data2)] = data2
+data1[0:0+len(data2)] = data2
+```
+```
+size = 10
+data1[0:0+len(size)] = data2[0:size]
+```
+#### Ref.
+* https://stackoverflow.com/questions/10633881/how-to-copy-a-python-bytearray-buffer
+---
+### Python Initialise byte array with value 
+```
+initValue = 2
+size = 1024
+bytearray(size)
+bytearray([initValue] * size)
+```
+```
+bytearray(50)
+bytearray([1] * 50)
+
+```
+#### Ref.
+*https://stackoverflow.com/questions/9184489/how-to-create-a-bytes-or-bytearray-of-given-length-filled-with-zeros-in-python
