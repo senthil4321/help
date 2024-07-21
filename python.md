@@ -191,4 +191,46 @@ bytearray([1] * 50)
 
 ```
 #### Ref.
-*https://stackoverflow.com/questions/9184489/how-to-create-a-bytes-or-bytearray-of-given-length-filled-with-zeros-in-python
+* https://stackoverflow.com/questions/9184489/how-to-create-a-bytes-or-bytearray-of-given-length-filled-with-zeros-in-python
+
+## Encryption 
+'''
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives import padding
+import os
+
+def encrypt(plaintext, key):
+    # Generate a random IV (Initialization Vector)
+    iv = os.urandom(16)
+
+    # Create a Cipher object
+    cipher = Cipher(algorithms.AES(key), modes.CBC(iv), backend=default_backend())
+
+    # Create an encryptor
+    encryptor = cipher.encryptor()
+
+    # Pad the plaintext to be compatible with the block size
+    padder = padding.PKCS7(algorithms.AES.block_size).padder()
+    padded_plaintext = padder.update(plaintext) + padder.finalize()
+
+    # Encrypt the padded plaintext
+    ciphertext = encryptor.update(padded_plaintext) + encryptor.finalize()
+
+    return iv + ciphertext
+
+def main():
+    # Example plaintext
+    plaintext = b"Secret message that needs to be encrypted"
+
+    # 256-bit key (32 bytes)
+    key = os.urandom(32)
+
+    # Encrypt the plaintext
+    ciphertext = encrypt(plaintext, key)
+
+    print(f"Ciphertext: {ciphertext}")
+
+if __name__ == "__main__":
+    main()
+'''
