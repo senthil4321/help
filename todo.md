@@ -18,7 +18,15 @@ log4j appenderstream processing
 1. https://daringfireball.net/projects/markdown/syntax#header
 1. [Code highlight Supported Language](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/)
 1. https://daringfireball.net/projects/markdown/syntax#link
+2. [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+> [!NOTE]
+> Useful information
+> [!TIP]
+
+> Useful Information 
+> `CTRL + `
+> `CTRL + K`
 ## Monitoring
 1. https://devconnected.com/monitoring-linux-processes-using-prometheus-and-grafana/
 
