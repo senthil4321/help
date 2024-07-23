@@ -64,13 +64,13 @@ if title_search:
 x = "42";
 print(bytes.fromhex(s))
 ```
-#### How to convert String to byte array?
+#### How to convert string to byte array?
 ```python
 s= "HELLO"
 print(str.encode(s))
 ```
-#### How to print byte array in hex?
-> Option1 Best :red_heart:
+#### How to print byte array in hex string?
+> Option1 Best :heart:
 ```python
 a = bytearray((0x01, 0x02 , 0x03 ))
 print(a.hex())
