@@ -81,6 +81,13 @@ a = bytearray((0x01, 0x02 , 0x03 ))
 import binascii
 print(binascii.hexlify(a))
 ```
+#### Print type of variable 
+```python
+data = "1234"
+print(type(data))
+```
+> str
+> byte
 #### __repr__ and __str__
 repr is used for debugging object
 str is used for printing object
