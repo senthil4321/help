@@ -201,7 +201,7 @@ bytearray([1] * 50)
 * https://stackoverflow.com/questions/9184489/how-to-create-a-bytes-or-bytearray-of-given-length-filled-with-zeros-in-python
 
 ## Encryption 
-'''python
+```python
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
@@ -240,4 +240,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''
+```
