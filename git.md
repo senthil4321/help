@@ -66,3 +66,7 @@ git config --global pull.rebase true
 
 ## git staging
 * https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-staging-area
+
+## git difftool 
+it is possible to configure beyond compare as diff tool
+it is possible to view differences in whole folder
