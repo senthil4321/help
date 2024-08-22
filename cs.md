@@ -207,3 +207,5 @@ openssl x509 -req -in your_csr.csr -CA your_ca_cert.crt -CAkey your_ca_private_k
 openssl pkeyutl 
 openssl pkeyutl -decrypt -inkey key.pem -in file -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 -out secret
 ```
+## Process 
+* Secure storage of data and materials 
