@@ -101,7 +101,6 @@ Underscore is used in variable and method names to denote private
 #### property object and decoraters
 ``` python
 ```
-
 ***
 ### Modules
 #### console-menu
