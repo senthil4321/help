@@ -412,3 +412,5 @@ println(data)
 ---
 ## pipeline-parameters
 * https://devopscube.com/declarative-pipeline-parameters/
+## use-def-in-jenkins-pipeline
+* https://stackoverflow.com/questions/47216731/how-can-i-use-def-in-jenkins-pipeline
