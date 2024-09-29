@@ -60,9 +60,15 @@ if title_search:
     print(a+b)
 ```
 #### How to get byte array from hex string?
+Example1
 ```python
 x = "42";
 print(bytes.fromhex(s))
+```
+Example2
+```python 
+data = bytearray.fromhex("1234567890aabbccddeeff")
+print(data.hex())
 ```
 #### How to convert string to byte array?
 ```python
