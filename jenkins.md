@@ -409,3 +409,6 @@ println(data)
 ```
 ### input
 * https://stackoverflow.com/questions/42501553/jenkins-declarative-pipeline-how-to-read-choice-from-input-step
+---
+## pipeline-parameters
+* https://devopscube.com/declarative-pipeline-parameters/
