@@ -61,7 +61,8 @@ mode COM22 BAUD=9600 PARITY=n DATA=8
 ### com0com
 * https://pete.akeo.ie/2011/07/com0com-signed-drivers.html
 ### echo without newline
-```
+```bat
+echo|set /p="Hello World"
 ```
 * https://stackoverflow.com/questions/7105433/windows-batch-echo-without-new-line
 ### git bash
