@@ -48,8 +48,8 @@ steps {
 Use Script Path `./script/Jenkinsfile`
 ***
 ###
-https://gist.github.com/HarshadRanganathan/97feed7f91b7ae542c994393447f3db4
-https://stackoverflow.com/questions/59040218/how-to-ssh-into-a-server-in-jenkinsfile
+* https://gist.github.com/HarshadRanganathan/97feed7f91b7ae542c994393447f3db4
+* https://stackoverflow.com/questions/59040218/how-to-ssh-into-a-server-in-jenkinsfile
 ***
 ### Jenkins Declarative pipeline defining credential
 ```groovy
@@ -208,7 +208,6 @@ Todo
 ### plugin
 ```
 addShortText(text, color, background, border, borderColor) - puts a badge with a short text, using the specified format.  For Colors supported, Google "html color names".
-
 ```
 * https://www.w3schools.com/colors/color_tryit.asp?color=CornflowerBlue
 * https://plugins.jenkins.io/groovy-postbuild/
