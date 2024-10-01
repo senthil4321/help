@@ -8,4 +8,4 @@
 * https://hexed.it/
 
 ### serial console
-* 
+* https://googlechromelabs.github.io/serial-terminal/
