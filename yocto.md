@@ -2,6 +2,9 @@
 ### Commands Raspberry pi image creation
 ```
 bitbake rpi-basic-image
+
+### view dependecy tree
+
 bitbake -g -u taskexp core-image-minimal
 ```
 ### working directory 
