@@ -35,6 +35,13 @@ https://ss64.com/nt/for_f.html
 1. https://stackoverflow.com/questions/3068929/how-to-read-file-contents-into-a-variable-in-a-batch-file  
 1. https://stackoverflow.com/questions/28133052/saving-a-batch-variable-in-a-text-file  
 
+## Drive path from the parameter
+```
+%~dp0
+```
+### Ref
+* https://stackoverflow.com/questions/112055/what-does-d0-mean-in-a-windows-batch-file
+* https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490909(v=technet.10)?redirectedfrom=MSDN
 ## Exit code
 ```
 exit /b %ERRORLEVEL%
