@@ -64,3 +64,9 @@ SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=mac
 
 ### Yocto
 * https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
+
+### Yocoto Newversion Changes
+
+> ~~IMAGE_INSTALL_append += " hello"~~
+
+> IMAGE_INSTALL:append += " hello"
