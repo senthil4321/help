@@ -61,3 +61,6 @@ SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=mac
 * https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host
 ### print variable
 * bitbake-getvar-r ncurses SRC_URI
+
+### Yocto
+* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
