@@ -447,3 +447,9 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 ### zgrep
 grep without unpack
 zgrep CONFIG_OPTION /proc/config.gz
+###
+
+/proc/config.gz
+/boot/config
+/boot/config-$(uname -r)
+
