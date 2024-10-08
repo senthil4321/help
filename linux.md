@@ -442,4 +442,5 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 
 ### Linnux Expand Partition
 * https://forum.cloudron.io/topic/6086/ubuntu-20-04-how-to-extend-partition-for-noobs
-  
+### zcat
+> Linux utility to cat zip file
