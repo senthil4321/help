@@ -85,3 +85,5 @@ Test Vector
 Combination of AES CTR and CBC
 * CTR for Encryption
 * CBC without IV for MAC
+### AES GCM and GMAC
+> IV, AAD, KEY, Data -> EN:Data, MAC Tag
