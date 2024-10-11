@@ -170,6 +170,8 @@ tpm2_getcap handles-persistent
 * Keep it Simple (Harder than needed - not easy for bad guy)
    * Harder to right thing than to do the wrong thing
 * Security By Obscurity - Very Bad
+* Security by Isolation 
+
 ## Singnature Generation
 > Signature generation is done with the Private Key
 > Signature Verification is done with the Public Key
