@@ -246,3 +246,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+### f-string
+### f-string and self documenting expression 
+```
+print(f'{theta=}  {cos(radians(theta))=:.3f}')
+theta=30  cos(radians(theta))=0.866
+```
