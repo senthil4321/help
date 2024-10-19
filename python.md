@@ -257,3 +257,13 @@ theta=30  cos(radians(theta))=0.866
 '{:<30}'.format('left aligned')
 'left aligned                  '
 ```
+### zip command in for loop
+> zip allows you to iterate two lists at the same time, so, for example, the following code
+```
+letters = ['a', 'b', 'c']
+numbers = [1, 2, 3]
+
+for letter, number in zip(letters, numbers):
+    print(f'{letter} -> {number}')
+```
+* https://stackoverflow.com/questions/49783594/for-loop-and-zip-in-python
