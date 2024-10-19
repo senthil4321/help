@@ -1,3 +1,11 @@
+### github diagrams
+```mermaid
+sequenceDiagram
+    Host->>Server: Client Hello
+    Server-->>Host : OK!
+    Host-)Server: End!
+```
+* https://mermaid.js.org/syntax/sequenceDiagram.html
 ### 
 ```
 Root CA
