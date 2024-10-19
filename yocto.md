@@ -19,6 +19,11 @@ itbake-getvar -r core-image-minimal S
 itbake-getvar -r core-image-minimal B
 itbake-getvar -r core-image-minimal D
 ```
+> ${BPN}-${PV}
+```
+bitbake-getvar -r core-image-minimal BPN
+bitbake-getvar -r core-image-minimal PN
+```
 * https://wiki.koansoftware.com/index.php/How_to_trace_a_variable_setting_with_bitbake-getvar
 
 ### View dependecy tree
