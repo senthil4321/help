@@ -445,11 +445,27 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 ### zcat
 > Linux utility to cat zip file
 ### zgrep
-grep without unpack
+> grep without unpack
+```
 zgrep CONFIG_OPTION /proc/config.gz
-###
 
 /proc/config.gz
 /boot/config
 /boot/config-$(uname -r)
+```
+### tree
+> command to view directory structure in tree format
+```
+tree
+.
+├── hello
+│   ├── files
+│   │   ├── hello.c
+│   │   └── Makefile
+│   └── hello_1.0.bb
+└── README.md
+
+```
+
+
 
