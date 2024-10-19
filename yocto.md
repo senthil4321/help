@@ -71,10 +71,31 @@ build
 D The destination directory (root directory of where the files are
 installed, before creating the image).
 
-### print variable
-* bitbake-getvar-r ncurses SRC_URI
+## oe-pkgdata-util
+### what recipe is creating
+```
+oe-pkgdata-util list-pkg-files busybox
+```
+```
+oe-pkgdata-util list-pkg-files hello
+```
+### which recipe creates the package
+```
+oe-pkgdata-util lookup-recipe hello
+```
+## Variables
+### CC
+> The minimal command and arguments used to run the C compiler.
 
----
+### CC
+> The minimal command and arguments used to run the C compiler.
+### CFLAGS
+> Specifies the flags to pass to the C compiler.
+### CXX
+> The minimal command and arguments used to run the C++ compiler.
+### CXXFLAGS
+> Specifies the flags to pass to the C++ compiler.
+
 ### Yocto
 * https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
 
