@@ -266,4 +266,7 @@ numbers = [1, 2, 3]
 for letter, number in zip(letters, numbers):
     print(f'{letter} -> {number}')
 ```
+> Passing Arguments of Unequal Length - shorted list is taken
+> Strict mode - > throws error - zip(range(5), range(100), strict=True)
 * https://stackoverflow.com/questions/49783594/for-loop-and-zip-in-python
+* https://realpython.com/python-zip-function/
