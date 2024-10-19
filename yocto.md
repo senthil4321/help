@@ -3,7 +3,10 @@
 ```
 bitbake rpi-basic-image
 ```
-
+### devshell
+```
+bitbake -c devshell hello
+```
 ### bitbake-getvar 
 ```
 bitbake-getvar [-h] [-r RECIPE] [-u] [-f FLAG] [--value] variable
@@ -48,7 +51,7 @@ bitbake --runall=fetch core-image-minimal
 bitbake -s
 ```
 ### working directory 
->>>
+
 WORKDIR the recipe’s working directory
 
 S The directory where the source code is extracted
@@ -59,11 +62,21 @@ build
 D The destination directory (root directory of where the files are
 installed, before creating the image).
 
+### print variable
+* bitbake-getvar-r ncurses SRC_URI
+
+---
+### Yocto
+* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
+
+### Yocoto Newversion Changes
+> ~~IMAGE_INSTALL_append += " hello"~~
+> IMAGE_INSTALL:append += " hello"
+---
 ### Tutorial
 * https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project
 
 ### Analysis
-
 * https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky.conf
 * https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky-tiny.conf
 
@@ -76,7 +89,6 @@ Below reipes provide the logic to download the kernel based on architecture and 
 
 ### Kernel Source
 * https://git.yoctoproject.org/linux-yocto/
-
 #### Other
 * https://git.yoctoproject.org/poky/plain/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb
 * https://github.com/yoctoproject/poky/blob/92bb6f72ceb39c99e5c93c0a99b70fb210233acb/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf
@@ -95,19 +107,7 @@ SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=mac
 ```
 ### bitbake gui
 * https://wiki.yoctoproject.org/wiki/BitBake/GUI
-```
 
-```
 ### Yocto Installation
 * https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host
-### print variable
-* bitbake-getvar-r ncurses SRC_URI
-
-### Yocto
-* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
-
-### Yocoto Newversion Changes
-
-> ~~IMAGE_INSTALL_append += " hello"~~
-
-> IMAGE_INSTALL:append += " hello"
+  
