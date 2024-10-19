@@ -50,6 +50,15 @@ bitbake --runall=fetch core-image-minimal
 ```
 bitbake -s
 ```
+### Showlayers
+```
+bitbake-layers show-layers
+```
+### Add-layer
+```
+bitbake-layers add-layer meta-srk
+bitbake-layers remove-layer meta-srk
+```
 ### working directory 
 
 WORKDIR the recipe’s working directory
