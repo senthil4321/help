@@ -102,6 +102,16 @@ Please the below line in the .bash_rc
 ```
 export PROMPT_COMMAND='history -a'
 ```
+
+### Search long commands in history
+```
+CTRL + R
+```
+### history run with command number
+```
+!550 runs the command with number 550. use 'hisotry' to get the number
+!-2 
+```
 ### SCP
 #### copy from remote pc
 ```bash
