@@ -277,3 +277,7 @@ for letter, number in zip(letters, numbers):
 > Strict mode - > throws error - zip(range(5), range(100), strict=True)
 * https://stackoverflow.com/questions/49783594/for-loop-and-zip-in-python
 * https://realpython.com/python-zip-function/
+### console automation 
+* https://github.com/pexpect
+* https://www.fabfile.org/
+* https://www.paramiko.org/
