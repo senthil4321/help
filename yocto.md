@@ -61,14 +61,14 @@ bitbake-layers remove-layer meta-srk
 ```
 ## qemu
 > [!NOTE]
-CTRL + ALT + 1
-CTRL + ALT + 2
-CTRL + ALT + 3
+> CTRL + ALT + 1
 
+> CTRL + ALT + 2
+
+> CTRL + ALT + 3
 ```
 runqemu core-image-minimal
 ```
-* 
 ## Testing 
 ```bash
 bitbake -c testimage image
