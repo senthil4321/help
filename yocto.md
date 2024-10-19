@@ -3,6 +3,18 @@
 ```
 bitbake rpi-basic-image
 
+### bitbake-getvar 
+```
+bitbake-getvar [-h] [-r RECIPE] [-u] [-f FLAG] [--value] variable
+```
+```
+bitbake-getvar DEPLOY_DIR
+bitbake-getvar IMAGE_FSTYPES
+bitbake-getvar IMAGE_INSTALL
+bitbake-getvar MACHINE
+
+```
+* https://wiki.koansoftware.com/index.php/How_to_trace_a_variable_setting_with_bitbake-getvar
 ### view dependecy tree
 
 bitbake -g -u taskexp core-image-minimal
