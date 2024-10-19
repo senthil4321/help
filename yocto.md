@@ -19,6 +19,8 @@ build
 D The destination directory (root directory of where the files are
 installed, before creating the image).
 ```
+### Tutorial
+* https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project
 
 ### Analysis
 
@@ -29,7 +31,6 @@ Below reipes provide the logic to download the kernel based on architecture and 
 
 * https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto_5.15.bb
 * https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb
-
 
 * https://github.com/yoctoproject/poky/blob/master/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf
 
