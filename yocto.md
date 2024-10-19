@@ -7,6 +7,24 @@ bitbake rpi-basic-image
 
 bitbake -g -u taskexp core-image-minimal
 ```
+### list tasks virtual kernel
+```
+bitbake -c listtasks virtual/kernel
+bitbake -c menuconfig virtual/kernel
+
+```
+### fource run all tasks
+```
+bitbake -f hello
+```
+### download source
+```
+bitbake --runall=fetch core-image-minimal
+```
+### show all recipes 
+```
+bitbake -s
+```
 ### working directory 
 ```
 WORKDIR the recipe’s working directory
