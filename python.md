@@ -252,6 +252,8 @@ if __name__ == "__main__":
 print(f'{theta=}  {cos(radians(theta))=:.3f}')
 theta=30  cos(radians(theta))=0.866
 ```
+> fstring supports mini language
+* https://realpython.com/python-format-mini-language/
 ### format-specification-mini-language
 ```
 '{:<30}'.format('left aligned')
