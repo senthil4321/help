@@ -2,6 +2,7 @@
 ### Commands Raspberry pi image creation
 ```
 bitbake rpi-basic-image
+```
 
 ### bitbake-getvar 
 ```
@@ -12,20 +13,24 @@ bitbake-getvar DEPLOY_DIR
 bitbake-getvar IMAGE_FSTYPES
 bitbake-getvar IMAGE_INSTALL
 bitbake-getvar MACHINE
-
+```
+```
+itbake-getvar -r core-image-minimal S
+itbake-getvar -r core-image-minimal B
+itbake-getvar -r core-image-minimal D
 ```
 * https://wiki.koansoftware.com/index.php/How_to_trace_a_variable_setting_with_bitbake-getvar
-### view dependecy tree
 
+### View dependecy tree
+```
 bitbake -g -u taskexp core-image-minimal
 ```
-### list tasks virtual kernel
+### List tasks virtual kernel
 ```
 bitbake -c listtasks virtual/kernel
 bitbake -c menuconfig virtual/kernel
-
 ```
-### fource run all tasks
+### Force run all tasks
 ```
 bitbake -f hello
 ```
@@ -38,7 +43,7 @@ bitbake --runall=fetch core-image-minimal
 bitbake -s
 ```
 ### working directory 
-```
+>>>
 WORKDIR the recipe’s working directory
 
 S The directory where the source code is extracted
@@ -48,7 +53,7 @@ build
 
 D The destination directory (root directory of where the files are
 installed, before creating the image).
-```
+
 ### Tutorial
 * https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project
 
