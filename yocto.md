@@ -60,7 +60,7 @@ bitbake-layers add-layer meta-srk
 bitbake-layers remove-layer meta-srk
 ```
 ## qemu
-[!NOTE]
+> [!NOTE]
 CTRL + ALT + 1
 CTRL + ALT + 2
 CTRL + ALT + 3
