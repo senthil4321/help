@@ -257,6 +257,11 @@ theta=30  cos(radians(theta))=0.866
 '{:<30}'.format('left aligned')
 'left aligned                  '
 ```
+```
+for align, text in zip('<^>', ['left', 'center', 'right']):
+    '{0:{fill}{align}16}'.format(text, fill=align, align=align)
+```
+* https://docs.python.org/3/library/string.html#format-specification-mini-language
 ### zip command in for loop
 > zip allows you to iterate two lists at the same time, so, for example, the following code
 ```
