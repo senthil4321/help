@@ -185,3 +185,8 @@ mdev-busybox
 ```
 runqemu core-image-minimal
 ``` 
+## TODO Read
+1. https://wiki.koansoftware.com/index.php/Add_a_systemd_service_file_into_a_Yocto_image
+2. https://docs.yoctoproject.org/dev/ref-manual/variables.html#term-INIT_MANAGER
+3. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html
+4. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html#init-manager
