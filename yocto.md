@@ -163,3 +163,20 @@ SRC_URI = "git://git.yoctoproject.org/linux-yocto.git;branch=${KBRANCH};name=mac
 ### Yocto Installation
 * https://docs.yoctoproject.org/ref-manual/system-requirements.html#required-packages-for-the-build-host
   
+## 
+### How to change Init Manager ?
+#### Available Options
+```
+sysvinit
+systemd
+mdev-busybox
+```
+```
+```
+* https://wiki.koansoftware.com/index.php/Add_a_systemd_service_file_into_a_Yocto_image
+* https://docs.yoctoproject.org/dev/ref-manual/variables.html#term-INIT_MANAGER
+* https://docs.yoctoproject.org/dev/dev-manual/init-manager.html
+* https://docs.yoctoproject.org/dev/dev-manual/init-manager.html#init-manager
+### Linux runlevel
+## Poky Tiny
+* https://wiki.yoctoproject.org/wiki/Poky-Tiny
