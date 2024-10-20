@@ -184,7 +184,15 @@ mdev-busybox
 ### Command to start QEMU
 ```
 runqemu core-image-minimal
-``` 
+```
+### Meaning of grep
+```
+ps |grep -v [[]
+-v invert match
+[] regex
+[ item to search in regex
+```
+---
 ## TODO Read
 1. https://wiki.koansoftware.com/index.php/Add_a_systemd_service_file_into_a_Yocto_image
 2. https://docs.yoctoproject.org/dev/ref-manual/variables.html#term-INIT_MANAGER
