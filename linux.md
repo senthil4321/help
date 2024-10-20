@@ -483,7 +483,7 @@ tree
 vi ~/.exrc
 set nocompatible
 ```
-#### TO Read Short Cuts
+#### TODO Read Shortcut
 * https://askubuntu.com/questions/353911/hitting-arrow-keys-adds-characters-in-vi-editor
 * https://www.cs.colostate.edu/helpdocs/vi.html
 
