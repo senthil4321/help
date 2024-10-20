@@ -29,6 +29,12 @@ bitbake-getvar -r core-image-minimal PN
 ```
 * https://wiki.koansoftware.com/index.php/How_to_trace_a_variable_setting_with_bitbake-getvar
 
+```bash
+bitbake-getvar DISTRO_FEATURES
+bitbake-getvar MACHINE_FEATURES
+bitbake-getvar IMAGE_FEATURES
+bitbake-getvar INIT_MANAGER
+```
 ### View dependecy tree
 ```
 bitbake -g -u taskexp core-image-minimal
