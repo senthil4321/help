@@ -1,4 +1,10 @@
 # Yocto commands
+## 
+> [!IMPORTANT]
+> DISTRO_FEATURES  
+MACHINE_FEATURES  
+IMAGE_FEATURES  
+
 ### Commands Raspberry pi image creation
 ```
 bitbake rpi-basic-image
@@ -180,7 +186,10 @@ mdev-busybox
 ### Linux runlevel
 ## Poky-tiny
 1. Image build sucess
+2. poky/meta-poky/conf/distro/poky-tiny.conf
+3. poky/meta/recipes-kernel/linux/linux-yocto-tiny_6.6.bb
 * https://wiki.yoctoproject.org/wiki/Poky-Tiny
+  
 ### Command to start QEMU
 ```
 runqemu core-image-minimal
