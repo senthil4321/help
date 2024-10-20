@@ -207,3 +207,4 @@ ps |grep -v [[]
 2. https://docs.yoctoproject.org/dev/ref-manual/variables.html#term-INIT_MANAGER
 3. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html
 4. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html#init-manager
+5. https://docs.yoctoproject.org/ref-manual/features.html
