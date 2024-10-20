@@ -178,5 +178,10 @@ mdev-busybox
 * https://docs.yoctoproject.org/dev/dev-manual/init-manager.html
 * https://docs.yoctoproject.org/dev/dev-manual/init-manager.html#init-manager
 ### Linux runlevel
-## Poky Tiny
+## Poky-tiny
+1. Image build sucess
 * https://wiki.yoctoproject.org/wiki/Poky-Tiny
+### Command to start QEMU
+```
+runqemu core-image-minimal
+``` 
