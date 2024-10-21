@@ -202,6 +202,11 @@ ps |grep -v [[]
 [ item to search in regex
 ```
 ---
+## Kernel Size Analysis
+### Location of Kernel Build Directory
+```
+~/project/poky/build/tmp/work/qemux86_64-poky-linux-musl/linux-yocto-tiny/6.10.11+git/linux-qemux86_64-tiny-build$ ~/project/poky/scripts/tiny/ksize.py 
+```
 ## TODO Read
 1. https://wiki.koansoftware.com/index.php/Add_a_systemd_service_file_into_a_Yocto_image
 2. https://docs.yoctoproject.org/dev/ref-manual/variables.html#term-INIT_MANAGER
