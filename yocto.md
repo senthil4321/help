@@ -62,6 +62,8 @@ bitbake -g -u taskexp core-image-minimal
 bitbake -c listtasks virtual/kernel
 bitbake -c menuconfig virtual/kernel
 bitbake -c diffconfig virtual/kernel
+bitbake -c cleansstate virtual/kernel
+bitbake -c kernel_configcheck -f virtual/kernel
 ```
 ### Force run all tasks
 ```
