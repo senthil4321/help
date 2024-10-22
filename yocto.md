@@ -65,6 +65,8 @@ bitbake -c diffconfig virtual/kernel
 bitbake -c cleansstate virtual/kernel
 bitbake -c kernel_configcheck -f virtual/kernel
 ```
+* https://wiki.koansoftware.com/index.php/Modify_the_linux_kernel_with_configuration_fragments_in_Yocto
+  
 ### Force run all tasks
 ```
 bitbake -f hello
