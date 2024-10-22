@@ -24,9 +24,9 @@ bitbake-getvar IMAGE_INSTALL
 bitbake-getvar MACHINE
 ```
 ```
-itbake-getvar -r core-image-minimal S
-itbake-getvar -r core-image-minimal B
-itbake-getvar -r core-image-minimal D
+bitbake-getvar -r core-image-minimal S
+bitbake-getvar -r core-image-minimal B
+bitbake-getvar -r core-image-minimal D
 ```
 > ${BPN}-${PV}
 ```
@@ -41,6 +41,18 @@ bitbake-getvar MACHINE_FEATURES
 bitbake-getvar IMAGE_FEATURES
 bitbake-getvar INIT_MANAGER
 ```
+## Kernel Optimisation
+## Kernel Config and Compilation
+```
+bitbake -c menuconfig virtual/kernel
+```
+```
+bitbake virtual/kernel
+```
+```
+bitbake-getvar DISTRO_FEATURES
+```
+> DISTRO_FEATURES:remove = " ipv4"
 ### View dependecy tree
 ```
 bitbake -g -u taskexp core-image-minimal
@@ -73,11 +85,9 @@ bitbake-layers remove-layer meta-srk
 ```
 ## qemu
 > [!NOTE]
-> CTRL + ALT + 1
-
-> CTRL + ALT + 2
-
-> CTRL + ALT + 3
+> CTRL + ALT + 1  
+> CTRL + ALT + 2  
+> CTRL + ALT + 3  
 ```
 runqemu core-image-minimal
 ```
@@ -88,15 +98,11 @@ bitbake -c testimage image
 * https://docs.yoctoproject.org/dev-manual/runtime-testing.html#performing-automated-runtime-testing
 ---
 ### working directory 
-
-WORKDIR the recipe’s working directory
-
-S The directory where the source code is extracted
-
-B The directory where bitbake places the objects generated during the
+`WORKDIR` the recipe’s working directory
+`S` The directory where the source code is extracted
+`B` The directory where bitbake places the objects generated during the
 build
-
-D The destination directory (root directory of where the files are
+`D` The destination directory (root directory of where the files are
 installed, before creating the image).
 
 ## oe-pkgdata-util
@@ -114,9 +120,6 @@ oe-pkgdata-util lookup-recipe hello
 ## Variables
 ### CC
 > The minimal command and arguments used to run the C compiler.
-
-### CC
-> The minimal command and arguments used to run the C compiler.
 ### CFLAGS
 > Specifies the flags to pass to the C compiler.
 ### CXX
@@ -128,7 +131,7 @@ oe-pkgdata-util lookup-recipe hello
 * https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
 
 ### Yocoto Newversion Changes
-> ~~IMAGE_INSTALL_append += " hello"~~
+> ~~IMAGE_INSTALL_append += " hello"~~  
 > IMAGE_INSTALL:append += " hello"
 ---
 ### Tutorial
@@ -142,7 +145,6 @@ Below reipes provide the logic to download the kernel based on architecture and 
 
 * https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto_5.15.bb
 * https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb
-
 * https://github.com/yoctoproject/poky/blob/master/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf
 
 ### Kernel Source
@@ -177,8 +179,6 @@ sysvinit
 systemd
 mdev-busybox
 ```
-```
-```
 * https://wiki.koansoftware.com/index.php/Add_a_systemd_service_file_into_a_Yocto_image
 * https://docs.yoctoproject.org/dev/ref-manual/variables.html#term-INIT_MANAGER
 * https://docs.yoctoproject.org/dev/dev-manual/init-manager.html
@@ -206,6 +206,9 @@ ps |grep -v [[]
 ### Location of Kernel Build Directory
 ```
 ~/project/poky/build/tmp/work/qemux86_64-poky-linux-musl/linux-yocto-tiny/6.10.11+git/linux-qemux86_64-tiny-build$ ~/project/poky/scripts/tiny/ksize.py 
+```
+```
+cd ~/project/poky/build/tmp/work/qemux86_64-poky-linux-musl/linux-yocto-tiny/6.10.11+git/linux-qemux86_64-tiny-build
 ```
 ## TODO Read
 1. https://wiki.koansoftware.com/index.php/Add_a_systemd_service_file_into_a_Yocto_image
