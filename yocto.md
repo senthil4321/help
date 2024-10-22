@@ -221,3 +221,12 @@ cd ~/project/poky/build/tmp/work/qemux86_64-poky-linux-musl/linux-yocto-tiny/6.1
 3. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html
 4. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html#init-manager
 5. https://docs.yoctoproject.org/ref-manual/features.html
+```
+bitbake -g bitbake -g core-image-minimal
+```
+### How to know which append files are used in the build ? 
+```
+bitbake-layers show-appends
+```
+* https://stackoverflow.com/questions/32850160/bitbake-how-to-list-all-recipe-and-append-files-used-in-an-image
+  
