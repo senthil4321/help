@@ -430,7 +430,7 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 ```
 cd --
 ```
-qwe Bookmark directory  
+### qwe Bookmark directory  
 ```
 source https://raw.githubusercontent.com/olafurw/qwe/refs/heads/main/qwe.source
 qwe -a <directory>
@@ -438,6 +438,7 @@ qwe -a <directory>
 ### alias 
 ```
 alias q=qwe
+alias c=clear
 ```
 ### Linux File System
 > MTD ->  UBI Volume -> UBIFS
