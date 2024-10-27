@@ -426,7 +426,19 @@ echo "/$pth" | sed 's/\\/\//g' | sed 's/://'
 * https://stackoverflow.com/questions/13701218/windows-path-to-posix-path-conversion-in-bash
 
 --- --- ---
-
+### Linux cd to previous directory
+```
+cd --
+```
+qwe Bookmark directory  
+```
+source https://raw.githubusercontent.com/olafurw/qwe/refs/heads/main/qwe.source
+qwe -a <directory>
+```
+### alias 
+```
+alias q=qwe
+```
 ### Linux File System
 > MTD ->  UBI Volume -> UBIFS
 --- --- ---
