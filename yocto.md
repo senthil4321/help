@@ -222,7 +222,7 @@ cd ~/project/poky/build/tmp/work/qemux86_64-poky-linux-musl/linux-yocto-tiny/6.1
 4. https://docs.yoctoproject.org/dev/dev-manual/init-manager.html#init-manager
 5. https://docs.yoctoproject.org/ref-manual/features.html
 ```
-bitbake -g bitbake -g core-image-minimal
+bitbake -g core-image-minimal
 ```
 ### How to know which append files are used in the build ? 
 ```
