@@ -6,7 +6,7 @@
 ### `when` directive
 
 ### Dynamically enable stage during pipeline execution
-```
+```groovy
 stage('stage1') {
 when {
 environment name: 'STATUS', value: 'true'
@@ -66,7 +66,7 @@ How to access the environment variable?
 ### when condition
 > There can be only one steps block inside stage. Condition can enable /
 disable all the steps in the block.
-```
+```groovy
 pipeline {
     agent any
     parameters {
