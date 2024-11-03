@@ -1,14 +1,14 @@
 # Batchfile creation
 ## for loop
-```
+```bat
 FOR /L %N IN () DO @echo looping && @adb wait-for-device && adb forward tcp:3490 tcp:3490 && adb shell
 ```
 ### Example Command Line 2
-```
+```bat
 for /f "tokens=2 delims==" %a in ('wmic OS Get localdatetime /value') do set "dt=%a"
 ```
 ### Example Batch File
-```
+```bat
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
 ```
 ### Example Batch File 1
