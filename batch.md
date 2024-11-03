@@ -12,7 +12,7 @@ for /f "tokens=2 delims==" %a in ('wmic OS Get localdatetime /value') do set "dt
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
 ```
 ### Example Batch File 1
-```bash
+```bat
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
 set "YY=%dt:~2,2%" & set "YYYY=%dt:~0,4%" & set "MM=%dt:~4,2%" & set "DD=%dt:~6,2%"
 set "HH=%dt:~8,2%" & set "Min=%dt:~10,2%" & set "Sec=%dt:~12,2%"
@@ -27,7 +27,7 @@ echo fullstamp: "%fullstamp%
 https://ss64.com/nt/for_f.html
 
 ## Percentage symbol usage in command line and batch file
-```
+```bat
    %%parameter    A replaceable parameter:              
                   in a batch file use %%G (on the command line %G)
 ```
@@ -36,19 +36,19 @@ https://ss64.com/nt/for_f.html
 1. https://stackoverflow.com/questions/28133052/saving-a-batch-variable-in-a-text-file  
 
 ## Drive path from the parameter
-```
+```bat
 %~dp0
 ```
 ### Ref
 * https://stackoverflow.com/questions/112055/what-does-d0-mean-in-a-windows-batch-file
 * https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490909(v=technet.10)?redirectedfrom=MSDN
 ## Exit code
-```
+```bat
 exit /b %ERRORLEVEL%
 ```
 * https://www.manageengine.com/products/desktop-central/batch-file-errorlevels.html
 ### pass parameters
-```
+```bat
 demo.bat data1
 
 echo %1%
@@ -59,7 +59,7 @@ REM Remarks comment
 :: Demo comment
 ```
 ### comport 
-```bash
+```bat
 set /p x="1" <nul >\\.\COM2
 mode COM22 BAUD=9600 PARITY=n DATA=8
 ```
