@@ -9,7 +9,7 @@ is a distribution framework.
 ### setup.py and requirement.txt
 #### requirement.txt
 helps you to set up your development environment
-```
+```bash
 pip install -r requirements.txt
 ```
 #### setup.py 
@@ -132,7 +132,7 @@ duration = 1000  # Set Duration To 1000 ms == 1 second
 winsound.Beep(frequency, duration)
 ```
 ### get python architecture
-```
+```python
 import platform
 platform.architecture()[0]
 
@@ -183,7 +183,7 @@ This is a guide on Markdown [Markdown][1].
 data1[pos:pos+len(data2)] = data2
 data1[0:0+len(data2)] = data2
 ```
-```
+```python
 size = 10
 data1[0:0+len(size)] = data2[0:size]
 ```
@@ -191,16 +191,15 @@ data1[0:0+len(size)] = data2[0:size]
 * https://stackoverflow.com/questions/10633881/how-to-copy-a-python-bytearray-buffer
 ---
 ### Python Initialise byte array with value 
-```
+```python
 initValue = 2
 size = 1024
 bytearray(size)
 bytearray([initValue] * size)
 ```
-```
+```python
 bytearray(50)
 bytearray([1] * 50)
-
 ```
 #### Ref.
 * https://stackoverflow.com/questions/9184489/how-to-create-a-bytes-or-bytearray-of-given-length-filled-with-zeros-in-python
@@ -248,25 +247,25 @@ if __name__ == "__main__":
 ```
 ### f-string
 ### f-string and self documenting expression 
-```
+```python
 print(f'{theta=}  {cos(radians(theta))=:.3f}')
 theta=30  cos(radians(theta))=0.866
 ```
 > fstring supports mini language
 * https://realpython.com/python-format-mini-language/
 ### format-specification-mini-language
-```
+```python 
 '{:<30}'.format('left aligned')
 'left aligned                  '
 ```
-```
+```python
 for align, text in zip('<^>', ['left', 'center', 'right']):
     '{0:{fill}{align}16}'.format(text, fill=align, align=align)
 ```
 * https://docs.python.org/3/library/string.html#format-specification-mini-language
 ### zip command in for loop
 > zip allows you to iterate two lists at the same time, so, for example, the following code
-```
+```python
 letters = ['a', 'b', 'c']
 numbers = [1, 2, 3]
 
