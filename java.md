@@ -260,3 +260,23 @@ public static String bytesToHex(byte[] bytes) {
     return new String(hexChars);
 }
 '''
+
+public static byte[] hexStringToByteArray(String hex) {
+    int length = hex.length();
+    if (length % 2 != 0) {
+        throw new IllegalArgumentException("Hex string must have an even length");
+    }
+
+    byte[] data = new byte[length / 2];
+    for (int i = 0; i < length; i += 2) {
+        int high = Character.digit(hex.charAt(i), 16);
+        int low = Character.digit(hex.charAt(i + 1), 16);
+        
+        if (high == -1 || low == -1) {
+            throw new IllegalArgumentException("Invalid hex character in the string");
+        }
+        
+        data[i / 2] = (byte) ((high << 4) + low);
+    }
+    return data;
+}
