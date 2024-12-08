@@ -553,3 +553,15 @@ N move to next occurrence of search string in opposite directio
 ```
 ### epoll
 Linux non blocking wait to monotor event
+
+### put cursor at the bottom of the screen
+```
+__prompt_to_bottom_line() {
+  tput cup $LINES
+}
+alias clear='clear && __prompt_to_bottom_line'
+__prompt_to_bottom_line
+```
+#### Ref
+* https://stackoverflow.com/questions/32618502/is-there-a-way-to-keep-the-terminal-shell-prompt-in-the-middle-top-of-page
+
