@@ -551,4 +551,5 @@ n move to next occurrence of search string
 N move to next occurrence of search string in opposite directio
 
 ```
-
+### epoll
+Linux non blocking wait to monotor event
