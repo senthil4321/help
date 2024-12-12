@@ -138,3 +138,33 @@ sudo systemctl restart networking
 sudo systemctl status networking
 https://serverfault.com/questions/1111595/linux-why-is-arp-not-answered-via-vlan-bridge
 ```
+### Socket bind
+Socket bind is a mechanism to bind local interface and port to the program.
+Example bind a specific interface and port to the server program to listen to.
+#### How bind works
+When a socket is creatd, it is initially not associated with any address or port. The `bind` function assigns a specific local address and port to the socket, allowing it to receive incoming packets directed to that address and port.
+``` java
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.ServerSocket;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            // Create a server socket
+            ServerSocket serverSocket = new ServerSocket();
+
+            // Bind the server socket to an address and port
+            InetSocketAddress address = new InetSocketAddress("192.168.1.100", 8080);
+            serverSocket.bind(address);
+
+            System.out.println("Socket bound to " + address.getHostName() + ":" + address.getPort());
+
+            // Close the server socket
+            serverSocket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
