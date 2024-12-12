@@ -300,3 +300,39 @@ Authentication Tag
 - **Authentication Tag**: A tag generated during the authentication process, which is used to verify the integrity and authenticity of the data.
 
 AES-GCM provides both confidentiality and authenticity, making it a widely used mode for secure communication.
+#### AES-CTR mode
+```
+Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext Block 4
+       |                      |                      |                      |
+       v                      v                      v                      v
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+|   Counter Block   |       |   Counter Block   |       |   Counter Block   |       |   Counter Block   |
+|       1           |       |       2           |       |       3           |       |       4           |
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+|   Encrypt with    |       |   Encrypt with    |       |   Encrypt with    |       |   Encrypt with    |
+|     AES Key       |       |     AES Key       |       |     AES Key       |       |     AES Key       |
+|   (AES-CTR Mode)  |       |   (AES-CTR Mode)  |       |   (AES-CTR Mode)  |       |   (AES-CTR Mode)  |
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+|  Encrypted Counter|       |  Encrypted Counter|       |  Encrypted Counter|       |  Encrypted Counter|
+|       Block 1     |       |       Block 2     |       |       Block 3     |       |       Block 4     |
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+|       XOR         |       |       XOR         |       |       XOR         |       |       XOR         |
+|   with Plaintext  |       |   with Plaintext  |       |   with Plaintext  |       |   with Plaintext  |
+|     Block 1       |       |     Block 2       |       |     Block 3       |       |     Block 4       |
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+| Ciphertext Block  |       | Ciphertext Block  |       | Ciphertext Block  |       | Ciphertext Block  |
+|        1          |       |        2          |       |        3          |       |        4          |
++-------------------+       +-------------------+       +-------------------+       +-------------------+
+```
