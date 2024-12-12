@@ -168,3 +168,6 @@ public class Main {
     }
 }
 ```
+### Binding program to specific interface in linux
+#### Method 1 : Using iptables to redirect traffic to a local port
+#### Method 2 : Using SO_BINDTODEVICE Socket Option
