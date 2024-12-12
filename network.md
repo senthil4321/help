@@ -1,3 +1,7 @@
+## Where did linux store network configuration ?
+
+`/etc/network/interfaces`
+
 ## Wireshark
 
 ## VLAN Configuration
