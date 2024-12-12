@@ -249,3 +249,54 @@ Explanation:
 1 XOR 0 results in 1 because the inputs are different.
 1 XOR 1 results in 0 because both inputs are the same.
 ```
+#### AES-GCM (Galois/Counter Mode) 
+AES-GCM is an authenticated encryption mode that combines the AES block cipher with Galois field multiplication for authentication. Unlike simple logical operations like XOR, AES-GCM involves complex cryptographic operations and does not have a simple truth table. However, I can provide a high-level overview of how AES-GCM works:
+
+### AES-GCM Overview
+
+1. **Initialization**:
+   - A unique Initialization Vector (IV) is generated for each encryption operation.
+   - A counter is initialized, typically starting from 1.
+
+2. **Encryption**:
+   - The plaintext is divided into blocks.
+   - Each block is encrypted using AES in counter mode (AES-CTR).
+   - The counter is incremented for each block.
+
+3. **Authentication**:
+   - The ciphertext blocks are authenticated using Galois field multiplication.
+   - Additional authenticated data (AAD) can be included in the authentication process.
+   - A tag is generated to ensure the integrity and authenticity of the ciphertext and AAD.
+
+### AES-GCM Process
+
+```
+Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext Block 4
+       |                      |                      |                      |
+       v                      v                      v                      v
++--------------+       +--------------+       +--------------+       +--------------+
+|    Encrypt   |       |    Encrypt   |       |    Encrypt   |       |    Encrypt   |
+|    with Key  |       |    with Key  |       |    with Key  |       |    with Key  |
+|  (AES-CTR)   |       |  (AES-CTR)   |       |  (AES-CTR)   |       |  (AES-CTR)   |
++--------------+       +--------------+       +--------------+       +--------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
+Ciphertext Block 1      Ciphertext Block 2      Ciphertext Block 3      Ciphertext Block 4
+       |                      |                      |                      |
+       v                      v                      v                      v
++-------------------------------------------------+-------------------------+
+|                  Galois Field Multiplication (Authentication)             |
++-------------------------------------------------+-------------------------+
+       |
+       v
+Authentication Tag
+```
+
+### Key Points:
+
+- **AES-CTR**: AES in counter mode is used for encryption, where each plaintext block is XORed with the encrypted counter value.
+- **Galois Field Multiplication**: Used for authentication, ensuring the integrity and authenticity of the ciphertext and any additional data.
+- **Initialization Vector (IV)**: A unique value used for each encryption operation to ensure security.
+- **Authentication Tag**: A tag generated during the authentication process, which is used to verify the integrity and authenticity of the data.
+
+AES-GCM provides both confidentiality and authenticity, making it a widely used mode for secure communication.
