@@ -210,4 +210,29 @@ openssl pkeyutl
 openssl pkeyutl -decrypt -inkey key.pem -in file -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 -out secret
 ```
 ## Process 
-* Secure storage of data and materials 
+* Secure storage of data and materials
+
+### AES
+#### AES CBC
+
+```
+Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext Block 4
+       |                      |                      |                      |
+       v                      v                      v                      v
++--------------+       +--------------+       +--------------+       +--------------+
+|   XOR with   |       |   XOR with   |       |   XOR with   |       |   XOR with   |
+| Initialization|       |  Ciphertext 1|       |  Ciphertext 2|       |  Ciphertext 3|
+|    Vector     |       |              |       |              |       |              |
++--------------+       +--------------+       +--------------+       +--------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
++--------------+       +--------------+       +--------------+       +--------------+
+|    Encrypt   |       |    Encrypt   |       |    Encrypt   |       |    Encrypt   |
+|    with Key  |       |    with Key  |       |    with Key  |       |    with Key  |
++--------------+       +--------------+       +--------------+       +--------------+
+       |                      |                      |                      |
+       v                      v                      v                      v
+Ciphertext Block 1      Ciphertext Block 2      Ciphertext Block 3      Ciphertext Block 4
+       |                      |                      |                      |
+       v                      v                      v                      v
+```
