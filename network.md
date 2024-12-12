@@ -171,3 +171,113 @@ public class Main {
 ### Binding program to specific interface in linux
 #### Method 1 : Using iptables to redirect traffic to a local port
 #### Method 2 : Using SO_BINDTODEVICE Socket Option
+---
+To forward SSH connections from one VLAN to an SSH server listening on a different VLAN, you can use `iptables` to set up port forwarding. Here’s a step-by-step guide to achieve this:
+
+### Scenario
+
+- **VLAN 100**: Interface `eth0.100`, IP `192.168.100.1`
+- **VLAN 200**: Interface `eth0.200`, IP `192.168.200.1`
+- **SSH Server**: Listening on `192.168.200.2` (VLAN 200) on port 22
+
+### Step 1: Enable IP Forwarding
+
+First, ensure that IP forwarding is enabled on your Linux system. This allows the system to forward packets between interfaces.
+
+1. **Enable IP forwarding temporarily**:
+   ```sh
+   sudo sysctl -w net.ipv4.ip_forward=1
+   ```
+
+2. **Enable IP forwarding permanently**:
+   Add the following line to `/etc/sysctl.conf`:
+   ```sh
+   net.ipv4.ip_forward = 1
+   ```
+   Then apply the changes:
+   ```sh
+   sudo sysctl -p
+   ```
+
+### Step 2: Set Up `iptables` Rules for Port Forwarding
+
+Use `iptables` to forward SSH traffic from VLAN 100 to the SSH server on VLAN 200.
+
+1. **Forward SSH traffic from `eth0.100` to `192.168.200.2:22`**:
+   ```sh
+   sudo iptables -t nat -A PREROUTING -i eth0.100 -p tcp --dport 22 -j DNAT --to-destination 192.168.200.2:22
+   ```
+
+2. **Allow forwarding in the `FORWARD` chain**:
+   ```sh
+   sudo iptables -A FORWARD -i eth0.100 -o eth0.200 -p tcp --dport 22 -j ACCEPT
+   sudo iptables -A FORWARD -i eth0.200 -o eth0.100 -p tcp --sport 22 -m state --state ESTABLISHED,RELATED -j ACCEPT
+   ```
+
+3. **Masquerade the outgoing packets (if needed)**:
+   If the SSH server on VLAN 200 needs to see the requests as coming from the forwarding machine, you can use masquerading:
+   ```sh
+   sudo iptables -t nat -A POSTROUTING -o eth0.200 -j MASQUERADE
+   ```
+
+### Step 3: Save `iptables` Rules
+
+To ensure the `iptables` rules persist across reboots, save them:
+
+1. **Save the rules**:
+   ```sh
+   sudo iptables-save > /etc/iptables/rules.v4
+   ```
+
+2. **Restore the rules on boot**:
+   Ensure that the rules are restored on boot by using a service like `iptables-persistent`:
+
+   ```sh
+   sudo apt-get install iptables-persistent
+   sudo netfilter-persistent save
+   sudo netfilter-persistent reload
+   ```
+
+### Example Scenario
+
+Assume you have:
+- **VLAN 100**: Interface `eth0.100`, IP `192.168.100.1`
+- **VLAN 200**: Interface `eth0.200`, IP `192.168.200.1`
+- **SSH Server**: Listening on `192.168.200.2` (VLAN 200) on port 22
+
+1. **Enable IP forwarding**:
+   ```sh
+   sudo sysctl -w net.ipv4.ip_forward=1
+   ```
+
+2. **Set up `iptables` rules**:
+   ```sh
+   sudo iptables -t nat -A PREROUTING -i eth0.100 -p tcp --dport 22 -j DNAT --to-destination 192.168.200.2:22
+   sudo iptables -A FORWARD -i eth0.100 -o eth0.200 -p tcp --dport 22 -j ACCEPT
+   sudo iptables -A FORWARD -i eth0.200 -o eth0.100 -p tcp --sport 22 -m state --state ESTABLISHED,RELATED -j ACCEPT
+   sudo iptables -t nat -A POSTROUTING -o eth0.200 -j MASQUERADE
+   ```
+
+3. **Save the rules**:
+   ```sh
+   sudo iptables-save > /etc/iptables/rules.v4
+   ```
+
+### Verification
+
+1. **Check IP forwarding**:
+   ```sh
+   sysctl net.ipv4.ip_forward
+   ```
+
+2. **Check `iptables` rules**:
+   ```sh
+   sudo iptables -L -v -n
+   sudo iptables -t nat -L -v -n
+   ```
+
+3. **Test the setup**:
+   - From a device on VLAN 100, attempt to SSH to `192.168.100.1`.
+   - Verify that the connection is forwarded to the SSH server on `192.168.200.2`.
+
+By following these steps, you can forward SSH connections from one VLAN to an SSH server listening on a different VLAN using `iptables` on a Linux system.
