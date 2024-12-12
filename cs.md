@@ -236,3 +236,16 @@ Ciphertext Block 1      Ciphertext Block 2      Ciphertext Block 3      Cipherte
        |                      |                      |                      |
        v                      v                      v                      v
 ```
+#### XOR Truth table
+```
+A	B	A XOR B
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+Explanation:
+0 XOR 0 results in 0 because both inputs are the same.
+0 XOR 1 results in 1 because the inputs are different.
+1 XOR 0 results in 1 because the inputs are different.
+1 XOR 1 results in 0 because both inputs are the same.
+```
