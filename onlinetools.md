@@ -9,3 +9,6 @@
 
 ### serial console
 * https://googlechromelabs.github.io/serial-terminal/
+
+### Key Length
+* https://www.keylength.com/
