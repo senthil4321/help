@@ -7,8 +7,11 @@
 ### hex editor
 * https://hexed.it/
 
-### serial console
+### Serial Console
 * https://googlechromelabs.github.io/serial-terminal/
 
 ### Key Length
 * https://www.keylength.com/
+
+### Sequence Diagram
+* https://sequencediagram.org/
