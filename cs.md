@@ -336,3 +336,5 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 |        1          |       |        2          |       |        3          |       |        4          |
 +-------------------+       +-------------------+       +-------------------+       +-------------------+
 ```
+### Linux Capabilities 
+* Give fine grained access control to the process without giving full root privilage.
