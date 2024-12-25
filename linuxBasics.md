@@ -37,3 +37,7 @@ The Linux Device Mapper is a framework provided by the Linux kernel for mapping 
 ## LUKS
 
 LUKS (Linux Unified Key Setup) is a standard for disk encryption in Linux.
+
+## Kernel Module Signing
+
+Kernel Module is signed with private key during build time and verified during loading by the Kernel. The Kernel Module Verification key can be compiled into the Kernel.
