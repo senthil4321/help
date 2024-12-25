@@ -25,3 +25,8 @@ systemd-analyze blame
 systemd-analyze critical-chain
 systemd-analyze plot > boot_sequence.svg
 ```
+## How to know if linux system is finished booting?
+
+```bash
+systemctl is-active multi-user.target
+```
