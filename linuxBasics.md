@@ -30,3 +30,10 @@ systemd-analyze plot > boot_sequence.svg
 ```bash
 systemctl is-active multi-user.target
 ```
+## Linux Device Mapper
+
+The Linux Device Mapper is a framework provided by the Linux kernel for mapping physical block devices onto higher-level virtual block devices.
+
+## LUKS
+
+LUKS (Linux Unified Key Setup) is a standard for disk encryption in Linux.
