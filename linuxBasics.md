@@ -3,7 +3,7 @@
 ## Log Handling
 
 * `journald` has replaced syslog.
-* `dmesg` to read kernel ring buffer`
+* `dmesg` to read kernel ring buffer
 * `syslog` mechanism for general system logs used by applicaitons
 
 ### Redirecting Startup Script Logs to Syslog
