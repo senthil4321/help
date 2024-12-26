@@ -47,3 +47,8 @@ Kernel Module is signed with private key during build time and verified during l
 ``` bash
 ldd srk-socket-server
 ```
+## How to get depedency tree of c program?
+
+```bash
+gcc -M socket_server.c
+```
