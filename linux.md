@@ -94,6 +94,7 @@ Prints the message buffer of the kernel. Contains messages from device drivers.
 **udev** is a Linux subsystem to handle device events. It enables triggering scripts when a device is plugged in.
 
 ### Ref.
+
 1. https://stackoverflow.com/questions/7172784/how-do-i-post-json-data-with-curl
 1. https://stackoverflow.com/questions/12583930-use-pipe-for-curl-data
 
@@ -381,6 +382,7 @@ srk="This is an example text. {()The time is 10am.}"
 echo ${srk//[[:punct:]]/1}
 # This is an example text1 111The time is 10am11
 ```
+
 ### Ref.
 
 * https://wiki.bash-hackers.org/syntax/pattern
@@ -424,6 +426,7 @@ nohup
 ```
 
 ### Ref.
+
 * https://linux.101hacks.com/unix/nohup-command/
 * https://linuxize.com/post/how-to-run-linux-commands-in-background/
 
