@@ -5,10 +5,10 @@
 ### vi Shortcut
 
 ```text
-:xReturn quit vi, writing out modified file to file named in original invocation
-:wqReturn quit vi, writing out modified file to file named in original invocation
-:qReturn quit (or exit) vi
-:q!Return quit vi even though latest changes have not been saved for this vi call
+:x Return quit vi, writing out modified file to file named in original invocation
+:wq Return quit vi, writing out modified file to file named in original invocation
+:q Return quit (or exit) vi
+:q! Return quit vi even though latest changes have not been saved for this vi call
 
 ↓ move cursor down one line
 ↑ move cursor up one line
@@ -67,3 +67,7 @@ set nocompatible
 ## nano
 
 ### nano Shortcut
+
+`Ctl+ G` to get help
+`Ctl + 6` to put in mark mode
+`Ctl + K` to delete or cut
