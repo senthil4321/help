@@ -263,3 +263,18 @@ By using the oe-pkgdata-util tool, you can view the contents of a package genera
 ```bash
 oe-pkgdata-util find-path /usr/bin/hello
 ```
+
+#### Example Flow
+```bash
+oe-pkgdata-util find-path /etc/inittab
+#Example output
+/etc/inittab: base-files
+#Finding the Recipe
+find meta* -name "busybox-inittab*.bb"
+```
+
+### How to find how a particular variable is set ?
+
+```bash
+bitbake -e core-image-tiny-initramfs-srk-3 |grep -n -A 10 ^VIRTUAL-RUNTIME_init_manager
+```
