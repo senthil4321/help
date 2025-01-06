@@ -278,3 +278,15 @@ find meta* -name "busybox-inittab*.bb"
 ```bash
 bitbake -e core-image-tiny-initramfs-srk-3 |grep -n -A 10 ^VIRTUAL-RUNTIME_init_manager
 ```
+### Different types of init scripts
+
+```bash
+VIRTUAL-RUNTIME_initscripts ??= "initscripts"
+VIRTUAL-RUNTIME_initscripts = "busybox-initscripts"
+```
+### Different types of libc
+```bash
+PREFERRED_PROVIDER_virtual/libc = "glibc"#default
+PREFERRED_PROVIDER_virtual/libc = "musl"#light weight
+PREFERRED_PROVIDER_virtual/libc = "uclibc"#not used much
+```
