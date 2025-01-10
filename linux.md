@@ -649,3 +649,7 @@ __prompt_to_bottom_line
 #### Ref
 
 * https://stackoverflow.com/questions/32618502/is-there-a-way-to-keep-the-terminal-shell-prompt-in-the-middle-top-of-page
+
+### Setting SWAP
+
+Setting `swap` is not possible in `nfs`
