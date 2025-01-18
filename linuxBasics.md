@@ -47,6 +47,14 @@ Kernel Module is signed with private key during build time and verified during l
 ``` bash
 ldd srk-socket-server
 ```
+
+### how to check lib is existing
+
+```bash
+ldconfig -p | grep seccomp
+libseccomp.so.2 (libc6) => /lib/libseccomp.so.2
+
+```
 ## How to get depedency tree of c program?
 
 ```bash
