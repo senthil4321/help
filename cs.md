@@ -29,6 +29,11 @@ ref.
 
 ## ec
 
+Number of points in the elliptic curver over finite field is called order of elliptic curver. 
+Totoal number of points is called order. 
+
+Cofactor of 1 means only one sub group
+
 1. https://cryptobook.nakov.com/digital-signatures/eddsa-and-ed25519
 1. https://en.m.wikipedia.org/wiki/Barrett_reduction
 1. https://github.com/rweather/arduinolibs/blob/master/libraries/Crypto/Ed25519.cpp#L304
