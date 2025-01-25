@@ -26,43 +26,49 @@ ref.
 * https://en.m.wikipedia.org/wiki/Coprime_integers
 
 ---
+
 ## ec
+
 1. https://cryptobook.nakov.com/digital-signatures/eddsa-and-ed25519
 1. https://en.m.wikipedia.org/wiki/Barrett_reduction
 1. https://github.com/rweather/arduinolibs/blob/master/libraries/Crypto/Ed25519.cpp#L304
 1. https://en.m.wikipedia.org/wiki/Extended_Euclidean_algorithm
 1. algebraic curves over finite fields
 1. https://www.allaboutcircuits.com/technical-articles/elliptic-curve-cryptography-in-embedded-systems/
-1.    https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
-1.https://medium.com/asecuritysite-when-bob-met-alice/so-what-have-prime-numbers-and-galois-fields-to-do-with-your-privacy-2dff9881361e
+1. https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc
+1. https://medium.com/asecuritysite-when-bob-met-alice/so-what-have-prime-numbers-and-galois-fields-to-do-with-your-privacy-2dff9881361e
 
+### start here
+
+1. https://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/
+1. https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
 
 ### ec
 1. https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/
 1. https://graui.de/code/elliptic2/
 1. https://asecuritysite.com/curve25519/eddsa
 1. https://asecuritysite.com/curve25519
-
+1. https://github.com/nakov/Practical-Cryptography-for-Developers-Book/blob/master/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc.md
+   
 #### Elliptic curve Point Addition online
+
 1. https://andrea.corbellini.name/ecc/interactive/modk-add.html
 
-### start here
-1. https://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/
+#### Finite Field
 
-1. https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
-
-####
 > A finite field is, first of all, a set with a finite number of elements. An example of finite field is the set of integers modulo p
-, where 
-p is a prime number
+, where `p` is a prime number
 
 > find the multiplicative inverse of a number and then perform a single multiplication.
 
 Computing the multiplicative inverse can be “easily” done with the extended Euclidean algorithm
 
 ### tool
+
 1. https://www.dcode.fr/modular-inverse
+ 
 ---
+
 ## rsa
 
 > For a positive integer n, define φ(n) to be the number of integers less than n that are relatively prime with n. For example, φ(12) = 4, since only 11, 7, 5 and 1 are less than 12 and relatively prime to 12, while φ(7) = 6. In fact, for any prime number p we have φ(p) = p - 1
