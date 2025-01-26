@@ -27,3 +27,11 @@ plink root@192.168.0.5 -2 -ssh ls /data/ -pw xxxx
 echo y | pscp ""
 ```
 * https://stackoverflow.com/questions/7638741/automatically-accept-rsa-fingerprint-using-pscp
+
+### vnc raspberry pi
+
+```
+echo 'Encryption=PreferOn' | sudo tee -a /root/.vnc/config.d/vncserver-x11
+sudo vncpasswd -legacy -service
+sudo systemctl restart vncserver-x11-serviced
+```
