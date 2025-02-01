@@ -116,6 +116,7 @@ chacha20 is a stream cipher
 
 ### SM2
 SM2 is actually an elliptic curve based algorithm
+SM2 has both signature and encryption scheme
 
 ### SM3
 ShangMi 3 (SM3) is a cryptographic hash function.
@@ -349,3 +350,20 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 ```
 ### Linux Capabilities 
 * Give fine grained access control to the process without giving full root privilage.
+
+### Points to Remember
+
+* Elliptic Curve, Pricate key is a random number in the range of 0<= k <= n-1
+* Elliptic Curve, Base point is fixed
+* Elliptic Curve, Public key = k.G
+* IV and Nonce server different purpose
+   * IV is Random number
+   * Nounce is non repeating number
+* IV length is fixed to 16 bytes
+* AES Block sizei s alwasys 16 bytes irrespective of key size.
+* AES 128, 256 all have the same Block size
+* SHA256 is 32 bytes
+* SM2 has both Signature and Encryption Scheme
+* Padding extension attack is not appicable for GCM
+* CTR has an issue changing one byte in a block
+  
