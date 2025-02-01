@@ -367,5 +367,5 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 * Padding extension attack is not appicable for GCM
 * CTR has an issue changing one byte in a block
 * NIST P-256 and SECP256R1 are the same
-* SECP256R1 - Standards for Efficient Cryptography Prime curve 256-bit Random 
+* SECP256R1 - Standards for Efficient Cryptography Prime curve 256-bit Random 1
   
