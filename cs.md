@@ -353,7 +353,8 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 
 ### Points to Remember
 
-* Elliptic Curve, Pricate key is a random number in the range of 0<= k <= n-1
+* Elliptic Curve, Private key is a random number in the range of 0<= k <= n-1
+   * n - Order of Basepoint
 * Elliptic Curve, Base point is fixed
 * Elliptic Curve, Public key = k.G
 * IV and Nonce server different purpose
@@ -368,4 +369,7 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 * CTR has an issue changing one byte in a block
 * NIST P-256 and SECP256R1 are the same
 * SECP256R1 - Standards for Efficient Cryptography Prime curve 256-bit Random 1
+* GCM uses AES CTR Mode for encryption
+* GCM Encryption, Produces Authentication Tag and Encrypted Data as output
+* GCM Decryption, Share Nounce, Authentication Tag and Encrypted Data to Decrypt Function
   
