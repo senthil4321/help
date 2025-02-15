@@ -367,9 +367,11 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 * SM2 has both Signature and Encryption Scheme
 * Padding extension attack is not appicable for GCM
 * CTR has an issue changing one byte in a block
+* GCM and CTR are stread cipher
 * NIST P-256 and SECP256R1 are the same
 * SECP256R1 - Standards for Efficient Cryptography Prime curve 256-bit Random 1
 * GCM uses AES CTR Mode for encryption
 * GCM Encryption, Produces Authentication Tag and Encrypted Data as output
 * GCM Decryption, Share Nounce, Authentication Tag and Encrypted Data to Decrypt Function
+* Format Preserving Encryption - uses token
   
