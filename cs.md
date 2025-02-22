@@ -1,3 +1,47 @@
+# Cyber Security Topics
+
+## Table of Contents
+
+- [tz](#tz)
+- [algorithms](#algorithms)
+  - [Math](#math)
+  - [co-prime](#co-prime)
+  - [prime and co-prime](#prime-and-co-prime)
+  - [are prime numbers coprime](#are-prime-numbers-coprime)
+- [ec function](#ec-function)
+  - [start here](#start-here)
+  - [ec](#ec)
+- [rsa](#rsa)
+  - [RSA Arithmetic](#rsa-arithmetic)
+  - [multiplicative inverse](#multiplicative-inverse)
+- [chacha20](#chacha20)
+- [md2 md4 md5 md6](#md2-md4-md5-md6)
+- [SM2](#sm2)
+- [SM3](#sm3)
+- [SM4](#sm4)
+- [sha256](#sha256)
+- [online tool](#online-tool)
+- [AES Implementation](#aes-implementation)
+- [IPSec](#ipsec)
+  - [Firewall rule](#firewall-rule)
+  - [TPM](#tpm)
+- [Design](#design)
+- [Signature Generation](#signature-generation)
+- [CSR Generation](#csr-generation)
+- [Homomorphic Encryption](#homomorphic-encryption)
+- [openssl](#openssl)
+  - [Openssl commands](#openssl-commands)
+  - [Openssl HSM Interaction](#openssl-hsm-interaction)
+  - [Openssl RSA Encrypt/Decrypt](#openssl-rsa-encryptdecrypt)
+- [Process](#process)
+  - [AES](#aes)
+    - [AES CBC](#aes-cbc)
+    - [XOR Truth table](#xor-truth-table)
+    - [AES-GCM (Galois/Counter Mode)](#aes-gcm-galoiscounter-mode)
+    - [AES-CTR mode](#aes-ctr-mode)
+- [Linux Capabilities](#linux-capabilities)
+- [Points to Remember](#points-to-remember)
+
 ## tz
 
 * https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html
@@ -205,7 +249,7 @@ tpm2_getcap handles-persistent
 * Keep it Simple (Harder than needed - not easy for bad guy)
   * Harder to do the right thing than to do the wrong thing
 * Security By Obscurity - Very Bad
-* Security by Isolation 
+* Security by Isolation
 
 ## Signature Generation
 
@@ -302,7 +346,7 @@ Explanation:
 1 XOR 1 results in 0 because both inputs are the same.
 ```
 
-#### AES-GCM (Galois/Counter Mode) 
+#### AES-GCM (Galois/Counter Mode)
 
 AES-GCM is an authenticated encryption mode that combines the AES block cipher with Galois field multiplication for authentication. Unlike simple logical operations like XOR, AES-GCM involves complex cryptographic operations and does not have a simple truth table. However, I can provide a high-level overview of how AES-GCM works:
 
