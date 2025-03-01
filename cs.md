@@ -464,3 +464,4 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 * GCM Encryption, Produces Authentication Tag and Encrypted Data as output
 * GCM Decryption, Share Nounce, Authentication Tag and Encrypted Data to Decrypt Function
 * Format Preserving Encryption - uses token
+* x693 key derivation function
