@@ -847,6 +847,35 @@ base64_to_bin() {
 }
 
 
+#!/bin/bash
+
+# Check if a command is provided
+if [ $# -lt 1 ]; then
+    echo "Usage: $0 '<command>'"
+    exit 1
+fi
+
+# Command to execute
+COMMAND="$1"
+LOG_FILE="command_status.log"
+
+# Run the command and capture the exit status
+echo "Executing: $COMMAND"
+eval "$COMMAND"
+STATUS=$?
+
+# Log the result
+if [ $STATUS -eq 0 ]; then
+    echo "$(date) - SUCCESS: '$COMMAND' executed successfully." | tee -a "$LOG_FILE"
+else
+    echo "$(date) - ERROR: '$COMMAND' failed with status $STATUS." | tee -a "$LOG_FILE"
+fi
+
+exit $STATUS
+
+
+
+
 
 
 
