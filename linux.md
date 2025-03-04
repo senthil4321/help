@@ -818,6 +818,36 @@ while [ $INDEX -lt ${#HEX_DATA} ]; do
 
     echo "Extracted Tag $TAG (Length: $LENGTH) to $OUTPUT_FILE"
 done
----
 
 echo "TLV parsing completed."
+
+
+
+
+
+
+
+base64_to_bin() {
+    local input="$1"
+    local output="$2"
+
+    if [[ -z "$input" || -z "$output" ]]; then
+        echo "Usage: base64_to_bin <input_file_or_string> <output_binary_file>"
+        return 1
+    fi
+
+    # Check if input is a file or string
+    if [[ -f "$input" ]]; then
+        base64 -d "$input" > "$output"  # Decode from file
+    else
+        echo -n "$input" | base64 -d > "$output"  # Decode from string
+    fi
+
+    echo "Binary output saved to: $output"
+}
+
+
+
+
+
+
