@@ -742,3 +742,35 @@ __prompt_to_bottom_line
 ### Setting SWAP
 
 Setting `swap` is not possible in `nfs`
+
+### csr gen
+#!/bin/bash
+
+# Set the RSA key size (default 2048)
+KEY_SIZE=2048
+PRIVATE_KEY="device_key.pem"
+CSR_FILE="device.csr"
+
+# Get the device serial number (Modify for your system)
+DEVICE_SN=$(cat /sys/class/dmi/id/product_serial 2>/dev/null || echo "UNKNOWN_SN")
+
+# Fallback if serial number is unavailable
+if [[ -z "$DEVICE_SN" || "$DEVICE_SN" == "UNKNOWN_SN" ]]; then
+    echo "Warning: Could not retrieve device serial number. Using default 'UNKNOWN_SN'."
+fi
+
+# Define CSR subject (Modify Country, State, etc., as needed)
+SUBJECT="/C=US/ST=California/L=San Francisco/O=MyCompany/OU=Devices/CN=$DEVICE_SN"
+
+# Generate the RSA private key
+echo "Generating RSA key ($KEY_SIZE bits)..."
+openssl genpkey -algorithm RSA -out "$PRIVATE_KEY" -pkeyopt rsa_keygen_bits:$KEY_SIZE
+
+# Generate the CSR with the device serial number in the subject
+echo "Creating CSR with subject: $SUBJECT"
+openssl req -new -key "$PRIVATE_KEY" -out "$CSR_FILE" -subj "$SUBJECT"
+
+echo "CSR generated: $CSR_FILE"
+echo "Private key: $PRIVATE_KEY"
+
+'''
