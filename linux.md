@@ -774,3 +774,50 @@ echo "CSR generated: $CSR_FILE"
 echo "Private key: $PRIVATE_KEY"
 
 '''
+
+---
+#!/bin/bash
+
+# Input TLV binary file
+INPUT_FILE="tlv_data.bin"
+
+# Output directory for extracted TLVs
+OUTPUT_DIR="tlv_extracted"
+
+# Create output directory if not exists
+mkdir -p "$OUTPUT_DIR"
+
+# Read binary data as hex
+HEX_DATA=$(xxd -p -c 1000 "$INPUT_FILE" | tr -d '\n')
+
+# Function to convert hex to decimal
+hex_to_dec() {
+    echo "$((16#$1))"
+}
+
+# Parse the TLV data
+INDEX=0
+while [ $INDEX -lt ${#HEX_DATA} ]; do
+    # Extract Tag (1 byte)
+    TAG=${HEX_DATA:$INDEX:2}
+    INDEX=$((INDEX + 2))
+
+    # Extract Length (1 byte)
+    LENGTH_HEX=${HEX_DATA:$INDEX:2}
+    INDEX=$((INDEX + 2))
+
+    LENGTH=$(hex_to_dec "$LENGTH_HEX")
+
+    # Extract Value (LENGTH bytes)
+    VALUE=${HEX_DATA:$INDEX:$((LENGTH * 2))}
+    INDEX=$((INDEX + (LENGTH * 2)))
+
+    # Write the value to a binary file
+    OUTPUT_FILE="$OUTPUT_DIR/tag_${TAG}.bin"
+    echo -n "$VALUE" | xxd -r -p > "$OUTPUT_FILE"
+
+    echo "Extracted Tag $TAG (Length: $LENGTH) to $OUTPUT_FILE"
+done
+---
+
+echo "TLV parsing completed."
