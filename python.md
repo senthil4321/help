@@ -320,3 +320,6 @@ for letter, number in zip(letters, numbers):
             else:
                 print(f"{indent_str}Tag: {tag:02X}, Value: {value.hex().upper()}")
 ```
+```
+$env:PYTHONPATH=""
+```
