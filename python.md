@@ -280,3 +280,25 @@ for letter, number in zip(letters, numbers):
 * https://github.com/pexpect
 * https://www.fabfile.org/
 * https://www.paramiko.org/
+
+### printhex list
+
+```python
+    def print_res_hex(res: list):
+        """
+        Print the res list in hex string format.
+            Parameters:
+                res (list): List of (tag, data) tuples
+        """
+        def to_hex_string(data: bytes) -> str:
+            return "".join("{:02X}".format(x) for x in data)
+
+        for tag, value in res:
+            if isinstance(value, list):
+                print(f"Tag: {tag:02X}, Value: [")
+                Tlv.print_res_hex(value)
+                print("]")
+            else:
+                print(f"Tag: {tag:02X}, Value: {to_hex_string(value)}")
+```
+
