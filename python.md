@@ -302,3 +302,21 @@ for letter, number in zip(letters, numbers):
                 print(f"Tag: {tag:02X}, Value: {to_hex_string(value)}")
 ```
 
+```python
+    @staticmethod
+    def print_res_hex(res: list, indent: int = 0):
+        """
+        Print the res list in hex string format.
+            Parameters:
+                res (list): List of (tag, data) tuples
+                indent (int): Current indentation level
+        """
+        indent_str = "    " * indent
+        for tag, value in res:
+            if isinstance(value, list):
+                print(f"{indent_str}Tag: {tag:02X}, Value: [")
+                Tlv.print_res_hex(value, indent + 1)
+                print(f"{indent_str}]")
+            else:
+                print(f"{indent_str}Tag: {tag:02X}, Value: {value.hex().upper()}")
+```
