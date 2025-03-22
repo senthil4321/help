@@ -87,6 +87,16 @@ a = bytearray((0x01, 0x02 , 0x03 ))
 import binascii
 print(binascii.hexlify(a))
 ```
+
+#### How to convert int to byte array?
+
+```python
+num = 42  # Example integer (0 to 255)
+byte_array = num.to_bytes(1, byteorder='big')  # Use 'big' or 'little' endian
+print(byte_array)  # Output: b'*'
+print(byte_array.hex())
+```
+
 #### Print type of variable 
 ```python
 data = "1234"
