@@ -16,3 +16,41 @@ pcbite
 grit stone 2 um
 diomond lapping stone
 3 axis micrometer
+
+### gdb, openocd and swd/jtag
+
+#### GDB
+
+The frontend where the developer interacts with debugging commands (e.g., break, step, run).
+Communicates with OpenOCD over a TCP/IP connection.
+
+#### OpenOCD:
+
+Acts as the middleware that translates GDB commands into low-level operations.
+Sends these operations to the target device via SWD or JTAG.
+
+#### SWD/JTAG:
+
+The physical interface that connects OpenOCD to the target microcontroller.
+Allows OpenOCD to control the microcontroller, halt execution, and access memory/registers.
+Target Device:
+
+The microcontroller being debugged (e.g., ARM Cortex-M PICO).
+Executes the program and responds to debugging commands.
+
+```
++-------------------+       TCP/IP       +-------------------+       SWD/JTAG       +-------------------+
+|                   | <----------------> |                   | <-----------------> |                    |
+|       GDB         |       Commands     |     OpenOCD       |   Low-Level Ops     |   Target Device    |
+|   (Frontend)      |                    |   (Middleware)    |                     | (Microcontroller)  |
+|                   |                    |                   |                     |      eg.pico       |
++-------------------+                    +-------------------+                     +-------------------+
+        ^                                         ^                                         ^
+        |                                         |                                         |
+        |                                         |                                         |
+        |                                         |                                         |
+        |                                         |                                         |
+        |                                         |                                         |
+        +-----------------------------------------+-----------------------------------------+
+                                      Debugging Workflow
+```
