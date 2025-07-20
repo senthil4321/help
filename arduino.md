@@ -1,6 +1,19 @@
 # arduino
 
-Documentation for Arduino hardwae and software components.
+## Circuit theory
+Any passive electrical circuit can be built only with passive component resistor, capacitor and inductor.
+
+### What is passive circuit?
+
+A passive circuit:
+1. Does not store energy???
+2. Does not generate energy
+3. Does not require external power to operate
+
+### Ref
+1. https://www.youtube.com/watch?v=FhmLb2DhNYM&t=579s
+
+## Documentation for Arduino hardwae and software components.
 ## Insert Date time during startup
 ```c
 const char compile_date[] = __DATE__ " " __TIME__;
