@@ -80,3 +80,6 @@ Reader
 
 ### camera
 * http://embeddedprogrammer.blogspot.com/2012/07/hacking-ov7670-camera-module-sccb-cheat.html
+
+### 24 awg wire for hobby
+* https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232RG_CABLES.pdf
