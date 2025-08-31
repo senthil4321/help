@@ -104,6 +104,8 @@ class TechnicalSpellChecker:
             return False
         if file_path.name.startswith('.'):
             return False
+        if file_path.name == 'SPELLING_REPORT.md':  # Don't check our own report
+            return False
         if 'node_modules' in str(file_path) or '.git' in str(file_path):
             return False
         return True

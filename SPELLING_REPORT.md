@@ -1,12 +1,31 @@
 # Spelling Error Report
 
-Generated on: Sun Aug 31 09:38:16 UTC 2025
+Generated on: Sun Aug 31 09:42:38 UTC 2025
 
 ## Summary
 
-- **Files with errors:** 48
-- **Total errors:** 2404
-- **Likely misspellings:** 0
+- **Files with errors:** 49
+- **Total errors:** 2408
+- **Likely misspellings:** 3
+
+## 🚨 Priority: Likely Misspellings
+
+These are high-confidence spelling errors that should be fixed:
+
+### `appenderstream → appender stream`
+
+Found in:
+- `SPELL_CHECK_README.md` line 85
+
+### `comparision → comparison`
+
+Found in:
+- `SPELL_CHECK_README.md` line 83
+
+### `usefule → useful`
+
+Found in:
+- `SPELL_CHECK_README.md` line 82
 
 ## Errors by File
 
@@ -309,6 +328,34 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Autodidactic
 ```
 **Potential issues:** `autodidactic`
+
+### 📄 `SPELL_CHECK_README.md`
+
+**4 error(s) found:**
+
+**Line 68:**
+```
+sudo apt install aspell aspell-en
+```
+**Potential issues:** `sudo`
+
+**Line 82:**
+```
+- ✅ "useful" (was "usefule") in `eclipse.md`
+```
+**Potential issues:** `usefule → useful`
+
+**Line 83:**
+```
+- ✅ "comparison" (was "comparision") in `3d.md`
+```
+**Potential issues:** `comparision → comparison`
+
+**Line 85:**
+```
+- ✅ "appender stream" (was "appenderstream") in `todo.md`
+```
+**Potential issues:** `appenderstream → appender stream`
 
 ### 📄 `aes.md`
 
