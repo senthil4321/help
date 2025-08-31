@@ -1,4 +1,4 @@
-# Usefule Eclipse shortcut
+# Useful Eclipse shortcut
 ## TODO
 1. How to run one testcase in eclipse junit?
 ---

@@ -10,7 +10,7 @@
 
 ## Other
 ## Kafka 
-log4j appenderstream processing
+log4j appender stream processing
 
 ## The Automotive Data and Time Triggered Framework (ADTF) 
 
@@ -39,7 +39,7 @@ slew rates
 > Attack vectors enable hackers to exploit system vulnerabilities, including the human element.
 ## cyber security and lock picking
 ## Keyboard
-This is the first edit from the bluetooth keyboard. Editing with bluethooth keyvboard connected to the mobile phone is really very good and fast. 
+This is the first edit from the bluetooth keyboard. Editing with bluetooth keyboard connected to the mobile phone is really very good and fast. 
 
 ## Second Edit from the keyboard
 The connection was very fast. It took less than 1 second to connect.
