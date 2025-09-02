@@ -1,0 +1,47 @@
+name: Spell Check
+
+on:
+  pull_request:
+    branches: [ master, main ]
+    paths:
+      - '**.md'
+      - '**.txt'
+      - 'spell_check.py'
+
+jobs:
+  spell-check:
+    name: Check Spelling
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install aspell
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y aspell aspell-en
+        
+    - name: Run spell checker
+      run: |
+        echo "Running spell check on documentation files..."
+        if python3 spell_check.py; then
+          echo "✅ Spell check passed - no errors found!"
+        else
+          echo "❌ Spell check failed - errors found in documentation"
+          echo "Check the generated SPELLING_REPORT.md for details"
+          exit 1
+        fi
+        
+    - name: Upload spelling report
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: spelling-report
+        path: SPELLING_REPORT.md
+        retention-days: 30
