@@ -4,7 +4,7 @@
 Userful tools
 https://www.unitconverters.net/prefixes/micro-to-nano.htm
 
-Battery Life calculation
+Battery Life calculatin
 https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-battery-life
 
 
