@@ -4,7 +4,7 @@
 
 ## Singleton Jersey
 Problem : Keep the state of the object between multiple requests
-Solution : Simpy adding singletone annotation solved the problem
+Solution : Simply adding singleton annotation solved the problem
 ```java
 @Path("/hello")
 @Singleton
