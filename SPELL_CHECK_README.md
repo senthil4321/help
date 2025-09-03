@@ -79,7 +79,7 @@ The spell checker processes:
 ## Recent Fixes
 
 The following spelling errors have been corrected:
-- ✅ "useful" (was "usefule") in `eclipse.md`
-- ✅ "comparison" (was "comparision") in `3d.md`
+- ✅ "useful" (was "useful") in `eclipse.md`
+- ✅ "comparison" (was "comparison") in `3d.md`
 - ✅ "bluetooth keyboard" (was "bluetooth keyboard") in `todo.md`
-- ✅ "appender stream" (was "appenderstream") in `todo.md`
+- ✅ "appender stream" (was "appender stream") in `todo.md`

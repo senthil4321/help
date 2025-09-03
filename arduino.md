@@ -13,7 +13,7 @@ A passive circuit:
 ### Ref
 1. https://www.youtube.com/watch?v=FhmLb2DhNYM&t=579s
 
-## Documentation for Arduino hardwae and software components.
+## Documentation for Arduino hardware and software components.
 ## Insert Date time during startup
 ```c
 const char compile_date[] = __DATE__ " " __TIME__;
@@ -26,13 +26,13 @@ const char compile_date[] = "Sep 22 2013 01:19:49";
 
 ---
 ## Tonuino
-> This section has the documentaiton for tonuino development kit.
+> This section has the documentation for tonuino development kit.
 > It is important to add the 1k ohm resistor to the Rx line to remove the noise in the speaker
 
 * https://github.com/xfjx/TonUINO
 
 ### DF Player
-use the below name to search for DFMiniMp3 in arduion library search
+use the below name to search for DFMiniMp3 in arduino library search
 ```
 DFPlayer Mini Mp3 by Makuna
 ```

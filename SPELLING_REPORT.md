@@ -1,37 +1,18 @@
 # Spelling Error Report
 
-Generated on: Wed Sep  3 20:37:37 UTC 2025
+Generated on: Wed Sep  3 20:43:36 UTC 2025
 
 ## Summary
 
 - **Files with errors:** 49
-- **Total errors:** 2409
-- **Likely misspellings:** 3
-
-## 🚨 Priority: Likely Misspellings
-
-These are high-confidence spelling errors that should be fixed:
-
-### `appenderstream → appender stream`
-
-Found in:
-- `SPELL_CHECK_README.md` line 85
-
-### `comparision → comparison`
-
-Found in:
-- `SPELL_CHECK_README.md` line 83
-
-### `usefule → useful`
-
-Found in:
-- `SPELL_CHECK_README.md` line 82
+- **Total errors:** 2399
+- **Likely misspellings:** 0
 
 ## Errors by File
 
 ### 📄 `3d.md`
 
-**46 error(s) found:**
+**42 error(s) found:**
 
 **Line 50:**
 ```
@@ -65,21 +46,15 @@ Sprinter and Marlin are popular and stable firmwares for RAMPS as of 3/28/2012. 
 
 **Line 96:**
 ```
-M500|Save chanages to EEPROM|
+M500|Save changes to EEPROM|
 ```
-**Potential issues:** `chanages`, `eeprom`
+**Potential issues:** `eeprom`
 
 **Line 97:**
 ```
 M501| Read parameters from EEPROM|
 ```
 **Potential issues:** `eeprom`
-
-**Line 105:**
-```
-G28|Auto Homing moves untill triggered|
-```
-**Potential issues:** `untill`
 
 **Line 125:**
 ```
@@ -89,15 +64,15 @@ G28|Auto Homing moves untill triggered|
 
 **Line 126:**
 ```
-Printrun is an applicaiton to send gcode to the marlin firmware. The Printrun applicaiton can be used from windows/windows environment.
+Printrun is an application to send gcode to the marlin firmware. The Printrun application can be used from windows/windows environment.
 ```
-**Potential issues:** `printrun`, `applicaiton`, `printrun`, `applicaiton`
+**Potential issues:** `printrun`, `printrun`
 
 **Line 129:**
 ```
-# use the below commands to setup the working Printrun appicaiton in ubuntu PC.
+# use the below commands to setup the working Printrun application in ubuntu PC.
 ```
-**Potential issues:** `printrun`, `appicaiton`
+**Potential issues:** `printrun`
 
 **Line 130:**
 ```
@@ -201,12 +176,6 @@ sudo chmod a+rw /dev/ttyACM0
 ```
 **Potential issues:** `sudo`, `chmod`
 
-**Line 219:**
-```
-### Marlin Auduino compile issue
-```
-**Potential issues:** `auduino`
-
 **Line 234:**
 ```
 >>> Proble offset refers to the difference between the location where the printer senses the bed surface using a probe sensor and where the nozzle actually extrudes the filament.
@@ -243,12 +212,6 @@ sudo chmod a+rw /dev/ttyACM0
 ```
 **Potential issues:** `todo`
 
-**Line 317:**
-```
-Gcode can be generated for both 3d and 2d desings.
-```
-**Potential issues:** `desings`
-
 **Line 329:**
 ```
 1. Inkspace
@@ -284,12 +247,6 @@ Enable Extruder
 ### Slic3r Slicer
 ```
 **Potential issues:** `slic`
-
-**Line 377:**
-```
-Slicer has 3 config files for stoing hte setting
-```
-**Potential issues:** `stoing`
 
 **Line 382:**
 ```
@@ -331,31 +288,13 @@ Autodidactic
 
 ### 📄 `SPELL_CHECK_README.md`
 
-**4 error(s) found:**
+**1 error(s) found:**
 
 **Line 68:**
 ```
 sudo apt install aspell aspell-en
 ```
 **Potential issues:** `sudo`
-
-**Line 82:**
-```
-- ✅ "useful" (was "usefule") in `eclipse.md`
-```
-**Potential issues:** `usefule → useful`
-
-**Line 83:**
-```
-- ✅ "comparison" (was "comparision") in `3d.md`
-```
-**Potential issues:** `comparision → comparison`
-
-**Line 85:**
-```
-- ✅ "appender stream" (was "appenderstream") in `todo.md`
-```
-**Potential issues:** `appenderstream → appender stream`
 
 ### 📄 `aes.md`
 
@@ -755,7 +694,7 @@ deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 10.2, CUDA Runtime Vers
 
 ### 📄 `arduino.md`
 
-**15 error(s) found:**
+**14 error(s) found:**
 
 **Line 1:**
 ```
@@ -768,12 +707,6 @@ deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 10.2, CUDA Runtime Vers
 Any passive electrical circuit can be built only with passive component resistor, capacitor and inductor.
 ```
 **Potential issues:** `inductor`
-
-**Line 16:**
-```
-## Documentation for Arduino hardwae and software components.
-```
-**Potential issues:** `hardwae`
 
 **Line 19:**
 ```
@@ -795,15 +728,15 @@ const char compile_date[] = "Sep 22 2013 01:19:49";
 
 **Line 29:**
 ```
-> This section has the documentaiton for tonuino development kit.
+> This section has the documentation for tonuino development kit.
 ```
-**Potential issues:** `documentaiton`, `tonuino`
+**Potential issues:** `tonuino`
 
 **Line 35:**
 ```
-use the below name to search for DFMiniMp3 in arduion library search
+use the below name to search for DFMiniMp3 in arduino library search
 ```
-**Potential issues:** `dfminimp`, `arduion`
+**Potential issues:** `dfminimp`, `arduino`
 
 **Line 37:**
 ```
@@ -2267,13 +2200,7 @@ throw new IllegalArgumentException("Invalid hex character in the string");
 
 ### 📄 `javaFramework.md`
 
-**10 error(s) found:**
-
-**Line 7:**
-```
-Solution : Simpy adding singletone annotation solved the problem
-```
-**Potential issues:** `simpy`, `singletone`
+**9 error(s) found:**
 
 **Line 12:**
 ```
@@ -3189,19 +3116,13 @@ eval "$COMMAND"
 
 ### 📄 `linuxBasics.md`
 
-**10 error(s) found:**
+**9 error(s) found:**
 
 **Line 5:**
 ```
 * `journald` has replaced syslog.
 ```
 **Potential issues:** `syslog`
-
-**Line 7:**
-```
-* `syslog` mechanism for general system logs used by applicaitons
-```
-**Potential issues:** `applicaitons`
 
 **Line 9:**
 ```
