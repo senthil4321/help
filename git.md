@@ -28,7 +28,7 @@ git config --list
 git config --list --show-origin
 ```
 ### Ref.
-* [Fix self-signed cert.](https://mattferderer.com/fix-git-self-signed-certificate-in-certificate-chain-on-windows#:~:text=A%20popular%20workaround%20is%20to,that%20creates%20large%20security%20risks.&text=The%20solution%20is%20to%20add%20the%20certificates%20to%20Git's%20trusted%20certificates.)
+* [Fix self-signed cert.](https://mattferderer.com/fix-git-self-signed-certificate-in-certificate-chain-on-windows#:~:text=A%20popular%20workaround%20is%20to,that%20creates%20large%20security%20risks.[...]
 ***
 ## tag
 ```
@@ -70,3 +70,49 @@ git config --global pull.rebase true
 ## git difftool 
 it is possible to configure beyond compare as diff tool
 it is possible to view differences in whole folder
+
+***
+
+## git rebase vs git merge
+
+### git merge (used in master branch)
+
+Merges changes from another branch into the current branch, creating a merge commit if there are changes. Commonly used to integrate feature branches into the master branch.
+
+```shell
+git checkout master
+git merge feature-branch
+```
+- Preserves the history of all branches.
+- Creates a merge commit.
+- Useful for combining finished features into master.
+
+### git rebase (used in feature branch)
+
+Reapplies commits from your current branch onto another branch, creating a linear history. Commonly used to keep feature branches up-to-date with master before merging.
+
+```shell
+git checkout feature-branch
+git rebase master
+```
+- Rewrites commit history for a cleaner, linear history.
+- No merge commits.
+- Useful to update your feature branch with latest master changes.
+
+#### Typical workflow:
+1. Work on `feature-branch`.
+2. Periodically rebase onto updated master:
+   ```
+   git fetch origin
+   git rebase origin/master
+   ```
+3. Resolve any conflicts, continue with:
+   ```
+   git rebase --continue
+   ```
+4. Merge feature branch into master (using merge).
+
+### References
+- [git merge](https://git-scm.com/docs/git-merge)
+- [git rebase](https://git-scm.com/docs/git-rebase)
+- [Atlassian: Git Merge vs Rebase](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
