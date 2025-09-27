@@ -290,3 +290,8 @@ PREFERRED_PROVIDER_virtual/libc = "glibc"#default
 PREFERRED_PROVIDER_virtual/libc = "musl"#light weight
 PREFERRED_PROVIDER_virtual/libc = "uclibc"#not used much
 ```
+
+### How to create patch
+Always create patches from the exact kernel source version used in Yocto.
+Use git diff or git format-patch from a kernel repo checked out at the same commit Yocto uses.
+
