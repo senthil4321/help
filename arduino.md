@@ -83,3 +83,6 @@ Reader
 
 ### 24 awg wire for hobby
 * https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232RG_CABLES.pdf
+
+### Current Measuremet
+* https://circuitdigest.com/microcontroller-projects/precision-digital-micro-current-meter
