@@ -26,3 +26,7 @@
 - **Gradients**: Partial derivatives showing how loss changes with parameter changes
 - **Zero Gradients**: Clearing old gradient values before computing new ones
 - **Step**: The optimizer's update operation (moving parameters in the right direction)
+
+## Workflow
+
+> ML workflow : Train → Save → Load → Predict! 🎯
