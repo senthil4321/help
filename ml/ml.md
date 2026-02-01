@@ -30,3 +30,10 @@
 ## Workflow
 
 > ML workflow : Train → Save → Load → Predict! 🎯
+
+## Regression 
+
+### Regression Analsyis
+
+- Primarily used for forecasting, predicting, and identifying relationships between variables
+  
