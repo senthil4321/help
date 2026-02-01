@@ -14,3 +14,15 @@
 - **Backward Pass**: Computing gradients to know how to improve parameters
 - **Optimization**: The process of finding the best parameters to minimize loss
 - **Inference/Prediction**: Using a trained model to make predictions on new data
+
+## Training Algorithm Terms
+
+- **Loss Function**: Mathematical function that measures prediction error
+- **MSE (Mean Squared Error)**: Loss function that squares the difference between predictions and actual values
+- **Optimizer**: Algorithm that updates model parameters to reduce loss
+- **SGD (Stochastic Gradient Descent)**: Simple optimizer that updates parameters using gradients
+- **Learning Rate**: How much to change parameters each step (0.01 = small, careful steps)
+- **Backpropagation**: Algorithm to compute gradients of loss with respect to all parameters
+- **Gradients**: Partial derivatives showing how loss changes with parameter changes
+- **Zero Gradients**: Clearing old gradient values before computing new ones
+- **Step**: The optimizer's update operation (moving parameters in the right direction)
