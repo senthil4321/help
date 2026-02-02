@@ -36,4 +36,6 @@
 ### Regression Analsyis
 
 - Primarily used for forecasting, predicting, and identifying relationships between variables
-  
+
+## nanoGPT
+- https://github.com/karpathy/nanoGPT
