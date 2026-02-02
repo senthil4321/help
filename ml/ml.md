@@ -42,17 +42,17 @@
 - https://github.com/karpathy/nanoGPT
 
 ### 6-layer Transformer with 6 heads in each layer
-✔ The model has 6 stacked Transformer blocks
-✔ In each block, it has 6 attention heads working in parallel
 
-#### Total attention heads =
-👉 6 layers × 6 heads = 36 attention heads
+- ✔ The model has 6 stacked Transformer blocks
+- ✔ In each block, it has 6 attention heads working in parallel
+
+#### Total attention heads = 👉 6 layers × 6 heads = 36 attention heads
 
 #### Why do this?
-More layers → deeper understanding
-More heads → richer view of relationships
+- More layers → deeper understanding
+- More heads → richer view of relationships
 
 But:
-More layers = more compute
-More heads = more memory
-So this is a medium-sized architecture, not tiny, not huge.
+- More layers = more compute
+- More heads = more memory
+> So this is a medium-sized architecture, not tiny, not huge.
