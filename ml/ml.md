@@ -56,3 +56,11 @@ But:
 - More layers = more compute
 - More heads = more memory
 > So this is a medium-sized architecture, not tiny, not huge.
+---
+
+## AI Models
+The algorithms themselves:
+- **Traditional ML models:** Linear regression, Random Forest, SVM
+- **Deep learning models:** CNNs (images), RNNs/LSTMs (sequences), Transformers (NLP)
+- **Foundation models / Large Language Models:** GPT, LLaMA, Claude
+  
