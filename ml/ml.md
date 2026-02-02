@@ -69,4 +69,7 @@ The algorithms themselves:
 In machine learning, "train" and "validation" refer to splits of the dataset used for different purposes during model training:
 - **Train data:** The portion of the data (90% here) used to teach the model by adjusting its parameters (weights) through forward and backward passes. The model learns patterns from this data.
 - **Validation data:** The remaining portion (10% here) used to evaluate the model's performance on unseen data during training. It helps monitor for overfitting (when the model performs well on train data but poorly on new data) and tune hyperparameters. Validation loss is checked periodically (e.g., every 250 iterations in this config) to decide if the model improves
-  
+
+---  
+## RAG (Retrieval-Augmented Generation)
+RAG is a technique where a language model (like GPT) doesn’t just generate text from its training data; it retrieves relevant information from external sources to produce more accurate, up-to-date, or context-specific answers
