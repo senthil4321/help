@@ -64,3 +64,9 @@ The algorithms themselves:
 - **Deep learning models:** CNNs (images), RNNs/LSTMs (sequences), Transformers (NLP)
 - **Foundation models / Large Language Models:** GPT, LLaMA, Claude
   
+## Training
+## train and validation difference
+In machine learning, "train" and "validation" refer to splits of the dataset used for different purposes during model training:
+- **Train data:** The portion of the data (90% here) used to teach the model by adjusting its parameters (weights) through forward and backward passes. The model learns patterns from this data.
+- **Validation data:** The remaining portion (10% here) used to evaluate the model's performance on unseen data during training. It helps monitor for overfitting (when the model performs well on train data but poorly on new data) and tune hyperparameters. Validation loss is checked periodically (e.g., every 250 iterations in this config) to decide if the model improves
+  
