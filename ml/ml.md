@@ -14,7 +14,8 @@
 - **Backward Pass**: Computing gradients to know how to improve parameters
 - **Optimization**: The process of finding the best parameters to minimize loss
 - **Inference/Prediction**: Using a trained model to make predictions on new data
-
+- **Convolution**: to roll or twist together. a **mathematical** operation where a **small matrix (filter)** slides over a **larger matrix (image)** and computes dot products.
+- 
 ## Training Algorithm Terms
 
 - **Loss Function**: Mathematical function that measures prediction error
