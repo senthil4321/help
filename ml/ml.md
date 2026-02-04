@@ -74,3 +74,8 @@ In machine learning, "train" and "validation" refer to splits of the dataset use
 ---  
 ## RAG (Retrieval-Augmented Generation)
 RAG is a technique where a language model (like GPT) doesn’t just generate text from its training data; it retrieves relevant information from external sources to produce more accurate, up-to-date, or context-specific answers
+
+## Convolution
+"to roll or twist together." 
+> a **mathematical** operation where a **small matrix (filter)** slides over a **larger matrix (image)** and computes dot products.
+
