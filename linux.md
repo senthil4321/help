@@ -127,7 +127,7 @@ od -x
 ### Parameter Expansion
 
 * https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
-* https://wiki.bash-hackers.org/syntax/pe
+* https://wiki.bash-hackers.org/syntax/pe <!-- BROKEN LINK - checked 2026-04-25 -->
 
 ## Variable Parameter
 
@@ -458,7 +458,7 @@ demo
 
 ### Ref.
 
-* https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion
+* https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion <!-- BROKEN LINK - checked 2026-04-25 -->
 
 ### Parameter Search and Replace
 
@@ -474,7 +474,7 @@ echo ${srk//[[:punct:]]/1}
 
 ### Ref.
 
-* https://wiki.bash-hackers.org/syntax/pattern
+* https://wiki.bash-hackers.org/syntax/pattern <!-- BROKEN LINK - checked 2026-04-25 -->
 * https://www.regular-expressions.info/posixbrackets.html
 
 ## sed

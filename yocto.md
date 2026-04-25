@@ -143,14 +143,14 @@ oe-pkgdata-util lookup-recipe hello
 * https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project
 
 ### Analysis
-* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky.conf
-* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky-tiny.conf
+* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky.conf <!-- BROKEN LINK - checked 2026-04-25 -->
+* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky-tiny.conf <!-- BROKEN LINK - checked 2026-04-25 -->
 
 Below reipes provide the logic to download the kernel based on architecture and machine
 
-* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto_5.15.bb
-* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb
-* https://github.com/yoctoproject/poky/blob/master/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf
+* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto_5.15.bb <!-- BROKEN LINK - checked 2026-04-25 -->
+* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb <!-- BROKEN LINK - checked 2026-04-25 -->
+* https://github.com/yoctoproject/poky/blob/master/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf <!-- BROKEN LINK - checked 2026-04-25 -->
 
 ### Kernel Source
 * https://git.yoctoproject.org/linux-yocto/

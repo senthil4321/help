@@ -86,7 +86,7 @@ int mask |= 1 << 4;
 ```
 
 ### Ref.
-1. http://sys.cs.rice.edu/course/comp314/10/p2/javabits.html
+1. http://sys.cs.rice.edu/course/comp314/10/p2/javabits.html <!-- BROKEN LINK - checked 2026-04-25 -->
 ## jshell
 Jshell instraduced in java 9 provides Read Eval Process Loop
 ## toString
@@ -94,7 +94,7 @@ TODO
 1. https://stackoverflow.com/questions/16527932/ok-to-use-json-output-as-default-for-tostring/39089678
 ## Ref.
 
- 1. https://www.javatpoint.com/java-8-method-reference
+ 1. https://www.javatpoint.com/java-8-method-reference <!-- BROKEN LINK - checked 2026-04-25 -->
  1. https://www.baeldung.com/java-8-collectors
  1. http://tutorials.jenkov.com/java-collections/map.html#implementations
  1. https://www.google.com/amp/s/www.geeksforgeeks.org/stream-map-java-examples/amp/

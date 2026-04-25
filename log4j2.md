@@ -184,6 +184,7 @@ Avoid using Exception string in methodname
 ---
 ## log4j2 schema mapping
 log4j2.xml
+<!-- BROKEN LINK - checked 2026-04-25 - xsi:schemaLocation URL inside code block below returns HTTP 404 -->
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration strict="true"
