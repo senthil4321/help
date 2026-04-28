@@ -59,16 +59,16 @@ ctrl + o
 ## Eclipse plugin
 ### Code Quality and Static Code Analysis
 #### code style and formatting
-* https://marketplace.eclipse.org/content/checkstyle-plug
+* https://marketplace.eclipse.org/content/checkstyle-plug <!-- BROKEN LINK - checked 2026-04-28 -->
 #### fix quality issues as you write code
-* https://marketplace.eclipse.org/content/sonarlint
+* https://marketplace.eclipse.org/content/sonarlint <!-- BROKEN LINK - checked 2026-04-28 -->
 * https://marketplace.eclipse.org/content/quick-bookmarks-plugin
 
 #### static code analyser - detects possible bugs
 * https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
 
 #### Markdown plugin
-* https://marketplace.eclipse.org/content/markdown-text-editor
+* https://marketplace.eclipse.org/content/markdown-text-editor <!-- BROKEN LINK - checked 2026-04-28 -->
 
 #### TODO PMD plugin 
 
@@ -100,7 +100,7 @@ https://blog.codota.com/14-free-plugins-for-eclipse-ide/ <!-- BROKEN LINK - chec
 #### Copypath
 #### Jenkins file viewer
 #### anyedit
-* https://marketplace.eclipse.org/content/anyedit-tools
+* https://marketplace.eclipse.org/content/anyedit-tools <!-- BROKEN LINK - checked 2026-04-28 -->
 ---
 ## Productivity
 ### Eclipse Line Copy without select
@@ -182,9 +182,9 @@ Easy working solution is to download the source manually and attaching it. (CTRL
 ### 
 ### Not Useful
 #### ~~~ AI based code completion - does not work ~~~
- ~~~ https://marketplace.eclipse.org/content/codota ~~~
+ ~~~ https://marketplace.eclipse.org/content/codota ~~~ <!-- BROKEN LINK - checked 2026-04-28 -->
 #### ~~~Markdown plugin~~~
 * Not good
- ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
- ~~https://marketplace.eclipse.org/content/liclipsetext~~
+ ~~https://marketplace.eclipse.org/content/markdown-text-editor~~ <!-- BROKEN LINK - checked 2026-04-28 -->
+ ~~https://marketplace.eclipse.org/content/liclipsetext~~ <!-- BROKEN LINK - checked 2026-04-28 -->
  ~~FluentMarkEditor~~
