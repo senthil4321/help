@@ -96,7 +96,7 @@ TODO
 
  1. https://www.javatpoint.com/java-8-method-reference <!-- BROKEN LINK - checked 2026-04-25 -->
  1. https://www.baeldung.com/java-8-collectors
- 1. http://tutorials.jenkov.com/java-collections/map.html#implementations
+ 1. http://tutorials.jenkov.com/java-collections/map.html#implementations <!-- BROKEN LINK - checked 2026-05-05 -->
  1. https://www.google.com/amp/s/www.geeksforgeeks.org/stream-map-java-examples/amp/
  1. https://stackoverflow.com/questions/52532565/what-are-practical-uses-of-the-java-util-function-function-identity-method
  1. https://nofluffjuststuff.com/magazine/2016/09/time_to_really_learn_generics_a_java_8_perspective
@@ -118,7 +118,7 @@ Linux socke
 #### todo
 Grop
 #### Ref.
-* http://tutorials.jenkov.com/java-regex/matcher.html
+* http://tutorials.jenkov.com/java-regex/matcher.html <!-- BROKEN LINK - checked 2026-05-05 -->
 #### DI
 
 * https://gist.github.com/stantonk/8e37cd97da1c0c800d27
@@ -128,7 +128,7 @@ Grop
 ---
 ### Serial Port
 #### github project - good option
-* http://fazecast.github.io/jSerialComm/
+* http://fazecast.github.io/jSerialComm/ <!-- BROKEN LINK - checked 2026-05-05 -->
 * https://github.com/Fazecast/jSerialComm
 ## code
 ### try with resource 
@@ -137,7 +137,7 @@ Grop
 * https://mvnrepository.com/artifact/org.rxtx/rxtx/2.1.7
 ---
 ### jdk download
-* https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot
+* https://adoptopenjdk.net/?variant=openjdk15&jvmVariant=hotspot <!-- BROKEN LINK - checked 2026-05-05 -->
 * https://jdk.java.net/15/
 ---
 ### compare version
@@ -152,7 +152,7 @@ Grop
 ### sdk example
 * https://help.eclipse.org/2020-12/index.jsp?topic=/org.eclipse.platform.doc.isv/samples/samples.html
 ## config
-* http://wilddiary.com/reading-property-file-java-using-apache-commons-configuration/
+* http://wilddiary.com/reading-property-file-java-using-apache-commons-configuration/ <!-- BROKEN LINK - checked 2026-05-05 -->
 ### system property and composite config
 * https://commons.apache.org/proper/commons-configuration/apidocs/src-html/org/apache/commons/configuration2/SystemConfiguration.html#line.42
 * https://commons.apache.org/proper/commons-configuration/userguide/howto_compositeconfiguration.html#Composite_Configuration_Details

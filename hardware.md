@@ -10,7 +10,7 @@
 1. C
 1. D
 ### vesc
-* http://vedder.se/2012/12/debugging-the-stm32f4-using-openocd-gdb-and-eclipse/
+* http://vedder.se/2012/12/debugging-the-stm32f4-using-openocd-gdb-and-eclipse/ <!-- BROKEN LINK - checked 2026-05-05 -->
 ### pcb
 pcbite
 grit stone 2 um

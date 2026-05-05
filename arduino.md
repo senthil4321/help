@@ -40,7 +40,7 @@ DFPlayer Mini Mp3 by Makuna
 * https://wiki.dfrobot.com/DFPlayer_Mini_SKU_DFR0299
 
 Sound issue
-* https://arduino.stackexchange.com/questions/49807/dfplayer-noise-researched-tried-and-bep-bep-bep-bep-bep/49842#49842
+* https://arduino.stackexchange.com/questions/49807/dfplayer-noise-researched-tried-and-bep-bep-bep-bep-bep/49842#49842 <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ### JC Button
 ```
@@ -70,16 +70,16 @@ Reader
 ## dlt
 * https://www.embeddedtutor.com/2021/04/watchdog-manager-in-autosar.html?m=1
 ### Minimal Atmelmeaga8 Worked
-* http://www.gammon.com.au/breadboard
+* http://www.gammon.com.au/breadboard <!-- BROKEN LINK - checked 2026-05-05 -->
 * https://github.com/nickgammon/arduino_sketches
 #### other
 * https://todbot.com/blog/2009/05/26/minimal-arduino-with-atmega8/comment-page-5/
- * https://anwarstech.wordpress.com/2018/01/15/how-to-setup-a-low-power-atmega8-microcontroller/
+ * https://anwarstech.wordpress.com/2018/01/15/how-to-setup-a-low-power-atmega8-microcontroller/ <!-- BROKEN LINK - checked 2026-05-05 -->
 ### Arduino Low power Atmel mega8
 * https://learn.sparkfun.com/tutorials/reducing-arduino-power-consumption
 
 ### camera
-* http://embeddedprogrammer.blogspot.com/2012/07/hacking-ov7670-camera-module-sccb-cheat.html
+* http://embeddedprogrammer.blogspot.com/2012/07/hacking-ov7670-camera-module-sccb-cheat.html <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ### 24 awg wire for hobby
 * https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232RG_CABLES.pdf

@@ -62,7 +62,7 @@ Although the all-zeros and the all-ones host values are reserved for the network
 
 
 ### TODO 
-http://linux-ip.net/html/tools-ip-route.html
+http://linux-ip.net/html/tools-ip-route.html <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ### IPtables firewall rule
 https://opensource.com/article/18/9/linux-iptables-firewalld

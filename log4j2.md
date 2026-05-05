@@ -159,7 +159,7 @@ public class MyTest {
 }
 ```
 #### Ref.
-* http://logging.apache.org/log4j/2.x/manual/api.html
+* http://logging.apache.org/log4j/2.x/manual/api.html <!-- BROKEN LINK - checked 2026-05-05 -->
 ### LAP
 > Logger, Appender and Pattern Layout
 ---

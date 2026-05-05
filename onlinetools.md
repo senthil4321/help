@@ -2,7 +2,7 @@
 * https://gchq.github.io/CyberChef/
 
 ## Hash calculator
-* http://emn178.github.io/online-tools/md5_checksum.html
+* http://emn178.github.io/online-tools/md5_checksum.html <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ### hex editor
 * https://hexed.it/
