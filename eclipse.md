@@ -59,21 +59,21 @@ ctrl + o
 ## Eclipse plugin
 ### Code Quality and Static Code Analysis
 #### code style and formatting
-* https://marketplace.eclipse.org/content/checkstyle-plug <!-- BROKEN LINK - checked 2026-04-28 -->
+* https://marketplace.eclipse.org/content/checkstyle-plug
 #### fix quality issues as you write code
-* https://marketplace.eclipse.org/content/sonarlint <!-- BROKEN LINK - checked 2026-04-28 -->
+* https://marketplace.eclipse.org/content/sonarlint
 * https://marketplace.eclipse.org/content/quick-bookmarks-plugin
 
 #### static code analyser - detects possible bugs
 * https://marketplace.eclipse.org/content/spotbugs-eclipse-plugin
 
 #### Markdown plugin
-* https://marketplace.eclipse.org/content/markdown-text-editor <!-- BROKEN LINK - checked 2026-04-28 -->
+* https://marketplace.eclipse.org/content/markdown-text-editor
 
 #### TODO PMD plugin 
 
 #### Other TODO
-https://blog.codota.com/14-free-plugins-for-eclipse-ide/ <!-- BROKEN LINK - checked 2026-04-25 -->
+https://blog.codota.com/14-free-plugins-for-eclipse-ide/ <!-- BROKEN LINK - checked 2026-05-06 -->
 
 #### Python IDE support
 * https://marketplace.eclipse.org/content/pydev-python-ide-eclipse
@@ -100,7 +100,7 @@ https://blog.codota.com/14-free-plugins-for-eclipse-ide/ <!-- BROKEN LINK - chec
 #### Copypath
 #### Jenkins file viewer
 #### anyedit
-* https://marketplace.eclipse.org/content/anyedit-tools <!-- BROKEN LINK - checked 2026-04-28 -->
+* https://marketplace.eclipse.org/content/anyedit-tools
 ---
 ## Productivity
 ### Eclipse Line Copy without select
@@ -117,7 +117,7 @@ Download into your dropins folder and restart Eclipse.
 ---
 ## Check Style, Code formatter, Content assistant, Template, Type filter
 ### Check Style
-* http://google.github.io/styleguide/javaguide.html <!-- BROKEN LINK - checked 2026-05-05 -->
+* http://google.github.io/styleguide/javaguide.html
 * google_checks.xml
 * https://raw.githubusercontent.com/checkstyle/checkstyle/master/src/main/resources/google_checks.xml
 
@@ -144,7 +144,7 @@ logger.info(${word_selection}${});${cursor}
 ## Ref.
 
  1. https://stackoverflow.com/questions/25980588/eclipse-hotkey-to-toggle-tab-maximize-minimize/25980723 
- 1. http://www.eclipseonetips.com/2010/02/15/the-fastest-ways-to-navigate-views-in-eclipse-using-the-keyboard/ <!-- BROKEN LINK - checked 2026-05-05 -->
+ 1. http://www.eclipseonetips.com/2010/02/15/the-fastest-ways-to-navigate-views-in-eclipse-using-the-keyboard/
  1. https://marketplace.eclipse.org/content/quick-bookmarks-plugin
  1. https://stackoverflow.com/questions/5354068/shortcut-how-to-get-eclipse-to-go-to-the-only-implementation-of-an-interfaces
 
@@ -176,15 +176,15 @@ Use the below option to download the source
 So far there is no easy wasy to download and attach eclipse plugin source automatically.
 Easy working solution is to download the source manually and attaching it. (CTRL + Click or F3) and attach source folder.
 ## Tips and Tutorial ❤️❤️
-* http://www.eclipseonetips.com/2014/01/14/essential-tools-to-manage-import-statements-in-eclipse/ <!-- BROKEN LINK - checked 2026-05-05 -->
+* http://www.eclipseonetips.com/2014/01/14/essential-tools-to-manage-import-statements-in-eclipse/
 ---
 ### template
 ### 
 ### Not Useful
 #### ~~~ AI based code completion - does not work ~~~
- ~~~ https://marketplace.eclipse.org/content/codota ~~~ <!-- BROKEN LINK - checked 2026-04-28 -->
+ ~~~ https://marketplace.eclipse.org/content/codota ~~~
 #### ~~~Markdown plugin~~~
 * Not good
- ~~https://marketplace.eclipse.org/content/markdown-text-editor~~ <!-- BROKEN LINK - checked 2026-04-28 -->
- ~~https://marketplace.eclipse.org/content/liclipsetext~~ <!-- BROKEN LINK - checked 2026-04-28 -->
+ ~~https://marketplace.eclipse.org/content/markdown-text-editor~~
+ ~~https://marketplace.eclipse.org/content/liclipsetext~~
  ~~FluentMarkEditor~~
