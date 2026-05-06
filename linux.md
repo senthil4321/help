@@ -98,7 +98,7 @@
 ### Ref.
 
 1. https://unix.stackexchange.com/questions/208911/while-read-loop
-1. [Link2](http://www.compciv.org/topics/bash/variables-and-substitution/#:~:text=From%20the%20Bash%20documentation%3A,with%20any%20trailing%20newlines%20deleted.) <!-- BROKEN LINK - checked 2026-05-05 -->
+1. [Link2](http://www.compciv.org/topics/bash/variables-and-substitution/#:~:text=From%20the%20Bash%20documentation%3A,with%20any%20trailing%20newlines%20deleted.)
 
 ## od
 
@@ -127,7 +127,7 @@ od -x
 ### Parameter Expansion
 
 * https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
-* https://wiki.bash-hackers.org/syntax/pe <!-- BROKEN LINK - checked 2026-04-25 -->
+* https://wiki.bash-hackers.org/syntax/pe <!-- BROKEN LINK - checked 2026-05-06 -->
 
 ## Variable Parameter
 
@@ -458,7 +458,7 @@ demo
 
 ### Ref.
 
-* https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion <!-- BROKEN LINK - checked 2026-04-25 -->
+* https://wiki.bash-hackers.org/syntax/pe#variable_name_expansion <!-- BROKEN LINK - checked 2026-05-06 -->
 
 ### Parameter Search and Replace
 
@@ -474,7 +474,7 @@ echo ${srk//[[:punct:]]/1}
 
 ### Ref.
 
-* https://wiki.bash-hackers.org/syntax/pattern <!-- BROKEN LINK - checked 2026-04-25 -->
+* https://wiki.bash-hackers.org/syntax/pattern <!-- BROKEN LINK - checked 2026-05-06 -->
 * https://www.regular-expressions.info/posixbrackets.html
 
 ## sed
