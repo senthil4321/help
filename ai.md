@@ -129,7 +129,7 @@ To persist the setting
 $ sudo systemctl set-default multi-user.target     # disable desktop on boot
 $ sudo systemctl set-default graphical.target      # enable desktop on boot
 ```
-* https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#disabling-the-desktop-gui
+* https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-transfer-learning.md#disabling-the-desktop-gui <!-- BROKEN LINK - checked 2026-05-06 -->
 
 ---
 ### Switch On Off FAN
@@ -196,4 +196,3 @@ deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 10.2, CUDA Runtime Vers
 Result = PASS
 
 ```
-
