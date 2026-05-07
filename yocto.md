@@ -103,7 +103,7 @@ bitbake -c testimage image
 * https://docs.yoctoproject.org/dev-manual/runtime-testing.html#performing-automated-runtime-testing
 ---
 ### working directory 
-`WORKDIR` the recipe’s working directory
+`WORKDIR` the recipe's working directory
 `S` The directory where the source code is extracted
 `B` The directory where bitbake places the objects generated during the
 build
@@ -133,24 +133,24 @@ oe-pkgdata-util lookup-recipe hello
 > Specifies the flags to pass to the C++ compiler.
 
 ### Yocto
-* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
+* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile <!-- BROKEN LINK - checked 2026-05-07 -->
 
 ### Yocoto Newversion Changes
 > ~~IMAGE_INSTALL_append += " hello"~~  
 > IMAGE_INSTALL:append += " hello"
 ---
 ### Tutorial
-* https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project
+* https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project <!-- BROKEN LINK - checked 2026-05-07 -->
 
 ### Analysis
-* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky.conf
-* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky-tiny.conf
+* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky.conf <!-- BROKEN LINK - checked 2026-05-06 -->
+* https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky-tiny.conf <!-- BROKEN LINK - checked 2026-05-06 -->
 
 Below reipes provide the logic to download the kernel based on architecture and machine
 
-* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto_5.15.bb
-* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb
-* https://github.com/yoctoproject/poky/blob/master/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf
+* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto_5.15.bb <!-- BROKEN LINK - checked 2026-05-06 -->
+* https://github.com/yoctoproject/poky/blob/master/meta/recipes-kernel/linux/linux-yocto-tiny_5.15.bb <!-- BROKEN LINK - checked 2026-05-06 -->
+* https://github.com/yoctoproject/poky/blob/master/meta-yocto-bsp/conf/machine/beaglebone-yocto.conf <!-- BROKEN LINK - checked 2026-05-06 -->
 
 ### Kernel Source
 * https://git.yoctoproject.org/linux-yocto/
@@ -295,7 +295,7 @@ PREFERRED_PROVIDER_virtual/libc = "uclibc"#not used much
 Always create patches from the exact kernel source version used in Yocto.
 Use git diff or git format-patch from a kernel repo checked out at the same commit Yocto uses.
 
-Perfect 👍 — here’s the **full tree diagram + BitBake task timeline** for your `bbb-01-eeprom` recipe inside Yocto:
+Perfect 👍 — here's the **full tree diagram + BitBake task timeline** for your `bbb-01-eeprom` recipe inside Yocto:
 
 ---
 
@@ -387,4 +387,3 @@ Perfect 👍 — here’s the **full tree diagram + BitBake task timeline** for 
 ⚡ So: `bbb-01-eeprom.c` → `${WORKDIR}/sources/` → compile → `${D}/usr/bin/` → package (`ipk`) → deployed into final BeagleBone image.
 
 Would you like me to **make this into an SVG pipeline diagram** (boxes with arrows: fetch → unpack → patch → compile → install → package → rootfs → image) so you can use it in documentation?
-

@@ -73,7 +73,7 @@ ctrl + o
 #### TODO PMD plugin 
 
 #### Other TODO
-https://blog.codota.com/14-free-plugins-for-eclipse-ide/
+https://blog.codota.com/14-free-plugins-for-eclipse-ide/ <!-- BROKEN LINK - checked 2026-05-06 -->
 
 #### Python IDE support
 * https://marketplace.eclipse.org/content/pydev-python-ide-eclipse

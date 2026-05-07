@@ -62,7 +62,7 @@ make rpi_2_defconfig
 
 
 #### Raspberry Pi Boot Process with picture
-* https://argus-sec.com/raspberry-pi-remote-flashing/
+* https://argus-sec.com/raspberry-pi-remote-flashing/ <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ## Linux commands
 ```

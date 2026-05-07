@@ -63,7 +63,7 @@
 
 > A prime number is a number that has exactly two factors, 1 and the number itself. For example, 2, 3, 7, 11 and so on are prime numbers. Co-prime numbers are pairs of numbers whose HCF (Highest Common Factor) is 1. For example, (4,9) are co-primes because their only common factor is 1.
 
-1. http://www.cs.sjsu.edu/~stamp/CS265/SecurityEngineering/chapter5_SE/RSAmath.html
+1. http://www.cs.sjsu.edu/~stamp/CS265/SecurityEngineering/chapter5_SE/RSAmath.html <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ---
 
@@ -99,20 +99,20 @@ Cofactor of 1 means only one sub group.
 
 ### start here
 
-1. https://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/
-1. https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
+1. https://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/ <!-- BROKEN LINK - checked 2026-05-05 -->
+1. https://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/ <!-- BROKEN LINK - checked 2026-05-05 -->
 
 ### ec
 
-1. https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/
+1. https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/ <!-- BROKEN LINK - checked 2026-05-07 -->
 1. https://graui.de/code/elliptic2/
-1. https://asecuritysite.com/curve25519/eddsa
-1. https://asecuritysite.com/curve25519
+1. https://asecuritysite.com/curve25519/eddsa <!-- BROKEN LINK - checked 2026-05-05 -->
+1. https://asecuritysite.com/curve25519 <!-- BROKEN LINK - checked 2026-05-05 -->
 1. https://github.com/nakov/Practical-Cryptography-for-Developers-Book/blob/master/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc.md
 
 #### Elliptic curve Point Addition online
 
-1. https://andrea.corbellini.name/ecc/interactive/modk-add.html
+1. https://andrea.corbellini.name/ecc/interactive/modk-add.html <!-- BROKEN LINK - checked 2026-05-05 -->
 
 #### Finite Field
 

@@ -205,6 +205,7 @@ log4j2.xml
 </Configuration>
 
 ```
+<!-- BROKEN LINK - Log4j-config.xsd schema URL (inside code block above, line 193) - checked 2026-05-06 -->
 ### Ref.
 * https://stackoverflow.com/questions/13904481/in-log4j2-how-do-i-associate-an-xml-schema-with-log4j2-xml
 

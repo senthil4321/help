@@ -16,7 +16,7 @@ log4j appender stream processing
 
 ## Markdown
 1. https://daringfireball.net/projects/markdown/syntax#header
-1. [Code highlight Supported Language](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/)
+1. [Code highlight Supported Language](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) <!-- BROKEN LINK - checked 2026-05-05 -->
 1. https://daringfireball.net/projects/markdown/syntax#link
 2. [Markdown Tutorial](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 

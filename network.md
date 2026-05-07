@@ -116,7 +116,7 @@ modprobe 8021q
 apt install vlan
 sudo ip link add link eth1 name eth1.100 type vlan id 100
 sudo ip link set up eth1.100
-https://wiki.ubuntu.com/vlan
+https://wiki.ubuntu.com/vlan <!-- BROKEN LINK - checked 2026-05-06 -->
 sudo tcpdump -i eth1 -e ip
 sudo systemctl restart networking
 hostname -I
@@ -176,7 +176,7 @@ public class Main {
 #### Method 1 : Using iptables to redirect traffic to a local port
 #### Method 2 : Using SO_BINDTODEVICE Socket Option
 ---
-To forward SSH connections from one VLAN to an SSH server listening on a different VLAN, you can use `iptables` to set up port forwarding. Here’s a step-by-step guide to achieve this:
+To forward SSH connections from one VLAN to an SSH server listening on a different VLAN, you can use `iptables` to set up port forwarding. Here's a step-by-step guide to achieve this:
 
 ### Scenario
 
