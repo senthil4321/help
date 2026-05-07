@@ -133,14 +133,14 @@ oe-pkgdata-util lookup-recipe hello
 > Specifies the flags to pass to the C++ compiler.
 
 ### Yocto
-* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile
+* https://tutorialadda.com/yocto/yocto-hello-world-recipe-compile-using-makefile <!-- BROKEN LINK - checked 2026-05-07 -->
 
 ### Yocoto Newversion Changes
 > ~~IMAGE_INSTALL_append += " hello"~~  
 > IMAGE_INSTALL:append += " hello"
 ---
 ### Tutorial
-* https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project
+* https://tutorialadda.com/yocto/create-a-new-meta-layer-and-write-new-recipe-in-yocto-project <!-- BROKEN LINK - checked 2026-05-07 -->
 
 ### Analysis
 * https://github.com/yoctoproject/poky/blob/master/meta-poky/conf/distro/poky.conf <!-- BROKEN LINK - checked 2026-05-06 -->

@@ -104,7 +104,7 @@ Cofactor of 1 means only one sub group.
 
 ### ec
 
-1. https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/ <!-- BROKEN LINK - checked 2026-04-25 -->
+1. https://fission.codes/blog/everything-you-wanted-to-know-about-elliptic-curve-cryptography/ <!-- BROKEN LINK - checked 2026-05-07 -->
 1. https://graui.de/code/elliptic2/
 1. https://asecuritysite.com/curve25519/eddsa <!-- BROKEN LINK - checked 2026-05-05 -->
 1. https://asecuritysite.com/curve25519 <!-- BROKEN LINK - checked 2026-05-05 -->

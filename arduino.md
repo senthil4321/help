@@ -68,7 +68,7 @@ Reader
 ## byte array init
 * https://stackoverflow.com/questions/33454988/c-initialize-array-in-hexadecimal-values
 ## dlt
-* https://www.embeddedtutor.com/2021/04/watchdog-manager-in-autosar.html?m=1
+* https://www.embeddedtutor.com/2021/04/watchdog-manager-in-autosar.html?m=1 <!-- BROKEN LINK - checked 2026-05-07 -->
 ### Minimal Atmelmeaga8 Worked
 * http://www.gammon.com.au/breadboard <!-- BROKEN LINK - checked 2026-05-05 -->
 * https://github.com/nickgammon/arduino_sketches
@@ -85,4 +85,4 @@ Reader
 * https://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232RG_CABLES.pdf
 
 ### Current Measuremet
-* https://circuitdigest.com/microcontroller-projects/precision-digital-micro-current-meter
+* https://circuitdigest.com/microcontroller-projects/precision-digital-micro-current-meter <!-- BROKEN LINK - checked 2026-05-07 -->
