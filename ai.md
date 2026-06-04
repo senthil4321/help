@@ -1,4 +1,23 @@
 # ai
+
+## Terminology
+
+- PEFT (Parameter-Efficient Fine-Tuning)
+  - Parameter Efficient Fine Tuning is a library for efficiently adapting large pretrained models such as pre-trained policies (e.g., SmolVLA, π₀, …) to new tasks without training all of the model’s parameters while yielding comparable performance.
+- Quantization
+  -   
+### GPU
+
+- CUDA Cores
+  - CUDA cores are the general-purpose processing units inside an NVIDIA GPU. They execute many operations in parallel.
+- Tensor Cores
+  - are specialized hardware units designed specifically for matrix multiplication and accumulation, which are the core operations used in deep learning.
+  - FP16
+  - BF16
+  - TF32 &rarr; TF32 (TensorFloat-32) An NVIDIA format used internally on newer GPUs.
+  - INT8
+  - INT4 (on newer GPUs)
+    
 ## Jetson 
 ### gpu statistics
 [Heading IDs](#cuda)
