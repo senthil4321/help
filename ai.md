@@ -5,7 +5,8 @@
 - PEFT (Parameter-Efficient Fine-Tuning)
   - Parameter Efficient Fine Tuning is a library for efficiently adapting large pretrained models such as pre-trained policies (e.g., SmolVLA, π₀, …) to new tasks without training all of the model’s parameters while yielding comparable performance.
 - Quantization
-  -   
+  - It converts high-precision numbers, such as 32-bit floating-point numbers (FP32), into lower-precision integers, like 8-bit or 4-bit integers (INT8) or (INT4)
+
 ### GPU
 
 - CUDA Cores
