@@ -14,16 +14,10 @@
 - Tensor Cores
   - are specialized hardware units designed specifically for matrix multiplication and accumulation, which are the core operations used in deep learning.
   - FP16
-  - BF16
-  - TF32 &rarr; TF32 (TensorFloat-32) An NVIDIA format used internally on newer GPUs.
+  - BF16 BF16 &rarr; (Brain Floating Point) Developed for AI workloads.
+  - TF32 &rarr; TF32 (TensorFloat-32) - NVIDIA format used internally on newer GPUs.
   - INT8
   - INT4 (on newer GPUs)
-
-### Huggingface
-
-- transformers
-- accelerate
-- bitsandbytes
 
 ```text
 More Precision  <-----------------> Less Precision
@@ -32,6 +26,12 @@ FP32 → FP16 → INT8 → INT4
 More      Faster  Smaller Smallest
 Accurate
 ```
+### Huggingface
+
+- transformers
+- accelerate
+- bitsandbytes
+
 
 ## Jetson 
 ### gpu statistics
