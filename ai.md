@@ -17,7 +17,15 @@
   - TF32 &rarr; TF32 (TensorFloat-32) An NVIDIA format used internally on newer GPUs.
   - INT8
   - INT4 (on newer GPUs)
-    
+
+```text
+More Precision  <-----------------> Less Precision
+FP32 → FP16 → INT8 → INT4
+ ↑        ↑       ↑       ↑
+More      Faster  Smaller Smallest
+Accurate
+```
+
 ## Jetson 
 ### gpu statistics
 [Heading IDs](#cuda)
