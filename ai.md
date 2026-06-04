@@ -19,6 +19,12 @@
   - INT8
   - INT4 (on newer GPUs)
 
+### Huggingface
+
+- transformers
+- accelerate
+- bitsandbytes
+
 ```text
 More Precision  <-----------------> Less Precision
 FP32 → FP16 → INT8 → INT4
