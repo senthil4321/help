@@ -37,6 +37,254 @@ Accurate
 - accelerate
 - bitsandbytes
 
+###  ReLU (Rectified Linear Unit)
+- Formula: max(0, x)
+  - It's the simplest activation function — it passes positive values through unchanged, and kills negative values (outputs 0).
+**ReLU (Rectified Linear Unit)** is one of the most commonly used **activation functions** in neural networks.
+
+It is defined as:
+
+f(x)=\max(0,x)
+
+This means:
+
+* If the input is positive → output the same value.
+* If the input is negative → output 0.
+
+Examples:
+
+| Input (x) | ReLU(x) |
+| --------- | ------- |
+| -5        | 0       |
+| -1        | 0       |
+| 0         | 0       |
+| 2         | 2       |
+| 10        | 10      |
+
+### Graph
+
+```
+Output
+ ^
+ |
+10|         /
+  |       /
+  |     /
+  |   /
+  | /
+0 +-----------------> Input
+  |
+  |
+```
+
+The graph is:
+
+* Flat at 0 for all negative inputs
+* A straight line with slope 1 for positive inputs
+
+---
+
+## Why do we need ReLU?
+
+Without activation functions, a neural network is just a series of matrix multiplications:
+
+```
+Input → Linear → Linear → Linear → Output
+```
+
+Multiple linear layers collapse into a single linear transformation.
+
+ReLU introduces **non-linearity**, allowing the network to learn complex relationships such as:
+
+* Image recognition
+* Speech recognition
+* Language understanding
+* Robot control
+
+---
+
+## Example in PyTorch
+
+```python
+import torch
+import torch.nn as nn
+
+relu = nn.ReLU()
+
+x = torch.tensor([-3.0, -1.0, 0.0, 2.0, 5.0])
+
+y = relu(x)
+
+print(y)
+```
+
+Output:
+
+```python
+tensor([0., 0., 0., 2., 5.])
+```
+
+---
+
+## ReLU inside a neural network
+
+A typical layer looks like:
+
+```
+Input
+   ↓
+Linear Layer (Wx+b)
+   ↓
+ReLU
+   ↓
+Next Layer
+```
+
+PyTorch example:
+
+```python
+model = nn.Sequential(
+    nn.Linear(3, 4),
+    nn.ReLU(),
+    nn.Linear(4, 1)
+)
+```
+
+Suppose the first linear layer produces:
+
+```python
+[-2.1, 1.5, -0.3, 4.2]
+```
+
+After ReLU:
+
+```python
+[0.0, 1.5, 0.0, 4.2]
+```
+
+Negative activations are removed.
+
+---
+
+## Why is ReLU popular?
+
+### 1. Very fast
+
+Only requires a comparison:
+
+```python
+max(0, x)
+```
+
+No expensive exponentials like sigmoid.
+
+### 2. Reduces vanishing gradients
+
+Older activations such as sigmoid can produce extremely small gradients.
+
+ReLU derivative:
+
+* 0 for x < 0
+* 1 for x > 0
+
+So gradients can flow more easily through deep networks.
+
+### 3. Sparse activations
+
+Many neurons output zero.
+
+Example:
+
+```python
+[-5, 2, -1, 8, -3]
+```
+
+becomes
+
+```python
+[0, 2, 0, 8, 0]
+```
+
+This often improves efficiency and learning.
+
+---
+
+## Derivative of ReLU
+
+During backpropagation, PyTorch uses:
+
+f'(x)=\begin{cases}0,&x<0\1,&x>0\end{cases}
+
+Examples:
+
+| x  | Gradient |
+| -- | -------- |
+| -2 | 0        |
+| -1 | 0        |
+| 3  | 1        |
+| 5  | 1        |
+
+This means:
+
+* Positive neurons continue learning.
+* Negative neurons receive no gradient.
+
+---
+
+## The "Dying ReLU" problem
+
+If a neuron's outputs are always negative:
+
+```python
+x = -5
+ReLU(x) = 0
+gradient = 0
+```
+
+The neuron may stop updating forever.
+
+To address this, variants were developed:
+
+* Leaky ReLU
+* Parametric ReLU (PReLU)
+* Exponential Linear Unit (ELU)
+* Gaussian Error Linear Unit (GELU)
+
+---
+
+## Intuition
+
+Imagine a neuron detecting **vertical edges** in an image.
+
+Before ReLU:
+
+```python
+[-3, 5, -1, 8]
+```
+
+After ReLU:
+
+```python
+[0, 5, 0, 8]
+```
+
+The neuron only keeps **strong positive evidence** and ignores negative evidence.
+
+This simple idea is one reason modern deep learning models can be trained efficiently.
+
+### Summary
+
+ReLU:
+
+* Formula: `max(0, x)`
+* Outputs zero for negative values
+* Leaves positive values unchanged
+* Adds non-linearity to neural networks
+* Is computationally cheap
+* Helps deep networks train effectively
+* Is the default activation function in many PyTorch models (`nn.ReLU()`)
+
+---
 
 ## Jetson 
 ### gpu statistics
