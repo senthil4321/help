@@ -26,6 +26,11 @@ FP32 → FP16 → INT8 → INT4
 More      Faster  Smaller Smallest
 Accurate
 ```
+- TOPS
+  - Trillion Operations per second
+  - Trillion Floating Point Operations per second
+  - 
+
 ### Huggingface
 
 - transformers
