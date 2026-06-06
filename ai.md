@@ -116,7 +116,9 @@ Instead of only training on correct answers, you train based on:
 
 ### Supervised fine-tuning (SFT)
 
-### 
+### BLEU (Bilingual Evaluation Understudy)
+
+* measures n-gram overlap between a model's output and a reference answer. Score range: 0–100 (higher is better).
 
 ---
 
