@@ -64,7 +64,17 @@ A GGUF file contains:
  ### LoRA (Low-Rank Adaptation) 
  
  * LoRA adapter is a small, lightweight file used to modify or fine-tune a large, pre-trained Artificial Intelligence model.
-   
+
+### Quantize f16 → Q4_K_M
+This actually compresses the weights. Each weight value goes from 16 bits → ~4 bits.
+
+#### What a weight looks like
+
+```text
+float16:  0.3421875   (stored as 16 bits = 2 bytes per number)
+Q4_K_M:  "bucket 11"  (stored as ~4 bits = 0.5 bytes per number)
+```
+
 ---
 
 ## Jetson 
