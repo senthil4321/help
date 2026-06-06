@@ -48,6 +48,9 @@
 * https://prateekvjoshi.com/2015/02/07/why-are-they-called-elliptic-curves/
 
 ---
+## Idempotent 
+
+* **Idempotent** is a property of an operation or function where applying it multiple times yields the exact same result as applying it just once
 
 ## algorithms
 
