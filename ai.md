@@ -114,6 +114,10 @@ Instead of only training on correct answers, you train based on:
 
 “Which answer do humans prefer?”
 
+### Supervised fine-tuning (SFT)
+
+### 
+
 ---
 
 ## Jetson 
