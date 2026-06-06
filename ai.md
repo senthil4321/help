@@ -47,11 +47,6 @@ This means:
 * If the input is positive → output the same value.
 * If the input is negative → output 0.
 
-### GGUF
-
-* stands for **GPT-Generated Unified Format**.
-* It is a file format used to store AI models in a way that tools like llama.cpp can load efficiently.
-
 ### What's inside a GGUF file?
 
 A GGUF file contains:
@@ -74,6 +69,27 @@ This actually compresses the weights. Each weight value goes from 16 bits → ~4
 float16:  0.3421875   (stored as 16 bits = 2 bytes per number)
 Q4_K_M:  "bucket 11"  (stored as ~4 bits = 0.5 bytes per number)
 ```
+### safetensors
+
+safetensors is HuggingFace's file format — model weights stored as raw float16 or float32 numbers in separate files (one per layer or shard). It's designed for training and fine-tuning in Python/PyTorch.
+
+```text
+qwen-base/
+  model.safetensors     ← PyTorch tensors, float16
+  config.json           ← architecture config
+  tokenizer.json        ← tokenizer
+  tokenizer_config.json
+
+         convert_hf_to_gguf.py
+                  ↓
+qwen-linux-f16.gguf     ← single file, same float16 weights + everything bundled
+```
+
+### GGUF
+
+* stands for **GPT-Generated Unified Format**.
+* It is a file format used to store AI models in a way that tools like llama.cpp can load efficiently.
+* — everything bundled into a single binary file: weights + tokenizer + architecture metadata. It's designed for efficient inference, especially on CPU.
 
 ---
 
