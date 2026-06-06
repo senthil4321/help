@@ -91,6 +91,29 @@ qwen-linux-f16.gguf     ← single file, same float16 weights + everything bundl
 * It is a file format used to store AI models in a way that tools like llama.cpp can load efficiently.
 * — everything bundled into a single binary file: weights + tokenizer + architecture metadata. It's designed for efficient inference, especially on CPU.
 
+### MoE (Mixture of Experts)
+
+Mixture of Experts is a model architecture technique where not all parameters are used for every input.
+
+Core idea
+
+Instead of one big neural network, you have:
+
+* multiple “expert” sub-networks
+* a router (gating network) that decides which experts to use
+
+### RLHF (Reinforcement Learning from Human Feedback)
+
+Reinforcement Learning from Human Feedback is a training method used to align models with human preferences.
+
+⸻
+
+#### Core idea
+
+Instead of only training on correct answers, you train based on:
+
+“Which answer do humans prefer?”
+
 ---
 
 ## Jetson 
