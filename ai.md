@@ -61,6 +61,10 @@ A GGUF file contains:
 3. **Tokenizer vocabulary**
 4. **Metadata** (model name, context size, etc.)
 
+ ### LoRA (Low-Rank Adaptation) 
+ 
+ * LoRA adapter is a small, lightweight file used to modify or fine-tune a large, pre-trained Artificial Intelligence model.
+   
 ---
 
 ## Jetson 
