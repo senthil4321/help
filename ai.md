@@ -114,6 +114,7 @@ Reinforcement Learning from Human Feedback is a training method used to align mo
 ### Backward pass: 
 
 - .backward() computes gradients via backpropagation
+- Figure out how much each weight contributed to the error, so we know how to adjust it.
 - Which weights and biases contributed to this loss?
 - For example:
 
@@ -132,6 +133,39 @@ W3.grad = 0.01
 ```
 
 The larger the gradient, the more that parameter should be adjusted.
+
+### Optimizer 
+
+1. **AdamW** updates the weights
+
+When `optimizer.step()` is called the **optimizer** (AdamW in this case) uses the gradients to modify the weights.
+Conceptually:
+
+```text
+Old weight = 3.0
+Gradient  = -16
+```
+
+A simple optimizer might do:
+
+```text
+new_weight = old_weight - learning_rate × gradient
+```
+
+For example:
+
+```text
+new_weight = 3.0 - 0.1 × (-16)
+           = 4.6
+```
+AdamW is more sophisticated than this. 
+It:
+- remembers previous gradients,
+- adapts the learning rate for each weight,
+- applies weight decay (the "W" part),
+
+but the basic goal is the same:
+- Use the gradient to move the weight in a direction that should reduce the loss.
 
 ---
 
