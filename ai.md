@@ -106,6 +106,10 @@ Instead of one big neural network, you have:
 
 Reinforcement Learning from Human Feedback is a training method used to align models with human preferences.
 
+### logit 
+
+- **logit** is the model's opinion score before it turns that opinion into a probability
+- 
 ⸻
 
 #### Core idea
