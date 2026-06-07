@@ -109,8 +109,31 @@ Reinforcement Learning from Human Feedback is a training method used to align mo
 ### logit 
 
 - **logit** is the model's opinion score before it turns that opinion into a probability
-- 
-⸻
+- computes predictions (logits)
+
+### Backward pass: 
+
+- .backward() computes gradients via backpropagation
+- Which weights and biases contributed to this loss?
+- For example:
+
+```text
+Weight W1 contributed a little.
+Weight W2 contributed a lot.
+Weight W3 contributed almost nothing.
+```
+
+This becomes gradients:
+
+```text
+W1.grad = 0.1
+W2.grad = 2.3
+W3.grad = 0.01
+```
+
+The larger the gradient, the more that parameter should be adjusted.
+
+---
 
 #### Core idea
 
