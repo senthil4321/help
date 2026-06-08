@@ -202,6 +202,8 @@ This is called autoregressive generation.
 
 - They are different but related
 
+### Vector Embedding
+
 ---
 
 ## Jetson 
