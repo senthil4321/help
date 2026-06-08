@@ -42,19 +42,12 @@ Accurate
   - It's the simplest activation function — it passes positive values through unchanged, and kills negative values (outputs 0).
 **ReLU (Rectified Linear Unit)** is one of the most commonly used **activation functions** in neural networks.
 It is defined as:
-f(x)=\max(0,x)
+
+$f(x)=max(0,x)$
+
 This means:
 * If the input is positive → output the same value.
 * If the input is negative → output 0.
-
-### What's inside a GGUF file?
-
-A GGUF file contains:
-
-1. **Model weights** (the learned parameters)
-2. **Model architecture information**
-3. **Tokenizer vocabulary**
-4. **Metadata** (model name, context size, etc.)
 
  ### LoRA (Low-Rank Adaptation) 
  
@@ -85,7 +78,17 @@ qwen-base/
 qwen-linux-f16.gguf     ← single file, same float16 weights + everything bundled
 ```
 
-### GGUF
+### What's inside a GGUF file?
+
+A GGUF file contains:
+
+1. **Model weights** (the learned parameters)
+2. **Model architecture information**
+3. **Tokenizer vocabulary**
+4. **Metadata** (model name, context size, etc.)
+
+
+#### GGUF
 
 * stands for **GPT-Generated Unified Format**.
 * It is a file format used to store AI models in a way that tools like llama.cpp can load efficiently.
@@ -95,10 +98,9 @@ qwen-linux-f16.gguf     ← single file, same float16 weights + everything bundl
 
 Mixture of Experts is a model architecture technique where not all parameters are used for every input.
 
-Core idea
+#### Core idea
 
 Instead of one big neural network, you have:
-
 * multiple “expert” sub-networks
 * a router (gating network) that decides which experts to use
 
@@ -123,9 +125,7 @@ Weight W1 contributed a little.
 Weight W2 contributed a lot.
 Weight W3 contributed almost nothing.
 ```
-
 This becomes gradients:
-
 ```text
 W1.grad = 0.1
 W2.grad = 2.3
