@@ -198,6 +198,10 @@ In simple terms:
 Language models like GPT series generate text one token at a time, each step depending on previously generated tokens.
 This is called autoregressive generation.
 
+### Attention Layer and Linear Layer 
+
+- They are different but related
+
 ---
 
 ## Jetson 
