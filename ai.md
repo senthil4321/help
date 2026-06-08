@@ -2,9 +2,16 @@
 
 ## Terminology
 
-- PEFT (Parameter-Efficient Fine-Tuning)
+### GPT 
+
+- Generative Pre-trained Transformer
+
+### PEFT (Parameter-Efficient Fine-Tuning)
+
   - Parameter Efficient Fine Tuning is a library for efficiently adapting large pretrained models such as pre-trained policies (e.g., SmolVLA, π₀, …) to new tasks without training all of the model’s parameters while yielding comparable performance.
-- Quantization
+
+### Quantization
+
   - It converts high-precision numbers, such as 32-bit floating-point numbers (FP32), into lower-precision integers, like 8-bit or 4-bit integers (INT8) or (INT4)
 
 ### GPU
@@ -180,6 +187,16 @@ Instead of only training on correct answers, you train based on:
 ### BLEU (Bilingual Evaluation Understudy)
 
 * measures n-gram overlap between a model's output and a reference answer. Score range: 0–100 (higher is better).
+
+### autoregression
+
+Autoregression is a concept used in statistics, time series analysis, and machine learning where a value is predicted based on its own past values.
+
+In simple terms:
+👉 “The future depends on the past.”
+
+Language models like GPT series generate text one token at a time, each step depending on previously generated tokens.
+This is called autoregressive generation.
 
 ---
 
