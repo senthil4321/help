@@ -208,18 +208,31 @@ This is called autoregressive generation.
 
 #### d_model
 
-- d_model = number of features in the profile.
-- Similar profiles → similar people.
+* d_model = number of features in the profile.
+* Similar profiles → similar people.
+
+#### embedding dimension
+
+The **embedding dimension (`d_model`)** is the number of values used to represent a token (word/subword) as a vector.
+
+For example, if `d_model = 4`:
+
+| Token | Embedding Vector       |
+| ----- | ---------------------- |
+| cat   | [0.2, -0.5, 1.1, 0.7]  |
+| dog   | [0.3, -0.4, 1.0, 0.6]  |
+| car   | [-1.2, 0.8, -0.3, 0.1] |
 
 #### Vocabulary size vs d_model
 
 Suppose:
 
-Vocabulary = 50,000 tokens
-d_model = 768
+* Vocabulary = 50,000 tokens
+* `d_model = 768`
 
 Then the embedding table has size:
 50,000 × 768  
+Each token gets its own 768-dimensional vector.
 
 ---
 
