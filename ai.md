@@ -204,6 +204,23 @@ This is called autoregressive generation.
 
 ### Vector Embedding
 
+#### Vector Database
+
+#### d_model
+
+- d_model = number of features in the profile.
+- Similar profiles → similar people.
+
+#### Vocabulary size vs d_model
+
+Suppose:
+
+Vocabulary = 50,000 tokens
+d_model = 768
+
+Then the embedding table has size:
+50,000 × 768  
+
 ---
 
 ## Jetson 
