@@ -234,6 +234,80 @@ Then the embedding table has size:
 50,000 × 768  
 Each token gets its own 768-dimensional vector.
 
+
+### The attention head count 
+
+* The **attention head count** is the number of independent attention mechanisms running in parallel inside a Transformer layer.
+
+### Relationship with d_model
+
+Suppose:
+
+* d_model = 768
+* heads = 12
+
+Then each head gets:
+
+
+$d_{head} = \frac{768}{12} = 64$.
+$d_{head} = \frac{768}{12} = 64$.
+
+So:
+
+* Q size = 64
+* K size = 64
+* V size = 64
+
+for each head.
+
+### Why not use one huge head?
+
+A single 768-dimensional head could theoretically learn everything, but in practice multiple smaller heads work better.
+
+Think of it like:
+
+* 1 head = one person trying to analyze a document.
+* 12 heads = 12 specialists, each looking for different patterns.
+
+### Q, K, V for multiple heads
+
+For a token embedding:
+
+$x = [0.2,\ 0.8,\ 0.1,\ 0.4]$.
+
+Head 1:
+
+$q_1 = xW_{Q1}$
+
+
+$k_1 = xW_{K1}$
+
+
+$v_1 = xW_{V1}$
+
+Head 2 uses completely different learned matrices:
+
+$q_2 = xW_{Q2}$
+
+$k_2 = xW_{K2}$
+
+$v_2 = xW_{V2}$
+
+So the same token is viewed differently by each head.
+
+### Typical values
+
+| Model                | d_model    | Heads  |
+| -------------------- | ---------- | ------ |
+| Original Transformer | 512        | 8      |
+| OpenAI GPT-2 Small   | 768        | 12     |
+| OpenAI GPT-3 175B    | 12288      | 96     |
+| Many modern LLMs     | 4096–16384 | 32–128 |
+
+A useful intuition is:
+
+> **Embedding dimension (d_model) determines how much information can be represented, while the number of attention heads determines how many different relationship patterns the model can examine simultaneously.**
+  
 ---
 
 ## Jetson 
