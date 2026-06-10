@@ -331,6 +331,8 @@ A useful intuition is:
 
 * Rotary Position Embeddings (RoPE)
 
+#### How Modern Models Do It: Rotary Embeddings (RoPE)
+
 ---
 
 ## Jetson 
