@@ -307,7 +307,8 @@ So the same token is viewed differently by each head.
 A useful intuition is:
 
 > **Embedding dimension (d_model) determines how much information can be represented, while the number of attention heads determines how many different relationship patterns the model can examine simultaneously.**
-  
+
+### Tokenizer  
 ---
 
 ## Jetson 
