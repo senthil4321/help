@@ -336,7 +336,9 @@ A useful intuition is:
 ### Multilayer Perceptron
 
 * MLP is a foundational type of artificial neural network. It is a "feedforward" network, meaning data flows in one direction—from input to output—without looping back.
-* 
+
+### Blueprint (GPT-3 175B Hyperparameters)
+
 ---
 
 ## Jetson 
