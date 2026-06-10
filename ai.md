@@ -308,7 +308,29 @@ A useful intuition is:
 
 > **Embedding dimension (d_model) determines how much information can be represented, while the number of attention heads determines how many different relationship patterns the model can examine simultaneously.**
 
-### Tokenizer  
+### Tokenizer
+
+### Positional Embedding
+
+* **gpt2** - 1024 x 768 Matrix
+* In older model max context is limited to the positional embeddings dimension. eg. gpt2 has positional embedding for 1024
+* Rows (1024): This is the maximum context window. GPT-2 can take in a maximum sequence length of 1024 tokens, so it needs 1024 distinct position vectors.
+* Columns (768): This is the embedding dimensionality. Every token's position is represented by a vector of 768 values (which matches the size of the token embeddings so they can be added together).
+
+#### Modern Approch
+
+* modern AI models abandoned GPT-2's **Learned Absolute Positional Embeddings**
+* The most common technique used today is called **Rotary Position Embeddings (RoPE)**
+
+##### Limitation with LAPE
+
+1. **Memory Explosion:** A context window of **2 million** tokens would need a matrix with **2,000,000** rows. At a modern hidden dimension size of 4,096 or 8,192, that matrix alone would take up billions of parameters just to store position numbers.
+1. **Hard Ceiling:** If a model only learned rows up to 1,000,000 during training, it would completely break down if you tried to input 1,000,001 tokens, because row 1,000,001 wouldn't exist.
+
+### RoPE
+
+* Rotary Position Embeddings (RoPE)
+
 ---
 
 ## Jetson 
