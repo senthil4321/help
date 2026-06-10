@@ -333,6 +333,10 @@ A useful intuition is:
 
 #### How Modern Models Do It: Rotary Embeddings (RoPE)
 
+### Multilayer Perceptron
+
+* MLP is a foundational type of artificial neural network. It is a "feedforward" network, meaning data flows in one direction—from input to output—without looping back.
+* 
 ---
 
 ## Jetson 
