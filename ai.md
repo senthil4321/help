@@ -341,6 +341,67 @@ A useful intuition is:
 
 ---
 
+### central finite differences
+
+#### 🔹 Example: Central Difference Visualization
+
+A simple function:
+
+[
+f(x) = x^2
+]
+
+Its exact derivative is:
+
+[
+f'(x) = 2x
+]
+
+Now we approximate the derivative at a point using:
+
+[
+f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
+]
+
+---
+
+#### 📊 Plot Idea
+
+We will show:
+
+* The curve ( f(x) = x^2 )
+* Two nearby points ( x+h ) and ( x-h )
+* The slope between them (central difference idea)
+
+---
+
+#### 📈 Visualization
+
+---
+
+#### 🔹 How to interpret this visually
+
+Pick a point, say ( x = 1 ), and a small step ( h = 1 ):
+
+* Left point: ( f(0) = 0 )
+* Right point: ( f(2) = 4 )
+
+Central difference slope:
+
+[
+\frac{4 - 0}{2} = 2
+]
+
+Exact derivative:
+
+[
+2x = 2(1) = 2
+]
+
+So here, the approximation is exact (for quadratic functions, central difference is very accurate).
+
+---
+
 ## Jetson 
 ### gpu statistics
 [Heading IDs](#cuda)
