@@ -347,23 +347,15 @@ A useful intuition is:
 
 A simple function:
 
-[
-f(x) = x^2
-]
+$f(x) = x^2$
 
 Its exact derivative is:
 
-[
-f'(x) = 2x
-]
+$f'(x) = 2x$
 
 Now we approximate the derivative at a point using:
 
-[
-f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}
-]
-
----
+$f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$
 
 #### 📊 Plot Idea
 
@@ -388,15 +380,12 @@ Pick a point, say ( x = 1 ), and a small step ( h = 1 ):
 
 Central difference slope:
 
-[
-\frac{4 - 0}{2} = 2
-]
+$\frac{4 - 0}{2} = 2$
+
 
 Exact derivative:
 
-[
-2x = 2(1) = 2
-]
+$2x = 2(1) = 2
 
 So here, the approximation is exact (for quadratic functions, central difference is very accurate).
 
