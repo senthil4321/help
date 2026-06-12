@@ -389,6 +389,14 @@ $2x = 2(1) = 2
 
 So here, the approximation is exact (for quadratic functions, central difference is very accurate).
 
+### chain rule
+
+- The chain rule is a fundamental shortcut in calculus used to find the derivative (the rate of change) of a **composite function** —a function nested inside another function.
+
+### Derivative
+
+- At its core, a derivative is simply a tool that measures the instantaneous rate of change. It tells you exactly how fast one variable is changing in response to another at a specific, frozen moment in time.
+- 
 ---
 
 ## Jetson 
