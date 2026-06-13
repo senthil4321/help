@@ -396,7 +396,10 @@ So here, the approximation is exact (for quadratic functions, central difference
 ### Derivative
 
 - At its core, a derivative is simply a tool that measures the instantaneous rate of change. It tells you exactly how fast one variable is changing in response to another at a specific, frozen moment in time.
-- 
+
+### matrics 
+
+- bias rows show broadcasting
 ---
 
 ## Jetson 
