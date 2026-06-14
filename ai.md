@@ -402,6 +402,23 @@ So here, the approximation is exact (for quadratic functions, central difference
 - bias rows show broadcasting
 ---
 
+## GPU Programming and architecture
+
+### What is Triton  ?
+  
+* Flash Attention (the kernel behind modern LLMs) was written in Triton
+* torch.compile uses Triton under the hood to generate fast kernels
+  
+Triton sits between PyTorch (too high-level) and raw CUDA (too low-level):
+```text
+PyTorch ops  →  Triton kernels  →  Raw CUDA  →  GPU hardware
+(no control)    (sweet spot)      (expert only)
+```
+
+### What is ML bottleneck - fused kernel problems
+
+---
+
 ## Jetson 
 ### gpu statistics
 [Heading IDs](#cuda)
