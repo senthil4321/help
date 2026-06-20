@@ -37,7 +37,10 @@ Accurate
   - Trillion Operations per second
   - Trillion Floating Point Operations per second
   - 
+#### cuBLAS 
 
+- **CUDA Basic Linear Algebra Subprograms** is a highly optimized, GPU-accelerated library created by NVIDIA for performing linear algebra operations.
+  
 ### Huggingface
 
 - transformers
