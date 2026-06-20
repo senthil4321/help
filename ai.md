@@ -385,7 +385,7 @@ $\frac{4 - 0}{2} = 2$
 
 Exact derivative:
 
-$2x = 2(1) = 2
+$2x = 2(1) = 2$
 
 So here, the approximation is exact (for quadratic functions, central difference is very accurate).
 
@@ -399,7 +399,14 @@ So here, the approximation is exact (for quadratic functions, central difference
 
 ### matrics 
 
+#### Rules of Broadcasting
+
+##### Need 
+
+In pure linear algebra, it is not possible to add a matrix and a vector directly; their dimensions must match exactly. Broadcasting is a programming workaround that allows these operations by conceptually "stretching" or duplicating the smaller array to match the larger one without actually copying data in memory
+
 - bias rows show broadcasting
+
 ---
 
 ## GPU Programming and architecture
