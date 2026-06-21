@@ -418,8 +418,11 @@ In pure linear algebra, it is not possible to add a matrix and a vector directly
   
 * Flash Attention (the kernel behind modern LLMs) was written in Triton
 * torch.compile uses Triton under the hood to generate fast kernels
+* Is an open-source, Python-based language and compiler designed for writing highly efficient custom deep learning kernels
+*  a language and compiler for writing highly efficient custom Deep-Learning primitives
   
 Triton sits between PyTorch (too high-level) and raw CUDA (too low-level):
+
 ```text
 PyTorch ops  →  Triton kernels  →  Raw CUDA  →  GPU hardware
 (no control)    (sweet spot)      (expert only)
