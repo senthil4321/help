@@ -430,6 +430,11 @@ PyTorch ops  →  Triton kernels  →  Raw CUDA  →  GPU hardware
 
 ### What is ML bottleneck - fused kernel problems
 
+### Hadamard product
+
+The Hadamard product (also called element-wise product) is simply multiplying two matrices or vectors position-by-position.
+
+Formula:
 ---
 
 ## Jetson 
