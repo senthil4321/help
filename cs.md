@@ -468,3 +468,9 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 * GCM Decryption, Share Nounce, Associated Authentication Data, Authentication Tag and Encrypted Data to Decrypt Function
 * Format Preserving Encryption - uses token
 * x693 key derivation function
+
+---
+
+### Programming
+
+- Operating Systems use a protection called DEP (Data Execution Prevention) or the NX (No-eXecute) Bit
