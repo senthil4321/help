@@ -5,6 +5,22 @@
 - Renesas **GreenPAK** family, breaks this rule by baking analog components right next to the logic gates.
 - SLG47910V is a purely digital low-power FPGA from **ForgeFPGA** family
 
+### CLB
+
+What it is: CLB stands for Configurable Logic Block. In Renesas/ForgeFPGA terminology, these are sometimes called RBBs (Routing Basic Blocks). Think of these as the physical "neighborhoods" or "tiles" on the silicon chip. Each block contains a cluster of logic gates and memory flip-flops.
+
+### LUT
+
+What it is: LUT stands for Look-Up Table. This is the fundamental brain of the FPGA. Instead of fixed AND/OR gates, an FPGA uses LUTs to calculate any Boolean logic equation you write in Verilog.
+
+### FF
+
+What it is: FF stands for Flip-Flop. These are the tiny memory registers that hold a single bit (1 or 0) between clock cycles. Every time you write reg [7:0] my_var; in your Verilog, you are using 8 Flip-Flops.
+
+### BRAM
+
+What it is: BRAM stands for Block RAM. While Flip-Flops are good for storing small, fast variables, BRAMs are large chunks of dedicated SRAM memory (like the cache in a CPU) used for storing large arrays, buffers, or lookup tables. The SLG47910V has 8 of these blocks, each holding 4 kilobits of data.
+
 ## Place and Route (PnR)
 
 ## .ffpga (ForgeFPGA Design File)
