@@ -1,4 +1,9 @@
-# FPGA
+# FPGA - SLG47910V - Shrike Lite
+
+## Important
+
+- Renesas **GreenPAK** family, breaks this rule by baking analog components right next to the logic gates.
+- SLG47910V is a purely digital low-power FPGA from **ForgeFPGA** family
 
 ## Place and Route (PnR)
 
