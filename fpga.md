@@ -21,6 +21,24 @@ What it is: FF stands for Flip-Flop. These are the tiny memory registers that ho
 
 What it is: BRAM stands for Block RAM. While Flip-Flops are good for storing small, fast variables, BRAMs are large chunks of dedicated SRAM memory (like the cache in a CPU) used for storing large arrays, buffers, or lookup tables. The SLG47910V has 8 of these blocks, each holding 4 kilobits of data.
 
+---
+## Math
+
+The Math on the Chip Specification - SLG47910V
+
+```text
+140 CLBs (RBBs)
+1120 LUTs
+1120 FFs
+```
+
+If you divide those numbers, you can see exactly how the chip is physically built!
+**1120 / 140 = 8**.
+
+This means every single one of the **140 CLBs** on the  chip contains exactly **8 LUTs** and **8 Flip-Flops**.
+
+---
+
 ## Place and Route (PnR)
 
 ## .ffpga (ForgeFPGA Design File)
