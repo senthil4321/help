@@ -2,6 +2,12 @@
 
 ## Place and Route (PnR)
 
+## .ffpga (ForgeFPGA Design File)
+
+## .v (Verilog Source File)
+
+## low-power ForgeFPGA™ family (like the SLG47910V)
+
 ### The Relationship: Logic Meets Physics
 
 * **The `.v` File (Logical Design):**  top-level Verilog file defines the abstract logic and the input/output ports of  design. For example, you might declare `input sys_clk` and `output sensor_data` without knowing where those signals physically exist on the chip.
@@ -28,3 +34,6 @@ You open the I/O Planner table. By double-clicking a physical pin's "PORT" colum
 During the Place and Route (PnR) phase, the compiler uses the I/O Planner's mapping file to physically wire the internal logic fabric out to the correct physical pads on the chip, generating the final bitstream.
 
 For a device like the SLG47910, this mapping step is critical because you must explicitly connect  logic to its internal 50 MHz oscillator, PLLs, or distributed memory blocks rather than just assigning external I/O pins.
+
+---
+
