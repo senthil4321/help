@@ -127,3 +127,34 @@ The physical proximity of LUTs and FFs within a single CLB is optimized for the 
 3. **Storage Phase:** Upon the next clock tick, the **FF** captures the computed value.
 
 When a digital design requires more logical operations than a single CLB can provide (greater than 8 LUTs in the case of the SLG47910V), the synthesis tool routes the signal out of the current CLB, across the FPGA's general routing matrix, and into an adjacent CLB to continue processing. High logic utilization across a design forces the routing tool to utilize a higher percentage of the available CLBs on the physical die.
+
+---
+## Resource Utilization: CLB Saturation vs. Unused LUTs
+
+### 1. Overview
+
+In FPGA synthesis, it is common to encounter a Resource Utilization Report where Configurable Logic Block (CLB) usage reaches 100%, even while a significant percentage of Look-Up Tables (LUTs) and Flip-Flops (FFs) remain unused. This phenomenon is known as **logic fragmentation** or **underpacking**.
+
+Although a single CLB contains multiple LUTs and FFs (e.g., 8 LUTs and 8 FFs), the synthesis tool is rarely able to pack them to 100% capacity due to physical architectural constraints.
+
+### 2. Root Causes of Logic Fragmentation
+
+#### Input/Output Pin Congestion (Routing Limitations)
+
+* **Mechanism:** While a CLB may contain 8 LUTs, the CLB itself has a strict, limited number of physical input and output wires connecting it to the rest of the chip.
+* **Result:** If a design places 3 complex LUTs inside a CLB that require many unique input signals, those 3 LUTs may consume all available routing tracks leading into that specific CLB. The remaining 5 LUTs are left physically inaccessible. The synthesis tool must open a new CLB to place the next piece of logic, leaving the unused LUTs permanently trapped.
+
+#### Control Set Conflicts
+
+* **Mechanism:** A "Control Set" consists of the Clock, Reset, and Clock Enable signals. To save wiring, all the Flip-Flops inside a single CLB typically share the same Control Set.
+* **Result:** If a design utilizes multiple different reset signals or clock enables, the associated Flip-Flops cannot physically coexist in the same CLB. The synthesis tool is forced to distribute these Flip-Flops across multiple CLBs, artificially inflating CLB usage while leaving adjacent LUTs and FFs empty.
+
+#### Carry Chain and Arithmetic Constraints
+
+* **Mechanism:** Dedicated arithmetic logic (like addition or counters) relies on high-speed "carry chains." These chains are hardwired vertically between specific CLBs to ensure fast mathematical operations.
+* **Result:** The synthesis tool must place mathematical logic in strict alignments to utilize these physical carry chains. This rigid placement often prevents the tool from packing unrelated general logic into the remaining empty LUTs within those specific CLBs.
+
+#### Timing Optimization and "Spreading"
+
+* **Mechanism:** If a design does not strictly require the entire chip's capacity, synthesis tools are programmed to prioritize timing performance over area efficiency.
+* **Result:** The tool will intentionally spread logic out across all available CLBs. Packing LUTs too densely can create localized routing congestion, which delays signal propagation and degrades the maximum clock frequency. By distributing the logic, the tool lowers CLB density, shortens wire lengths, and improves timing closure.
