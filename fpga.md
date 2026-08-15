@@ -76,27 +76,27 @@ For a device like the SLG47910, this mapping step is critical because you must e
 
 ---
 
-# Architecture Reference: LUTs, FFs, and CLBs
+## Architecture Reference: LUTs, FFs, and CLBs
 
-## 1. Overview
+### 1. Overview
 
 In Field-Programmable Gate Array (FPGA) architecture, Look-Up Tables (LUTs), Flip-Flops (FFs), and Configurable Logic Blocks (CLBs) are fundamentally distinct hardware components. However, they are physically integrated into a strict hierarchical structure. LUTs and FFs serve as the base operational units, while CLBs act as the physical containers that group them together.
 
-## 2. Base Components
+### 2. Base Components
 
-### Look-Up Tables (LUTs)
+#### Look-Up Tables (LUTs)
 
 * **Function:** The primary computational unit of the FPGA.
 * **Behavior:** Purely combinational. A LUT acts as a programmable truth table capable of implementing any Boolean logic equation (e.g., AND, OR, XOR, addition).
 * **Timing:** Data evaluates continuously; there is no clock dependency or memory state.
 
-### Flip-Flops (FFs)
+#### Flip-Flops (FFs)
 
 * **Function:** The primary storage unit of the FPGA.
 * **Behavior:** Purely sequential memory. A flip-flop (typically a D-type register) captures and holds a single bit of data (`1` or `0`).
 * **Timing:** State changes occur strictly on designated clock edges (e.g., the positive edge of a 50 MHz clock).
 
-## 3. Structural Hierarchy: The CLB / RBB
+### 3. Structural Hierarchy: The CLB / RBB
 
 To optimize physical wiring and signal routing across the silicon, FPGA manufacturers do not scatter LUTs and FFs arbitrarily. They are packaged together into repeating, standardized tiles known as **Configurable Logic Blocks (CLBs)**, or in some architectures (such as Renesas ForgeFPGA), **Routing Basic Blocks (RBBs)**.
 
@@ -106,7 +106,7 @@ A single CLB/RBB is a physical silicon boundary that contains:
 2. A fixed number of FFs.
 3. Internal multiplexers (routing switches) to connect them.
 
-### Case Study: SLG47910V Architecture
+#### Case Study: SLG47910V Architecture
 
 The physical ratio of components within a CLB can be derived directly from device specifications or synthesis resource reports. For the SLG47910V:
 
@@ -116,7 +116,7 @@ The physical ratio of components within a CLB can be derived directly from devic
 
 Calculating the ratio ($1120 \div 140 = 8$) reveals the internal architecture of the chip. Every individual CLB physically contains exactly **8 LUTs and 8 Flip-Flops**.
 
-## 4. Hardware Interaction and Data Flow
+### 4. Hardware Interaction and Data Flow
 
 The physical proximity of LUTs and FFs within a single CLB is optimized for the most common digital logic pattern: calculating a value and immediately storing it on the next clock cycle (e.g., `sum <= num1 + num2;`).
 
