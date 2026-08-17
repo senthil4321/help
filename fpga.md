@@ -21,6 +21,10 @@ What it is: FF stands for Flip-Flop. These are the tiny memory registers that ho
 
 What it is: BRAM stands for Block RAM. While Flip-Flops are good for storing small, fast variables, BRAMs are large chunks of dedicated SRAM memory (like the cache in a CPU) used for storing large arrays, buffers, or lookup tables. The SLG47910V has 8 of these blocks, each holding 4 kilobits of data.
 
+### IP 
+
+Intellectual Property core — a packaged, reusable hardware block with a defined interface
+
 ---
 ## Math
 
