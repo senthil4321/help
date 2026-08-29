@@ -25,6 +25,18 @@ What it is: BRAM stands for Block RAM. While Flip-Flops are good for storing sma
 
 Intellectual Property core — a packaged, reusable hardware block with a defined interface
 
+### RTL
+
+What it is: RTL stands for Register Transfer Level. It's the abstraction level used to describe digital logic in terms of how data moves between registers (Flip-Flops) each clock cycle, and the combinational logic (LUTs) that computes it along the way. Verilog and VHDL are RTL description languages — writing `sum <= num1 + num2;` is describing an RTL transfer. This is the "logical design" referred to elsewhere in this doc (the `.v` file); synthesis converts RTL into the actual LUTs/FFs/routing on the chip.
+
+### Vivado
+
+What it is: Vivado Design Suite is AMD/Xilinx's FPGA design tool. It covers synthesis, Place and Route (PnR), timing analysis, and bitstream generation for Xilinx FPGAs. It plays the same role for Xilinx devices that ForgeFPGA Designer's synthesis engine + I/O Planner + PnR flow (described below) plays for the SLG47910V — but Vivado does **not** target ForgeFPGA/GreenPAK devices, which use their own toolchain (e.g., Renesas Go Configure / ForgeFPGA Designer).
+
+### Vitis
+
+What it is: Vitis is AMD/Xilinx's unified software development platform, built on top of Vivado. Vivado handles the hardware side (RTL → synthesis → bitstream); Vitis handles the software/embedded side — compiling C/C++ applications that run on an embedded processor (e.g., the Arm cores in a Zynq SoC), and building HLS (High-Level Synthesis) kernels that get compiled from C/C++ into hardware accelerators for the FPGA fabric.
+
 ---
 ## Math
 
@@ -162,3 +174,39 @@ Although a single CLB contains multiple LUTs and FFs (e.g., 8 LUTs and 8 FFs), t
 
 * **Mechanism:** If a design does not strictly require the entire chip's capacity, synthesis tools are programmed to prioritize timing performance over area efficiency.
 * **Result:** The tool will intentionally spread logic out across all available CLBs. Packing LUTs too densely can create localized routing congestion, which delays signal propagation and degrades the maximum clock frequency. By distributing the logic, the tool lowers CLB density, shortens wire lengths, and improves timing closure.
+
+---
+
+## Simulation Options
+
+Before spending time on synthesis and Place and Route, RTL is verified in simulation: the `.v` design is run against a testbench (either another Verilog file, or a C++/Python harness) to check functional correctness. Simulators differ mainly in speed, language support, and whether they model gate/timing delays or just behavior.
+
+### Verilator
+
+What it is: A free, open-source Verilog/SystemVerilog simulator that **compiles** RTL into C++ (or SystemC) rather than interpreting it, making it one of the fastest simulators available. It's behavioral-only (no gate delays), and requires a C++ testbench that instantiates the compiled model — there's no built-in `$display`-driven native testbench flow like a traditional simulator. Common choice for CI regression suites and cycle-accurate co-simulation with a CPU/software model.
+
+### Icarus Verilog (iverilog)
+
+What it is: A free, open-source Verilog simulator/compiler. It **interprets** compiled RTL rather than converting it to C++, so it's generally slower than Verilator, but it's simpler to set up and runs traditional Verilog testbenches directly (`$display`, `$dumpfile`/`$dumpvars` for waveforms) without writing any C++.
+
+### Vivado Simulator (XSIM)
+
+What it is: The simulator bundled with AMD/Xilinx Vivado. Integrated GUI and waveform viewer, convenient when a design already targets Vivado since no separate toolchain install is needed. Not applicable to ForgeFPGA designs (see [Vivado](#vivado) above).
+
+### ModelSim / QuestaSim
+
+What it is: Commercial simulators from Siemens EDA. Industry-standard for mixed-language (Verilog + VHDL) simulation, widely used for larger/professional ASIC and FPGA verification flows.
+
+### GHDL
+
+What it is: A free, open-source VHDL simulator — effectively the VHDL-world equivalent of Icarus Verilog.
+
+### Quick comparison
+
+| Simulator | License | Speed | Notes |
+|---|---|---|---|
+| Verilator | Open-source | Fastest (compiles to C++) | Needs a C++/SystemC testbench; behavioral only |
+| Icarus Verilog | Open-source | Moderate (interpreted) | Native Verilog testbenches, easy setup |
+| Vivado Simulator (XSIM) | Free with Vivado | Moderate | Best when already inside the Vivado flow |
+| ModelSim / QuestaSim | Commercial | Moderate–fast | Mixed Verilog + VHDL, industry standard |
+| GHDL | Open-source | Moderate | VHDL only |
