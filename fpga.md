@@ -198,6 +198,91 @@ The physical proximity of LUTs and FFs within a single CLB is optimized for the 
 When a digital design requires more logical operations than a single CLB can provide (greater than 8 LUTs in the case of the SLG47910V), the synthesis tool routes the signal out of the current CLB, across the FPGA's general routing matrix, and into an adjacent CLB to continue processing. High logic utilization across a design forces the routing tool to utilize a higher percentage of the available CLBs on the physical die.
 
 ---
+
+## Xilinx CLB Slice
+
+Xilinx/AMD's equivalent of a CLB (above) is called a **Slice** — two slices typically make up one CLB. It's a richer building block than ForgeFPGA's CLB/RBB: alongside LUTs and FFs, a slice adds dedicated carry logic and wide-function muxes.
+
+### Core Components of a Slice
+
+A standard slice contains a fixed set of hardware resources:
+
+* **Look-Up Tables (LUTs):** Typically four to eight 6-input LUTs that handle combinatorial logic functions. Each is a `LUT6_2` — it can act as one 6-input function, or fracture into two independent 5-input LUTs (`O5`/`O6`) sharing the same four lower inputs.
+* **Storage Elements:** Flip-flops or latches used for sequential logic and data synchronization — typically 8 per slice, one per LUT5 output, all sharing the slice's clock.
+* **Carry Logic:** Dedicated, fast arithmetic carry chains (a `CARRY4` block: 4 bits, each with a `MUXCY` carry-select mux and an `XORCY` sum gate) designed for efficient adders, counters, and multipliers. This is a different accelerator from the [DSP48E2](#dsp48e2) hard block above — carry chains live in every slice, DSP48E2 is a separate dedicated multiply/accumulate block.
+* **Multiplexers (MUX):** Wide-function multiplexers (`MUXF7`/`MUXF8`) that combine LUT outputs for complex logic routing — cascading two LUT6 outputs into a 7-input function, then two of those into an 8-input function, for logic wider than a single LUT6.
+
+### Types of Slices
+
+Xilinx/AMD architectures generally split slices into two main types:
+
+* **SLICEL (Logic):** Optimized for standard combinatorial and arithmetic functions.
+* **SLICEM (Memory):** Includes all logic features of a SLICEL, plus the ability to configure its LUTs as distributed RAM or a shift register.
+
+### Reading a Placed Slice Diagram
+
+An FPGA editor/schematic viewer can render one placed-and-routed slice showing exactly which resources a design actually used. A typical view: an orange `CLK` bar across the top (the clock net feeding the slice and passing on to neighbors), left-side pins named by LUT site and input number (e.g. `C1`–`C6`, `D1`–`D6`), one row per `LUT6_2` (each nesting two `5-BIT LUT`s), `MUXF` boxes between rows, a `CARRY4` column with `MUXCY`/`XORCY` per bit, and 8 `FF` boxes on the right. A row with real signals routed through it (LUT inputs wired to nets, `OUT` feeding an FF's `D` input, `CLR`/`Q` connected) is a used LUT+FF pair; empty rows, unused `MUXF`s, and an idle `CARRY4` chain show spare capacity in that slice — the same [CLB fragmentation](#resource-utilization-clb-saturation-vs-unused-luts) pattern described below, just visible slice-by-slice.
+
+**Sample slice diagram** — a slice with 4 `LUT6_2` rows (A–D), where only rows C and D are actually used (mirrors a real placed example: rows A/B idle, rows C/D routed to their FFs):
+
+```mermaid
+graph TD
+    CLK(("CLK"))
+
+    subgraph SLICE["Slice (SLICEL / SLICEM)"]
+        LUT_A["LUT6_2 — Row A (idle)"]
+        LUT_B["LUT6_2 — Row B (idle)"]
+        LUT_C["LUT6_2 — Row C (used)"]
+        LUT_D["LUT6_2 — Row D (used)"]
+
+        MUXF7A["MUXF7A"]
+        MUXF7B["MUXF7B"]
+        MUXF8["MUXF8"]
+
+        CARRY4["CARRY4\n(4x MUXCY + XORCY, idle)"]
+
+        FF1["FF"]
+        FF2["FF"]
+        FF3["FF"]
+        FF4["FF"]
+        FF5["FF (Q -> CQ)"]
+        FF6["FF"]
+        FF7["FF (Q -> DQ)"]
+        FF8["FF"]
+
+        LUT_A --> MUXF7A
+        LUT_B --> MUXF7A
+        LUT_C --> MUXF7B
+        LUT_D --> MUXF7B
+        MUXF7A --> MUXF8
+        MUXF7B --> MUXF8
+
+        LUT_A --> CARRY4
+        LUT_B --> CARRY4
+        LUT_C --> CARRY4
+        LUT_D --> CARRY4
+
+        LUT_A --> FF1
+        LUT_A --> FF2
+        LUT_B --> FF3
+        LUT_B --> FF4
+        LUT_C -- "OUT -> D, CLR" --> FF5
+        LUT_C --> FF6
+        LUT_D -- "OUT -> D, CLR" --> FF7
+        LUT_D --> FF8
+    end
+
+    CLK --> FF1
+    CLK --> FF2
+    CLK --> FF3
+    CLK --> FF4
+    CLK --> FF5
+    CLK --> FF6
+    CLK --> FF7
+    CLK --> FF8
+```
+
+---
 ## Resource Utilization: CLB Saturation vs. Unused LUTs
 
 ### 1. Overview
