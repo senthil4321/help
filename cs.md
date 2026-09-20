@@ -48,6 +48,10 @@
 * https://prateekvjoshi.com/2015/02/07/why-are-they-called-elliptic-curves/
 
 ---
+
+## Kerckhoffs's Principle
+A encryption system must remain secure even if everything about how it works—except for the secret key—is completely public.
+
 ## Idempotent 
 
 * **Idempotent** is a property of an operation or function where applying it multiple times yields the exact same result as applying it just once
