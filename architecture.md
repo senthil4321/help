@@ -8,3 +8,7 @@ Book Clean Architecture, boundaries are designed to prevent business logic from 
 ## SOLID Design Principles
 
 ### Dependency Inversion Principle (DIP)
+
+### Open/Closed Principle (OCP)
+
+Software entities should be open for extension, but closed for modification.
