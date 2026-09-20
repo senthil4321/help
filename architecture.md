@@ -1,5 +1,7 @@
 # architectural
 
+https://gemini.google.com/app/a9bde1678f57f448
+
 ## architectural boundary
 
 An architectural boundary in software engineering is the line or barrier that separates different parts of a software system to keep them independent of each other.
