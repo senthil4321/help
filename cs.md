@@ -478,3 +478,30 @@ Plaintext Block 1      Plaintext Block 2      Plaintext Block 3      Plaintext B
 ### Programming
 
 - Operating Systems use a protection called DEP (Data Execution Prevention) or the NX (No-eXecute) Bit
+
+### Authentication and Authorisation 
+
+An ID Token is always a JSON Web Token (JWT). It is a visually secure, dot-separated string made of three parts: Header, Payload, and Signature. The payload contains standardized user identity information called claims.
+
+```text
+eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyMyJ9.eyJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJzdWIiOiJ1c3JfMGQ4ZjkyYSIsImF1ZCI6Im15LWNsaWVudC1pZCIsImV4cCI6MTc5MDAwMDAwMCwiaWF0IjoxNzkwMDAwMDAwLCJuYW1lIjoiQWxleCBKb25lcyIsImVtYWlsIjoiYWxleEBleGFtcGxlLmNvbSJ9.signature_data_here
+```
+
+```json
+{
+  "iss": "https://example.com",     // Who issued the token (Identity Provider)
+  "sub": "usr_0d8f92a",                  // The unique ID for the user
+  "aud": "my-client-id",                 // The app this token belongs to
+  "iat": 1790000000,                     // Issued At (Unix timestamp)
+  "exp": 1790003600,                     // Expiration time (usually 1 hour)
+  "name": "Alex Jones",                  // User's name (OIDC profile scope)
+  "email": "alex@example.com"            // User's email (OIDC email scope)
+}
+```
+#### Example Access Token (OAuth 2.0)
+
+Access Tokens do not have a strict format requirement in the OAuth 2.0 specification. They are designed for APIs to read, not the client application. They generally fall into two categories:
+
+```text
+ghp_vK92bM7xLqP1zQ4wR8sT3uV5wX7yZ9aBcDeF
+```
