@@ -25,3 +25,7 @@
    The node transmits the newly aggregated and optimized data package over the network to the next destination or central cloud server.
 
    **Purpose:** It delivers the final, processed information to its destination only when the network link is available and optimized for transmission.
+
+## Architecture 
+
+1. https://www.archimetric.com/uml-use-case-diagram-comprehensive-guide/
