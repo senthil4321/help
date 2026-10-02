@@ -31,3 +31,4 @@
 1. https://www.archimetric.com/uml-use-case-diagram-comprehensive-guide/
 2. https://www.hl7.org/fhir/overview-arch.html
 3. Zachman Framework
+4. https://nirmitee.io/blog/hire-mirth-connect-developer-2026-rates-screening-questions/
